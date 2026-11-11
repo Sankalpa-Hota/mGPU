@@ -1,0 +1,16 @@
+merged functional coverage = 100.0% (15/15 bins)
+  read_hit                       10009
+  read_miss_clean_victim         3559
+  read_miss_dirty_victim         5665
+  write_hit                      9039
+  write_miss_full_no_fill        1725
+  write_miss_partial_fill        6903
+  write_miss_dirty_victim        5770
+  flush_with_dirty_lines         56
+  flush_all_clean                58
+  fault_read_not_installed       927
+  memory_backpressure            22275
+  id_0                           9227
+  id_1                           9213
+  id_2                           9244
+  id_3                           9216

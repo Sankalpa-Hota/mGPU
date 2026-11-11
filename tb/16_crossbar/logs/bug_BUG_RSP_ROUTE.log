@@ -1,0 +1,100 @@
+%Warning: System has stack size 65520 kb which may be too small; failed to request more using 'ulimit -s 131181471'
+UVM_INFO /Users/sankalpahota/Documents/GIT/mGPU/uvm/base/uvm_root.svh(457) @ 0: reporter [UVM/RELNOTES] 
+  ***********       IMPORTANT RELEASE NOTES         ************
+
+  This implementation of the UVM Library deviates from the 1800.2-2020
+  standard.  See the DEVIATIONS.md file contained in the release
+  for more details.
+
+----------------------------------------------------------------
+Accellera:1800.2:UVM:2020.3.2
+
+All copyright owners for this kit are listed in NOTICE.txt
+All Rights Reserved Worldwide
+----------------------------------------------------------------
+
+      (Specify +UVM_NO_RELNOTES to turn off this notice)
+
+UVM_WARNING /Users/sankalpahota/Documents/GIT/mGPU/uvm/base/uvm_test_runner.svh(207) @ 0: reporter [NO_DPI_USED] We are thinking of removing support for UVM_NO_DPI.  Please try this test without it and evaluate the impact
+UVM_INFO /Users/sankalpahota/Documents/GIT/mGPU/uvm/base/uvm_test_runner.svh(210) @ 0: reporter [NO_DPI_TSTNAME] UVM_NO_DPI defined--getting UVM_TESTNAME directly, without DPI
+UVM_INFO @ 0: reporter [RNTST] Running test xbar_out_of_order_test...
+UVM_INFO /Users/sankalpahota/Documents/GIT/mGPU/uvm/base/uvm_traversal.svh(345) @ 0: reporter [UVM/COMP/NAMECHECK] This implementation of the component name checks requires DPI to be enabled
+UVM_WARNING /Users/sankalpahota/Documents/GIT/mGPU/uvm/base/uvm_traversal.svh(314) @ 0: reporter [NO_VISIT_CHECK] Because UVM_REGEX_NO_DPI is defined, no uvm component name constraints will be checked
+UVM_ERROR xbar_tb.sv(111) @ 120000: uvm_test_top.env.chk [CHK] requester 3 (addr 00000660) got the answer of another request
+UVM_ERROR xbar_tb.sv(111) @ 130000: uvm_test_top.env.chk [CHK] answer to requester 3 which has no request in a bank
+UVM_ERROR xbar_tb.sv(111) @ 140000: uvm_test_top.env.chk [CHK] requester 3 (addr 00000720) got the answer of another request
+UVM_ERROR xbar_tb.sv(111) @ 270000: uvm_test_top.env.chk [CHK] answer to requester 3 which has no request in a bank
+UVM_ERROR xbar_tb.sv(111) @ 300000: uvm_test_top.env.chk [CHK] requester 3 (addr 00000260) got the answer of another request
+UVM_ERROR xbar_tb.sv(111) @ 450000: uvm_test_top.env.chk [CHK] requester 3 (addr 000006e0) got the answer of another request
+UVM_ERROR xbar_tb.sv(111) @ 470000: uvm_test_top.env.chk [CHK] requester 3 (addr 000002e0) got the answer of another request
+UVM_ERROR xbar_tb.sv(111) @ 480000: uvm_test_top.env.chk [CHK] answer to requester 3 which has no request in a bank
+UVM_ERROR xbar_tb.sv(111) @ 540000: uvm_test_top.env.chk [CHK] requester 3 (addr 000000e0) got the answer of another request
+UVM_ERROR xbar_tb.sv(111) @ 700000: uvm_test_top.env.chk [CHK] requester 3 (addr 00000560) got the answer of another request
+UVM_ERROR xbar_tb.sv(111) @ 730000: uvm_test_top.env.chk [CHK] requester 3 (addr 00000260) got the answer of another request
+UVM_ERROR xbar_tb.sv(111) @ 980000: uvm_test_top.env.chk [CHK] requester 3 (addr 00000420) got the answer of another request
+UVM_ERROR xbar_tb.sv(111) @ 990000: uvm_test_top.env.chk [CHK] answer to requester 3 which has no request in a bank
+UVM_ERROR xbar_tb.sv(111) @ 1000000: uvm_test_top.env.chk [CHK] requester 3 (addr 000005a0) got the answer of another request
+UVM_ERROR xbar_tb.sv(111) @ 1020000: uvm_test_top.env.chk [CHK] answer to requester 3 which has no request in a bank
+UVM_ERROR xbar_tb.sv(111) @ 1140000: uvm_test_top.env.chk [CHK] requester 3 (addr 00000340) got the answer of another request
+UVM_ERROR xbar_tb.sv(111) @ 1180000: uvm_test_top.env.chk [CHK] requester 3 (addr 000003e0) got the answer of another request
+UVM_ERROR xbar_tb.sv(111) @ 1450000: uvm_test_top.env.chk [CHK] requester 3 (addr 000005e0) got the answer of another request
+UVM_ERROR xbar_tb.sv(111) @ 1570000: uvm_test_top.env.chk [CHK] requester 3 (addr 00000600) got the answer of another request
+UVM_ERROR xbar_tb.sv(111) @ 1610000: uvm_test_top.env.chk [CHK] requester 3 (addr 00000400) got the answer of another request
+UVM_ERROR xbar_tb.sv(111) @ 1850000: uvm_test_top.env.chk [CHK] requester 3 (addr 000004e0) got the answer of another request
+UVM_ERROR xbar_tb.sv(111) @ 1880000: uvm_test_top.env.chk [CHK] requester 3 (addr 000007a0) got the answer of another request
+UVM_ERROR xbar_tb.sv(111) @ 1990000: uvm_test_top.env.chk [CHK] requester 3 (addr 00000480) got the answer of another request
+UVM_ERROR xbar_tb.sv(111) @ 2310000: uvm_test_top.env.chk [CHK] requester 3 (addr 00000160) got the answer of another request
+UVM_ERROR xbar_tb.sv(111) @ 2410000: uvm_test_top.env.chk [CHK] requester 3 (addr 00000680) got the answer of another request
+UVM_ERROR xbar_tb.sv(111) @ 2790000: uvm_test_top.env.chk [CHK] requester 3 (addr 000005a0) got the answer of another request
+UVM_ERROR xbar_tb.sv(111) @ 2860000: uvm_test_top.env.chk [CHK] requester 3 (addr 00000040) got the answer of another request
+UVM_ERROR xbar_tb.sv(111) @ 3110000: uvm_test_top.env.chk [CHK] requester 3 (addr 00000520) got the answer of another request
+UVM_ERROR xbar_tb.sv(111) @ 3270000: uvm_test_top.env.chk [CHK] requester 3 (addr 00000060) got the answer of another request
+UVM_ERROR xbar_tb.sv(111) @ 3440000: uvm_test_top.env.chk [CHK] requester 3 (addr 00000520) got the answer of another request
+UVM_ERROR xbar_tb.sv(111) @ 3510000: uvm_test_top.env.chk [CHK] requester 3 (addr 00000460) got the answer of another request
+UVM_ERROR xbar_tb.sv(111) @ 3520000: uvm_test_top.env.chk [CHK] answer to requester 3 which has no request in a bank
+UVM_ERROR xbar_tb.sv(111) @ 3710000: uvm_test_top.env.chk [CHK] requester 3 (addr 000005a0) got the answer of another request
+UVM_ERROR xbar_tb.sv(111) @ 3900000: uvm_test_top.env.chk [CHK] requester 3 (addr 00000260) got the answer of another request
+UVM_ERROR xbar_tb.sv(111) @ 4110000: uvm_test_top.env.chk [CHK] requester 3 (addr 000001e0) got the answer of another request
+UVM_ERROR xbar_tb.sv(111) @ 4180000: uvm_test_top.env.chk [CHK] requester 3 (addr 00000560) got the answer of another request
+UVM_ERROR xbar_tb.sv(111) @ 4480000: uvm_test_top.env.chk [CHK] requester 3 (addr 00000780) got the answer of another request
+UVM_ERROR xbar_tb.sv(111) @ 4490000: uvm_test_top.env.chk [CHK] answer to requester 3 which has no request in a bank
+UVM_ERROR xbar_tb.sv(204) @ 319995000: uvm_test_top [DRAIN] requests still in flight at the end
+UVM_INFO xbar_tb.sv(167) @ 320095000: uvm_test_top.env.chk [CHK] answers delivered=1314 errors=38
+UVM_INFO xbar_tb.sv(168) @ 320095000: uvm_test_top.env.chk [COV] functional coverage = 64.3%
+    r0_bank0                     0
+    r0_bank1                     1
+    r1_bank0                     0
+    r1_bank1                     1
+    r2_bank0                     0
+    r2_bank1                     1
+    r3_bank0                     337
+    r3_bank1                     1012
+    two_requesters_one_bank      4
+    four_requesting              1
+    both_banks_accept            0
+    two_answers_one_cycle        0
+    out_of_order_answers         1
+    bank_backpressure            170
+UVM_INFO /Users/sankalpahota/Documents/GIT/mGPU/uvm/base/uvm_report_server.svh(1009) @ 320095000: reporter [UVM/REPORT/SERVER] 
+--- UVM Report Summary ---
+
+** Report counts by severity
+UVM_INFO :    6
+UVM_WARNING :    2
+UVM_ERROR :   39
+UVM_FATAL :    0
+** Report counts by id
+[CHK]    39
+[COV]     1
+[DRAIN]     1
+[NO_DPI_TSTNAME]     1
+[NO_DPI_USED]     1
+[NO_VISIT_CHECK]     1
+[RNTST]     1
+[UVM/COMP/NAMECHECK]     1
+[UVM/RELNOTES]     1
+
+- /Users/sankalpahota/Documents/GIT/mGPU/uvm/base/uvm_test_runner.svh:297: Verilog $finish
+- S i m u l a t i o n   R e p o r t: Verilator 5.052 2026-09-05
+- Verilator: $finish at 320us; walltime 0.456 s; speed 702.531 us/s
+- Verilator: cpu 0.395 s on 1 threads; allocated 12 MB

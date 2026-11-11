@@ -1,0 +1,20 @@
+merged functional coverage = 100.0% (19/19 bins)
+  wg_1_warp                      396
+  wg_4_warps                     360
+  release_by_last_arrival        5300
+  release_by_exit                540
+  warps_exited_before_barrier    3278
+  back_to_back_barriers          623
+  relaunch_while_idle            1530
+  passes_1                       4489
+  passes_2_4                     5095
+  passes_5_7                     221
+  passes_8                       688
+  broadcast_read                 13992
+  same_word_multi_write          12950
+  empty_mask                     307
+  partial_mask                   5090
+  address_wraps                  32995
+  read_after_write               30397
+  write                          5432
+  read                           5368

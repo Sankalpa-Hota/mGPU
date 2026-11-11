@@ -1,0 +1,1362 @@
+%Warning: System has stack size 65520 kb which may be too small; failed to request more using 'ulimit -s 172416679'
+UVM_INFO /Users/sankalpahota/Documents/GIT/mGPU/uvm/base/uvm_root.svh(457) @ 0: reporter [UVM/RELNOTES] 
+  ***********       IMPORTANT RELEASE NOTES         ************
+
+  This implementation of the UVM Library deviates from the 1800.2-2020
+  standard.  See the DEVIATIONS.md file contained in the release
+  for more details.
+
+----------------------------------------------------------------
+Accellera:1800.2:UVM:2020.3.2
+
+All copyright owners for this kit are listed in NOTICE.txt
+All Rights Reserved Worldwide
+----------------------------------------------------------------
+
+      (Specify +UVM_NO_RELNOTES to turn off this notice)
+
+UVM_WARNING /Users/sankalpahota/Documents/GIT/mGPU/uvm/base/uvm_test_runner.svh(207) @ 0: reporter [NO_DPI_USED] We are thinking of removing support for UVM_NO_DPI.  Please try this test without it and evaluate the impact
+UVM_INFO /Users/sankalpahota/Documents/GIT/mGPU/uvm/base/uvm_test_runner.svh(210) @ 0: reporter [NO_DPI_TSTNAME] UVM_NO_DPI defined--getting UVM_TESTNAME directly, without DPI
+UVM_INFO @ 0: reporter [RNTST] Running test smb_rand_test...
+UVM_INFO /Users/sankalpahota/Documents/GIT/mGPU/uvm/base/uvm_traversal.svh(345) @ 0: reporter [UVM/COMP/NAMECHECK] This implementation of the component name checks requires DPI to be enabled
+UVM_WARNING /Users/sankalpahota/Documents/GIT/mGPU/uvm/base/uvm_traversal.svh(314) @ 0: reporter [NO_VISIT_CHECK] Because UVM_REGEX_NO_DPI is defined, no uvm component name constraints will be checked
+UVM_ERROR smb_tb.sv(95) @ 120000: uvm_test_top.env.schk [SMEM] response at cycle 8, expected 7 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 120000: uvm_test_top.env.schk [SMEM] 2 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 260000: uvm_test_top.env.schk [SMEM] response at cycle 22, expected 15 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 260000: uvm_test_top.env.schk [SMEM] 8 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 400000: uvm_test_top.env.schk [SMEM] response at cycle 36, expected 35 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 400000: uvm_test_top.env.schk [SMEM] 2 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 500000: uvm_test_top.env.schk [SMEM] response at cycle 46, expected 45 (2 passes)
+UVM_ERROR smb_tb.sv(95) @ 500000: uvm_test_top.env.schk [SMEM] 3 passes reported, expected 2
+UVM_ERROR smb_tb.sv(95) @ 550000: uvm_test_top.env.schk [SMEM] response at cycle 51, expected 50 (2 passes)
+UVM_ERROR smb_tb.sv(95) @ 550000: uvm_test_top.env.schk [SMEM] 3 passes reported, expected 2
+UVM_ERROR smb_tb.sv(95) @ 810000: uvm_test_top.env.schk [SMEM] response at cycle 77, expected 76 (2 passes)
+UVM_ERROR smb_tb.sv(95) @ 810000: uvm_test_top.env.schk [SMEM] 3 passes reported, expected 2
+UVM_ERROR smb_tb.sv(95) @ 1150000: uvm_test_top.env.schk [SMEM] response at cycle 111, expected 110 (2 passes)
+UVM_ERROR smb_tb.sv(95) @ 1150000: uvm_test_top.env.schk [SMEM] 3 passes reported, expected 2
+UVM_ERROR smb_tb.sv(95) @ 1440000: uvm_test_top.env.schk [SMEM] response at cycle 140, expected 133 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 1440000: uvm_test_top.env.schk [SMEM] 8 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 1490000: uvm_test_top.env.schk [SMEM] response at cycle 145, expected 144 (2 passes)
+UVM_ERROR smb_tb.sv(95) @ 1490000: uvm_test_top.env.schk [SMEM] 3 passes reported, expected 2
+UVM_ERROR smb_tb.sv(95) @ 1660000: uvm_test_top.env.schk [SMEM] response at cycle 162, expected 155 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 1660000: uvm_test_top.env.schk [SMEM] 8 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 1810000: uvm_test_top.env.schk [SMEM] response at cycle 177, expected 176 (2 passes)
+UVM_ERROR smb_tb.sv(95) @ 1810000: uvm_test_top.env.schk [SMEM] 3 passes reported, expected 2
+UVM_ERROR smb_tb.sv(95) @ 1910000: uvm_test_top.env.schk [SMEM] response at cycle 187, expected 180 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 1910000: uvm_test_top.env.schk [SMEM] 8 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 2010000: uvm_test_top.env.schk [SMEM] response at cycle 197, expected 190 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 2010000: uvm_test_top.env.schk [SMEM] 8 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 2130000: uvm_test_top.env.schk [SMEM] response at cycle 209, expected 208 (2 passes)
+UVM_ERROR smb_tb.sv(95) @ 2130000: uvm_test_top.env.schk [SMEM] 3 passes reported, expected 2
+UVM_ERROR smb_tb.sv(95) @ 2290000: uvm_test_top.env.schk [SMEM] response at cycle 225, expected 224 (2 passes)
+UVM_ERROR smb_tb.sv(95) @ 2290000: uvm_test_top.env.schk [SMEM] 3 passes reported, expected 2
+UVM_ERROR smb_tb.sv(95) @ 2390000: uvm_test_top.env.schk [SMEM] response at cycle 235, expected 228 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 2390000: uvm_test_top.env.schk [SMEM] 8 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 2470000: uvm_test_top.env.schk [SMEM] response at cycle 243, expected 242 (2 passes)
+UVM_ERROR smb_tb.sv(95) @ 2470000: uvm_test_top.env.schk [SMEM] 3 passes reported, expected 2
+UVM_ERROR smb_tb.sv(95) @ 2580000: uvm_test_top.env.schk [SMEM] response at cycle 254, expected 249 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 2580000: uvm_test_top.env.schk [SMEM] 6 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 2670000: uvm_test_top.env.schk [SMEM] response at cycle 263, expected 262 (2 passes)
+UVM_ERROR smb_tb.sv(95) @ 2670000: uvm_test_top.env.schk [SMEM] 3 passes reported, expected 2
+UVM_ERROR smb_tb.sv(95) @ 2750000: uvm_test_top.env.schk [SMEM] response at cycle 271, expected 269 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 2750000: uvm_test_top.env.schk [SMEM] 3 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 3500000: uvm_test_top.env.schk [SMEM] response at cycle 346, expected 345 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 3500000: uvm_test_top.env.schk [SMEM] 2 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 4080000: uvm_test_top.env.schk [SMEM] response at cycle 404, expected 403 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 4080000: uvm_test_top.env.schk [SMEM] 2 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 4500000: uvm_test_top.env.schk [SMEM] response at cycle 446, expected 441 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 4500000: uvm_test_top.env.schk [SMEM] 6 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 4600000: uvm_test_top.env.schk [SMEM] response at cycle 456, expected 449 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 4600000: uvm_test_top.env.schk [SMEM] 8 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 5140000: uvm_test_top.env.schk [SMEM] response at cycle 510, expected 503 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 5140000: uvm_test_top.env.schk [SMEM] 8 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 5670000: uvm_test_top.env.schk [SMEM] response at cycle 563, expected 562 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 5670000: uvm_test_top.env.schk [SMEM] 2 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 6010000: uvm_test_top.env.schk [SMEM] response at cycle 597, expected 590 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 6010000: uvm_test_top.env.schk [SMEM] 8 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 6170000: uvm_test_top.env.schk [SMEM] response at cycle 613, expected 610 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 6170000: uvm_test_top.env.schk [SMEM] 4 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 6650000: uvm_test_top.env.schk [SMEM] response at cycle 661, expected 655 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 6650000: uvm_test_top.env.schk [SMEM] 7 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 6800000: uvm_test_top.env.schk [SMEM] response at cycle 676, expected 675 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 6800000: uvm_test_top.env.schk [SMEM] 2 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 6900000: uvm_test_top.env.schk [SMEM] response at cycle 686, expected 679 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 6900000: uvm_test_top.env.schk [SMEM] 8 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 7000000: uvm_test_top.env.schk [SMEM] response at cycle 696, expected 689 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 7000000: uvm_test_top.env.schk [SMEM] 8 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 7080000: uvm_test_top.env.schk [SMEM] response at cycle 704, expected 703 (2 passes)
+UVM_ERROR smb_tb.sv(95) @ 7080000: uvm_test_top.env.schk [SMEM] 3 passes reported, expected 2
+UVM_ERROR smb_tb.sv(95) @ 7430000: uvm_test_top.env.schk [SMEM] response at cycle 739, expected 732 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 7430000: uvm_test_top.env.schk [SMEM] 8 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 7780000: uvm_test_top.env.schk [SMEM] response at cycle 774, expected 773 (4 passes)
+UVM_ERROR smb_tb.sv(95) @ 7780000: uvm_test_top.env.schk [SMEM] 5 passes reported, expected 4
+UVM_ERROR smb_tb.sv(95) @ 8150000: uvm_test_top.env.schk [SMEM] response at cycle 811, expected 810 (2 passes)
+UVM_ERROR smb_tb.sv(95) @ 8150000: uvm_test_top.env.schk [SMEM] 3 passes reported, expected 2
+UVM_ERROR smb_tb.sv(95) @ 8440000: uvm_test_top.env.schk [SMEM] response at cycle 840, expected 833 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 8440000: uvm_test_top.env.schk [SMEM] 8 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 8570000: uvm_test_top.env.schk [SMEM] response at cycle 853, expected 846 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 8570000: uvm_test_top.env.schk [SMEM] 8 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 8720000: uvm_test_top.env.schk [SMEM] response at cycle 868, expected 867 (2 passes)
+UVM_ERROR smb_tb.sv(95) @ 8720000: uvm_test_top.env.schk [SMEM] 3 passes reported, expected 2
+UVM_ERROR smb_tb.sv(95) @ 8760000: uvm_test_top.env.schk [SMEM] response at cycle 872, expected 871 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 8760000: uvm_test_top.env.schk [SMEM] 2 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 9000000: uvm_test_top.env.schk [SMEM] response at cycle 896, expected 889 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 9000000: uvm_test_top.env.schk [SMEM] 8 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 9250000: uvm_test_top.env.schk [SMEM] response at cycle 921, expected 914 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 9250000: uvm_test_top.env.schk [SMEM] 8 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 10050000: uvm_test_top.env.schk [SMEM] response at cycle 1001, expected 994 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 10050000: uvm_test_top.env.schk [SMEM] 8 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 10500000: uvm_test_top.env.schk [SMEM] response at cycle 1046, expected 1039 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 10500000: uvm_test_top.env.schk [SMEM] 8 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 10720000: uvm_test_top.env.schk [SMEM] response at cycle 1068, expected 1066 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 10720000: uvm_test_top.env.schk [SMEM] 3 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 10850000: uvm_test_top.env.schk [SMEM] response at cycle 1081, expected 1078 (2 passes)
+UVM_ERROR smb_tb.sv(95) @ 10850000: uvm_test_top.env.schk [SMEM] 5 passes reported, expected 2
+UVM_ERROR smb_tb.sv(95) @ 11010000: uvm_test_top.env.schk [SMEM] response at cycle 1097, expected 1090 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 11010000: uvm_test_top.env.schk [SMEM] 8 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 11180000: uvm_test_top.env.schk [SMEM] response at cycle 1114, expected 1107 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 11180000: uvm_test_top.env.schk [SMEM] 8 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 11310000: uvm_test_top.env.schk [SMEM] response at cycle 1127, expected 1126 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 11310000: uvm_test_top.env.schk [SMEM] 2 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 11390000: uvm_test_top.env.schk [SMEM] response at cycle 1135, expected 1134 (2 passes)
+UVM_ERROR smb_tb.sv(95) @ 11390000: uvm_test_top.env.schk [SMEM] 3 passes reported, expected 2
+UVM_ERROR smb_tb.sv(95) @ 11700000: uvm_test_top.env.schk [SMEM] response at cycle 1166, expected 1165 (2 passes)
+UVM_ERROR smb_tb.sv(95) @ 11700000: uvm_test_top.env.schk [SMEM] 3 passes reported, expected 2
+UVM_ERROR smb_tb.sv(95) @ 12020000: uvm_test_top.env.schk [SMEM] response at cycle 1198, expected 1197 (2 passes)
+UVM_ERROR smb_tb.sv(95) @ 12020000: uvm_test_top.env.schk [SMEM] 3 passes reported, expected 2
+UVM_ERROR smb_tb.sv(95) @ 12390000: uvm_test_top.env.schk [SMEM] response at cycle 1235, expected 1234 (2 passes)
+UVM_ERROR smb_tb.sv(95) @ 12390000: uvm_test_top.env.schk [SMEM] 3 passes reported, expected 2
+UVM_ERROR smb_tb.sv(95) @ 12480000: uvm_test_top.env.schk [SMEM] response at cycle 1244, expected 1242 (2 passes)
+UVM_ERROR smb_tb.sv(95) @ 12480000: uvm_test_top.env.schk [SMEM] 4 passes reported, expected 2
+UVM_ERROR smb_tb.sv(95) @ 12580000: uvm_test_top.env.schk [SMEM] response at cycle 1254, expected 1247 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 12580000: uvm_test_top.env.schk [SMEM] 8 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 12700000: uvm_test_top.env.schk [SMEM] response at cycle 1266, expected 1265 (2 passes)
+UVM_ERROR smb_tb.sv(95) @ 12700000: uvm_test_top.env.schk [SMEM] 3 passes reported, expected 2
+UVM_ERROR smb_tb.sv(95) @ 13080000: uvm_test_top.env.schk [SMEM] response at cycle 1304, expected 1297 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 13080000: uvm_test_top.env.schk [SMEM] 8 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 13120000: uvm_test_top.env.schk [SMEM] response at cycle 1308, expected 1307 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 13120000: uvm_test_top.env.schk [SMEM] 2 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 13170000: uvm_test_top.env.schk [SMEM] response at cycle 1313, expected 1312 (2 passes)
+UVM_ERROR smb_tb.sv(95) @ 13170000: uvm_test_top.env.schk [SMEM] 3 passes reported, expected 2
+UVM_ERROR smb_tb.sv(95) @ 13270000: uvm_test_top.env.schk [SMEM] response at cycle 1323, expected 1319 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 13270000: uvm_test_top.env.schk [SMEM] 5 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 13420000: uvm_test_top.env.schk [SMEM] response at cycle 1338, expected 1331 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 13420000: uvm_test_top.env.schk [SMEM] 8 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 13500000: uvm_test_top.env.schk [SMEM] response at cycle 1346, expected 1341 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 13500000: uvm_test_top.env.schk [SMEM] 6 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 13630000: uvm_test_top.env.schk [SMEM] response at cycle 1359, expected 1358 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 13630000: uvm_test_top.env.schk [SMEM] 2 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 13830000: uvm_test_top.env.schk [SMEM] response at cycle 1379, expected 1378 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 13830000: uvm_test_top.env.schk [SMEM] 2 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 13970000: uvm_test_top.env.schk [SMEM] response at cycle 1393, expected 1392 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 13970000: uvm_test_top.env.schk [SMEM] 2 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 14060000: uvm_test_top.env.schk [SMEM] response at cycle 1402, expected 1401 (2 passes)
+UVM_ERROR smb_tb.sv(95) @ 14060000: uvm_test_top.env.schk [SMEM] 3 passes reported, expected 2
+UVM_ERROR smb_tb.sv(95) @ 14570000: uvm_test_top.env.schk [SMEM] response at cycle 1453, expected 1446 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 14570000: uvm_test_top.env.schk [SMEM] 8 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 14670000: uvm_test_top.env.schk [SMEM] response at cycle 1463, expected 1456 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 14670000: uvm_test_top.env.schk [SMEM] 8 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 15150000: uvm_test_top.env.schk [SMEM] response at cycle 1511, expected 1505 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 15150000: uvm_test_top.env.schk [SMEM] 7 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 15760000: uvm_test_top.env.schk [SMEM] response at cycle 1572, expected 1571 (2 passes)
+UVM_ERROR smb_tb.sv(95) @ 15760000: uvm_test_top.env.schk [SMEM] 3 passes reported, expected 2
+UVM_ERROR smb_tb.sv(95) @ 16290000: uvm_test_top.env.schk [SMEM] response at cycle 1625, expected 1624 (2 passes)
+UVM_ERROR smb_tb.sv(95) @ 16290000: uvm_test_top.env.schk [SMEM] 3 passes reported, expected 2
+UVM_ERROR smb_tb.sv(95) @ 16340000: uvm_test_top.env.schk [SMEM] response at cycle 1630, expected 1629 (2 passes)
+UVM_ERROR smb_tb.sv(95) @ 16340000: uvm_test_top.env.schk [SMEM] 3 passes reported, expected 2
+UVM_ERROR smb_tb.sv(95) @ 16600000: uvm_test_top.env.schk [SMEM] response at cycle 1656, expected 1651 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 16600000: uvm_test_top.env.schk [SMEM] 6 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 16820000: uvm_test_top.env.schk [SMEM] response at cycle 1678, expected 1671 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 16820000: uvm_test_top.env.schk [SMEM] 8 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 16920000: uvm_test_top.env.schk [SMEM] response at cycle 1688, expected 1681 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 16920000: uvm_test_top.env.schk [SMEM] 8 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 17100000: uvm_test_top.env.schk [SMEM] response at cycle 1706, expected 1699 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 17100000: uvm_test_top.env.schk [SMEM] 8 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 17150000: uvm_test_top.env.schk [SMEM] response at cycle 1711, expected 1710 (2 passes)
+UVM_ERROR smb_tb.sv(95) @ 17150000: uvm_test_top.env.schk [SMEM] 3 passes reported, expected 2
+UVM_ERROR smb_tb.sv(95) @ 17300000: uvm_test_top.env.schk [SMEM] response at cycle 1726, expected 1725 (2 passes)
+UVM_ERROR smb_tb.sv(95) @ 17300000: uvm_test_top.env.schk [SMEM] 3 passes reported, expected 2
+UVM_ERROR smb_tb.sv(95) @ 17680000: uvm_test_top.env.schk [SMEM] response at cycle 1764, expected 1762 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 17680000: uvm_test_top.env.schk [SMEM] 3 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 17900000: uvm_test_top.env.schk [SMEM] response at cycle 1786, expected 1779 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 17900000: uvm_test_top.env.schk [SMEM] 8 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 18100000: uvm_test_top.env.schk [SMEM] response at cycle 1806, expected 1799 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 18100000: uvm_test_top.env.schk [SMEM] 8 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 18760000: uvm_test_top.env.schk [SMEM] response at cycle 1872, expected 1865 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 18760000: uvm_test_top.env.schk [SMEM] 8 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 18930000: uvm_test_top.env.schk [SMEM] response at cycle 1889, expected 1886 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 18930000: uvm_test_top.env.schk [SMEM] 4 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 19170000: uvm_test_top.env.schk [SMEM] response at cycle 1913, expected 1912 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 19170000: uvm_test_top.env.schk [SMEM] 2 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 19500000: uvm_test_top.env.schk [SMEM] response at cycle 1946, expected 1945 (2 passes)
+UVM_ERROR smb_tb.sv(95) @ 19500000: uvm_test_top.env.schk [SMEM] 3 passes reported, expected 2
+UVM_ERROR smb_tb.sv(95) @ 19960000: uvm_test_top.env.schk [SMEM] response at cycle 1992, expected 1985 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 19960000: uvm_test_top.env.schk [SMEM] 8 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 20270000: uvm_test_top.env.schk [SMEM] response at cycle 2023, expected 2016 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 20270000: uvm_test_top.env.schk [SMEM] 8 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 20400000: uvm_test_top.env.schk [SMEM] response at cycle 2036, expected 2032 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 20400000: uvm_test_top.env.schk [SMEM] 5 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 20860000: uvm_test_top.env.schk [SMEM] response at cycle 2082, expected 2078 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 20860000: uvm_test_top.env.schk [SMEM] 5 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 21180000: uvm_test_top.env.schk [SMEM] response at cycle 2114, expected 2113 (2 passes)
+UVM_ERROR smb_tb.sv(95) @ 21180000: uvm_test_top.env.schk [SMEM] 3 passes reported, expected 2
+UVM_ERROR smb_tb.sv(95) @ 21360000: uvm_test_top.env.schk [SMEM] response at cycle 2132, expected 2131 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 21360000: uvm_test_top.env.schk [SMEM] 2 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 21460000: uvm_test_top.env.schk [SMEM] response at cycle 2142, expected 2141 (2 passes)
+UVM_ERROR smb_tb.sv(95) @ 21460000: uvm_test_top.env.schk [SMEM] 3 passes reported, expected 2
+UVM_ERROR smb_tb.sv(95) @ 21710000: uvm_test_top.env.schk [SMEM] response at cycle 2167, expected 2160 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 21710000: uvm_test_top.env.schk [SMEM] 8 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 21810000: uvm_test_top.env.schk [SMEM] response at cycle 2177, expected 2170 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 21810000: uvm_test_top.env.schk [SMEM] 8 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 22140000: uvm_test_top.env.schk [SMEM] response at cycle 2210, expected 2203 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 22140000: uvm_test_top.env.schk [SMEM] 8 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 22230000: uvm_test_top.env.schk [SMEM] response at cycle 2219, expected 2218 (2 passes)
+UVM_ERROR smb_tb.sv(95) @ 22230000: uvm_test_top.env.schk [SMEM] 3 passes reported, expected 2
+UVM_ERROR smb_tb.sv(95) @ 22830000: uvm_test_top.env.schk [SMEM] response at cycle 2279, expected 2272 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 22830000: uvm_test_top.env.schk [SMEM] 8 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 22970000: uvm_test_top.env.schk [SMEM] response at cycle 2293, expected 2286 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 22970000: uvm_test_top.env.schk [SMEM] 8 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 23070000: uvm_test_top.env.schk [SMEM] response at cycle 2303, expected 2296 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 23070000: uvm_test_top.env.schk [SMEM] 8 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 23230000: uvm_test_top.env.schk [SMEM] response at cycle 2319, expected 2312 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 23230000: uvm_test_top.env.schk [SMEM] 8 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 23380000: uvm_test_top.env.schk [SMEM] response at cycle 2334, expected 2327 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 23380000: uvm_test_top.env.schk [SMEM] 8 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 23580000: uvm_test_top.env.schk [SMEM] response at cycle 2354, expected 2353 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 23580000: uvm_test_top.env.schk [SMEM] 2 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 23790000: uvm_test_top.env.schk [SMEM] response at cycle 2375, expected 2368 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 23790000: uvm_test_top.env.schk [SMEM] 8 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 23900000: uvm_test_top.env.schk [SMEM] response at cycle 2386, expected 2385 (2 passes)
+UVM_ERROR smb_tb.sv(95) @ 23900000: uvm_test_top.env.schk [SMEM] 3 passes reported, expected 2
+UVM_ERROR smb_tb.sv(95) @ 24200000: uvm_test_top.env.schk [SMEM] response at cycle 2416, expected 2409 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 24200000: uvm_test_top.env.schk [SMEM] 8 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 24420000: uvm_test_top.env.schk [SMEM] response at cycle 2438, expected 2435 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 24420000: uvm_test_top.env.schk [SMEM] 4 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 24560000: uvm_test_top.env.schk [SMEM] response at cycle 2452, expected 2445 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 24560000: uvm_test_top.env.schk [SMEM] 8 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 24870000: uvm_test_top.env.schk [SMEM] response at cycle 2483, expected 2482 (2 passes)
+UVM_ERROR smb_tb.sv(95) @ 24870000: uvm_test_top.env.schk [SMEM] 3 passes reported, expected 2
+UVM_ERROR smb_tb.sv(95) @ 24910000: uvm_test_top.env.schk [SMEM] response at cycle 2487, expected 2486 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 24910000: uvm_test_top.env.schk [SMEM] 2 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 25120000: uvm_test_top.env.schk [SMEM] response at cycle 2508, expected 2507 (2 passes)
+UVM_ERROR smb_tb.sv(95) @ 25120000: uvm_test_top.env.schk [SMEM] 3 passes reported, expected 2
+UVM_ERROR smb_tb.sv(95) @ 25480000: uvm_test_top.env.schk [SMEM] response at cycle 2544, expected 2542 (2 passes)
+UVM_ERROR smb_tb.sv(95) @ 25480000: uvm_test_top.env.schk [SMEM] 4 passes reported, expected 2
+UVM_ERROR smb_tb.sv(95) @ 25580000: uvm_test_top.env.schk [SMEM] response at cycle 2554, expected 2547 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 25580000: uvm_test_top.env.schk [SMEM] 8 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 25790000: uvm_test_top.env.schk [SMEM] response at cycle 2575, expected 2569 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 25790000: uvm_test_top.env.schk [SMEM] 7 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 25890000: uvm_test_top.env.schk [SMEM] response at cycle 2585, expected 2578 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 25890000: uvm_test_top.env.schk [SMEM] 8 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 26060000: uvm_test_top.env.schk [SMEM] response at cycle 2602, expected 2601 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 26060000: uvm_test_top.env.schk [SMEM] 2 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 26120000: uvm_test_top.env.schk [SMEM] response at cycle 2608, expected 2605 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 26120000: uvm_test_top.env.schk [SMEM] 4 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 26180000: uvm_test_top.env.schk [SMEM] response at cycle 2614, expected 2611 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 26180000: uvm_test_top.env.schk [SMEM] 4 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 26280000: uvm_test_top.env.schk [SMEM] response at cycle 2624, expected 2617 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 26280000: uvm_test_top.env.schk [SMEM] 8 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 26440000: uvm_test_top.env.schk [SMEM] response at cycle 2640, expected 2633 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 26440000: uvm_test_top.env.schk [SMEM] 8 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 26890000: uvm_test_top.env.schk [SMEM] response at cycle 2685, expected 2678 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 26890000: uvm_test_top.env.schk [SMEM] 8 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 27340000: uvm_test_top.env.schk [SMEM] response at cycle 2730, expected 2729 (2 passes)
+UVM_ERROR smb_tb.sv(95) @ 27340000: uvm_test_top.env.schk [SMEM] 3 passes reported, expected 2
+UVM_ERROR smb_tb.sv(95) @ 27700000: uvm_test_top.env.schk [SMEM] response at cycle 2766, expected 2765 (2 passes)
+UVM_ERROR smb_tb.sv(95) @ 27700000: uvm_test_top.env.schk [SMEM] 3 passes reported, expected 2
+UVM_ERROR smb_tb.sv(95) @ 27760000: uvm_test_top.env.schk [SMEM] response at cycle 2772, expected 2771 (3 passes)
+UVM_ERROR smb_tb.sv(95) @ 27760000: uvm_test_top.env.schk [SMEM] 4 passes reported, expected 3
+UVM_ERROR smb_tb.sv(95) @ 27850000: uvm_test_top.env.schk [SMEM] response at cycle 2781, expected 2780 (2 passes)
+UVM_ERROR smb_tb.sv(95) @ 27850000: uvm_test_top.env.schk [SMEM] 3 passes reported, expected 2
+UVM_ERROR smb_tb.sv(95) @ 27900000: uvm_test_top.env.schk [SMEM] response at cycle 2786, expected 2785 (2 passes)
+UVM_ERROR smb_tb.sv(95) @ 27900000: uvm_test_top.env.schk [SMEM] 3 passes reported, expected 2
+UVM_ERROR smb_tb.sv(95) @ 28680000: uvm_test_top.env.schk [SMEM] response at cycle 2864, expected 2862 (2 passes)
+UVM_ERROR smb_tb.sv(95) @ 28680000: uvm_test_top.env.schk [SMEM] 4 passes reported, expected 2
+UVM_ERROR smb_tb.sv(95) @ 28720000: uvm_test_top.env.schk [SMEM] response at cycle 2868, expected 2867 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 28720000: uvm_test_top.env.schk [SMEM] 2 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 29100000: uvm_test_top.env.schk [SMEM] response at cycle 2906, expected 2899 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 29100000: uvm_test_top.env.schk [SMEM] 8 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 29230000: uvm_test_top.env.schk [SMEM] response at cycle 2919, expected 2912 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 29230000: uvm_test_top.env.schk [SMEM] 8 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 29330000: uvm_test_top.env.schk [SMEM] response at cycle 2929, expected 2922 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 29330000: uvm_test_top.env.schk [SMEM] 8 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 29690000: uvm_test_top.env.schk [SMEM] response at cycle 2965, expected 2958 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 29690000: uvm_test_top.env.schk [SMEM] 8 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 29860000: uvm_test_top.env.schk [SMEM] response at cycle 2982, expected 2979 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 29860000: uvm_test_top.env.schk [SMEM] 4 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 30110000: uvm_test_top.env.schk [SMEM] response at cycle 3007, expected 3006 (2 passes)
+UVM_ERROR smb_tb.sv(95) @ 30110000: uvm_test_top.env.schk [SMEM] 3 passes reported, expected 2
+UVM_ERROR smb_tb.sv(95) @ 30340000: uvm_test_top.env.schk [SMEM] response at cycle 3030, expected 3027 (2 passes)
+UVM_ERROR smb_tb.sv(95) @ 30340000: uvm_test_top.env.schk [SMEM] 5 passes reported, expected 2
+UVM_ERROR smb_tb.sv(95) @ 30490000: uvm_test_top.env.schk [SMEM] response at cycle 3045, expected 3040 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 30490000: uvm_test_top.env.schk [SMEM] 6 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 30550000: uvm_test_top.env.schk [SMEM] response at cycle 3051, expected 3049 (2 passes)
+UVM_ERROR smb_tb.sv(95) @ 30550000: uvm_test_top.env.schk [SMEM] 4 passes reported, expected 2
+UVM_ERROR smb_tb.sv(95) @ 30600000: uvm_test_top.env.schk [SMEM] response at cycle 3056, expected 3054 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 30600000: uvm_test_top.env.schk [SMEM] 3 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 31130000: uvm_test_top.env.schk [SMEM] response at cycle 3109, expected 3102 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 31130000: uvm_test_top.env.schk [SMEM] 8 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 31170000: uvm_test_top.env.schk [SMEM] response at cycle 3113, expected 3112 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 31170000: uvm_test_top.env.schk [SMEM] 2 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 31360000: uvm_test_top.env.schk [SMEM] response at cycle 3132, expected 3125 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 31360000: uvm_test_top.env.schk [SMEM] 8 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 31510000: uvm_test_top.env.schk [SMEM] response at cycle 3147, expected 3142 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 31510000: uvm_test_top.env.schk [SMEM] 6 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 31630000: uvm_test_top.env.schk [SMEM] response at cycle 3159, expected 3158 (2 passes)
+UVM_ERROR smb_tb.sv(95) @ 31630000: uvm_test_top.env.schk [SMEM] 3 passes reported, expected 2
+UVM_ERROR smb_tb.sv(95) @ 31670000: uvm_test_top.env.schk [SMEM] response at cycle 3163, expected 3162 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 31670000: uvm_test_top.env.schk [SMEM] 2 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 31810000: uvm_test_top.env.schk [SMEM] response at cycle 3177, expected 3176 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 31810000: uvm_test_top.env.schk [SMEM] 2 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 31890000: uvm_test_top.env.schk [SMEM] response at cycle 3185, expected 3184 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 31890000: uvm_test_top.env.schk [SMEM] 2 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 32520000: uvm_test_top.env.schk [SMEM] response at cycle 3248, expected 3246 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 32520000: uvm_test_top.env.schk [SMEM] 3 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 32780000: uvm_test_top.env.schk [SMEM] response at cycle 3274, expected 3273 (2 passes)
+UVM_ERROR smb_tb.sv(95) @ 32780000: uvm_test_top.env.schk [SMEM] 3 passes reported, expected 2
+UVM_ERROR smb_tb.sv(95) @ 32860000: uvm_test_top.env.schk [SMEM] response at cycle 3282, expected 3277 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 32860000: uvm_test_top.env.schk [SMEM] 6 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 33030000: uvm_test_top.env.schk [SMEM] response at cycle 3299, expected 3296 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 33030000: uvm_test_top.env.schk [SMEM] 4 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 33160000: uvm_test_top.env.schk [SMEM] response at cycle 3312, expected 3311 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 33160000: uvm_test_top.env.schk [SMEM] 2 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 33370000: uvm_test_top.env.schk [SMEM] response at cycle 3333, expected 3326 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 33370000: uvm_test_top.env.schk [SMEM] 8 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 33710000: uvm_test_top.env.schk [SMEM] response at cycle 3367, expected 3365 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 33710000: uvm_test_top.env.schk [SMEM] 3 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 33930000: uvm_test_top.env.schk [SMEM] response at cycle 3389, expected 3388 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 33930000: uvm_test_top.env.schk [SMEM] 2 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 34020000: uvm_test_top.env.schk [SMEM] response at cycle 3398, expected 3397 (2 passes)
+UVM_ERROR smb_tb.sv(95) @ 34020000: uvm_test_top.env.schk [SMEM] 3 passes reported, expected 2
+UVM_ERROR smb_tb.sv(95) @ 34260000: uvm_test_top.env.schk [SMEM] response at cycle 3422, expected 3420 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 34260000: uvm_test_top.env.schk [SMEM] 3 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 34320000: uvm_test_top.env.schk [SMEM] response at cycle 3428, expected 3425 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 34320000: uvm_test_top.env.schk [SMEM] 4 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 34470000: uvm_test_top.env.schk [SMEM] response at cycle 3443, expected 3439 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 34470000: uvm_test_top.env.schk [SMEM] 5 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 34910000: uvm_test_top.env.schk [SMEM] response at cycle 3487, expected 3486 (2 passes)
+UVM_ERROR smb_tb.sv(95) @ 34910000: uvm_test_top.env.schk [SMEM] 3 passes reported, expected 2
+UVM_ERROR smb_tb.sv(95) @ 35190000: uvm_test_top.env.schk [SMEM] response at cycle 3515, expected 3513 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 35190000: uvm_test_top.env.schk [SMEM] 3 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 35410000: uvm_test_top.env.schk [SMEM] response at cycle 3537, expected 3534 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 35410000: uvm_test_top.env.schk [SMEM] 4 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 36030000: uvm_test_top.env.schk [SMEM] response at cycle 3599, expected 3596 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 36030000: uvm_test_top.env.schk [SMEM] 4 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 36100000: uvm_test_top.env.schk [SMEM] response at cycle 3606, expected 3602 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 36100000: uvm_test_top.env.schk [SMEM] 5 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 36320000: uvm_test_top.env.schk [SMEM] response at cycle 3628, expected 3627 (3 passes)
+UVM_ERROR smb_tb.sv(95) @ 36320000: uvm_test_top.env.schk [SMEM] 4 passes reported, expected 3
+UVM_ERROR smb_tb.sv(95) @ 36440000: uvm_test_top.env.schk [SMEM] response at cycle 3640, expected 3639 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 36440000: uvm_test_top.env.schk [SMEM] 2 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 36580000: uvm_test_top.env.schk [SMEM] response at cycle 3654, expected 3653 (3 passes)
+UVM_ERROR smb_tb.sv(95) @ 36580000: uvm_test_top.env.schk [SMEM] 4 passes reported, expected 3
+UVM_ERROR smb_tb.sv(95) @ 36990000: uvm_test_top.env.schk [SMEM] response at cycle 3695, expected 3694 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 36990000: uvm_test_top.env.schk [SMEM] 2 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 37030000: uvm_test_top.env.schk [SMEM] response at cycle 3699, expected 3698 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 37030000: uvm_test_top.env.schk [SMEM] 2 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 37820000: uvm_test_top.env.schk [SMEM] response at cycle 3778, expected 3773 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 37820000: uvm_test_top.env.schk [SMEM] 6 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 38100000: uvm_test_top.env.schk [SMEM] response at cycle 3806, expected 3799 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 38100000: uvm_test_top.env.schk [SMEM] 8 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 38560000: uvm_test_top.env.schk [SMEM] response at cycle 3852, expected 3845 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 38560000: uvm_test_top.env.schk [SMEM] 8 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 39070000: uvm_test_top.env.schk [SMEM] response at cycle 3903, expected 3902 (3 passes)
+UVM_ERROR smb_tb.sv(95) @ 39070000: uvm_test_top.env.schk [SMEM] 4 passes reported, expected 3
+UVM_ERROR smb_tb.sv(95) @ 39120000: uvm_test_top.env.schk [SMEM] response at cycle 3908, expected 3906 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 39120000: uvm_test_top.env.schk [SMEM] 3 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 39220000: uvm_test_top.env.schk [SMEM] response at cycle 3918, expected 3915 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 39220000: uvm_test_top.env.schk [SMEM] 4 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 39450000: uvm_test_top.env.schk [SMEM] response at cycle 3941, expected 3939 (2 passes)
+UVM_ERROR smb_tb.sv(95) @ 39450000: uvm_test_top.env.schk [SMEM] 4 passes reported, expected 2
+UVM_ERROR smb_tb.sv(95) @ 39550000: uvm_test_top.env.schk [SMEM] response at cycle 3951, expected 3944 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 39550000: uvm_test_top.env.schk [SMEM] 8 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 39750000: uvm_test_top.env.schk [SMEM] response at cycle 3971, expected 3964 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 39750000: uvm_test_top.env.schk [SMEM] 8 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 40070000: uvm_test_top.env.schk [SMEM] response at cycle 4003, expected 4000 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 40070000: uvm_test_top.env.schk [SMEM] 4 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 40200000: uvm_test_top.env.schk [SMEM] response at cycle 4016, expected 4009 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 40200000: uvm_test_top.env.schk [SMEM] 8 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 40300000: uvm_test_top.env.schk [SMEM] response at cycle 4026, expected 4025 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 40300000: uvm_test_top.env.schk [SMEM] 2 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 40660000: uvm_test_top.env.schk [SMEM] response at cycle 4062, expected 4060 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 40660000: uvm_test_top.env.schk [SMEM] 3 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 40750000: uvm_test_top.env.schk [SMEM] response at cycle 4071, expected 4069 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 40750000: uvm_test_top.env.schk [SMEM] 3 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 40910000: uvm_test_top.env.schk [SMEM] response at cycle 4087, expected 4086 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 40910000: uvm_test_top.env.schk [SMEM] 2 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 41110000: uvm_test_top.env.schk [SMEM] response at cycle 4107, expected 4100 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 41110000: uvm_test_top.env.schk [SMEM] 8 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 41450000: uvm_test_top.env.schk [SMEM] response at cycle 4141, expected 4137 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 41450000: uvm_test_top.env.schk [SMEM] 5 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 41840000: uvm_test_top.env.schk [SMEM] response at cycle 4180, expected 4179 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 41840000: uvm_test_top.env.schk [SMEM] 2 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 42270000: uvm_test_top.env.schk [SMEM] response at cycle 4223, expected 4216 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 42270000: uvm_test_top.env.schk [SMEM] 8 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 42440000: uvm_test_top.env.schk [SMEM] response at cycle 4240, expected 4238 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 42440000: uvm_test_top.env.schk [SMEM] 3 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 42640000: uvm_test_top.env.schk [SMEM] response at cycle 4260, expected 4253 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 42640000: uvm_test_top.env.schk [SMEM] 8 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 42730000: uvm_test_top.env.schk [SMEM] response at cycle 4269, expected 4268 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 42730000: uvm_test_top.env.schk [SMEM] 2 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 42940000: uvm_test_top.env.schk [SMEM] response at cycle 4290, expected 4289 (2 passes)
+UVM_ERROR smb_tb.sv(95) @ 42940000: uvm_test_top.env.schk [SMEM] 3 passes reported, expected 2
+UVM_ERROR smb_tb.sv(95) @ 43020000: uvm_test_top.env.schk [SMEM] response at cycle 4298, expected 4297 (2 passes)
+UVM_ERROR smb_tb.sv(95) @ 43020000: uvm_test_top.env.schk [SMEM] 3 passes reported, expected 2
+UVM_ERROR smb_tb.sv(95) @ 43180000: uvm_test_top.env.schk [SMEM] response at cycle 4314, expected 4311 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 43180000: uvm_test_top.env.schk [SMEM] 4 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 43230000: uvm_test_top.env.schk [SMEM] response at cycle 4319, expected 4318 (2 passes)
+UVM_ERROR smb_tb.sv(95) @ 43230000: uvm_test_top.env.schk [SMEM] 3 passes reported, expected 2
+UVM_ERROR smb_tb.sv(95) @ 43290000: uvm_test_top.env.schk [SMEM] response at cycle 4325, expected 4324 (3 passes)
+UVM_ERROR smb_tb.sv(95) @ 43290000: uvm_test_top.env.schk [SMEM] 4 passes reported, expected 3
+UVM_ERROR smb_tb.sv(95) @ 43390000: uvm_test_top.env.schk [SMEM] response at cycle 4335, expected 4328 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 43390000: uvm_test_top.env.schk [SMEM] 8 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 43560000: uvm_test_top.env.schk [SMEM] response at cycle 4352, expected 4345 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 43560000: uvm_test_top.env.schk [SMEM] 8 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 43700000: uvm_test_top.env.schk [SMEM] response at cycle 4366, expected 4364 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 43700000: uvm_test_top.env.schk [SMEM] 3 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 43750000: uvm_test_top.env.schk [SMEM] response at cycle 4371, expected 4369 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 43750000: uvm_test_top.env.schk [SMEM] 3 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 44030000: uvm_test_top.env.schk [SMEM] response at cycle 4399, expected 4398 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 44030000: uvm_test_top.env.schk [SMEM] 2 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 44640000: uvm_test_top.env.schk [SMEM] response at cycle 4460, expected 4457 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 44640000: uvm_test_top.env.schk [SMEM] 4 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 44930000: uvm_test_top.env.schk [SMEM] response at cycle 4489, expected 4484 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 44930000: uvm_test_top.env.schk [SMEM] 6 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 45170000: uvm_test_top.env.schk [SMEM] response at cycle 4513, expected 4506 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 45170000: uvm_test_top.env.schk [SMEM] 8 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 45270000: uvm_test_top.env.schk [SMEM] response at cycle 4523, expected 4522 (3 passes)
+UVM_ERROR smb_tb.sv(95) @ 45270000: uvm_test_top.env.schk [SMEM] 4 passes reported, expected 3
+UVM_ERROR smb_tb.sv(95) @ 45550000: uvm_test_top.env.schk [SMEM] response at cycle 4551, expected 4550 (2 passes)
+UVM_ERROR smb_tb.sv(95) @ 45550000: uvm_test_top.env.schk [SMEM] 3 passes reported, expected 2
+UVM_ERROR smb_tb.sv(95) @ 45680000: uvm_test_top.env.schk [SMEM] response at cycle 4564, expected 4563 (2 passes)
+UVM_ERROR smb_tb.sv(95) @ 45680000: uvm_test_top.env.schk [SMEM] 3 passes reported, expected 2
+UVM_ERROR smb_tb.sv(95) @ 45780000: uvm_test_top.env.schk [SMEM] response at cycle 4574, expected 4567 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 45780000: uvm_test_top.env.schk [SMEM] 8 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 46340000: uvm_test_top.env.schk [SMEM] response at cycle 4630, expected 4629 (2 passes)
+UVM_ERROR smb_tb.sv(95) @ 46340000: uvm_test_top.env.schk [SMEM] 3 passes reported, expected 2
+UVM_ERROR smb_tb.sv(95) @ 46470000: uvm_test_top.env.schk [SMEM] response at cycle 4643, expected 4636 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 46470000: uvm_test_top.env.schk [SMEM] 8 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 47070000: uvm_test_top.env.schk [SMEM] response at cycle 4703, expected 4700 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 47070000: uvm_test_top.env.schk [SMEM] 4 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 47180000: uvm_test_top.env.schk [SMEM] response at cycle 4714, expected 4713 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 47180000: uvm_test_top.env.schk [SMEM] 2 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 47620000: uvm_test_top.env.schk [SMEM] response at cycle 4758, expected 4756 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 47620000: uvm_test_top.env.schk [SMEM] 3 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 47800000: uvm_test_top.env.schk [SMEM] response at cycle 4776, expected 4775 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 47800000: uvm_test_top.env.schk [SMEM] 2 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 48170000: uvm_test_top.env.schk [SMEM] response at cycle 4813, expected 4806 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 48170000: uvm_test_top.env.schk [SMEM] 8 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 48230000: uvm_test_top.env.schk [SMEM] response at cycle 4819, expected 4816 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 48230000: uvm_test_top.env.schk [SMEM] 4 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 48330000: uvm_test_top.env.schk [SMEM] response at cycle 4829, expected 4822 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 48330000: uvm_test_top.env.schk [SMEM] 8 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 48370000: uvm_test_top.env.schk [SMEM] response at cycle 4833, expected 4832 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 48370000: uvm_test_top.env.schk [SMEM] 2 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 48800000: uvm_test_top.env.schk [SMEM] response at cycle 4876, expected 4875 (3 passes)
+UVM_ERROR smb_tb.sv(95) @ 48800000: uvm_test_top.env.schk [SMEM] 4 passes reported, expected 3
+UVM_ERROR smb_tb.sv(95) @ 49000000: uvm_test_top.env.schk [SMEM] response at cycle 4896, expected 4893 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 49000000: uvm_test_top.env.schk [SMEM] 4 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 49070000: uvm_test_top.env.schk [SMEM] response at cycle 4903, expected 4899 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 49070000: uvm_test_top.env.schk [SMEM] 5 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 49240000: uvm_test_top.env.schk [SMEM] response at cycle 4920, expected 4919 (2 passes)
+UVM_ERROR smb_tb.sv(95) @ 49240000: uvm_test_top.env.schk [SMEM] 3 passes reported, expected 2
+UVM_ERROR smb_tb.sv(95) @ 49820000: uvm_test_top.env.schk [SMEM] response at cycle 4978, expected 4977 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 49820000: uvm_test_top.env.schk [SMEM] 2 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 50650000: uvm_test_top.env.schk [SMEM] response at cycle 5061, expected 5060 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 50650000: uvm_test_top.env.schk [SMEM] 2 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 50740000: uvm_test_top.env.schk [SMEM] response at cycle 5070, expected 5067 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 50740000: uvm_test_top.env.schk [SMEM] 4 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 51120000: uvm_test_top.env.schk [SMEM] response at cycle 5108, expected 5107 (2 passes)
+UVM_ERROR smb_tb.sv(95) @ 51120000: uvm_test_top.env.schk [SMEM] 3 passes reported, expected 2
+UVM_ERROR smb_tb.sv(95) @ 51650000: uvm_test_top.env.schk [SMEM] response at cycle 5161, expected 5158 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 51650000: uvm_test_top.env.schk [SMEM] 4 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 51810000: uvm_test_top.env.schk [SMEM] response at cycle 5177, expected 5175 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 51810000: uvm_test_top.env.schk [SMEM] 3 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 51880000: uvm_test_top.env.schk [SMEM] response at cycle 5184, expected 5180 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 51880000: uvm_test_top.env.schk [SMEM] 5 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 52090000: uvm_test_top.env.schk [SMEM] response at cycle 5205, expected 5198 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 52090000: uvm_test_top.env.schk [SMEM] 8 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 52360000: uvm_test_top.env.schk [SMEM] response at cycle 5232, expected 5225 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 52360000: uvm_test_top.env.schk [SMEM] 8 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 52670000: uvm_test_top.env.schk [SMEM] response at cycle 5263, expected 5256 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 52670000: uvm_test_top.env.schk [SMEM] 8 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 52780000: uvm_test_top.env.schk [SMEM] response at cycle 5274, expected 5273 (2 passes)
+UVM_ERROR smb_tb.sv(95) @ 52780000: uvm_test_top.env.schk [SMEM] 3 passes reported, expected 2
+UVM_ERROR smb_tb.sv(95) @ 53020000: uvm_test_top.env.schk [SMEM] response at cycle 5298, expected 5291 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 53020000: uvm_test_top.env.schk [SMEM] 8 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 53150000: uvm_test_top.env.schk [SMEM] response at cycle 5311, expected 5309 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 53150000: uvm_test_top.env.schk [SMEM] 3 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 53250000: uvm_test_top.env.schk [SMEM] response at cycle 5321, expected 5314 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 53250000: uvm_test_top.env.schk [SMEM] 8 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 53470000: uvm_test_top.env.schk [SMEM] response at cycle 5343, expected 5336 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 53470000: uvm_test_top.env.schk [SMEM] 8 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 54180000: uvm_test_top.env.schk [SMEM] response at cycle 5414, expected 5407 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 54180000: uvm_test_top.env.schk [SMEM] 8 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 54320000: uvm_test_top.env.schk [SMEM] response at cycle 5428, expected 5421 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 54320000: uvm_test_top.env.schk [SMEM] 8 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 54740000: uvm_test_top.env.schk [SMEM] response at cycle 5470, expected 5468 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 54740000: uvm_test_top.env.schk [SMEM] 3 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 55000000: uvm_test_top.env.schk [SMEM] response at cycle 5496, expected 5495 (2 passes)
+UVM_ERROR smb_tb.sv(95) @ 55000000: uvm_test_top.env.schk [SMEM] 3 passes reported, expected 2
+UVM_ERROR smb_tb.sv(95) @ 55150000: uvm_test_top.env.schk [SMEM] response at cycle 5511, expected 5508 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 55150000: uvm_test_top.env.schk [SMEM] 4 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 55240000: uvm_test_top.env.schk [SMEM] response at cycle 5520, expected 5518 (2 passes)
+UVM_ERROR smb_tb.sv(95) @ 55240000: uvm_test_top.env.schk [SMEM] 4 passes reported, expected 2
+UVM_ERROR smb_tb.sv(95) @ 55410000: uvm_test_top.env.schk [SMEM] response at cycle 5537, expected 5536 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 55410000: uvm_test_top.env.schk [SMEM] 2 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 55880000: uvm_test_top.env.schk [SMEM] response at cycle 5584, expected 5577 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 55880000: uvm_test_top.env.schk [SMEM] 8 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 55930000: uvm_test_top.env.schk [SMEM] response at cycle 5589, expected 5587 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 55930000: uvm_test_top.env.schk [SMEM] 3 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 56150000: uvm_test_top.env.schk [SMEM] response at cycle 5611, expected 5610 (2 passes)
+UVM_ERROR smb_tb.sv(95) @ 56150000: uvm_test_top.env.schk [SMEM] 3 passes reported, expected 2
+UVM_ERROR smb_tb.sv(95) @ 56270000: uvm_test_top.env.schk [SMEM] response at cycle 5623, expected 5622 (2 passes)
+UVM_ERROR smb_tb.sv(95) @ 56270000: uvm_test_top.env.schk [SMEM] 3 passes reported, expected 2
+UVM_ERROR smb_tb.sv(95) @ 56330000: uvm_test_top.env.schk [SMEM] response at cycle 5629, expected 5626 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 56330000: uvm_test_top.env.schk [SMEM] 4 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 56390000: uvm_test_top.env.schk [SMEM] response at cycle 5635, expected 5632 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 56390000: uvm_test_top.env.schk [SMEM] 4 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 56570000: uvm_test_top.env.schk [SMEM] response at cycle 5653, expected 5648 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 56570000: uvm_test_top.env.schk [SMEM] 6 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 56750000: uvm_test_top.env.schk [SMEM] response at cycle 5671, expected 5670 (2 passes)
+UVM_ERROR smb_tb.sv(95) @ 56750000: uvm_test_top.env.schk [SMEM] 3 passes reported, expected 2
+UVM_ERROR smb_tb.sv(95) @ 57240000: uvm_test_top.env.schk [SMEM] response at cycle 5720, expected 5719 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 57240000: uvm_test_top.env.schk [SMEM] 2 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 57300000: uvm_test_top.env.schk [SMEM] response at cycle 5726, expected 5725 (3 passes)
+UVM_ERROR smb_tb.sv(95) @ 57300000: uvm_test_top.env.schk [SMEM] 4 passes reported, expected 3
+UVM_ERROR smb_tb.sv(95) @ 57490000: uvm_test_top.env.schk [SMEM] response at cycle 5745, expected 5739 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 57490000: uvm_test_top.env.schk [SMEM] 7 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 57820000: uvm_test_top.env.schk [SMEM] response at cycle 5778, expected 5775 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 57820000: uvm_test_top.env.schk [SMEM] 4 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 58030000: uvm_test_top.env.schk [SMEM] response at cycle 5799, expected 5798 (2 passes)
+UVM_ERROR smb_tb.sv(95) @ 58030000: uvm_test_top.env.schk [SMEM] 3 passes reported, expected 2
+UVM_ERROR smb_tb.sv(95) @ 58130000: uvm_test_top.env.schk [SMEM] response at cycle 5809, expected 5802 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 58130000: uvm_test_top.env.schk [SMEM] 8 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 58330000: uvm_test_top.env.schk [SMEM] response at cycle 5829, expected 5828 (2 passes)
+UVM_ERROR smb_tb.sv(95) @ 58330000: uvm_test_top.env.schk [SMEM] 3 passes reported, expected 2
+UVM_ERROR smb_tb.sv(95) @ 58510000: uvm_test_top.env.schk [SMEM] response at cycle 5847, expected 5845 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 58510000: uvm_test_top.env.schk [SMEM] 3 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 58610000: uvm_test_top.env.schk [SMEM] response at cycle 5857, expected 5850 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 58610000: uvm_test_top.env.schk [SMEM] 8 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 58860000: uvm_test_top.env.schk [SMEM] response at cycle 5882, expected 5881 (3 passes)
+UVM_ERROR smb_tb.sv(95) @ 58860000: uvm_test_top.env.schk [SMEM] 4 passes reported, expected 3
+UVM_ERROR smb_tb.sv(95) @ 59170000: uvm_test_top.env.schk [SMEM] response at cycle 5913, expected 5908 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 59170000: uvm_test_top.env.schk [SMEM] 6 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 59330000: uvm_test_top.env.schk [SMEM] response at cycle 5929, expected 5928 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 59330000: uvm_test_top.env.schk [SMEM] 2 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 59430000: uvm_test_top.env.schk [SMEM] response at cycle 5939, expected 5932 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 59430000: uvm_test_top.env.schk [SMEM] 8 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 59600000: uvm_test_top.env.schk [SMEM] response at cycle 5956, expected 5955 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 59600000: uvm_test_top.env.schk [SMEM] 2 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 60060000: uvm_test_top.env.schk [SMEM] response at cycle 6002, expected 5998 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 60060000: uvm_test_top.env.schk [SMEM] 5 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 60200000: uvm_test_top.env.schk [SMEM] response at cycle 6016, expected 6013 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 60200000: uvm_test_top.env.schk [SMEM] 4 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 60250000: uvm_test_top.env.schk [SMEM] response at cycle 6021, expected 6020 (2 passes)
+UVM_ERROR smb_tb.sv(95) @ 60250000: uvm_test_top.env.schk [SMEM] 3 passes reported, expected 2
+UVM_ERROR smb_tb.sv(95) @ 60640000: uvm_test_top.env.schk [SMEM] response at cycle 6060, expected 6053 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 60640000: uvm_test_top.env.schk [SMEM] 8 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 60770000: uvm_test_top.env.schk [SMEM] response at cycle 6073, expected 6066 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 60770000: uvm_test_top.env.schk [SMEM] 8 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 60870000: uvm_test_top.env.schk [SMEM] response at cycle 6083, expected 6076 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 60870000: uvm_test_top.env.schk [SMEM] 8 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 60970000: uvm_test_top.env.schk [SMEM] response at cycle 6093, expected 6086 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 60970000: uvm_test_top.env.schk [SMEM] 8 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 61270000: uvm_test_top.env.schk [SMEM] response at cycle 6123, expected 6122 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 61270000: uvm_test_top.env.schk [SMEM] 2 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 61640000: uvm_test_top.env.schk [SMEM] response at cycle 6160, expected 6153 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 61640000: uvm_test_top.env.schk [SMEM] 8 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 61820000: uvm_test_top.env.schk [SMEM] response at cycle 6178, expected 6177 (2 passes)
+UVM_ERROR smb_tb.sv(95) @ 61820000: uvm_test_top.env.schk [SMEM] 3 passes reported, expected 2
+UVM_ERROR smb_tb.sv(95) @ 61870000: uvm_test_top.env.schk [SMEM] response at cycle 6183, expected 6181 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 61870000: uvm_test_top.env.schk [SMEM] 3 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 61930000: uvm_test_top.env.schk [SMEM] response at cycle 6189, expected 6188 (3 passes)
+UVM_ERROR smb_tb.sv(95) @ 61930000: uvm_test_top.env.schk [SMEM] 4 passes reported, expected 3
+UVM_ERROR smb_tb.sv(95) @ 62070000: uvm_test_top.env.schk [SMEM] response at cycle 6203, expected 6196 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 62070000: uvm_test_top.env.schk [SMEM] 8 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 62130000: uvm_test_top.env.schk [SMEM] response at cycle 6209, expected 6206 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 62130000: uvm_test_top.env.schk [SMEM] 4 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 62240000: uvm_test_top.env.schk [SMEM] response at cycle 6220, expected 6218 (2 passes)
+UVM_ERROR smb_tb.sv(95) @ 62240000: uvm_test_top.env.schk [SMEM] 4 passes reported, expected 2
+UVM_ERROR smb_tb.sv(95) @ 62340000: uvm_test_top.env.schk [SMEM] response at cycle 6230, expected 6223 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 62340000: uvm_test_top.env.schk [SMEM] 8 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 62560000: uvm_test_top.env.schk [SMEM] response at cycle 6252, expected 6250 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 62560000: uvm_test_top.env.schk [SMEM] 3 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 62720000: uvm_test_top.env.schk [SMEM] response at cycle 6268, expected 6261 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 62720000: uvm_test_top.env.schk [SMEM] 8 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 62850000: uvm_test_top.env.schk [SMEM] response at cycle 6281, expected 6274 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 62850000: uvm_test_top.env.schk [SMEM] 8 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 63160000: uvm_test_top.env.schk [SMEM] response at cycle 6312, expected 6305 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 63160000: uvm_test_top.env.schk [SMEM] 8 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 63240000: uvm_test_top.env.schk [SMEM] response at cycle 6320, expected 6318 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 63240000: uvm_test_top.env.schk [SMEM] 3 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 63320000: uvm_test_top.env.schk [SMEM] response at cycle 6328, expected 6327 (2 passes)
+UVM_ERROR smb_tb.sv(95) @ 63320000: uvm_test_top.env.schk [SMEM] 3 passes reported, expected 2
+UVM_ERROR smb_tb.sv(95) @ 63450000: uvm_test_top.env.schk [SMEM] response at cycle 6341, expected 6334 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 63450000: uvm_test_top.env.schk [SMEM] 8 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 63560000: uvm_test_top.env.schk [SMEM] response at cycle 6352, expected 6348 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 63560000: uvm_test_top.env.schk [SMEM] 5 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 63610000: uvm_test_top.env.schk [SMEM] response at cycle 6357, expected 6355 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 63610000: uvm_test_top.env.schk [SMEM] 3 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 64070000: uvm_test_top.env.schk [SMEM] response at cycle 6403, expected 6396 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 64070000: uvm_test_top.env.schk [SMEM] 8 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 64590000: uvm_test_top.env.schk [SMEM] response at cycle 6455, expected 6448 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 64590000: uvm_test_top.env.schk [SMEM] 8 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 64650000: uvm_test_top.env.schk [SMEM] response at cycle 6461, expected 6460 (3 passes)
+UVM_ERROR smb_tb.sv(95) @ 64650000: uvm_test_top.env.schk [SMEM] 4 passes reported, expected 3
+UVM_ERROR smb_tb.sv(95) @ 65100000: uvm_test_top.env.schk [SMEM] response at cycle 6506, expected 6505 (4 passes)
+UVM_ERROR smb_tb.sv(95) @ 65100000: uvm_test_top.env.schk [SMEM] 5 passes reported, expected 4
+UVM_ERROR smb_tb.sv(95) @ 66030000: uvm_test_top.env.schk [SMEM] response at cycle 6599, expected 6598 (2 passes)
+UVM_ERROR smb_tb.sv(95) @ 66030000: uvm_test_top.env.schk [SMEM] 3 passes reported, expected 2
+UVM_ERROR smb_tb.sv(95) @ 66180000: uvm_test_top.env.schk [SMEM] response at cycle 6614, expected 6613 (2 passes)
+UVM_ERROR smb_tb.sv(95) @ 66180000: uvm_test_top.env.schk [SMEM] 3 passes reported, expected 2
+UVM_ERROR smb_tb.sv(95) @ 66500000: uvm_test_top.env.schk [SMEM] response at cycle 6646, expected 6645 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 66500000: uvm_test_top.env.schk [SMEM] 2 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 66620000: uvm_test_top.env.schk [SMEM] response at cycle 6658, expected 6657 (2 passes)
+UVM_ERROR smb_tb.sv(95) @ 66620000: uvm_test_top.env.schk [SMEM] 3 passes reported, expected 2
+UVM_ERROR smb_tb.sv(95) @ 66720000: uvm_test_top.env.schk [SMEM] response at cycle 6668, expected 6661 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 66720000: uvm_test_top.env.schk [SMEM] 8 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 66920000: uvm_test_top.env.schk [SMEM] response at cycle 6688, expected 6681 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 66920000: uvm_test_top.env.schk [SMEM] 8 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 67570000: uvm_test_top.env.schk [SMEM] response at cycle 6753, expected 6746 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 67570000: uvm_test_top.env.schk [SMEM] 8 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 67780000: uvm_test_top.env.schk [SMEM] response at cycle 6774, expected 6767 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 67780000: uvm_test_top.env.schk [SMEM] 8 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 67820000: uvm_test_top.env.schk [SMEM] response at cycle 6778, expected 6777 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 67820000: uvm_test_top.env.schk [SMEM] 2 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 68060000: uvm_test_top.env.schk [SMEM] response at cycle 6802, expected 6795 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 68060000: uvm_test_top.env.schk [SMEM] 8 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 68540000: uvm_test_top.env.schk [SMEM] response at cycle 6850, expected 6849 (3 passes)
+UVM_ERROR smb_tb.sv(95) @ 68540000: uvm_test_top.env.schk [SMEM] 4 passes reported, expected 3
+UVM_ERROR smb_tb.sv(95) @ 68580000: uvm_test_top.env.schk [SMEM] response at cycle 6854, expected 6853 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 68580000: uvm_test_top.env.schk [SMEM] 2 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 69180000: uvm_test_top.env.schk [SMEM] response at cycle 6914, expected 6907 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 69180000: uvm_test_top.env.schk [SMEM] 8 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 69220000: uvm_test_top.env.schk [SMEM] response at cycle 6918, expected 6917 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 69220000: uvm_test_top.env.schk [SMEM] 2 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 69440000: uvm_test_top.env.schk [SMEM] response at cycle 6940, expected 6939 (2 passes)
+UVM_ERROR smb_tb.sv(95) @ 69440000: uvm_test_top.env.schk [SMEM] 3 passes reported, expected 2
+UVM_ERROR smb_tb.sv(95) @ 69700000: uvm_test_top.env.schk [SMEM] response at cycle 6966, expected 6959 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 69700000: uvm_test_top.env.schk [SMEM] 8 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 69830000: uvm_test_top.env.schk [SMEM] response at cycle 6979, expected 6972 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 69830000: uvm_test_top.env.schk [SMEM] 8 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 70300000: uvm_test_top.env.schk [SMEM] response at cycle 7026, expected 7024 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 70300000: uvm_test_top.env.schk [SMEM] 3 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 70520000: uvm_test_top.env.schk [SMEM] response at cycle 7048, expected 7047 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 70520000: uvm_test_top.env.schk [SMEM] 2 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 70640000: uvm_test_top.env.schk [SMEM] response at cycle 7060, expected 7055 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 70640000: uvm_test_top.env.schk [SMEM] 6 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 70980000: uvm_test_top.env.schk [SMEM] response at cycle 7094, expected 7087 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 70980000: uvm_test_top.env.schk [SMEM] 8 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 71510000: uvm_test_top.env.schk [SMEM] response at cycle 7147, expected 7143 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 71510000: uvm_test_top.env.schk [SMEM] 5 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 71580000: uvm_test_top.env.schk [SMEM] response at cycle 7154, expected 7153 (2 passes)
+UVM_ERROR smb_tb.sv(95) @ 71580000: uvm_test_top.env.schk [SMEM] 3 passes reported, expected 2
+UVM_ERROR smb_tb.sv(95) @ 71710000: uvm_test_top.env.schk [SMEM] response at cycle 7167, expected 7166 (2 passes)
+UVM_ERROR smb_tb.sv(95) @ 71710000: uvm_test_top.env.schk [SMEM] 3 passes reported, expected 2
+UVM_ERROR smb_tb.sv(95) @ 71830000: uvm_test_top.env.schk [SMEM] response at cycle 7179, expected 7177 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 71830000: uvm_test_top.env.schk [SMEM] 3 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 71870000: uvm_test_top.env.schk [SMEM] response at cycle 7183, expected 7182 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 71870000: uvm_test_top.env.schk [SMEM] 2 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 71960000: uvm_test_top.env.schk [SMEM] response at cycle 7192, expected 7191 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 71960000: uvm_test_top.env.schk [SMEM] 2 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 72090000: uvm_test_top.env.schk [SMEM] response at cycle 7205, expected 7198 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 72090000: uvm_test_top.env.schk [SMEM] 8 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 72360000: uvm_test_top.env.schk [SMEM] response at cycle 7232, expected 7231 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 72360000: uvm_test_top.env.schk [SMEM] 2 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 72510000: uvm_test_top.env.schk [SMEM] response at cycle 7247, expected 7246 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 72510000: uvm_test_top.env.schk [SMEM] 2 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 72740000: uvm_test_top.env.schk [SMEM] response at cycle 7270, expected 7263 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 72740000: uvm_test_top.env.schk [SMEM] 8 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 72840000: uvm_test_top.env.schk [SMEM] response at cycle 7280, expected 7273 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 72840000: uvm_test_top.env.schk [SMEM] 8 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 72920000: uvm_test_top.env.schk [SMEM] response at cycle 7288, expected 7283 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 72920000: uvm_test_top.env.schk [SMEM] 6 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 73050000: uvm_test_top.env.schk [SMEM] response at cycle 7301, expected 7294 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 73050000: uvm_test_top.env.schk [SMEM] 8 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 73200000: uvm_test_top.env.schk [SMEM] response at cycle 7316, expected 7309 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 73200000: uvm_test_top.env.schk [SMEM] 8 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 73300000: uvm_test_top.env.schk [SMEM] response at cycle 7326, expected 7319 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 73300000: uvm_test_top.env.schk [SMEM] 8 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 73670000: uvm_test_top.env.schk [SMEM] response at cycle 7363, expected 7362 (2 passes)
+UVM_ERROR smb_tb.sv(95) @ 73670000: uvm_test_top.env.schk [SMEM] 3 passes reported, expected 2
+UVM_ERROR smb_tb.sv(95) @ 73800000: uvm_test_top.env.schk [SMEM] response at cycle 7376, expected 7369 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 73800000: uvm_test_top.env.schk [SMEM] 8 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 73970000: uvm_test_top.env.schk [SMEM] response at cycle 7393, expected 7386 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 73970000: uvm_test_top.env.schk [SMEM] 8 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 74500000: uvm_test_top.env.schk [SMEM] response at cycle 7446, expected 7445 (2 passes)
+UVM_ERROR smb_tb.sv(95) @ 74500000: uvm_test_top.env.schk [SMEM] 3 passes reported, expected 2
+UVM_ERROR smb_tb.sv(95) @ 74770000: uvm_test_top.env.schk [SMEM] response at cycle 7473, expected 7470 (2 passes)
+UVM_ERROR smb_tb.sv(95) @ 74770000: uvm_test_top.env.schk [SMEM] 5 passes reported, expected 2
+UVM_ERROR smb_tb.sv(95) @ 75370000: uvm_test_top.env.schk [SMEM] response at cycle 7533, expected 7531 (2 passes)
+UVM_ERROR smb_tb.sv(95) @ 75370000: uvm_test_top.env.schk [SMEM] 4 passes reported, expected 2
+UVM_ERROR smb_tb.sv(95) @ 75550000: uvm_test_top.env.schk [SMEM] response at cycle 7551, expected 7550 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 75550000: uvm_test_top.env.schk [SMEM] 2 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 75820000: uvm_test_top.env.schk [SMEM] response at cycle 7578, expected 7574 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 75820000: uvm_test_top.env.schk [SMEM] 5 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 76070000: uvm_test_top.env.schk [SMEM] response at cycle 7603, expected 7602 (2 passes)
+UVM_ERROR smb_tb.sv(95) @ 76070000: uvm_test_top.env.schk [SMEM] 3 passes reported, expected 2
+UVM_ERROR smb_tb.sv(95) @ 76300000: uvm_test_top.env.schk [SMEM] response at cycle 7626, expected 7625 (2 passes)
+UVM_ERROR smb_tb.sv(95) @ 76300000: uvm_test_top.env.schk [SMEM] 3 passes reported, expected 2
+UVM_ERROR smb_tb.sv(95) @ 77340000: uvm_test_top.env.schk [SMEM] response at cycle 7730, expected 7729 (2 passes)
+UVM_ERROR smb_tb.sv(95) @ 77340000: uvm_test_top.env.schk [SMEM] 3 passes reported, expected 2
+UVM_ERROR smb_tb.sv(95) @ 77490000: uvm_test_top.env.schk [SMEM] response at cycle 7745, expected 7744 (2 passes)
+UVM_ERROR smb_tb.sv(95) @ 77490000: uvm_test_top.env.schk [SMEM] 3 passes reported, expected 2
+UVM_ERROR smb_tb.sv(95) @ 77590000: uvm_test_top.env.schk [SMEM] response at cycle 7755, expected 7748 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 77590000: uvm_test_top.env.schk [SMEM] 8 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 77690000: uvm_test_top.env.schk [SMEM] response at cycle 7765, expected 7758 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 77690000: uvm_test_top.env.schk [SMEM] 8 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 78040000: uvm_test_top.env.schk [SMEM] response at cycle 7800, expected 7793 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 78040000: uvm_test_top.env.schk [SMEM] 8 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 78140000: uvm_test_top.env.schk [SMEM] response at cycle 7810, expected 7803 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 78140000: uvm_test_top.env.schk [SMEM] 8 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 78560000: uvm_test_top.env.schk [SMEM] response at cycle 7852, expected 7845 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 78560000: uvm_test_top.env.schk [SMEM] 8 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 79040000: uvm_test_top.env.schk [SMEM] response at cycle 7900, expected 7893 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 79040000: uvm_test_top.env.schk [SMEM] 8 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 79840000: uvm_test_top.env.schk [SMEM] response at cycle 7980, expected 7973 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 79840000: uvm_test_top.env.schk [SMEM] 8 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 79980000: uvm_test_top.env.schk [SMEM] response at cycle 7994, expected 7993 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 79980000: uvm_test_top.env.schk [SMEM] 2 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 80430000: uvm_test_top.env.schk [SMEM] response at cycle 8039, expected 8038 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 80430000: uvm_test_top.env.schk [SMEM] 2 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 80670000: uvm_test_top.env.schk [SMEM] response at cycle 8063, expected 8058 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 80670000: uvm_test_top.env.schk [SMEM] 6 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 81190000: uvm_test_top.env.schk [SMEM] response at cycle 8115, expected 8114 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 81190000: uvm_test_top.env.schk [SMEM] 2 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 81800000: uvm_test_top.env.schk [SMEM] response at cycle 8176, expected 8175 (3 passes)
+UVM_ERROR smb_tb.sv(95) @ 81800000: uvm_test_top.env.schk [SMEM] 4 passes reported, expected 3
+UVM_ERROR smb_tb.sv(95) @ 81900000: uvm_test_top.env.schk [SMEM] response at cycle 8186, expected 8179 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 81900000: uvm_test_top.env.schk [SMEM] 8 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 81950000: uvm_test_top.env.schk [SMEM] response at cycle 8191, expected 8190 (2 passes)
+UVM_ERROR smb_tb.sv(95) @ 81950000: uvm_test_top.env.schk [SMEM] 3 passes reported, expected 2
+UVM_ERROR smb_tb.sv(95) @ 82170000: uvm_test_top.env.schk [SMEM] response at cycle 8213, expected 8212 (2 passes)
+UVM_ERROR smb_tb.sv(95) @ 82170000: uvm_test_top.env.schk [SMEM] 3 passes reported, expected 2
+UVM_ERROR smb_tb.sv(95) @ 82320000: uvm_test_top.env.schk [SMEM] response at cycle 8228, expected 8221 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 82320000: uvm_test_top.env.schk [SMEM] 8 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 82530000: uvm_test_top.env.schk [SMEM] response at cycle 8249, expected 8247 (2 passes)
+UVM_ERROR smb_tb.sv(95) @ 82530000: uvm_test_top.env.schk [SMEM] 4 passes reported, expected 2
+UVM_ERROR smb_tb.sv(95) @ 82700000: uvm_test_top.env.schk [SMEM] response at cycle 8266, expected 8259 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 82700000: uvm_test_top.env.schk [SMEM] 8 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 82800000: uvm_test_top.env.schk [SMEM] response at cycle 8276, expected 8269 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 82800000: uvm_test_top.env.schk [SMEM] 8 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 83240000: uvm_test_top.env.schk [SMEM] response at cycle 8320, expected 8317 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 83240000: uvm_test_top.env.schk [SMEM] 4 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 83430000: uvm_test_top.env.schk [SMEM] response at cycle 8339, expected 8338 (2 passes)
+UVM_ERROR smb_tb.sv(95) @ 83430000: uvm_test_top.env.schk [SMEM] 3 passes reported, expected 2
+UVM_ERROR smb_tb.sv(95) @ 83540000: uvm_test_top.env.schk [SMEM] response at cycle 8350, expected 8349 (2 passes)
+UVM_ERROR smb_tb.sv(95) @ 83540000: uvm_test_top.env.schk [SMEM] 3 passes reported, expected 2
+UVM_ERROR smb_tb.sv(95) @ 83900000: uvm_test_top.env.schk [SMEM] response at cycle 8386, expected 8385 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 83900000: uvm_test_top.env.schk [SMEM] 2 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 84280000: uvm_test_top.env.schk [SMEM] response at cycle 8424, expected 8423 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 84280000: uvm_test_top.env.schk [SMEM] 2 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 84360000: uvm_test_top.env.schk [SMEM] response at cycle 8432, expected 8431 (2 passes)
+UVM_ERROR smb_tb.sv(95) @ 84360000: uvm_test_top.env.schk [SMEM] 3 passes reported, expected 2
+UVM_ERROR smb_tb.sv(95) @ 84820000: uvm_test_top.env.schk [SMEM] response at cycle 8478, expected 8476 (2 passes)
+UVM_ERROR smb_tb.sv(95) @ 84820000: uvm_test_top.env.schk [SMEM] 4 passes reported, expected 2
+UVM_ERROR smb_tb.sv(95) @ 85290000: uvm_test_top.env.schk [SMEM] response at cycle 8525, expected 8521 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 85290000: uvm_test_top.env.schk [SMEM] 5 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 85530000: uvm_test_top.env.schk [SMEM] response at cycle 8549, expected 8544 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 85530000: uvm_test_top.env.schk [SMEM] 6 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 85590000: uvm_test_top.env.schk [SMEM] response at cycle 8555, expected 8552 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 85590000: uvm_test_top.env.schk [SMEM] 4 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 86040000: uvm_test_top.env.schk [SMEM] response at cycle 8600, expected 8593 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 86040000: uvm_test_top.env.schk [SMEM] 8 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 86140000: uvm_test_top.env.schk [SMEM] response at cycle 8610, expected 8603 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 86140000: uvm_test_top.env.schk [SMEM] 8 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 86220000: uvm_test_top.env.schk [SMEM] response at cycle 8618, expected 8613 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 86220000: uvm_test_top.env.schk [SMEM] 6 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 86320000: uvm_test_top.env.schk [SMEM] response at cycle 8628, expected 8621 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 86320000: uvm_test_top.env.schk [SMEM] 8 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 86620000: uvm_test_top.env.schk [SMEM] response at cycle 8658, expected 8656 (2 passes)
+UVM_ERROR smb_tb.sv(95) @ 86620000: uvm_test_top.env.schk [SMEM] 4 passes reported, expected 2
+UVM_ERROR smb_tb.sv(95) @ 86700000: uvm_test_top.env.schk [SMEM] response at cycle 8666, expected 8665 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 86700000: uvm_test_top.env.schk [SMEM] 2 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 86960000: uvm_test_top.env.schk [SMEM] response at cycle 8692, expected 8685 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 86960000: uvm_test_top.env.schk [SMEM] 8 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 87080000: uvm_test_top.env.schk [SMEM] response at cycle 8704, expected 8703 (2 passes)
+UVM_ERROR smb_tb.sv(95) @ 87080000: uvm_test_top.env.schk [SMEM] 3 passes reported, expected 2
+UVM_ERROR smb_tb.sv(95) @ 87420000: uvm_test_top.env.schk [SMEM] response at cycle 8738, expected 8731 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 87420000: uvm_test_top.env.schk [SMEM] 8 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 87480000: uvm_test_top.env.schk [SMEM] response at cycle 8744, expected 8743 (3 passes)
+UVM_ERROR smb_tb.sv(95) @ 87480000: uvm_test_top.env.schk [SMEM] 4 passes reported, expected 3
+UVM_ERROR smb_tb.sv(95) @ 87740000: uvm_test_top.env.schk [SMEM] response at cycle 8770, expected 8763 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 87740000: uvm_test_top.env.schk [SMEM] 8 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 87920000: uvm_test_top.env.schk [SMEM] response at cycle 8788, expected 8781 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 87920000: uvm_test_top.env.schk [SMEM] 8 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 88280000: uvm_test_top.env.schk [SMEM] response at cycle 8824, expected 8820 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 88280000: uvm_test_top.env.schk [SMEM] 5 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 88620000: uvm_test_top.env.schk [SMEM] response at cycle 8858, expected 8851 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 88620000: uvm_test_top.env.schk [SMEM] 8 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 88720000: uvm_test_top.env.schk [SMEM] response at cycle 8868, expected 8861 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 88720000: uvm_test_top.env.schk [SMEM] 8 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 88860000: uvm_test_top.env.schk [SMEM] response at cycle 8882, expected 8880 (2 passes)
+UVM_ERROR smb_tb.sv(95) @ 88860000: uvm_test_top.env.schk [SMEM] 4 passes reported, expected 2
+UVM_ERROR smb_tb.sv(95) @ 89010000: uvm_test_top.env.schk [SMEM] response at cycle 8897, expected 8896 (2 passes)
+UVM_ERROR smb_tb.sv(95) @ 89010000: uvm_test_top.env.schk [SMEM] 3 passes reported, expected 2
+UVM_ERROR smb_tb.sv(95) @ 89070000: uvm_test_top.env.schk [SMEM] response at cycle 8903, expected 8902 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 89070000: uvm_test_top.env.schk [SMEM] 2 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 89230000: uvm_test_top.env.schk [SMEM] response at cycle 8919, expected 8918 (2 passes)
+UVM_ERROR smb_tb.sv(95) @ 89230000: uvm_test_top.env.schk [SMEM] 3 passes reported, expected 2
+UVM_ERROR smb_tb.sv(95) @ 89780000: uvm_test_top.env.schk [SMEM] response at cycle 8974, expected 8973 (2 passes)
+UVM_ERROR smb_tb.sv(95) @ 89780000: uvm_test_top.env.schk [SMEM] 3 passes reported, expected 2
+UVM_ERROR smb_tb.sv(95) @ 89920000: uvm_test_top.env.schk [SMEM] response at cycle 8988, expected 8987 (2 passes)
+UVM_ERROR smb_tb.sv(95) @ 89920000: uvm_test_top.env.schk [SMEM] 3 passes reported, expected 2
+UVM_ERROR smb_tb.sv(95) @ 89980000: uvm_test_top.env.schk [SMEM] response at cycle 8994, expected 8991 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 89980000: uvm_test_top.env.schk [SMEM] 4 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 90120000: uvm_test_top.env.schk [SMEM] response at cycle 9008, expected 9001 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 90120000: uvm_test_top.env.schk [SMEM] 8 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 90610000: uvm_test_top.env.schk [SMEM] response at cycle 9057, expected 9050 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 90610000: uvm_test_top.env.schk [SMEM] 8 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 91260000: uvm_test_top.env.schk [SMEM] response at cycle 9122, expected 9121 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 91260000: uvm_test_top.env.schk [SMEM] 2 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 91330000: uvm_test_top.env.schk [SMEM] response at cycle 9129, expected 9125 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 91330000: uvm_test_top.env.schk [SMEM] 5 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 91430000: uvm_test_top.env.schk [SMEM] response at cycle 9139, expected 9132 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 91430000: uvm_test_top.env.schk [SMEM] 8 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 91480000: uvm_test_top.env.schk [SMEM] response at cycle 9144, expected 9143 (2 passes)
+UVM_ERROR smb_tb.sv(95) @ 91480000: uvm_test_top.env.schk [SMEM] 3 passes reported, expected 2
+UVM_ERROR smb_tb.sv(95) @ 92210000: uvm_test_top.env.schk [SMEM] response at cycle 9217, expected 9216 (3 passes)
+UVM_ERROR smb_tb.sv(95) @ 92210000: uvm_test_top.env.schk [SMEM] 4 passes reported, expected 3
+UVM_ERROR smb_tb.sv(95) @ 92340000: uvm_test_top.env.schk [SMEM] response at cycle 9230, expected 9228 (2 passes)
+UVM_ERROR smb_tb.sv(95) @ 92340000: uvm_test_top.env.schk [SMEM] 4 passes reported, expected 2
+UVM_ERROR smb_tb.sv(95) @ 92600000: uvm_test_top.env.schk [SMEM] response at cycle 9256, expected 9249 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 92600000: uvm_test_top.env.schk [SMEM] 8 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 92740000: uvm_test_top.env.schk [SMEM] response at cycle 9270, expected 9263 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 92740000: uvm_test_top.env.schk [SMEM] 8 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 93010000: uvm_test_top.env.schk [SMEM] response at cycle 9297, expected 9290 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 93010000: uvm_test_top.env.schk [SMEM] 8 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 93160000: uvm_test_top.env.schk [SMEM] response at cycle 9312, expected 9311 (2 passes)
+UVM_ERROR smb_tb.sv(95) @ 93160000: uvm_test_top.env.schk [SMEM] 3 passes reported, expected 2
+UVM_ERROR smb_tb.sv(95) @ 93360000: uvm_test_top.env.schk [SMEM] response at cycle 9332, expected 9331 (2 passes)
+UVM_ERROR smb_tb.sv(95) @ 93360000: uvm_test_top.env.schk [SMEM] 3 passes reported, expected 2
+UVM_ERROR smb_tb.sv(95) @ 93900000: uvm_test_top.env.schk [SMEM] response at cycle 9386, expected 9385 (3 passes)
+UVM_ERROR smb_tb.sv(95) @ 93900000: uvm_test_top.env.schk [SMEM] 4 passes reported, expected 3
+UVM_ERROR smb_tb.sv(95) @ 94180000: uvm_test_top.env.schk [SMEM] response at cycle 9414, expected 9407 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 94180000: uvm_test_top.env.schk [SMEM] 8 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 94270000: uvm_test_top.env.schk [SMEM] response at cycle 9423, expected 9420 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 94270000: uvm_test_top.env.schk [SMEM] 4 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 94370000: uvm_test_top.env.schk [SMEM] response at cycle 9433, expected 9432 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 94370000: uvm_test_top.env.schk [SMEM] 2 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 94990000: uvm_test_top.env.schk [SMEM] response at cycle 9495, expected 9494 (2 passes)
+UVM_ERROR smb_tb.sv(95) @ 94990000: uvm_test_top.env.schk [SMEM] 3 passes reported, expected 2
+UVM_ERROR smb_tb.sv(95) @ 95040000: uvm_test_top.env.schk [SMEM] response at cycle 9500, expected 9498 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 95040000: uvm_test_top.env.schk [SMEM] 3 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 95100000: uvm_test_top.env.schk [SMEM] response at cycle 9506, expected 9505 (3 passes)
+UVM_ERROR smb_tb.sv(95) @ 95100000: uvm_test_top.env.schk [SMEM] 4 passes reported, expected 3
+UVM_ERROR smb_tb.sv(95) @ 95200000: uvm_test_top.env.schk [SMEM] response at cycle 9516, expected 9509 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 95200000: uvm_test_top.env.schk [SMEM] 8 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 95340000: uvm_test_top.env.schk [SMEM] response at cycle 9530, expected 9523 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 95340000: uvm_test_top.env.schk [SMEM] 8 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 96050000: uvm_test_top.env.schk [SMEM] response at cycle 9601, expected 9594 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 96050000: uvm_test_top.env.schk [SMEM] 8 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 96510000: uvm_test_top.env.schk [SMEM] response at cycle 9647, expected 9646 (4 passes)
+UVM_ERROR smb_tb.sv(95) @ 96510000: uvm_test_top.env.schk [SMEM] 5 passes reported, expected 4
+UVM_ERROR smb_tb.sv(95) @ 96590000: uvm_test_top.env.schk [SMEM] response at cycle 9655, expected 9654 (2 passes)
+UVM_ERROR smb_tb.sv(95) @ 96590000: uvm_test_top.env.schk [SMEM] 3 passes reported, expected 2
+UVM_ERROR smb_tb.sv(95) @ 96670000: uvm_test_top.env.schk [SMEM] response at cycle 9663, expected 9658 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 96670000: uvm_test_top.env.schk [SMEM] 6 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 96830000: uvm_test_top.env.schk [SMEM] response at cycle 9679, expected 9672 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 96830000: uvm_test_top.env.schk [SMEM] 8 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 96970000: uvm_test_top.env.schk [SMEM] response at cycle 9693, expected 9692 (2 passes)
+UVM_ERROR smb_tb.sv(95) @ 96970000: uvm_test_top.env.schk [SMEM] 3 passes reported, expected 2
+UVM_ERROR smb_tb.sv(95) @ 97070000: uvm_test_top.env.schk [SMEM] response at cycle 9703, expected 9702 (2 passes)
+UVM_ERROR smb_tb.sv(95) @ 97070000: uvm_test_top.env.schk [SMEM] 3 passes reported, expected 2
+UVM_ERROR smb_tb.sv(95) @ 97320000: uvm_test_top.env.schk [SMEM] response at cycle 9728, expected 9727 (2 passes)
+UVM_ERROR smb_tb.sv(95) @ 97320000: uvm_test_top.env.schk [SMEM] 3 passes reported, expected 2
+UVM_ERROR smb_tb.sv(95) @ 97440000: uvm_test_top.env.schk [SMEM] response at cycle 9740, expected 9739 (3 passes)
+UVM_ERROR smb_tb.sv(95) @ 97440000: uvm_test_top.env.schk [SMEM] 4 passes reported, expected 3
+UVM_ERROR smb_tb.sv(95) @ 98270000: uvm_test_top.env.schk [SMEM] response at cycle 9823, expected 9816 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 98270000: uvm_test_top.env.schk [SMEM] 8 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 98410000: uvm_test_top.env.schk [SMEM] response at cycle 9837, expected 9830 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 98410000: uvm_test_top.env.schk [SMEM] 8 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 98460000: uvm_test_top.env.schk [SMEM] response at cycle 9842, expected 9840 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 98460000: uvm_test_top.env.schk [SMEM] 3 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 98560000: uvm_test_top.env.schk [SMEM] response at cycle 9852, expected 9845 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 98560000: uvm_test_top.env.schk [SMEM] 8 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 98930000: uvm_test_top.env.schk [SMEM] response at cycle 9889, expected 9882 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 98930000: uvm_test_top.env.schk [SMEM] 8 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 99080000: uvm_test_top.env.schk [SMEM] response at cycle 9904, expected 9902 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 99080000: uvm_test_top.env.schk [SMEM] 3 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 99280000: uvm_test_top.env.schk [SMEM] response at cycle 9924, expected 9917 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 99280000: uvm_test_top.env.schk [SMEM] 8 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 99320000: uvm_test_top.env.schk [SMEM] response at cycle 9928, expected 9927 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 99320000: uvm_test_top.env.schk [SMEM] 2 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 99480000: uvm_test_top.env.schk [SMEM] response at cycle 9944, expected 9943 (2 passes)
+UVM_ERROR smb_tb.sv(95) @ 99480000: uvm_test_top.env.schk [SMEM] 3 passes reported, expected 2
+UVM_ERROR smb_tb.sv(95) @ 99590000: uvm_test_top.env.schk [SMEM] response at cycle 9955, expected 9951 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 99590000: uvm_test_top.env.schk [SMEM] 5 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 99680000: uvm_test_top.env.schk [SMEM] response at cycle 9964, expected 9962 (2 passes)
+UVM_ERROR smb_tb.sv(95) @ 99680000: uvm_test_top.env.schk [SMEM] 4 passes reported, expected 2
+UVM_ERROR smb_tb.sv(95) @ 100310000: uvm_test_top.env.schk [SMEM] response at cycle 10027, expected 10020 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 100310000: uvm_test_top.env.schk [SMEM] 8 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 100350000: uvm_test_top.env.schk [SMEM] response at cycle 10031, expected 10030 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 100350000: uvm_test_top.env.schk [SMEM] 2 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 100520000: uvm_test_top.env.schk [SMEM] response at cycle 10048, expected 10044 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 100520000: uvm_test_top.env.schk [SMEM] 5 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 100920000: uvm_test_top.env.schk [SMEM] response at cycle 10088, expected 10087 (2 passes)
+UVM_ERROR smb_tb.sv(95) @ 100920000: uvm_test_top.env.schk [SMEM] 3 passes reported, expected 2
+UVM_ERROR smb_tb.sv(95) @ 101130000: uvm_test_top.env.schk [SMEM] response at cycle 10109, expected 10102 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 101130000: uvm_test_top.env.schk [SMEM] 8 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 101470000: uvm_test_top.env.schk [SMEM] response at cycle 10143, expected 10139 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 101470000: uvm_test_top.env.schk [SMEM] 5 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 101620000: uvm_test_top.env.schk [SMEM] response at cycle 10158, expected 10155 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 101620000: uvm_test_top.env.schk [SMEM] 4 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 101740000: uvm_test_top.env.schk [SMEM] response at cycle 10170, expected 10166 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 101740000: uvm_test_top.env.schk [SMEM] 5 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 101860000: uvm_test_top.env.schk [SMEM] response at cycle 10182, expected 10179 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 101860000: uvm_test_top.env.schk [SMEM] 4 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 102110000: uvm_test_top.env.schk [SMEM] response at cycle 10207, expected 10206 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 102110000: uvm_test_top.env.schk [SMEM] 2 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 102220000: uvm_test_top.env.schk [SMEM] response at cycle 10218, expected 10213 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 102220000: uvm_test_top.env.schk [SMEM] 6 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 102370000: uvm_test_top.env.schk [SMEM] response at cycle 10233, expected 10231 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 102370000: uvm_test_top.env.schk [SMEM] 3 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 102420000: uvm_test_top.env.schk [SMEM] response at cycle 10238, expected 10237 (2 passes)
+UVM_ERROR smb_tb.sv(95) @ 102420000: uvm_test_top.env.schk [SMEM] 3 passes reported, expected 2
+UVM_ERROR smb_tb.sv(95) @ 102630000: uvm_test_top.env.schk [SMEM] response at cycle 10259, expected 10258 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 102630000: uvm_test_top.env.schk [SMEM] 2 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 103060000: uvm_test_top.env.schk [SMEM] response at cycle 10302, expected 10301 (2 passes)
+UVM_ERROR smb_tb.sv(95) @ 103060000: uvm_test_top.env.schk [SMEM] 3 passes reported, expected 2
+UVM_ERROR smb_tb.sv(95) @ 103160000: uvm_test_top.env.schk [SMEM] response at cycle 10312, expected 10305 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 103160000: uvm_test_top.env.schk [SMEM] 8 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 103310000: uvm_test_top.env.schk [SMEM] response at cycle 10327, expected 10326 (2 passes)
+UVM_ERROR smb_tb.sv(95) @ 103310000: uvm_test_top.env.schk [SMEM] 3 passes reported, expected 2
+UVM_ERROR smb_tb.sv(95) @ 103410000: uvm_test_top.env.schk [SMEM] response at cycle 10337, expected 10330 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 103410000: uvm_test_top.env.schk [SMEM] 8 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 103600000: uvm_test_top.env.schk [SMEM] response at cycle 10356, expected 10354 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 103600000: uvm_test_top.env.schk [SMEM] 3 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 103910000: uvm_test_top.env.schk [SMEM] response at cycle 10387, expected 10380 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 103910000: uvm_test_top.env.schk [SMEM] 8 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 103970000: uvm_test_top.env.schk [SMEM] response at cycle 10393, expected 10391 (2 passes)
+UVM_ERROR smb_tb.sv(95) @ 103970000: uvm_test_top.env.schk [SMEM] 4 passes reported, expected 2
+UVM_ERROR smb_tb.sv(95) @ 104090000: uvm_test_top.env.schk [SMEM] response at cycle 10405, expected 10401 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 104090000: uvm_test_top.env.schk [SMEM] 5 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 104450000: uvm_test_top.env.schk [SMEM] response at cycle 10441, expected 10437 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 104450000: uvm_test_top.env.schk [SMEM] 5 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 104890000: uvm_test_top.env.schk [SMEM] response at cycle 10485, expected 10478 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 104890000: uvm_test_top.env.schk [SMEM] 8 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 105270000: uvm_test_top.env.schk [SMEM] response at cycle 10523, expected 10516 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 105270000: uvm_test_top.env.schk [SMEM] 8 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 105360000: uvm_test_top.env.schk [SMEM] response at cycle 10532, expected 10531 (2 passes)
+UVM_ERROR smb_tb.sv(95) @ 105360000: uvm_test_top.env.schk [SMEM] 3 passes reported, expected 2
+UVM_ERROR smb_tb.sv(95) @ 105480000: uvm_test_top.env.schk [SMEM] response at cycle 10544, expected 10542 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 105480000: uvm_test_top.env.schk [SMEM] 3 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 105550000: uvm_test_top.env.schk [SMEM] response at cycle 10551, expected 10547 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 105550000: uvm_test_top.env.schk [SMEM] 5 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 105770000: uvm_test_top.env.schk [SMEM] response at cycle 10573, expected 10569 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 105770000: uvm_test_top.env.schk [SMEM] 5 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 106040000: uvm_test_top.env.schk [SMEM] response at cycle 10600, expected 10596 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 106040000: uvm_test_top.env.schk [SMEM] 5 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 106150000: uvm_test_top.env.schk [SMEM] response at cycle 10611, expected 10606 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 106150000: uvm_test_top.env.schk [SMEM] 6 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 106250000: uvm_test_top.env.schk [SMEM] response at cycle 10621, expected 10614 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 106250000: uvm_test_top.env.schk [SMEM] 8 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 107010000: uvm_test_top.env.schk [SMEM] response at cycle 10697, expected 10695 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 107010000: uvm_test_top.env.schk [SMEM] 3 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 107450000: uvm_test_top.env.schk [SMEM] response at cycle 10741, expected 10740 (2 passes)
+UVM_ERROR smb_tb.sv(95) @ 107450000: uvm_test_top.env.schk [SMEM] 3 passes reported, expected 2
+UVM_ERROR smb_tb.sv(95) @ 107620000: uvm_test_top.env.schk [SMEM] response at cycle 10758, expected 10751 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 107620000: uvm_test_top.env.schk [SMEM] 8 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 108040000: uvm_test_top.env.schk [SMEM] response at cycle 10800, expected 10793 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 108040000: uvm_test_top.env.schk [SMEM] 8 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 108520000: uvm_test_top.env.schk [SMEM] response at cycle 10848, expected 10841 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 108520000: uvm_test_top.env.schk [SMEM] 8 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 108580000: uvm_test_top.env.schk [SMEM] response at cycle 10854, expected 10851 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 108580000: uvm_test_top.env.schk [SMEM] 4 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 108860000: uvm_test_top.env.schk [SMEM] response at cycle 10882, expected 10881 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 108860000: uvm_test_top.env.schk [SMEM] 2 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 109270000: uvm_test_top.env.schk [SMEM] response at cycle 10923, expected 10921 (2 passes)
+UVM_ERROR smb_tb.sv(95) @ 109270000: uvm_test_top.env.schk [SMEM] 4 passes reported, expected 2
+UVM_ERROR smb_tb.sv(95) @ 109710000: uvm_test_top.env.schk [SMEM] response at cycle 10967, expected 10966 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 109710000: uvm_test_top.env.schk [SMEM] 2 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 110160000: uvm_test_top.env.schk [SMEM] response at cycle 11012, expected 11011 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 110160000: uvm_test_top.env.schk [SMEM] 2 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 110270000: uvm_test_top.env.schk [SMEM] response at cycle 11023, expected 11020 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 110270000: uvm_test_top.env.schk [SMEM] 4 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 110340000: uvm_test_top.env.schk [SMEM] response at cycle 11030, expected 11026 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 110340000: uvm_test_top.env.schk [SMEM] 5 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 111160000: uvm_test_top.env.schk [SMEM] response at cycle 11112, expected 11105 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 111160000: uvm_test_top.env.schk [SMEM] 8 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 111200000: uvm_test_top.env.schk [SMEM] response at cycle 11116, expected 11115 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 111200000: uvm_test_top.env.schk [SMEM] 2 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 111540000: uvm_test_top.env.schk [SMEM] response at cycle 11150, expected 11147 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 111540000: uvm_test_top.env.schk [SMEM] 4 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 111780000: uvm_test_top.env.schk [SMEM] response at cycle 11174, expected 11173 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 111780000: uvm_test_top.env.schk [SMEM] 2 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 112490000: uvm_test_top.env.schk [SMEM] response at cycle 11245, expected 11244 (2 passes)
+UVM_ERROR smb_tb.sv(95) @ 112490000: uvm_test_top.env.schk [SMEM] 3 passes reported, expected 2
+UVM_ERROR smb_tb.sv(95) @ 112600000: uvm_test_top.env.schk [SMEM] response at cycle 11256, expected 11255 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 112600000: uvm_test_top.env.schk [SMEM] 2 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 112650000: uvm_test_top.env.schk [SMEM] response at cycle 11261, expected 11260 (2 passes)
+UVM_ERROR smb_tb.sv(95) @ 112650000: uvm_test_top.env.schk [SMEM] 3 passes reported, expected 2
+UVM_ERROR smb_tb.sv(95) @ 112710000: uvm_test_top.env.schk [SMEM] response at cycle 11267, expected 11264 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 112710000: uvm_test_top.env.schk [SMEM] 4 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 112990000: uvm_test_top.env.schk [SMEM] response at cycle 11295, expected 11294 (2 passes)
+UVM_ERROR smb_tb.sv(95) @ 112990000: uvm_test_top.env.schk [SMEM] 3 passes reported, expected 2
+UVM_ERROR smb_tb.sv(95) @ 113090000: uvm_test_top.env.schk [SMEM] response at cycle 11305, expected 11301 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 113090000: uvm_test_top.env.schk [SMEM] 5 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 113420000: uvm_test_top.env.schk [SMEM] response at cycle 11338, expected 11331 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 113420000: uvm_test_top.env.schk [SMEM] 8 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 113970000: uvm_test_top.env.schk [SMEM] response at cycle 11393, expected 11386 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 113970000: uvm_test_top.env.schk [SMEM] 8 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 114480000: uvm_test_top.env.schk [SMEM] response at cycle 11444, expected 11443 (2 passes)
+UVM_ERROR smb_tb.sv(95) @ 114480000: uvm_test_top.env.schk [SMEM] 3 passes reported, expected 2
+UVM_ERROR smb_tb.sv(95) @ 114700000: uvm_test_top.env.schk [SMEM] response at cycle 11466, expected 11459 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 114700000: uvm_test_top.env.schk [SMEM] 8 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 114950000: uvm_test_top.env.schk [SMEM] response at cycle 11491, expected 11490 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 114950000: uvm_test_top.env.schk [SMEM] 2 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 115050000: uvm_test_top.env.schk [SMEM] response at cycle 11501, expected 11494 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 115050000: uvm_test_top.env.schk [SMEM] 8 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 115310000: uvm_test_top.env.schk [SMEM] response at cycle 11527, expected 11520 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 115310000: uvm_test_top.env.schk [SMEM] 8 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 115410000: uvm_test_top.env.schk [SMEM] response at cycle 11537, expected 11530 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 115410000: uvm_test_top.env.schk [SMEM] 8 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 115510000: uvm_test_top.env.schk [SMEM] response at cycle 11547, expected 11543 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 115510000: uvm_test_top.env.schk [SMEM] 5 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 115760000: uvm_test_top.env.schk [SMEM] response at cycle 11572, expected 11571 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 115760000: uvm_test_top.env.schk [SMEM] 2 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 115990000: uvm_test_top.env.schk [SMEM] response at cycle 11595, expected 11588 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 115990000: uvm_test_top.env.schk [SMEM] 8 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 116160000: uvm_test_top.env.schk [SMEM] response at cycle 11612, expected 11605 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 116160000: uvm_test_top.env.schk [SMEM] 8 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 116310000: uvm_test_top.env.schk [SMEM] response at cycle 11627, expected 11620 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 116310000: uvm_test_top.env.schk [SMEM] 8 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 116530000: uvm_test_top.env.schk [SMEM] response at cycle 11649, expected 11646 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 116530000: uvm_test_top.env.schk [SMEM] 4 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 116710000: uvm_test_top.env.schk [SMEM] response at cycle 11667, expected 11666 (2 passes)
+UVM_ERROR smb_tb.sv(95) @ 116710000: uvm_test_top.env.schk [SMEM] 3 passes reported, expected 2
+UVM_ERROR smb_tb.sv(95) @ 117010000: uvm_test_top.env.schk [SMEM] response at cycle 11697, expected 11696 (2 passes)
+UVM_ERROR smb_tb.sv(95) @ 117010000: uvm_test_top.env.schk [SMEM] 3 passes reported, expected 2
+UVM_ERROR smb_tb.sv(95) @ 117080000: uvm_test_top.env.schk [SMEM] response at cycle 11704, expected 11700 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 117080000: uvm_test_top.env.schk [SMEM] 5 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 117390000: uvm_test_top.env.schk [SMEM] response at cycle 11735, expected 11734 (2 passes)
+UVM_ERROR smb_tb.sv(95) @ 117390000: uvm_test_top.env.schk [SMEM] 3 passes reported, expected 2
+UVM_ERROR smb_tb.sv(95) @ 117630000: uvm_test_top.env.schk [SMEM] response at cycle 11759, expected 11755 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 117630000: uvm_test_top.env.schk [SMEM] 5 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 118490000: uvm_test_top.env.schk [SMEM] response at cycle 11845, expected 11840 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 118490000: uvm_test_top.env.schk [SMEM] 6 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 118580000: uvm_test_top.env.schk [SMEM] response at cycle 11854, expected 11853 (2 passes)
+UVM_ERROR smb_tb.sv(95) @ 118580000: uvm_test_top.env.schk [SMEM] 3 passes reported, expected 2
+UVM_ERROR smb_tb.sv(95) @ 118690000: uvm_test_top.env.schk [SMEM] response at cycle 11865, expected 11862 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 118690000: uvm_test_top.env.schk [SMEM] 4 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 119250000: uvm_test_top.env.schk [SMEM] response at cycle 11921, expected 11914 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 119250000: uvm_test_top.env.schk [SMEM] 8 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 119820000: uvm_test_top.env.schk [SMEM] response at cycle 11978, expected 11971 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 119820000: uvm_test_top.env.schk [SMEM] 8 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 120380000: uvm_test_top.env.schk [SMEM] response at cycle 12034, expected 12027 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 120380000: uvm_test_top.env.schk [SMEM] 8 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 120430000: uvm_test_top.env.schk [SMEM] response at cycle 12039, expected 12038 (2 passes)
+UVM_ERROR smb_tb.sv(95) @ 120430000: uvm_test_top.env.schk [SMEM] 3 passes reported, expected 2
+UVM_ERROR smb_tb.sv(95) @ 120470000: uvm_test_top.env.schk [SMEM] response at cycle 12043, expected 12042 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 120470000: uvm_test_top.env.schk [SMEM] 2 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 120890000: uvm_test_top.env.schk [SMEM] response at cycle 12085, expected 12084 (3 passes)
+UVM_ERROR smb_tb.sv(95) @ 120890000: uvm_test_top.env.schk [SMEM] 4 passes reported, expected 3
+UVM_ERROR smb_tb.sv(95) @ 121080000: uvm_test_top.env.schk [SMEM] response at cycle 12104, expected 12103 (4 passes)
+UVM_ERROR smb_tb.sv(95) @ 121080000: uvm_test_top.env.schk [SMEM] 5 passes reported, expected 4
+UVM_ERROR smb_tb.sv(95) @ 121240000: uvm_test_top.env.schk [SMEM] response at cycle 12120, expected 12119 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 121240000: uvm_test_top.env.schk [SMEM] 2 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 121280000: uvm_test_top.env.schk [SMEM] response at cycle 12124, expected 12123 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 121280000: uvm_test_top.env.schk [SMEM] 2 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 121580000: uvm_test_top.env.schk [SMEM] response at cycle 12154, expected 12153 (2 passes)
+UVM_ERROR smb_tb.sv(95) @ 121580000: uvm_test_top.env.schk [SMEM] 3 passes reported, expected 2
+UVM_ERROR smb_tb.sv(95) @ 121620000: uvm_test_top.env.schk [SMEM] response at cycle 12158, expected 12157 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 121620000: uvm_test_top.env.schk [SMEM] 2 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 121800000: uvm_test_top.env.schk [SMEM] response at cycle 12176, expected 12175 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 121800000: uvm_test_top.env.schk [SMEM] 2 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 122100000: uvm_test_top.env.schk [SMEM] response at cycle 12206, expected 12199 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 122100000: uvm_test_top.env.schk [SMEM] 8 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 122190000: uvm_test_top.env.schk [SMEM] response at cycle 12215, expected 12213 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 122190000: uvm_test_top.env.schk [SMEM] 3 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 122290000: uvm_test_top.env.schk [SMEM] response at cycle 12225, expected 12218 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 122290000: uvm_test_top.env.schk [SMEM] 8 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 122620000: uvm_test_top.env.schk [SMEM] response at cycle 12258, expected 12251 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 122620000: uvm_test_top.env.schk [SMEM] 8 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 122790000: uvm_test_top.env.schk [SMEM] response at cycle 12275, expected 12274 (2 passes)
+UVM_ERROR smb_tb.sv(95) @ 122790000: uvm_test_top.env.schk [SMEM] 3 passes reported, expected 2
+UVM_ERROR smb_tb.sv(95) @ 122890000: uvm_test_top.env.schk [SMEM] response at cycle 12285, expected 12278 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 122890000: uvm_test_top.env.schk [SMEM] 8 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 122960000: uvm_test_top.env.schk [SMEM] response at cycle 12292, expected 12289 (2 passes)
+UVM_ERROR smb_tb.sv(95) @ 122960000: uvm_test_top.env.schk [SMEM] 5 passes reported, expected 2
+UVM_ERROR smb_tb.sv(95) @ 123090000: uvm_test_top.env.schk [SMEM] response at cycle 12305, expected 12298 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 123090000: uvm_test_top.env.schk [SMEM] 8 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 123220000: uvm_test_top.env.schk [SMEM] response at cycle 12318, expected 12311 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 123220000: uvm_test_top.env.schk [SMEM] 8 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 123590000: uvm_test_top.env.schk [SMEM] response at cycle 12355, expected 12348 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 123590000: uvm_test_top.env.schk [SMEM] 8 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 123680000: uvm_test_top.env.schk [SMEM] response at cycle 12364, expected 12363 (2 passes)
+UVM_ERROR smb_tb.sv(95) @ 123680000: uvm_test_top.env.schk [SMEM] 3 passes reported, expected 2
+UVM_ERROR smb_tb.sv(95) @ 123730000: uvm_test_top.env.schk [SMEM] response at cycle 12369, expected 12368 (2 passes)
+UVM_ERROR smb_tb.sv(95) @ 123730000: uvm_test_top.env.schk [SMEM] 3 passes reported, expected 2
+UVM_ERROR smb_tb.sv(95) @ 123780000: uvm_test_top.env.schk [SMEM] response at cycle 12374, expected 12372 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 123780000: uvm_test_top.env.schk [SMEM] 3 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 123930000: uvm_test_top.env.schk [SMEM] response at cycle 12389, expected 12387 (2 passes)
+UVM_ERROR smb_tb.sv(95) @ 123930000: uvm_test_top.env.schk [SMEM] 4 passes reported, expected 2
+UVM_ERROR smb_tb.sv(95) @ 124050000: uvm_test_top.env.schk [SMEM] response at cycle 12401, expected 12396 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 124050000: uvm_test_top.env.schk [SMEM] 6 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 124190000: uvm_test_top.env.schk [SMEM] response at cycle 12415, expected 12414 (2 passes)
+UVM_ERROR smb_tb.sv(95) @ 124190000: uvm_test_top.env.schk [SMEM] 3 passes reported, expected 2
+UVM_ERROR smb_tb.sv(95) @ 124800000: uvm_test_top.env.schk [SMEM] response at cycle 12476, expected 12470 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 124800000: uvm_test_top.env.schk [SMEM] 7 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 125040000: uvm_test_top.env.schk [SMEM] response at cycle 12500, expected 12499 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 125040000: uvm_test_top.env.schk [SMEM] 2 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 125380000: uvm_test_top.env.schk [SMEM] response at cycle 12534, expected 12527 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 125380000: uvm_test_top.env.schk [SMEM] 8 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 125830000: uvm_test_top.env.schk [SMEM] response at cycle 12579, expected 12578 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 125830000: uvm_test_top.env.schk [SMEM] 2 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 125890000: uvm_test_top.env.schk [SMEM] response at cycle 12585, expected 12584 (3 passes)
+UVM_ERROR smb_tb.sv(95) @ 125890000: uvm_test_top.env.schk [SMEM] 4 passes reported, expected 3
+UVM_ERROR smb_tb.sv(95) @ 125950000: uvm_test_top.env.schk [SMEM] response at cycle 12591, expected 12588 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 125950000: uvm_test_top.env.schk [SMEM] 4 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 126030000: uvm_test_top.env.schk [SMEM] response at cycle 12599, expected 12598 (2 passes)
+UVM_ERROR smb_tb.sv(95) @ 126030000: uvm_test_top.env.schk [SMEM] 3 passes reported, expected 2
+UVM_ERROR smb_tb.sv(95) @ 126280000: uvm_test_top.env.schk [SMEM] response at cycle 12624, expected 12617 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 126280000: uvm_test_top.env.schk [SMEM] 8 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 126570000: uvm_test_top.env.schk [SMEM] response at cycle 12653, expected 12646 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 126570000: uvm_test_top.env.schk [SMEM] 8 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 127050000: uvm_test_top.env.schk [SMEM] response at cycle 12701, expected 12699 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 127050000: uvm_test_top.env.schk [SMEM] 3 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 127380000: uvm_test_top.env.schk [SMEM] response at cycle 12734, expected 12730 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 127380000: uvm_test_top.env.schk [SMEM] 5 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 127430000: uvm_test_top.env.schk [SMEM] response at cycle 12739, expected 12738 (2 passes)
+UVM_ERROR smb_tb.sv(95) @ 127430000: uvm_test_top.env.schk [SMEM] 3 passes reported, expected 2
+UVM_ERROR smb_tb.sv(95) @ 127570000: uvm_test_top.env.schk [SMEM] response at cycle 12753, expected 12751 (2 passes)
+UVM_ERROR smb_tb.sv(95) @ 127570000: uvm_test_top.env.schk [SMEM] 4 passes reported, expected 2
+UVM_ERROR smb_tb.sv(95) @ 127620000: uvm_test_top.env.schk [SMEM] response at cycle 12758, expected 12757 (2 passes)
+UVM_ERROR smb_tb.sv(95) @ 127620000: uvm_test_top.env.schk [SMEM] 3 passes reported, expected 2
+UVM_ERROR smb_tb.sv(95) @ 127680000: uvm_test_top.env.schk [SMEM] response at cycle 12764, expected 12761 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 127680000: uvm_test_top.env.schk [SMEM] 4 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 127830000: uvm_test_top.env.schk [SMEM] response at cycle 12779, expected 12778 (2 passes)
+UVM_ERROR smb_tb.sv(95) @ 127830000: uvm_test_top.env.schk [SMEM] 3 passes reported, expected 2
+UVM_ERROR smb_tb.sv(95) @ 128070000: uvm_test_top.env.schk [SMEM] response at cycle 12803, expected 12801 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 128070000: uvm_test_top.env.schk [SMEM] 3 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 128370000: uvm_test_top.env.schk [SMEM] response at cycle 12833, expected 12826 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 128370000: uvm_test_top.env.schk [SMEM] 8 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 128450000: uvm_test_top.env.schk [SMEM] response at cycle 12841, expected 12840 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 128450000: uvm_test_top.env.schk [SMEM] 2 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 128550000: uvm_test_top.env.schk [SMEM] response at cycle 12851, expected 12844 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 128550000: uvm_test_top.env.schk [SMEM] 8 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 128780000: uvm_test_top.env.schk [SMEM] response at cycle 12874, expected 12871 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 128780000: uvm_test_top.env.schk [SMEM] 4 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 129160000: uvm_test_top.env.schk [SMEM] response at cycle 12912, expected 12911 (2 passes)
+UVM_ERROR smb_tb.sv(95) @ 129160000: uvm_test_top.env.schk [SMEM] 3 passes reported, expected 2
+UVM_ERROR smb_tb.sv(95) @ 129330000: uvm_test_top.env.schk [SMEM] response at cycle 12929, expected 12926 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 129330000: uvm_test_top.env.schk [SMEM] 4 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 129500000: uvm_test_top.env.schk [SMEM] response at cycle 12946, expected 12942 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 129500000: uvm_test_top.env.schk [SMEM] 5 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 130160000: uvm_test_top.env.schk [SMEM] response at cycle 13012, expected 13005 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 130160000: uvm_test_top.env.schk [SMEM] 8 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 130330000: uvm_test_top.env.schk [SMEM] response at cycle 13029, expected 13024 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 130330000: uvm_test_top.env.schk [SMEM] 6 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 130520000: uvm_test_top.env.schk [SMEM] response at cycle 13048, expected 13041 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 130520000: uvm_test_top.env.schk [SMEM] 8 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 130580000: uvm_test_top.env.schk [SMEM] response at cycle 13054, expected 13053 (3 passes)
+UVM_ERROR smb_tb.sv(95) @ 130580000: uvm_test_top.env.schk [SMEM] 4 passes reported, expected 3
+UVM_ERROR smb_tb.sv(95) @ 130960000: uvm_test_top.env.schk [SMEM] response at cycle 13092, expected 13085 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 130960000: uvm_test_top.env.schk [SMEM] 8 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 131100000: uvm_test_top.env.schk [SMEM] response at cycle 13106, expected 13099 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 131100000: uvm_test_top.env.schk [SMEM] 8 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 131270000: uvm_test_top.env.schk [SMEM] response at cycle 13123, expected 13122 (2 passes)
+UVM_ERROR smb_tb.sv(95) @ 131270000: uvm_test_top.env.schk [SMEM] 3 passes reported, expected 2
+UVM_ERROR smb_tb.sv(95) @ 131410000: uvm_test_top.env.schk [SMEM] response at cycle 13137, expected 13130 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 131410000: uvm_test_top.env.schk [SMEM] 8 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 131630000: uvm_test_top.env.schk [SMEM] response at cycle 13159, expected 13152 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 131630000: uvm_test_top.env.schk [SMEM] 8 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 131800000: uvm_test_top.env.schk [SMEM] response at cycle 13176, expected 13169 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 131800000: uvm_test_top.env.schk [SMEM] 8 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 132320000: uvm_test_top.env.schk [SMEM] response at cycle 13228, expected 13227 (2 passes)
+UVM_ERROR smb_tb.sv(95) @ 132320000: uvm_test_top.env.schk [SMEM] 3 passes reported, expected 2
+UVM_ERROR smb_tb.sv(95) @ 132420000: uvm_test_top.env.schk [SMEM] response at cycle 13238, expected 13231 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 132420000: uvm_test_top.env.schk [SMEM] 8 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 132520000: uvm_test_top.env.schk [SMEM] response at cycle 13248, expected 13241 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 132520000: uvm_test_top.env.schk [SMEM] 8 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 132840000: uvm_test_top.env.schk [SMEM] response at cycle 13280, expected 13273 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 132840000: uvm_test_top.env.schk [SMEM] 8 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 132980000: uvm_test_top.env.schk [SMEM] response at cycle 13294, expected 13293 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 132980000: uvm_test_top.env.schk [SMEM] 2 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 133230000: uvm_test_top.env.schk [SMEM] response at cycle 13319, expected 13318 (2 passes)
+UVM_ERROR smb_tb.sv(95) @ 133230000: uvm_test_top.env.schk [SMEM] 3 passes reported, expected 2
+UVM_ERROR smb_tb.sv(95) @ 133550000: uvm_test_top.env.schk [SMEM] response at cycle 13351, expected 13344 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 133550000: uvm_test_top.env.schk [SMEM] 8 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 133660000: uvm_test_top.env.schk [SMEM] response at cycle 13362, expected 13361 (2 passes)
+UVM_ERROR smb_tb.sv(95) @ 133660000: uvm_test_top.env.schk [SMEM] 3 passes reported, expected 2
+UVM_ERROR smb_tb.sv(95) @ 133860000: uvm_test_top.env.schk [SMEM] response at cycle 13382, expected 13379 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 133860000: uvm_test_top.env.schk [SMEM] 4 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 133960000: uvm_test_top.env.schk [SMEM] response at cycle 13392, expected 13385 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 133960000: uvm_test_top.env.schk [SMEM] 8 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 134110000: uvm_test_top.env.schk [SMEM] response at cycle 13407, expected 13405 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 134110000: uvm_test_top.env.schk [SMEM] 3 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 134190000: uvm_test_top.env.schk [SMEM] response at cycle 13415, expected 13414 (2 passes)
+UVM_ERROR smb_tb.sv(95) @ 134190000: uvm_test_top.env.schk [SMEM] 3 passes reported, expected 2
+UVM_ERROR smb_tb.sv(95) @ 134360000: uvm_test_top.env.schk [SMEM] response at cycle 13432, expected 13425 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 134360000: uvm_test_top.env.schk [SMEM] 8 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 134750000: uvm_test_top.env.schk [SMEM] response at cycle 13471, expected 13470 (2 passes)
+UVM_ERROR smb_tb.sv(95) @ 134750000: uvm_test_top.env.schk [SMEM] 3 passes reported, expected 2
+UVM_ERROR smb_tb.sv(95) @ 134880000: uvm_test_top.env.schk [SMEM] response at cycle 13484, expected 13477 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 134880000: uvm_test_top.env.schk [SMEM] 8 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 134980000: uvm_test_top.env.schk [SMEM] response at cycle 13494, expected 13493 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 134980000: uvm_test_top.env.schk [SMEM] 2 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 135200000: uvm_test_top.env.schk [SMEM] response at cycle 13516, expected 13513 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 135200000: uvm_test_top.env.schk [SMEM] 4 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 135370000: uvm_test_top.env.schk [SMEM] response at cycle 13533, expected 13526 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 135370000: uvm_test_top.env.schk [SMEM] 8 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 135680000: uvm_test_top.env.schk [SMEM] response at cycle 13564, expected 13563 (2 passes)
+UVM_ERROR smb_tb.sv(95) @ 135680000: uvm_test_top.env.schk [SMEM] 3 passes reported, expected 2
+UVM_ERROR smb_tb.sv(95) @ 135760000: uvm_test_top.env.schk [SMEM] response at cycle 13572, expected 13571 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 135760000: uvm_test_top.env.schk [SMEM] 2 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 135900000: uvm_test_top.env.schk [SMEM] response at cycle 13586, expected 13579 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 135900000: uvm_test_top.env.schk [SMEM] 8 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 136580000: uvm_test_top.env.schk [SMEM] response at cycle 13654, expected 13653 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 136580000: uvm_test_top.env.schk [SMEM] 2 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 136630000: uvm_test_top.env.schk [SMEM] response at cycle 13659, expected 13657 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 136630000: uvm_test_top.env.schk [SMEM] 3 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 136700000: uvm_test_top.env.schk [SMEM] response at cycle 13666, expected 13665 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 136700000: uvm_test_top.env.schk [SMEM] 2 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 136980000: uvm_test_top.env.schk [SMEM] response at cycle 13694, expected 13693 (2 passes)
+UVM_ERROR smb_tb.sv(95) @ 136980000: uvm_test_top.env.schk [SMEM] 3 passes reported, expected 2
+UVM_ERROR smb_tb.sv(95) @ 137190000: uvm_test_top.env.schk [SMEM] response at cycle 13715, expected 13708 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 137190000: uvm_test_top.env.schk [SMEM] 8 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 137320000: uvm_test_top.env.schk [SMEM] response at cycle 13728, expected 13727 (2 passes)
+UVM_ERROR smb_tb.sv(95) @ 137320000: uvm_test_top.env.schk [SMEM] 3 passes reported, expected 2
+UVM_ERROR smb_tb.sv(95) @ 137530000: uvm_test_top.env.schk [SMEM] response at cycle 13749, expected 13745 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 137530000: uvm_test_top.env.schk [SMEM] 5 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 137630000: uvm_test_top.env.schk [SMEM] response at cycle 13759, expected 13752 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 137630000: uvm_test_top.env.schk [SMEM] 8 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 138190000: uvm_test_top.env.schk [SMEM] response at cycle 13815, expected 13808 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 138190000: uvm_test_top.env.schk [SMEM] 8 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 138450000: uvm_test_top.env.schk [SMEM] response at cycle 13841, expected 13839 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 138450000: uvm_test_top.env.schk [SMEM] 3 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 138530000: uvm_test_top.env.schk [SMEM] response at cycle 13849, expected 13848 (2 passes)
+UVM_ERROR smb_tb.sv(95) @ 138530000: uvm_test_top.env.schk [SMEM] 3 passes reported, expected 2
+UVM_ERROR smb_tb.sv(95) @ 138620000: uvm_test_top.env.schk [SMEM] response at cycle 13858, expected 13855 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 138620000: uvm_test_top.env.schk [SMEM] 4 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 138670000: uvm_test_top.env.schk [SMEM] response at cycle 13863, expected 13862 (2 passes)
+UVM_ERROR smb_tb.sv(95) @ 138670000: uvm_test_top.env.schk [SMEM] 3 passes reported, expected 2
+UVM_ERROR smb_tb.sv(95) @ 138930000: uvm_test_top.env.schk [SMEM] response at cycle 13889, expected 13888 (2 passes)
+UVM_ERROR smb_tb.sv(95) @ 138930000: uvm_test_top.env.schk [SMEM] 3 passes reported, expected 2
+UVM_ERROR smb_tb.sv(95) @ 139420000: uvm_test_top.env.schk [SMEM] response at cycle 13938, expected 13931 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 139420000: uvm_test_top.env.schk [SMEM] 8 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 139590000: uvm_test_top.env.schk [SMEM] response at cycle 13955, expected 13948 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 139590000: uvm_test_top.env.schk [SMEM] 8 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 139640000: uvm_test_top.env.schk [SMEM] response at cycle 13960, expected 13958 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 139640000: uvm_test_top.env.schk [SMEM] 3 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 139810000: uvm_test_top.env.schk [SMEM] response at cycle 13977, expected 13970 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 139810000: uvm_test_top.env.schk [SMEM] 8 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 139930000: uvm_test_top.env.schk [SMEM] response at cycle 13989, expected 13987 (2 passes)
+UVM_ERROR smb_tb.sv(95) @ 139930000: uvm_test_top.env.schk [SMEM] 4 passes reported, expected 2
+UVM_ERROR smb_tb.sv(95) @ 140200000: uvm_test_top.env.schk [SMEM] response at cycle 14016, expected 14015 (2 passes)
+UVM_ERROR smb_tb.sv(95) @ 140200000: uvm_test_top.env.schk [SMEM] 3 passes reported, expected 2
+UVM_ERROR smb_tb.sv(95) @ 140250000: uvm_test_top.env.schk [SMEM] response at cycle 14021, expected 14019 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 140250000: uvm_test_top.env.schk [SMEM] 3 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 140300000: uvm_test_top.env.schk [SMEM] response at cycle 14026, expected 14025 (2 passes)
+UVM_ERROR smb_tb.sv(95) @ 140300000: uvm_test_top.env.schk [SMEM] 3 passes reported, expected 2
+UVM_ERROR smb_tb.sv(95) @ 140410000: uvm_test_top.env.schk [SMEM] response at cycle 14037, expected 14036 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 140410000: uvm_test_top.env.schk [SMEM] 2 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 140490000: uvm_test_top.env.schk [SMEM] response at cycle 14045, expected 14044 (2 passes)
+UVM_ERROR smb_tb.sv(95) @ 140490000: uvm_test_top.env.schk [SMEM] 3 passes reported, expected 2
+UVM_ERROR smb_tb.sv(95) @ 140550000: uvm_test_top.env.schk [SMEM] response at cycle 14051, expected 14049 (2 passes)
+UVM_ERROR smb_tb.sv(95) @ 140550000: uvm_test_top.env.schk [SMEM] 4 passes reported, expected 2
+UVM_ERROR smb_tb.sv(95) @ 140650000: uvm_test_top.env.schk [SMEM] response at cycle 14061, expected 14054 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 140650000: uvm_test_top.env.schk [SMEM] 8 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 141000000: uvm_test_top.env.schk [SMEM] response at cycle 14096, expected 14089 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 141000000: uvm_test_top.env.schk [SMEM] 8 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 141130000: uvm_test_top.env.schk [SMEM] response at cycle 14109, expected 14102 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 141130000: uvm_test_top.env.schk [SMEM] 8 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 141530000: uvm_test_top.env.schk [SMEM] response at cycle 14149, expected 14148 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 141530000: uvm_test_top.env.schk [SMEM] 2 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 141690000: uvm_test_top.env.schk [SMEM] response at cycle 14165, expected 14163 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 141690000: uvm_test_top.env.schk [SMEM] 3 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 141790000: uvm_test_top.env.schk [SMEM] response at cycle 14175, expected 14168 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 141790000: uvm_test_top.env.schk [SMEM] 8 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 142190000: uvm_test_top.env.schk [SMEM] response at cycle 14215, expected 14213 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 142190000: uvm_test_top.env.schk [SMEM] 3 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 142630000: uvm_test_top.env.schk [SMEM] response at cycle 14259, expected 14252 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 142630000: uvm_test_top.env.schk [SMEM] 8 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 142760000: uvm_test_top.env.schk [SMEM] response at cycle 14272, expected 14271 (2 passes)
+UVM_ERROR smb_tb.sv(95) @ 142760000: uvm_test_top.env.schk [SMEM] 3 passes reported, expected 2
+UVM_ERROR smb_tb.sv(95) @ 142830000: uvm_test_top.env.schk [SMEM] response at cycle 14279, expected 14275 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 142830000: uvm_test_top.env.schk [SMEM] 5 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 142900000: uvm_test_top.env.schk [SMEM] response at cycle 14286, expected 14282 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 142900000: uvm_test_top.env.schk [SMEM] 5 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 142970000: uvm_test_top.env.schk [SMEM] response at cycle 14293, expected 14292 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 142970000: uvm_test_top.env.schk [SMEM] 2 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 143300000: uvm_test_top.env.schk [SMEM] response at cycle 14326, expected 14324 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 143300000: uvm_test_top.env.schk [SMEM] 3 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 143430000: uvm_test_top.env.schk [SMEM] response at cycle 14339, expected 14338 (2 passes)
+UVM_ERROR smb_tb.sv(95) @ 143430000: uvm_test_top.env.schk [SMEM] 3 passes reported, expected 2
+UVM_ERROR smb_tb.sv(95) @ 143550000: uvm_test_top.env.schk [SMEM] response at cycle 14351, expected 14350 (2 passes)
+UVM_ERROR smb_tb.sv(95) @ 143550000: uvm_test_top.env.schk [SMEM] 3 passes reported, expected 2
+UVM_ERROR smb_tb.sv(95) @ 143710000: uvm_test_top.env.schk [SMEM] response at cycle 14367, expected 14365 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 143710000: uvm_test_top.env.schk [SMEM] 3 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 143840000: uvm_test_top.env.schk [SMEM] response at cycle 14380, expected 14376 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 143840000: uvm_test_top.env.schk [SMEM] 5 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 144040000: uvm_test_top.env.schk [SMEM] response at cycle 14400, expected 14399 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 144040000: uvm_test_top.env.schk [SMEM] 2 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 144320000: uvm_test_top.env.schk [SMEM] response at cycle 14428, expected 14426 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 144320000: uvm_test_top.env.schk [SMEM] 3 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 144410000: uvm_test_top.env.schk [SMEM] response at cycle 14437, expected 14436 (2 passes)
+UVM_ERROR smb_tb.sv(95) @ 144410000: uvm_test_top.env.schk [SMEM] 3 passes reported, expected 2
+UVM_ERROR smb_tb.sv(95) @ 144480000: uvm_test_top.env.schk [SMEM] response at cycle 14444, expected 14440 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 144480000: uvm_test_top.env.schk [SMEM] 5 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 145130000: uvm_test_top.env.schk [SMEM] response at cycle 14509, expected 14505 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 145130000: uvm_test_top.env.schk [SMEM] 5 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 145260000: uvm_test_top.env.schk [SMEM] response at cycle 14522, expected 14519 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 145260000: uvm_test_top.env.schk [SMEM] 4 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 145460000: uvm_test_top.env.schk [SMEM] response at cycle 14542, expected 14541 (3 passes)
+UVM_ERROR smb_tb.sv(95) @ 145460000: uvm_test_top.env.schk [SMEM] 4 passes reported, expected 3
+UVM_ERROR smb_tb.sv(95) @ 145520000: uvm_test_top.env.schk [SMEM] response at cycle 14548, expected 14545 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 145520000: uvm_test_top.env.schk [SMEM] 4 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 145660000: uvm_test_top.env.schk [SMEM] response at cycle 14562, expected 14560 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 145660000: uvm_test_top.env.schk [SMEM] 3 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 146120000: uvm_test_top.env.schk [SMEM] response at cycle 14608, expected 14607 (2 passes)
+UVM_ERROR smb_tb.sv(95) @ 146120000: uvm_test_top.env.schk [SMEM] 3 passes reported, expected 2
+UVM_ERROR smb_tb.sv(95) @ 146460000: uvm_test_top.env.schk [SMEM] response at cycle 14642, expected 14635 (1 passes)
+UVM_ERROR smb_tb.sv(95) @ 146460000: uvm_test_top.env.schk [SMEM] 8 passes reported, expected 1
+UVM_ERROR smb_tb.sv(95) @ 146690000: uvm_test_top.env.schk [SMEM] response at cycle 14665, expected 14664 (2 passes)
+UVM_ERROR smb_tb.sv(95) @ 146690000: uvm_test_top.env.schk [SMEM] 3 passes reported, expected 2
+UVM_INFO smb_tb.sv(258) @ 146965000: uvm_test_top.env.bchk [BAR] releases=921 errors=0
+UVM_INFO smb_tb.sv(259) @ 146965000: uvm_test_top.env.bchk [COV] functional coverage = 100.0%
+    wg_1_warp                    54
+    wg_4_warps                   42
+    release_by_last_arrival      866
+    release_by_exit              55
+    warps_exited_before_barrier  362
+    back_to_back_barriers        91
+    relaunch_while_idle          200
+UVM_INFO smb_tb.sv(153) @ 146965000: uvm_test_top.env.schk [SMEM] accesses=3000 errors=1294
+UVM_INFO smb_tb.sv(154) @ 146965000: uvm_test_top.env.schk [COV] functional coverage = 100.0%
+    passes_1                     1293
+    passes_2_4                   1393
+    passes_5_7                   60
+    passes_8                     180
+    broadcast_read               4147
+    same_word_multi_write        3639
+    empty_mask                   74
+    partial_mask                 1422
+    address_wraps                9090
+    read_after_write             8860
+    write                        1491
+    read                         1509
+UVM_INFO /Users/sankalpahota/Documents/GIT/mGPU/uvm/base/uvm_report_server.svh(1009) @ 146965000: reporter [UVM/REPORT/SERVER] 
+--- UVM Report Summary ---
+
+** Report counts by severity
+UVM_INFO :    8
+UVM_WARNING :    2
+UVM_ERROR : 1294
+UVM_FATAL :    0
+** Report counts by id
+[BAR]     1
+[COV]     2
+[NO_DPI_TSTNAME]     1
+[NO_DPI_USED]     1
+[NO_VISIT_CHECK]     1
+[RNTST]     1
+[SMEM]  1295
+[UVM/COMP/NAMECHECK]     1
+[UVM/RELNOTES]     1
+
+- /Users/sankalpahota/Documents/GIT/mGPU/uvm/base/uvm_test_runner.svh:297: Verilog $finish
+- S i m u l a t i o n   R e p o r t: Verilator 5.052 2026-09-05
+- Verilator: $finish at 147us; walltime 22.022 s; speed 6.674 us/s
+- Verilator: cpu 1.766 s on 1 threads; allocated 14 MB

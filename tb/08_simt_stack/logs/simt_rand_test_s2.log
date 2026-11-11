@@ -1,0 +1,91 @@
+%Warning: System has stack size 65520 kb which may be too small; failed to request more using 'ulimit -s 139169883'
+UVM_INFO /Users/sankalpahota/Documents/GIT/mGPU/uvm/base/uvm_root.svh(457) @ 0: reporter [UVM/RELNOTES] 
+  ***********       IMPORTANT RELEASE NOTES         ************
+
+  This implementation of the UVM Library deviates from the 1800.2-2020
+  standard.  See the DEVIATIONS.md file contained in the release
+  for more details.
+
+----------------------------------------------------------------
+Accellera:1800.2:UVM:2020.3.2
+
+All copyright owners for this kit are listed in NOTICE.txt
+All Rights Reserved Worldwide
+----------------------------------------------------------------
+
+      (Specify +UVM_NO_RELNOTES to turn off this notice)
+
+UVM_WARNING /Users/sankalpahota/Documents/GIT/mGPU/uvm/base/uvm_test_runner.svh(207) @ 0: reporter [NO_DPI_USED] We are thinking of removing support for UVM_NO_DPI.  Please try this test without it and evaluate the impact
+UVM_INFO /Users/sankalpahota/Documents/GIT/mGPU/uvm/base/uvm_test_runner.svh(210) @ 0: reporter [NO_DPI_TSTNAME] UVM_NO_DPI defined--getting UVM_TESTNAME directly, without DPI
+UVM_INFO @ 0: reporter [RNTST] Running test simt_rand_test...
+UVM_INFO /Users/sankalpahota/Documents/GIT/mGPU/uvm/base/uvm_traversal.svh(345) @ 0: reporter [UVM/COMP/NAMECHECK] This implementation of the component name checks requires DPI to be enabled
+UVM_WARNING /Users/sankalpahota/Documents/GIT/mGPU/uvm/base/uvm_traversal.svh(314) @ 0: reporter [NO_VISIT_CHECK] Because UVM_REGEX_NO_DPI is defined, no uvm component name constraints will be checked
+UVM_INFO simt_tests.sv(17) @ 0: uvm_test_top [PROG] program of 4 instructions
+UVM_INFO simt_tests.sv(17) @ 886000: uvm_test_top [PROG] program of 4 instructions
+UVM_INFO simt_tests.sv(17) @ 1876000: uvm_test_top [PROG] program of 4 instructions
+UVM_INFO simt_tests.sv(17) @ 2956000: uvm_test_top [PROG] program of 64 instructions
+UVM_INFO simt_tests.sv(17) @ 43046000: uvm_test_top [PROG] program of 4 instructions
+UVM_INFO simt_tests.sv(17) @ 44016000: uvm_test_top [PROG] program of 37 instructions
+UVM_INFO simt_tests.sv(17) @ 51496000: uvm_test_top [PROG] program of 37 instructions
+UVM_INFO simt_tests.sv(17) @ 56516000: uvm_test_top [PROG] program of 23 instructions
+UVM_INFO simt_tests.sv(17) @ 64146000: uvm_test_top [PROG] program of 3 instructions
+UVM_INFO simt_tests.sv(17) @ 64896000: uvm_test_top [PROG] program of 54 instructions
+UVM_INFO simt_tests.sv(17) @ 129826000: uvm_test_top [PROG] program of 58 instructions
+UVM_INFO simt_tests.sv(17) @ 158376000: uvm_test_top [PROG] program of 9 instructions
+UVM_INFO simt_tests.sv(17) @ 160226000: uvm_test_top [PROG] program of 147 instructions
+UVM_INFO simt_tests.sv(17) @ 201386000: uvm_test_top [PROG] program of 109 instructions
+UVM_INFO simt_tests.sv(17) @ 291376000: uvm_test_top [PROG] program of 14 instructions
+UVM_INFO simt_tests.sv(17) @ 294826000: uvm_test_top [PROG] program of 24 instructions
+UVM_INFO simt_tests.sv(17) @ 312376000: uvm_test_top [PROG] program of 71 instructions
+UVM_INFO simt_tests.sv(17) @ 331026000: uvm_test_top [PROG] program of 157 instructions
+UVM_INFO simt_tests.sv(17) @ 381986000: uvm_test_top [PROG] program of 46 instructions
+UVM_INFO simt_tests.sv(17) @ 400276000: uvm_test_top [PROG] program of 14 instructions
+UVM_INFO simt_tests.sv(17) @ 403276000: uvm_test_top [PROG] program of 178 instructions
+UVM_INFO simt_tests.sv(17) @ 436826000: uvm_test_top [PROG] program of 9 instructions
+UVM_INFO simt_tests.sv(17) @ 438666000: uvm_test_top [PROG] program of 28 instructions
+UVM_INFO simt_tests.sv(17) @ 444006000: uvm_test_top [PROG] program of 12 instructions
+UVM_INFO simt_tests.sv(17) @ 445436000: uvm_test_top [PROG] program of 37 instructions
+UVM_INFO simt_tests.sv(17) @ 463596000: uvm_test_top [PROG] program of 7 instructions
+UVM_INFO simt_tests.sv(17) @ 465136000: uvm_test_top [PROG] program of 85 instructions
+UVM_INFO simt_tests.sv(17) @ 476556000: uvm_test_top [PROG] program of 53 instructions
+UVM_INFO simt_tests.sv(17) @ 508536000: uvm_test_top [PROG] program of 102 instructions
+UVM_INFO simt_tests.sv(17) @ 547196000: uvm_test_top [PROG] program of 231 instructions
+UVM_INFO simt_checker.sv(140) @ 597216000: uvm_test_top.env.chk [CHK] steps=47364 lane traces checked=3840 errors=0
+UVM_INFO simt_checker.sv(141) @ 597216000: uvm_test_top.env.chk [COV] functional coverage = 85.7%
+    uniform_taken                2344
+    uniform_not_taken            2792
+    divergent                    3852
+    depth_3                      2500
+    depth_5                      280
+    depth_7                      0
+    loop_divergence              1576
+    exit_partial                 504
+    exit_whole_warp              480
+    jmp                          1444
+    target_is_join               1216
+    reuse_top                    884
+    four_warps_live              47004
+    overflow                     0
+UVM_INFO /Users/sankalpahota/Documents/GIT/mGPU/uvm/base/uvm_report_server.svh(1009) @ 597216000: reporter [UVM/REPORT/SERVER] 
+--- UVM Report Summary ---
+
+** Report counts by severity
+UVM_INFO :   36
+UVM_WARNING :    2
+UVM_ERROR :    0
+UVM_FATAL :    0
+** Report counts by id
+[CHK]     1
+[COV]     1
+[NO_DPI_TSTNAME]     1
+[NO_DPI_USED]     1
+[NO_VISIT_CHECK]     1
+[PROG]    30
+[RNTST]     1
+[UVM/COMP/NAMECHECK]     1
+[UVM/RELNOTES]     1
+
+- /Users/sankalpahota/Documents/GIT/mGPU/uvm/base/uvm_test_runner.svh:297: Verilog $finish
+- S i m u l a t i o n   R e p o r t: Verilator 5.052 2026-09-05
+- Verilator: $finish at 597us; walltime 0.197 s; speed 3.039 ms/s
+- Verilator: cpu 0.197 s on 1 threads; allocated 13 MB

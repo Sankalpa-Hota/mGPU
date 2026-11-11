@@ -1,0 +1,13 @@
+merged functional coverage = 100.0% (12/12 bins)
+  power_off_sm0                  3314
+  power_off_sm1                  3259
+  wake_sm0                       3303
+  wake_sm1                       3248
+  both_off                       165272
+  one_on_one_off                 140522
+  want_during_waking             39306
+  idle_count_reset_by_want       1347
+  idle_count_reset_by_busy       4275
+  gating_disabled                44312
+  limit_1                        46134
+  wake_complete                  6551

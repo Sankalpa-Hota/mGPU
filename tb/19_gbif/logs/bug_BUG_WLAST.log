@@ -1,0 +1,59 @@
+%Warning: System has stack size 65520 kb which may be too small; failed to request more using 'ulimit -s 130374435'
+UVM_INFO /Users/sankalpahota/Documents/GIT/mGPU/uvm/base/uvm_root.svh(457) @ 0: reporter [UVM/RELNOTES] 
+  ***********       IMPORTANT RELEASE NOTES         ************
+
+  This implementation of the UVM Library deviates from the 1800.2-2020
+  standard.  See the DEVIATIONS.md file contained in the release
+  for more details.
+
+----------------------------------------------------------------
+Accellera:1800.2:UVM:2020.3.2
+
+All copyright owners for this kit are listed in NOTICE.txt
+All Rights Reserved Worldwide
+----------------------------------------------------------------
+
+      (Specify +UVM_NO_RELNOTES to turn off this notice)
+
+UVM_WARNING /Users/sankalpahota/Documents/GIT/mGPU/uvm/base/uvm_test_runner.svh(207) @ 0: reporter [NO_DPI_USED] We are thinking of removing support for UVM_NO_DPI.  Please try this test without it and evaluate the impact
+UVM_INFO /Users/sankalpahota/Documents/GIT/mGPU/uvm/base/uvm_test_runner.svh(210) @ 0: reporter [NO_DPI_TSTNAME] UVM_NO_DPI defined--getting UVM_TESTNAME directly, without DPI
+UVM_INFO @ 0: reporter [RNTST] Running test gbif_rand_test...
+UVM_INFO /Users/sankalpahota/Documents/GIT/mGPU/uvm/base/uvm_traversal.svh(345) @ 0: reporter [UVM/COMP/NAMECHECK] This implementation of the component name checks requires DPI to be enabled
+UVM_WARNING /Users/sankalpahota/Documents/GIT/mGPU/uvm/base/uvm_traversal.svh(314) @ 0: reporter [NO_VISIT_CHECK] Because UVM_REGEX_NO_DPI is defined, no uvm component name constraints will be checked
+UVM_ERROR @ 165000: reporter [AXI] WLAST=1 on beat 6 of a 8-beat burst
+UVM_INFO gbif_tb.sv(163) @ 540525000: uvm_test_top.env.chk [CHK] lines=3000 read bursts=1502 write bursts=1498 errors=0
+UVM_INFO gbif_tb.sv(164) @ 540525000: uvm_test_top.env.chk [COV] functional coverage = 81.8%
+    read                         1502
+    write                        1498
+    read_error                   0
+    write_error                  0
+    aw_before_w                  320
+    w_before_aw                  463
+    aw_and_w_same_cycle          827
+    slave_stalls_ar              636
+    slave_stalls_w               5091
+    partial_strobe_beat          7048
+    empty_strobe_beat            485
+UVM_INFO /Users/sankalpahota/Documents/GIT/mGPU/uvm/base/uvm_report_server.svh(1009) @ 540525000: reporter [UVM/REPORT/SERVER] 
+--- UVM Report Summary ---
+
+** Report counts by severity
+UVM_INFO :    6
+UVM_WARNING :    2
+UVM_ERROR :    1
+UVM_FATAL :    0
+** Report counts by id
+[AXI]     1
+[CHK]     1
+[COV]     1
+[NO_DPI_TSTNAME]     1
+[NO_DPI_USED]     1
+[NO_VISIT_CHECK]     1
+[RNTST]     1
+[UVM/COMP/NAMECHECK]     1
+[UVM/RELNOTES]     1
+
+- /Users/sankalpahota/Documents/GIT/mGPU/uvm/base/uvm_test_runner.svh:297: Verilog $finish
+- S i m u l a t i o n   R e p o r t: Verilator 5.052 2026-09-05
+- Verilator: $finish at 541us; walltime 0.574 s; speed 941.034 us/s
+- Verilator: cpu 0.526 s on 1 threads; allocated 13 MB

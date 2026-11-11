@@ -1,0 +1,72 @@
+%Warning: System has stack size 65520 kb which may be too small; failed to request more using 'ulimit -s 186855180'
+UVM_INFO /Users/sankalpahota/Documents/GIT/mGPU/third_party/uvm/base/uvm_root.svh(457) @ 0: reporter [UVM/RELNOTES] 
+  ***********       IMPORTANT RELEASE NOTES         ************
+
+  This implementation of the UVM Library deviates from the 1800.2-2020
+  standard.  See the DEVIATIONS.md file contained in the release
+  for more details.
+
+----------------------------------------------------------------
+Accellera:1800.2:UVM:2020.3.2
+
+All copyright owners for this kit are listed in NOTICE.txt
+All Rights Reserved Worldwide
+----------------------------------------------------------------
+
+      (Specify +UVM_NO_RELNOTES to turn off this notice)
+
+UVM_WARNING /Users/sankalpahota/Documents/GIT/mGPU/third_party/uvm/base/uvm_test_runner.svh(207) @ 0: reporter [NO_DPI_USED] We are thinking of removing support for UVM_NO_DPI.  Please try this test without it and evaluate the impact
+UVM_INFO /Users/sankalpahota/Documents/GIT/mGPU/third_party/uvm/base/uvm_test_runner.svh(210) @ 0: reporter [NO_DPI_TSTNAME] UVM_NO_DPI defined--getting UVM_TESTNAME directly, without DPI
+UVM_INFO @ 0: reporter [RNTST] Running test sqe_busy_storm_test...
+UVM_INFO /Users/sankalpahota/Documents/GIT/mGPU/third_party/uvm/base/uvm_traversal.svh(345) @ 0: reporter [UVM/COMP/NAMECHECK] This implementation of the component name checks requires DPI to be enabled
+UVM_WARNING /Users/sankalpahota/Documents/GIT/mGPU/third_party/uvm/base/uvm_traversal.svh(314) @ 0: reporter [NO_VISIT_CHECK] Because UVM_REGEX_NO_DPI is defined, no uvm component name constraints will be checked
+UVM_INFO sqe_coverage.sv(67) @ 9355575000: uvm_test_top.env.cov [COV] functional coverage = 92.3%
+    op_dispatch                  178
+    op_event_write               150
+    op_wfi                       172
+    op_unknown                   0
+    ew_extra_payload             19
+    wfi_mask_zero                6
+    wfi_mask_all                 51
+    wfi_mask_single              65
+    wfi_mask_other               50
+    wfi_wait_min                 45
+    wfi_wait_short               6
+    wfi_wait_long                121
+    wfi_right_after_dispatch     54
+    disp_backpressure            54
+    mem_req_backpressure         0
+    ack_fast                     61
+    ack_slow                     89
+    op_back_to_back              485
+    ew_offset_0                  22
+    ew_offset_1                  24
+    ew_offset_2                  16
+    ew_offset_3                  19
+    ew_offset_4                  17
+    ew_offset_5                  13
+    ew_offset_6                  18
+    ew_offset_7                  21
+UVM_INFO sqe_scoreboard.sv(119) @ 9355575000: uvm_test_top.env.sb [SB] operations completed=500 dispatches=178 errors=0
+UVM_INFO /Users/sankalpahota/Documents/GIT/mGPU/third_party/uvm/base/uvm_report_server.svh(1009) @ 9355575000: reporter [UVM/REPORT/SERVER] 
+--- UVM Report Summary ---
+
+** Report counts by severity
+UVM_INFO :    6
+UVM_WARNING :    2
+UVM_ERROR :    0
+UVM_FATAL :    0
+** Report counts by id
+[COV]     1
+[NO_DPI_TSTNAME]     1
+[NO_DPI_USED]     1
+[NO_VISIT_CHECK]     1
+[RNTST]     1
+[SB]     1
+[UVM/COMP/NAMECHECK]     1
+[UVM/RELNOTES]     1
+
+- /Users/sankalpahota/Documents/GIT/mGPU/third_party/uvm/base/uvm_test_runner.svh:297: Verilog $finish
+- S i m u l a t i o n   R e p o r t: Verilator 5.052 2026-09-05
+- Verilator: $finish at 9ms; walltime 9.337 s; speed 1.002 ms/s
+- Verilator: cpu 6.177 s on 1 threads; allocated 15 MB

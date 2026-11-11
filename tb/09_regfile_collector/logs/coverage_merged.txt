@@ -1,0 +1,15 @@
+merged functional coverage = 100.0% (14/14 bins)
+  unit_alu                       40569
+  unit_sfu                       9634
+  unit_lsu                       13130
+  unit_barrier                   3668
+  bank_conflict                  8334
+  no_operands                    21769
+  r0_operand                     9390
+  wb_same_bank_collision         19206
+  three_writes_one_cycle         4536
+  wb_partial_mask                132405
+  wb_to_r0                       26157
+  launch_clear                   1887
+  ex_backpressure                58415
+  issue_back_to_back             47471

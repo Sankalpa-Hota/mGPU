@@ -1,0 +1,27 @@
+merged functional coverage = 100.0% (26/26 bins)
+  op_dispatch                    1425
+  op_event_write                 1174
+  op_wfi                         1352
+  op_unknown                     99
+  ew_extra_payload               218
+  wfi_mask_zero                  70
+  wfi_mask_all                   378
+  wfi_mask_single                517
+  wfi_mask_other                 387
+  wfi_wait_min                   460
+  wfi_wait_short                 185
+  wfi_wait_long                  707
+  wfi_right_after_dispatch       495
+  disp_backpressure              650
+  mem_req_backpressure           596
+  ack_fast                       338
+  ack_slow                       836
+  op_back_to_back                3865
+  ew_offset_0                    168
+  ew_offset_1                    170
+  ew_offset_2                    111
+  ew_offset_3                    150
+  ew_offset_4                    135
+  ew_offset_5                    121
+  ew_offset_6                    146
+  ew_offset_7                    173

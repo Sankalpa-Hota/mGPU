@@ -1,0 +1,494 @@
+%Warning: System has stack size 65520 kb which may be too small; failed to request more using 'ulimit -s 190160986'
+UVM_INFO /Users/sankalpahota/Documents/GIT/mGPU/third_party/uvm/base/uvm_root.svh(457) @ 0: reporter [UVM/RELNOTES] 
+  ***********       IMPORTANT RELEASE NOTES         ************
+
+  This implementation of the UVM Library deviates from the 1800.2-2020
+  standard.  See the DEVIATIONS.md file contained in the release
+  for more details.
+
+----------------------------------------------------------------
+Accellera:1800.2:UVM:2020.3.2
+
+All copyright owners for this kit are listed in NOTICE.txt
+All Rights Reserved Worldwide
+----------------------------------------------------------------
+
+      (Specify +UVM_NO_RELNOTES to turn off this notice)
+
+UVM_WARNING /Users/sankalpahota/Documents/GIT/mGPU/third_party/uvm/base/uvm_test_runner.svh(207) @ 0: reporter [NO_DPI_USED] We are thinking of removing support for UVM_NO_DPI.  Please try this test without it and evaluate the impact
+UVM_INFO /Users/sankalpahota/Documents/GIT/mGPU/third_party/uvm/base/uvm_test_runner.svh(210) @ 0: reporter [NO_DPI_TSTNAME] UVM_NO_DPI defined--getting UVM_TESTNAME directly, without DPI
+UVM_INFO @ 0: reporter [RNTST] Running test cp_directed_test...
+UVM_INFO /Users/sankalpahota/Documents/GIT/mGPU/third_party/uvm/base/uvm_traversal.svh(345) @ 0: reporter [UVM/COMP/NAMECHECK] This implementation of the component name checks requires DPI to be enabled
+UVM_WARNING /Users/sankalpahota/Documents/GIT/mGPU/third_party/uvm/base/uvm_traversal.svh(314) @ 0: reporter [NO_VISIT_CHECK] Because UVM_REGEX_NO_DPI is defined, no uvm component name constraints will be checked
+UVM_ERROR cp_decoder_scoreboard.sv(29) @ 90000: uvm_test_top.env.sb [SB] unexpected output: REG  addr=00200 data=70010000
+UVM_ERROR cp_decoder_scoreboard.sv(29) @ 100000: uvm_test_top.env.sb [SB] unexpected output: REG  addr=00201 data=70020002
+UVM_ERROR cp_decoder_scoreboard.sv(35) @ 110000: uvm_test_top.env.sb [SB] mismatch
+  expected: OP   op=02 data=7048124c last=0
+  actual:   REG  addr=00202 data=7048124c
+UVM_ERROR cp_decoder_scoreboard.sv(35) @ 120000: uvm_test_top.env.sb [SB] mismatch
+  expected: OP   op=02 data=64bc89e6 last=1
+  actual:   REG  addr=00203 data=64bc89e6
+UVM_ERROR cp_decoder_scoreboard.sv(29) @ 130000: uvm_test_top.env.sb [SB] unexpected output: REG  addr=00204 data=43fffe04
+UVM_ERROR cp_decoder_scoreboard.sv(35) @ 140000: uvm_test_top.env.sb [SB] mismatch
+  expected: REG  addr=3fffe data=d6209151
+  actual:   REG  addr=00205 data=d6209151
+UVM_ERROR cp_decoder_scoreboard.sv(35) @ 150000: uvm_test_top.env.sb [SB] mismatch
+  expected: REG  addr=3ffff data=912e6f90
+  actual:   REG  addr=00206 data=912e6f90
+UVM_ERROR cp_decoder_scoreboard.sv(35) @ 160000: uvm_test_top.env.sb [SB] mismatch
+  expected: REG  addr=00000 data=05ecd772
+  actual:   REG  addr=00207 data=05ecd772
+UVM_ERROR cp_decoder_scoreboard.sv(35) @ 170000: uvm_test_top.env.sb [SB] mismatch
+  expected: REG  addr=00001 data=78373340
+  actual:   REG  addr=00208 data=78373340
+UVM_ERROR cp_decoder_scoreboard.sv(29) @ 180000: uvm_test_top.env.sb [SB] unexpected output: REG  addr=00209 data=4010007f
+UVM_ERROR cp_decoder_scoreboard.sv(35) @ 190000: uvm_test_top.env.sb [SB] mismatch
+  expected: REG  addr=01000 data=3b80409e
+  actual:   REG  addr=0020a data=3b80409e
+UVM_ERROR cp_decoder_scoreboard.sv(35) @ 200000: uvm_test_top.env.sb [SB] mismatch
+  expected: REG  addr=01001 data=7f3327ad
+  actual:   REG  addr=0020b data=7f3327ad
+UVM_ERROR cp_decoder_scoreboard.sv(35) @ 210000: uvm_test_top.env.sb [SB] mismatch
+  expected: REG  addr=01002 data=739e037a
+  actual:   REG  addr=0020c data=739e037a
+UVM_ERROR cp_decoder_scoreboard.sv(35) @ 220000: uvm_test_top.env.sb [SB] mismatch
+  expected: REG  addr=01003 data=b4c7a996
+  actual:   REG  addr=0020d data=b4c7a996
+UVM_ERROR cp_decoder_scoreboard.sv(35) @ 230000: uvm_test_top.env.sb [SB] mismatch
+  expected: REG  addr=01004 data=5a07e53d
+  actual:   REG  addr=0020e data=5a07e53d
+UVM_ERROR cp_decoder_scoreboard.sv(35) @ 240000: uvm_test_top.env.sb [SB] mismatch
+  expected: REG  addr=01005 data=aca2af34
+  actual:   REG  addr=0020f data=aca2af34
+UVM_ERROR cp_decoder_scoreboard.sv(35) @ 250000: uvm_test_top.env.sb [SB] mismatch
+  expected: REG  addr=01006 data=ac0f160b
+  actual:   REG  addr=00210 data=ac0f160b
+UVM_ERROR cp_decoder_scoreboard.sv(35) @ 260000: uvm_test_top.env.sb [SB] mismatch
+  expected: REG  addr=01007 data=3bcb8cff
+  actual:   REG  addr=00211 data=3bcb8cff
+UVM_ERROR cp_decoder_scoreboard.sv(35) @ 270000: uvm_test_top.env.sb [SB] mismatch
+  expected: REG  addr=01008 data=a1e350c4
+  actual:   REG  addr=00212 data=a1e350c4
+UVM_ERROR cp_decoder_scoreboard.sv(35) @ 280000: uvm_test_top.env.sb [SB] mismatch
+  expected: REG  addr=01009 data=55af7fea
+  actual:   REG  addr=00213 data=55af7fea
+UVM_ERROR cp_decoder_scoreboard.sv(35) @ 290000: uvm_test_top.env.sb [SB] mismatch
+  expected: REG  addr=0100a data=60649ab2
+  actual:   REG  addr=00214 data=60649ab2
+UVM_ERROR cp_decoder_scoreboard.sv(35) @ 300000: uvm_test_top.env.sb [SB] mismatch
+  expected: REG  addr=0100b data=52365a1d
+  actual:   REG  addr=00215 data=52365a1d
+UVM_ERROR cp_decoder_scoreboard.sv(35) @ 310000: uvm_test_top.env.sb [SB] mismatch
+  expected: REG  addr=0100c data=5fe0f33d
+  actual:   REG  addr=00216 data=5fe0f33d
+UVM_ERROR cp_decoder_scoreboard.sv(35) @ 320000: uvm_test_top.env.sb [SB] mismatch
+  expected: REG  addr=0100d data=91d409e5
+  actual:   REG  addr=00217 data=91d409e5
+UVM_ERROR cp_decoder_scoreboard.sv(35) @ 330000: uvm_test_top.env.sb [SB] mismatch
+  expected: REG  addr=0100e data=87a63ae5
+  actual:   REG  addr=00218 data=87a63ae5
+UVM_ERROR cp_decoder_scoreboard.sv(35) @ 340000: uvm_test_top.env.sb [SB] mismatch
+  expected: REG  addr=0100f data=aca2985d
+  actual:   REG  addr=00219 data=aca2985d
+UVM_ERROR cp_decoder_scoreboard.sv(35) @ 350000: uvm_test_top.env.sb [SB] mismatch
+  expected: REG  addr=01010 data=be434f5b
+  actual:   REG  addr=0021a data=be434f5b
+UVM_ERROR cp_decoder_scoreboard.sv(35) @ 360000: uvm_test_top.env.sb [SB] mismatch
+  expected: REG  addr=01011 data=1133a1aa
+  actual:   REG  addr=0021b data=1133a1aa
+UVM_ERROR cp_decoder_scoreboard.sv(35) @ 370000: uvm_test_top.env.sb [SB] mismatch
+  expected: REG  addr=01012 data=d33d2b84
+  actual:   REG  addr=0021c data=d33d2b84
+UVM_ERROR cp_decoder_scoreboard.sv(35) @ 380000: uvm_test_top.env.sb [SB] mismatch
+  expected: REG  addr=01013 data=df911c39
+  actual:   REG  addr=0021d data=df911c39
+UVM_ERROR cp_decoder_scoreboard.sv(35) @ 390000: uvm_test_top.env.sb [SB] mismatch
+  expected: REG  addr=01014 data=5f3edcb7
+  actual:   REG  addr=0021e data=5f3edcb7
+UVM_ERROR cp_decoder_scoreboard.sv(35) @ 400000: uvm_test_top.env.sb [SB] mismatch
+  expected: REG  addr=01015 data=e9573f1c
+  actual:   REG  addr=0021f data=e9573f1c
+UVM_ERROR cp_decoder_scoreboard.sv(35) @ 410000: uvm_test_top.env.sb [SB] mismatch
+  expected: REG  addr=01016 data=30b4558c
+  actual:   REG  addr=00220 data=30b4558c
+UVM_ERROR cp_decoder_scoreboard.sv(35) @ 420000: uvm_test_top.env.sb [SB] mismatch
+  expected: REG  addr=01017 data=b1832d3d
+  actual:   REG  addr=00221 data=b1832d3d
+UVM_ERROR cp_decoder_scoreboard.sv(35) @ 430000: uvm_test_top.env.sb [SB] mismatch
+  expected: REG  addr=01018 data=debc18c2
+  actual:   REG  addr=00222 data=debc18c2
+UVM_ERROR cp_decoder_scoreboard.sv(35) @ 440000: uvm_test_top.env.sb [SB] mismatch
+  expected: REG  addr=01019 data=fe9bcba1
+  actual:   REG  addr=00223 data=fe9bcba1
+UVM_ERROR cp_decoder_scoreboard.sv(35) @ 450000: uvm_test_top.env.sb [SB] mismatch
+  expected: REG  addr=0101a data=961e53e7
+  actual:   REG  addr=00224 data=961e53e7
+UVM_ERROR cp_decoder_scoreboard.sv(35) @ 460000: uvm_test_top.env.sb [SB] mismatch
+  expected: REG  addr=0101b data=ff6211ff
+  actual:   REG  addr=00225 data=ff6211ff
+UVM_ERROR cp_decoder_scoreboard.sv(35) @ 470000: uvm_test_top.env.sb [SB] mismatch
+  expected: REG  addr=0101c data=cc13a62c
+  actual:   REG  addr=00226 data=cc13a62c
+UVM_ERROR cp_decoder_scoreboard.sv(35) @ 480000: uvm_test_top.env.sb [SB] mismatch
+  expected: REG  addr=0101d data=73a737d9
+  actual:   REG  addr=00227 data=73a737d9
+UVM_ERROR cp_decoder_scoreboard.sv(35) @ 490000: uvm_test_top.env.sb [SB] mismatch
+  expected: REG  addr=0101e data=09a43a70
+  actual:   REG  addr=00228 data=09a43a70
+UVM_ERROR cp_decoder_scoreboard.sv(35) @ 500000: uvm_test_top.env.sb [SB] mismatch
+  expected: REG  addr=0101f data=76f06285
+  actual:   REG  addr=00229 data=76f06285
+UVM_ERROR cp_decoder_scoreboard.sv(35) @ 510000: uvm_test_top.env.sb [SB] mismatch
+  expected: REG  addr=01020 data=29feb919
+  actual:   REG  addr=0022a data=29feb919
+UVM_ERROR cp_decoder_scoreboard.sv(35) @ 520000: uvm_test_top.env.sb [SB] mismatch
+  expected: REG  addr=01021 data=edb16496
+  actual:   REG  addr=0022b data=edb16496
+UVM_ERROR cp_decoder_scoreboard.sv(35) @ 530000: uvm_test_top.env.sb [SB] mismatch
+  expected: REG  addr=01022 data=bc63ae9b
+  actual:   REG  addr=0022c data=bc63ae9b
+UVM_ERROR cp_decoder_scoreboard.sv(35) @ 540000: uvm_test_top.env.sb [SB] mismatch
+  expected: REG  addr=01023 data=60c2d41b
+  actual:   REG  addr=0022d data=60c2d41b
+UVM_ERROR cp_decoder_scoreboard.sv(35) @ 550000: uvm_test_top.env.sb [SB] mismatch
+  expected: REG  addr=01024 data=0bc355bc
+  actual:   REG  addr=0022e data=0bc355bc
+UVM_ERROR cp_decoder_scoreboard.sv(35) @ 560000: uvm_test_top.env.sb [SB] mismatch
+  expected: REG  addr=01025 data=716dacec
+  actual:   REG  addr=0022f data=716dacec
+UVM_ERROR cp_decoder_scoreboard.sv(35) @ 570000: uvm_test_top.env.sb [SB] mismatch
+  expected: REG  addr=01026 data=92b11ead
+  actual:   REG  addr=00230 data=92b11ead
+UVM_ERROR cp_decoder_scoreboard.sv(35) @ 580000: uvm_test_top.env.sb [SB] mismatch
+  expected: REG  addr=01027 data=31420276
+  actual:   REG  addr=00231 data=31420276
+UVM_ERROR cp_decoder_scoreboard.sv(35) @ 590000: uvm_test_top.env.sb [SB] mismatch
+  expected: REG  addr=01028 data=a628569d
+  actual:   REG  addr=00232 data=a628569d
+UVM_ERROR cp_decoder_scoreboard.sv(35) @ 600000: uvm_test_top.env.sb [SB] mismatch
+  expected: REG  addr=01029 data=568c771b
+  actual:   REG  addr=00233 data=568c771b
+UVM_ERROR cp_decoder_scoreboard.sv(35) @ 610000: uvm_test_top.env.sb [SB] mismatch
+  expected: REG  addr=0102a data=55831a8b
+  actual:   REG  addr=00234 data=55831a8b
+UVM_ERROR cp_decoder_scoreboard.sv(35) @ 620000: uvm_test_top.env.sb [SB] mismatch
+  expected: REG  addr=0102b data=8fb9d896
+  actual:   REG  addr=00235 data=8fb9d896
+UVM_ERROR cp_decoder_scoreboard.sv(35) @ 630000: uvm_test_top.env.sb [SB] mismatch
+  expected: REG  addr=0102c data=0f106686
+  actual:   REG  addr=00236 data=0f106686
+UVM_ERROR cp_decoder_scoreboard.sv(35) @ 640000: uvm_test_top.env.sb [SB] mismatch
+  expected: REG  addr=0102d data=5a0cd717
+  actual:   REG  addr=00237 data=5a0cd717
+UVM_ERROR cp_decoder_scoreboard.sv(35) @ 650000: uvm_test_top.env.sb [SB] mismatch
+  expected: REG  addr=0102e data=08165591
+  actual:   REG  addr=00238 data=08165591
+UVM_ERROR cp_decoder_scoreboard.sv(35) @ 660000: uvm_test_top.env.sb [SB] mismatch
+  expected: REG  addr=0102f data=7f944867
+  actual:   REG  addr=00239 data=7f944867
+UVM_ERROR cp_decoder_scoreboard.sv(35) @ 670000: uvm_test_top.env.sb [SB] mismatch
+  expected: REG  addr=01030 data=8bbfde4d
+  actual:   REG  addr=0023a data=8bbfde4d
+UVM_ERROR cp_decoder_scoreboard.sv(35) @ 680000: uvm_test_top.env.sb [SB] mismatch
+  expected: REG  addr=01031 data=e060a179
+  actual:   REG  addr=0023b data=e060a179
+UVM_ERROR cp_decoder_scoreboard.sv(35) @ 690000: uvm_test_top.env.sb [SB] mismatch
+  expected: REG  addr=01032 data=48c1fc57
+  actual:   REG  addr=0023c data=48c1fc57
+UVM_ERROR cp_decoder_scoreboard.sv(35) @ 700000: uvm_test_top.env.sb [SB] mismatch
+  expected: REG  addr=01033 data=0b671d12
+  actual:   REG  addr=0023d data=0b671d12
+UVM_ERROR cp_decoder_scoreboard.sv(35) @ 710000: uvm_test_top.env.sb [SB] mismatch
+  expected: REG  addr=01034 data=346913a0
+  actual:   REG  addr=0023e data=346913a0
+UVM_ERROR cp_decoder_scoreboard.sv(35) @ 720000: uvm_test_top.env.sb [SB] mismatch
+  expected: REG  addr=01035 data=208219f5
+  actual:   REG  addr=0023f data=208219f5
+UVM_ERROR cp_decoder_scoreboard.sv(35) @ 730000: uvm_test_top.env.sb [SB] mismatch
+  expected: REG  addr=01036 data=0efafcca
+  actual:   REG  addr=00240 data=0efafcca
+UVM_ERROR cp_decoder_scoreboard.sv(35) @ 740000: uvm_test_top.env.sb [SB] mismatch
+  expected: REG  addr=01037 data=8bedca81
+  actual:   REG  addr=00241 data=8bedca81
+UVM_ERROR cp_decoder_scoreboard.sv(35) @ 750000: uvm_test_top.env.sb [SB] mismatch
+  expected: REG  addr=01038 data=451c3b3e
+  actual:   REG  addr=00242 data=451c3b3e
+UVM_ERROR cp_decoder_scoreboard.sv(35) @ 760000: uvm_test_top.env.sb [SB] mismatch
+  expected: REG  addr=01039 data=d416dbe8
+  actual:   REG  addr=00243 data=d416dbe8
+UVM_ERROR cp_decoder_scoreboard.sv(35) @ 770000: uvm_test_top.env.sb [SB] mismatch
+  expected: REG  addr=0103a data=59577fde
+  actual:   REG  addr=00244 data=59577fde
+UVM_ERROR cp_decoder_scoreboard.sv(35) @ 780000: uvm_test_top.env.sb [SB] mismatch
+  expected: REG  addr=0103b data=938bb901
+  actual:   REG  addr=00245 data=938bb901
+UVM_ERROR cp_decoder_scoreboard.sv(35) @ 790000: uvm_test_top.env.sb [SB] mismatch
+  expected: REG  addr=0103c data=c3cabe68
+  actual:   REG  addr=00246 data=c3cabe68
+UVM_ERROR cp_decoder_scoreboard.sv(35) @ 800000: uvm_test_top.env.sb [SB] mismatch
+  expected: REG  addr=0103d data=f75d3b98
+  actual:   REG  addr=00247 data=f75d3b98
+UVM_ERROR cp_decoder_scoreboard.sv(35) @ 810000: uvm_test_top.env.sb [SB] mismatch
+  expected: REG  addr=0103e data=289b44d1
+  actual:   REG  addr=00248 data=289b44d1
+UVM_ERROR cp_decoder_scoreboard.sv(35) @ 820000: uvm_test_top.env.sb [SB] mismatch
+  expected: REG  addr=0103f data=b3eafb3a
+  actual:   REG  addr=00249 data=b3eafb3a
+UVM_ERROR cp_decoder_scoreboard.sv(35) @ 830000: uvm_test_top.env.sb [SB] mismatch
+  expected: REG  addr=01040 data=4ed533ce
+  actual:   REG  addr=0024a data=4ed533ce
+UVM_ERROR cp_decoder_scoreboard.sv(35) @ 840000: uvm_test_top.env.sb [SB] mismatch
+  expected: REG  addr=01041 data=892092b2
+  actual:   REG  addr=0024b data=892092b2
+UVM_ERROR cp_decoder_scoreboard.sv(35) @ 850000: uvm_test_top.env.sb [SB] mismatch
+  expected: REG  addr=01042 data=72a31cd1
+  actual:   REG  addr=0024c data=72a31cd1
+UVM_ERROR cp_decoder_scoreboard.sv(35) @ 860000: uvm_test_top.env.sb [SB] mismatch
+  expected: REG  addr=01043 data=2fa0e0c1
+  actual:   REG  addr=0024d data=2fa0e0c1
+UVM_ERROR cp_decoder_scoreboard.sv(35) @ 870000: uvm_test_top.env.sb [SB] mismatch
+  expected: REG  addr=01044 data=c6494e41
+  actual:   REG  addr=0024e data=c6494e41
+UVM_ERROR cp_decoder_scoreboard.sv(35) @ 880000: uvm_test_top.env.sb [SB] mismatch
+  expected: REG  addr=01045 data=db67c279
+  actual:   REG  addr=0024f data=db67c279
+UVM_ERROR cp_decoder_scoreboard.sv(35) @ 890000: uvm_test_top.env.sb [SB] mismatch
+  expected: REG  addr=01046 data=6b3d83c7
+  actual:   REG  addr=00250 data=6b3d83c7
+UVM_ERROR cp_decoder_scoreboard.sv(35) @ 900000: uvm_test_top.env.sb [SB] mismatch
+  expected: REG  addr=01047 data=37853a0a
+  actual:   REG  addr=00251 data=37853a0a
+UVM_ERROR cp_decoder_scoreboard.sv(35) @ 910000: uvm_test_top.env.sb [SB] mismatch
+  expected: REG  addr=01048 data=51a5d71b
+  actual:   REG  addr=00252 data=51a5d71b
+UVM_ERROR cp_decoder_scoreboard.sv(35) @ 920000: uvm_test_top.env.sb [SB] mismatch
+  expected: REG  addr=01049 data=ddd3b117
+  actual:   REG  addr=00253 data=ddd3b117
+UVM_ERROR cp_decoder_scoreboard.sv(35) @ 930000: uvm_test_top.env.sb [SB] mismatch
+  expected: REG  addr=0104a data=67a67aa9
+  actual:   REG  addr=00254 data=67a67aa9
+UVM_ERROR cp_decoder_scoreboard.sv(35) @ 940000: uvm_test_top.env.sb [SB] mismatch
+  expected: REG  addr=0104b data=fc74af13
+  actual:   REG  addr=00255 data=fc74af13
+UVM_ERROR cp_decoder_scoreboard.sv(35) @ 950000: uvm_test_top.env.sb [SB] mismatch
+  expected: REG  addr=0104c data=85a1eb59
+  actual:   REG  addr=00256 data=85a1eb59
+UVM_ERROR cp_decoder_scoreboard.sv(35) @ 960000: uvm_test_top.env.sb [SB] mismatch
+  expected: REG  addr=0104d data=a1e57156
+  actual:   REG  addr=00257 data=a1e57156
+UVM_ERROR cp_decoder_scoreboard.sv(35) @ 970000: uvm_test_top.env.sb [SB] mismatch
+  expected: REG  addr=0104e data=9d492df5
+  actual:   REG  addr=00258 data=9d492df5
+UVM_ERROR cp_decoder_scoreboard.sv(35) @ 980000: uvm_test_top.env.sb [SB] mismatch
+  expected: REG  addr=0104f data=496d4f89
+  actual:   REG  addr=00259 data=496d4f89
+UVM_ERROR cp_decoder_scoreboard.sv(35) @ 990000: uvm_test_top.env.sb [SB] mismatch
+  expected: REG  addr=01050 data=3f052452
+  actual:   REG  addr=0025a data=3f052452
+UVM_ERROR cp_decoder_scoreboard.sv(35) @ 1000000: uvm_test_top.env.sb [SB] mismatch
+  expected: REG  addr=01051 data=d884efe7
+  actual:   REG  addr=0025b data=d884efe7
+UVM_ERROR cp_decoder_scoreboard.sv(35) @ 1010000: uvm_test_top.env.sb [SB] mismatch
+  expected: REG  addr=01052 data=5453c1fa
+  actual:   REG  addr=0025c data=5453c1fa
+UVM_ERROR cp_decoder_scoreboard.sv(35) @ 1020000: uvm_test_top.env.sb [SB] mismatch
+  expected: REG  addr=01053 data=55b50917
+  actual:   REG  addr=0025d data=55b50917
+UVM_ERROR cp_decoder_scoreboard.sv(35) @ 1030000: uvm_test_top.env.sb [SB] mismatch
+  expected: REG  addr=01054 data=8fefaa2e
+  actual:   REG  addr=0025e data=8fefaa2e
+UVM_ERROR cp_decoder_scoreboard.sv(35) @ 1040000: uvm_test_top.env.sb [SB] mismatch
+  expected: REG  addr=01055 data=d08c9675
+  actual:   REG  addr=0025f data=d08c9675
+UVM_ERROR cp_decoder_scoreboard.sv(35) @ 1050000: uvm_test_top.env.sb [SB] mismatch
+  expected: REG  addr=01056 data=cf18f223
+  actual:   REG  addr=00260 data=cf18f223
+UVM_ERROR cp_decoder_scoreboard.sv(35) @ 1060000: uvm_test_top.env.sb [SB] mismatch
+  expected: REG  addr=01057 data=c901391f
+  actual:   REG  addr=00261 data=c901391f
+UVM_ERROR cp_decoder_scoreboard.sv(35) @ 1070000: uvm_test_top.env.sb [SB] mismatch
+  expected: REG  addr=01058 data=7a296979
+  actual:   REG  addr=00262 data=7a296979
+UVM_ERROR cp_decoder_scoreboard.sv(35) @ 1080000: uvm_test_top.env.sb [SB] mismatch
+  expected: REG  addr=01059 data=411b2539
+  actual:   REG  addr=00263 data=411b2539
+UVM_ERROR cp_decoder_scoreboard.sv(35) @ 1090000: uvm_test_top.env.sb [SB] mismatch
+  expected: REG  addr=0105a data=a1f8ca18
+  actual:   REG  addr=00264 data=a1f8ca18
+UVM_ERROR cp_decoder_scoreboard.sv(35) @ 1100000: uvm_test_top.env.sb [SB] mismatch
+  expected: REG  addr=0105b data=c30f2581
+  actual:   REG  addr=00265 data=c30f2581
+UVM_ERROR cp_decoder_scoreboard.sv(35) @ 1110000: uvm_test_top.env.sb [SB] mismatch
+  expected: REG  addr=0105c data=f68f3ec8
+  actual:   REG  addr=00266 data=f68f3ec8
+UVM_ERROR cp_decoder_scoreboard.sv(35) @ 1120000: uvm_test_top.env.sb [SB] mismatch
+  expected: REG  addr=0105d data=27da3450
+  actual:   REG  addr=00267 data=27da3450
+UVM_ERROR cp_decoder_scoreboard.sv(35) @ 1130000: uvm_test_top.env.sb [SB] mismatch
+  expected: REG  addr=0105e data=9a1b5ead
+  actual:   REG  addr=00268 data=9a1b5ead
+UVM_ERROR cp_decoder_scoreboard.sv(35) @ 1140000: uvm_test_top.env.sb [SB] mismatch
+  expected: REG  addr=0105f data=45c62993
+  actual:   REG  addr=00269 data=45c62993
+UVM_ERROR cp_decoder_scoreboard.sv(35) @ 1150000: uvm_test_top.env.sb [SB] mismatch
+  expected: REG  addr=01060 data=27ca476e
+  actual:   REG  addr=0026a data=27ca476e
+UVM_ERROR cp_decoder_scoreboard.sv(35) @ 1160000: uvm_test_top.env.sb [SB] mismatch
+  expected: REG  addr=01061 data=e9c79c33
+  actual:   REG  addr=0026b data=e9c79c33
+UVM_ERROR cp_decoder_scoreboard.sv(35) @ 1170000: uvm_test_top.env.sb [SB] mismatch
+  expected: REG  addr=01062 data=dead4c99
+  actual:   REG  addr=0026c data=dead4c99
+UVM_ERROR cp_decoder_scoreboard.sv(35) @ 1180000: uvm_test_top.env.sb [SB] mismatch
+  expected: REG  addr=01063 data=c917e82f
+  actual:   REG  addr=0026d data=c917e82f
+UVM_ERROR cp_decoder_scoreboard.sv(35) @ 1190000: uvm_test_top.env.sb [SB] mismatch
+  expected: REG  addr=01064 data=24428e93
+  actual:   REG  addr=0026e data=24428e93
+UVM_ERROR cp_decoder_scoreboard.sv(35) @ 1200000: uvm_test_top.env.sb [SB] mismatch
+  expected: REG  addr=01065 data=9b573f3a
+  actual:   REG  addr=0026f data=9b573f3a
+UVM_ERROR cp_decoder_scoreboard.sv(35) @ 1210000: uvm_test_top.env.sb [SB] mismatch
+  expected: REG  addr=01066 data=cdfebedb
+  actual:   REG  addr=00270 data=cdfebedb
+UVM_ERROR cp_decoder_scoreboard.sv(35) @ 1220000: uvm_test_top.env.sb [SB] mismatch
+  expected: REG  addr=01067 data=fe3f83d2
+  actual:   REG  addr=00271 data=fe3f83d2
+UVM_ERROR cp_decoder_scoreboard.sv(35) @ 1230000: uvm_test_top.env.sb [SB] mismatch
+  expected: REG  addr=01068 data=bdb142ab
+  actual:   REG  addr=00272 data=bdb142ab
+UVM_ERROR cp_decoder_scoreboard.sv(35) @ 1240000: uvm_test_top.env.sb [SB] mismatch
+  expected: REG  addr=01069 data=ce30f195
+  actual:   REG  addr=00273 data=ce30f195
+UVM_ERROR cp_decoder_scoreboard.sv(35) @ 1250000: uvm_test_top.env.sb [SB] mismatch
+  expected: REG  addr=0106a data=f4555282
+  actual:   REG  addr=00274 data=f4555282
+UVM_ERROR cp_decoder_scoreboard.sv(35) @ 1260000: uvm_test_top.env.sb [SB] mismatch
+  expected: REG  addr=0106b data=15bd30bc
+  actual:   REG  addr=00275 data=15bd30bc
+UVM_ERROR cp_decoder_scoreboard.sv(35) @ 1270000: uvm_test_top.env.sb [SB] mismatch
+  expected: REG  addr=0106c data=18836cda
+  actual:   REG  addr=00276 data=18836cda
+UVM_ERROR cp_decoder_scoreboard.sv(35) @ 1280000: uvm_test_top.env.sb [SB] mismatch
+  expected: REG  addr=0106d data=bdf6a462
+  actual:   REG  addr=00277 data=bdf6a462
+UVM_ERROR cp_decoder_scoreboard.sv(35) @ 1290000: uvm_test_top.env.sb [SB] mismatch
+  expected: REG  addr=0106e data=aa82fdef
+  actual:   REG  addr=00278 data=aa82fdef
+UVM_ERROR cp_decoder_scoreboard.sv(35) @ 1300000: uvm_test_top.env.sb [SB] mismatch
+  expected: REG  addr=0106f data=859536e4
+  actual:   REG  addr=00279 data=859536e4
+UVM_ERROR cp_decoder_scoreboard.sv(35) @ 1310000: uvm_test_top.env.sb [SB] mismatch
+  expected: REG  addr=01070 data=72856ada
+  actual:   REG  addr=0027a data=72856ada
+UVM_ERROR cp_decoder_scoreboard.sv(35) @ 1320000: uvm_test_top.env.sb [SB] mismatch
+  expected: REG  addr=01071 data=3d25b083
+  actual:   REG  addr=0027b data=3d25b083
+UVM_ERROR cp_decoder_scoreboard.sv(35) @ 1330000: uvm_test_top.env.sb [SB] mismatch
+  expected: REG  addr=01072 data=3b4a59ee
+  actual:   REG  addr=0027c data=3b4a59ee
+UVM_ERROR cp_decoder_scoreboard.sv(35) @ 1340000: uvm_test_top.env.sb [SB] mismatch
+  expected: REG  addr=01073 data=586f0766
+  actual:   REG  addr=0027d data=586f0766
+UVM_ERROR cp_decoder_scoreboard.sv(35) @ 1350000: uvm_test_top.env.sb [SB] mismatch
+  expected: REG  addr=01074 data=8db7a701
+  actual:   REG  addr=0027e data=8db7a701
+UVM_ERROR cp_decoder_scoreboard.sv(35) @ 1360000: uvm_test_top.env.sb [SB] mismatch
+  expected: REG  addr=01075 data=7b61eef0
+  actual:   REG  addr=0027f data=7b61eef0
+UVM_ERROR cp_decoder_scoreboard.sv(35) @ 1370000: uvm_test_top.env.sb [SB] mismatch
+  expected: REG  addr=01076 data=d83549f4
+  actual:   REG  addr=00280 data=d83549f4
+UVM_ERROR cp_decoder_scoreboard.sv(35) @ 1380000: uvm_test_top.env.sb [SB] mismatch
+  expected: REG  addr=01077 data=4dd0051c
+  actual:   REG  addr=00281 data=4dd0051c
+UVM_ERROR cp_decoder_scoreboard.sv(35) @ 1390000: uvm_test_top.env.sb [SB] mismatch
+  expected: REG  addr=01078 data=5d44a0b0
+  actual:   REG  addr=00282 data=5d44a0b0
+UVM_ERROR cp_decoder_scoreboard.sv(35) @ 1400000: uvm_test_top.env.sb [SB] mismatch
+  expected: REG  addr=01079 data=4be2bd83
+  actual:   REG  addr=00283 data=4be2bd83
+UVM_ERROR cp_decoder_scoreboard.sv(35) @ 1410000: uvm_test_top.env.sb [SB] mismatch
+  expected: REG  addr=0107a data=aa7aa2f5
+  actual:   REG  addr=00284 data=aa7aa2f5
+UVM_ERROR cp_decoder_scoreboard.sv(35) @ 1420000: uvm_test_top.env.sb [SB] mismatch
+  expected: REG  addr=0107b data=5836b8ff
+  actual:   REG  addr=00285 data=5836b8ff
+UVM_ERROR cp_decoder_scoreboard.sv(35) @ 1430000: uvm_test_top.env.sb [SB] mismatch
+  expected: REG  addr=0107c data=c3f41ab0
+  actual:   REG  addr=00286 data=c3f41ab0
+UVM_ERROR cp_decoder_scoreboard.sv(35) @ 1440000: uvm_test_top.env.sb [SB] mismatch
+  expected: REG  addr=0107d data=ced9f64a
+  actual:   REG  addr=00287 data=ced9f64a
+UVM_ERROR cp_decoder_scoreboard.sv(35) @ 1450000: uvm_test_top.env.sb [SB] mismatch
+  expected: REG  addr=0107e data=1c769493
+  actual:   REG  addr=00288 data=1c769493
+UVM_ERROR cp_decoder_scoreboard.sv(35) @ 1460000: uvm_test_top.env.sb [SB] mismatch
+  expected: BAD_PKT raised
+  actual:   REG  addr=00289 data=09a878e7
+UVM_ERROR cp_decoder_scoreboard.sv(29) @ 1470000: uvm_test_top.env.sb [SB] unexpected output: REG  addr=0028a data=40030002
+UVM_ERROR cp_decoder_scoreboard.sv(35) @ 1480000: uvm_test_top.env.sb [SB] mismatch
+  expected: REG  addr=00300 data=8e059424
+  actual:   REG  addr=0028b data=8e059424
+UVM_ERROR cp_decoder_scoreboard.sv(35) @ 1490000: uvm_test_top.env.sb [SB] mismatch
+  expected: REG  addr=00301 data=05b9737a
+  actual:   REG  addr=0028c data=05b9737a
+UVM_ERROR cp_decoder_scoreboard.sv(29) @ 1500000: uvm_test_top.env.sb [SB] unexpected output: REG  addr=0028d data=0c78dc4b
+UVM_ERROR cp_decoder_scoreboard.sv(29) @ 1510000: uvm_test_top.env.sb [SB] unexpected output: REG  addr=0028e data=70030001
+UVM_ERROR cp_decoder_scoreboard.sv(35) @ 1520000: uvm_test_top.env.sb [SB] mismatch
+  expected: OP   op=03 data=e1ff10ad last=1
+  actual:   REG  addr=0028f data=e1ff10ad
+UVM_INFO cp_decoder_coverage.sv(55) @ 1725000: uvm_test_top.env.cov [COV] functional coverage = 78.6%
+    kind_T4                      5
+    kind_T7                      3
+    kind_BAD                     2
+    t4_count_zero                1
+    t7_count_zero                1
+    t4_count_one                 1
+    t7_count_one                 1
+    t4_count_few                 2
+    t7_count_few                 1
+    t4_count_mid                 0
+    t7_count_mid                 0
+    t4_count_max                 1
+    op_dispatch                  1
+    op_event_write               1
+    op_wait_idle                 1
+    op_other                     0
+    payload_stalled              0
+    payload_not_stalled          6
+    t4_reg_wrap                  1
+    order_T4_then_T4             3
+    order_T4_then_T7             1
+    order_T4_then_BAD            2
+    order_T7_then_T4             1
+    order_T7_then_T7             1
+    order_T7_then_BAD            0
+    order_BAD_then_T4            1
+    order_BAD_then_T7            1
+    order_BAD_then_BAD           0
+UVM_INFO cp_decoder_reference_model.sv(90) @ 1725000: uvm_test_top.env.model [MODEL] packets parsed: T4=5 T7=3 BAD=2 (mid-packet at end: 0)
+UVM_INFO cp_decoder_scoreboard.sv(48) @ 1725000: uvm_test_top.env.sb [SB] outputs matched=1 mismatched=144
+UVM_INFO /Users/sankalpahota/Documents/GIT/mGPU/third_party/uvm/base/uvm_report_server.svh(1009) @ 1725000: reporter [UVM/REPORT/SERVER] 
+--- UVM Report Summary ---
+
+** Report counts by severity
+UVM_INFO :    7
+UVM_WARNING :    2
+UVM_ERROR :  144
+UVM_FATAL :    0
+** Report counts by id
+[COV]     1
+[MODEL]     1
+[NO_DPI_TSTNAME]     1
+[NO_DPI_USED]     1
+[NO_VISIT_CHECK]     1
+[RNTST]     1
+[SB]   145
+[UVM/COMP/NAMECHECK]     1
+[UVM/RELNOTES]     1
+
+- /Users/sankalpahota/Documents/GIT/mGPU/third_party/uvm/base/uvm_test_runner.svh:297: Verilog $finish
+- S i m u l a t i o n   R e p o r t: Verilator 5.052 2026-09-05
+- Verilator: $finish at 2us; walltime 0.017 s; speed 99.625 us/s
+- Verilator: cpu 0.017 s on 1 threads; allocated 15 MB

@@ -1,0 +1,72 @@
+%Warning: System has stack size 65520 kb which may be too small; failed to request more using 'ulimit -s 132227104'
+UVM_INFO /Users/sankalpahota/Documents/GIT/mGPU/uvm/base/uvm_root.svh(457) @ 0: reporter [UVM/RELNOTES] 
+  ***********       IMPORTANT RELEASE NOTES         ************
+
+  This implementation of the UVM Library deviates from the 1800.2-2020
+  standard.  See the DEVIATIONS.md file contained in the release
+  for more details.
+
+----------------------------------------------------------------
+Accellera:1800.2:UVM:2020.3.2
+
+All copyright owners for this kit are listed in NOTICE.txt
+All Rights Reserved Worldwide
+----------------------------------------------------------------
+
+      (Specify +UVM_NO_RELNOTES to turn off this notice)
+
+UVM_WARNING /Users/sankalpahota/Documents/GIT/mGPU/uvm/base/uvm_test_runner.svh(207) @ 0: reporter [NO_DPI_USED] We are thinking of removing support for UVM_NO_DPI.  Please try this test without it and evaluate the impact
+UVM_INFO /Users/sankalpahota/Documents/GIT/mGPU/uvm/base/uvm_test_runner.svh(210) @ 0: reporter [NO_DPI_TSTNAME] UVM_NO_DPI defined--getting UVM_TESTNAME directly, without DPI
+UVM_INFO @ 0: reporter [RNTST] Running test top_scrambled_mmu_test...
+UVM_INFO /Users/sankalpahota/Documents/GIT/mGPU/uvm/base/uvm_traversal.svh(345) @ 0: reporter [UVM/COMP/NAMECHECK] This implementation of the component name checks requires DPI to be enabled
+UVM_WARNING /Users/sankalpahota/Documents/GIT/mGPU/uvm/base/uvm_traversal.svh(314) @ 0: reporter [NO_VISIT_CHECK] Because UVM_REGEX_NO_DPI is defined, no uvm component name constraints will be checked
+UVM_INFO top_tb.sv(160) @ 16306000: uvm_test_top.env.cpu [KERNEL] vector_add    wg=6 warps/wg=2 threads=96  cycles=1599  mismatches=0
+UVM_INFO top_tb.sv(160) @ 32476000: uvm_test_top.env.cpu [KERNEL] saxpy         wg=6 warps/wg=3 threads=144  cycles=1617  mismatches=0
+UVM_INFO top_tb.sv(160) @ 53616000: uvm_test_top.env.cpu [KERNEL] reduction     wg=6 warps/wg=4 threads=192  cycles=2114  mismatches=0
+UVM_INFO top_tb.sv(160) @ 67086000: uvm_test_top.env.cpu [KERNEL] divergence    wg=6 warps/wg=2 threads=96  cycles=1347  mismatches=0
+UVM_INFO top_tb.sv(160) @ 82336000: uvm_test_top.env.cpu [KERNEL] sfu           wg=6 warps/wg=3 threads=144  cycles=1525  mismatches=0
+UVM_INFO top_tb.sv(160) @ 100956000: uvm_test_top.env.cpu [KERNEL] exit_barrier  wg=6 warps/wg=4 threads=192  cycles=1862  mismatches=0
+UVM_INFO top_tb.sv(160) @ 111736000: uvm_test_top.env.cpu [KERNEL] smem_conflict wg=6 warps/wg=2 threads=96  cycles=1078  mismatches=0
+UVM_INFO top_tb.sv(168) @ 111856000: uvm_test_top.env.cpu [PERF] SM0 issue cycles=1754  TLB hits=316  DRAM row hits=238  SM power-offs=0
+UVM_INFO top_tb.sv(171) @ 112055000: uvm_test_top.env.cpu [CPU] kernels=7 total GPU cycles=11142 errors=0
+UVM_INFO top_tb.sv(172) @ 112055000: uvm_test_top.env.cpu [COV] functional coverage = 68.8%
+    kernel_vector_add            1
+    kernel_saxpy                 1
+    kernel_reduction             1
+    kernel_divergence            1
+    kernel_sfu                   1
+    kernel_exit_barrier          1
+    kernel_smem_conflict         1
+    kernel_random                0
+    mmu_identity                 0
+    mmu_scrambled                1
+    mmu_fault_reported           0
+    gmu_power_cycles             0
+    irq_per_kernel               7
+    perf_counters_read           1
+    back_to_back_kernels         6
+    ring_wraps                   0
+UVM_INFO /Users/sankalpahota/Documents/GIT/mGPU/uvm/base/uvm_report_server.svh(1009) @ 112055000: reporter [UVM/REPORT/SERVER] 
+--- UVM Report Summary ---
+
+** Report counts by severity
+UVM_INFO :   14
+UVM_WARNING :    2
+UVM_ERROR :    0
+UVM_FATAL :    0
+** Report counts by id
+[COV]     1
+[CPU]     1
+[KERNEL]     7
+[NO_DPI_TSTNAME]     1
+[NO_DPI_USED]     1
+[NO_VISIT_CHECK]     1
+[PERF]     1
+[RNTST]     1
+[UVM/COMP/NAMECHECK]     1
+[UVM/RELNOTES]     1
+
+- /Users/sankalpahota/Documents/GIT/mGPU/uvm/base/uvm_test_runner.svh:297: Verilog $finish
+- S i m u l a t i o n   R e p o r t: Verilator 5.052 2026-09-05
+- Verilator: $finish at 112us; walltime 0.035 s; speed 3.210 ms/s
+- Verilator: cpu 0.035 s on 1 threads; allocated 14 MB

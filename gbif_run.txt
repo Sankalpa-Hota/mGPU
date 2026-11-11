@@ -1,0 +1,8 @@
+merged functional coverage = 100.0% (11/11 bins)
+12
+building 19_gbif +define+BUG_W_AFTER_AW
+BUG CAUGHT  logs/bug_BUG_W_AFTER_AW.log (errors=1)
+building 19_gbif +define+BUG_WLAST
+BUG CAUGHT  logs/bug_BUG_WLAST.log (errors=1)
+building 19_gbif +define+BUG_RBEAT_ORDER
+BUG CAUGHT  logs/bug_BUG_RBEAT_ORDER.log (errors=1502)

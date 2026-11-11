@@ -1,0 +1,507 @@
+%Warning: System has stack size 65520 kb which may be too small; failed to request more using 'ulimit -s 171599293'
+UVM_INFO /Users/sankalpahota/Documents/GIT/mGPU/uvm/base/uvm_root.svh(457) @ 0: reporter [UVM/RELNOTES] 
+  ***********       IMPORTANT RELEASE NOTES         ************
+
+  This implementation of the UVM Library deviates from the 1800.2-2020
+  standard.  See the DEVIATIONS.md file contained in the release
+  for more details.
+
+----------------------------------------------------------------
+Accellera:1800.2:UVM:2020.3.2
+
+All copyright owners for this kit are listed in NOTICE.txt
+All Rights Reserved Worldwide
+----------------------------------------------------------------
+
+      (Specify +UVM_NO_RELNOTES to turn off this notice)
+
+UVM_WARNING /Users/sankalpahota/Documents/GIT/mGPU/uvm/base/uvm_test_runner.svh(207) @ 0: reporter [NO_DPI_USED] We are thinking of removing support for UVM_NO_DPI.  Please try this test without it and evaluate the impact
+UVM_INFO /Users/sankalpahota/Documents/GIT/mGPU/uvm/base/uvm_test_runner.svh(210) @ 0: reporter [NO_DPI_TSTNAME] UVM_NO_DPI defined--getting UVM_TESTNAME directly, without DPI
+UVM_INFO @ 0: reporter [RNTST] Running test alu_rand_test...
+UVM_INFO /Users/sankalpahota/Documents/GIT/mGPU/uvm/base/uvm_traversal.svh(345) @ 0: reporter [UVM/COMP/NAMECHECK] This implementation of the component name checks requires DPI to be enabled
+UVM_WARNING /Users/sankalpahota/Documents/GIT/mGPU/uvm/base/uvm_traversal.svh(314) @ 0: reporter [NO_VISIT_CHECK] Because UVM_REGEX_NO_DPI is defined, no uvm component name constraints will be checked
+UVM_ERROR alu_tb.sv(127) @ 690000: uvm_test_top.env.chk [CHK] 2638f3a6 lane 0: result 00000001, expected 00000000
+UVM_ERROR alu_tb.sv(127) @ 690000: uvm_test_top.env.chk [CHK] 2638f3a6 lane 1: result 00000001, expected 00000000
+UVM_ERROR alu_tb.sv(127) @ 690000: uvm_test_top.env.chk [CHK] 2638f3a6 lane 3: result 00000000, expected 00000001
+UVM_ERROR alu_tb.sv(127) @ 810000: uvm_test_top.env.chk [CHK] 24fa0d5e lane 1: result 00000000, expected 00000001
+UVM_ERROR alu_tb.sv(127) @ 810000: uvm_test_top.env.chk [CHK] 24fa0d5e lane 2: result 00000000, expected 00000001
+UVM_ERROR alu_tb.sv(127) @ 810000: uvm_test_top.env.chk [CHK] 24fa0d5e lane 5: result 00000001, expected 00000000
+UVM_ERROR alu_tb.sv(127) @ 810000: uvm_test_top.env.chk [CHK] 24fa0d5e lane 6: result 00000000, expected 00000001
+UVM_ERROR alu_tb.sv(127) @ 810000: uvm_test_top.env.chk [CHK] 24fa0d5e lane 7: result 00000000, expected 00000001
+UVM_ERROR alu_tb.sv(127) @ 1210000: uvm_test_top.env.chk [CHK] 2491d94a lane 1: result 00000000, expected 00000001
+UVM_ERROR alu_tb.sv(127) @ 1210000: uvm_test_top.env.chk [CHK] 2491d94a lane 5: result 00000000, expected 00000001
+UVM_ERROR alu_tb.sv(127) @ 1940000: uvm_test_top.env.chk [CHK] 27b0eb56 lane 0: result 00000001, expected 00000000
+UVM_ERROR alu_tb.sv(127) @ 1940000: uvm_test_top.env.chk [CHK] 27b0eb56 lane 1: result 00000000, expected 00000001
+UVM_ERROR alu_tb.sv(127) @ 1940000: uvm_test_top.env.chk [CHK] 27b0eb56 lane 3: result 00000000, expected 00000001
+UVM_ERROR alu_tb.sv(127) @ 1940000: uvm_test_top.env.chk [CHK] 27b0eb56 lane 5: result 00000000, expected 00000001
+UVM_ERROR alu_tb.sv(127) @ 1940000: uvm_test_top.env.chk [CHK] 27b0eb56 lane 6: result 00000001, expected 00000000
+UVM_ERROR alu_tb.sv(127) @ 2600000: uvm_test_top.env.chk [CHK] 279a500c lane 0: result 00000000, expected 00000001
+UVM_ERROR alu_tb.sv(127) @ 2600000: uvm_test_top.env.chk [CHK] 279a500c lane 3: result 00000000, expected 00000001
+UVM_ERROR alu_tb.sv(127) @ 2600000: uvm_test_top.env.chk [CHK] 279a500c lane 4: result 00000000, expected 00000001
+UVM_ERROR alu_tb.sv(127) @ 2600000: uvm_test_top.env.chk [CHK] 279a500c lane 5: result 00000001, expected 00000000
+UVM_ERROR alu_tb.sv(127) @ 2600000: uvm_test_top.env.chk [CHK] 279a500c lane 6: result 00000001, expected 00000000
+UVM_ERROR alu_tb.sv(127) @ 2860000: uvm_test_top.env.chk [CHK] 256607de lane 0: result 00000000, expected 00000001
+UVM_ERROR alu_tb.sv(127) @ 2860000: uvm_test_top.env.chk [CHK] 256607de lane 3: result 00000001, expected 00000000
+UVM_ERROR alu_tb.sv(127) @ 2860000: uvm_test_top.env.chk [CHK] 256607de lane 4: result 00000000, expected 00000001
+UVM_ERROR alu_tb.sv(127) @ 2860000: uvm_test_top.env.chk [CHK] 256607de lane 7: result 00000000, expected 00000001
+UVM_ERROR alu_tb.sv(127) @ 3240000: uvm_test_top.env.chk [CHK] 27bbd5d5 lane 1: result 00000001, expected 00000000
+UVM_ERROR alu_tb.sv(127) @ 3240000: uvm_test_top.env.chk [CHK] 27bbd5d5 lane 2: result 00000001, expected 00000000
+UVM_ERROR alu_tb.sv(127) @ 3240000: uvm_test_top.env.chk [CHK] 27bbd5d5 lane 3: result 00000000, expected 00000001
+UVM_ERROR alu_tb.sv(127) @ 5410000: uvm_test_top.env.chk [CHK] 26a33cb2 lane 1: result 00000001, expected 00000000
+UVM_ERROR alu_tb.sv(127) @ 5410000: uvm_test_top.env.chk [CHK] 26a33cb2 lane 3: result 00000001, expected 00000000
+UVM_ERROR alu_tb.sv(127) @ 5410000: uvm_test_top.env.chk [CHK] 26a33cb2 lane 4: result 00000001, expected 00000000
+UVM_ERROR alu_tb.sv(127) @ 5410000: uvm_test_top.env.chk [CHK] 26a33cb2 lane 6: result 00000000, expected 00000001
+UVM_ERROR alu_tb.sv(127) @ 5690000: uvm_test_top.env.chk [CHK] 2456e8c8 lane 0: result 00000001, expected 00000000
+UVM_ERROR alu_tb.sv(127) @ 5690000: uvm_test_top.env.chk [CHK] 2456e8c8 lane 1: result 00000001, expected 00000000
+UVM_ERROR alu_tb.sv(127) @ 5690000: uvm_test_top.env.chk [CHK] 2456e8c8 lane 4: result 00000000, expected 00000001
+UVM_ERROR alu_tb.sv(127) @ 5690000: uvm_test_top.env.chk [CHK] 2456e8c8 lane 5: result 00000001, expected 00000000
+UVM_ERROR alu_tb.sv(127) @ 5690000: uvm_test_top.env.chk [CHK] 2456e8c8 lane 7: result 00000000, expected 00000001
+UVM_ERROR alu_tb.sv(127) @ 5830000: uvm_test_top.env.chk [CHK] 24b4f59d lane 0: result 00000000, expected 00000001
+UVM_ERROR alu_tb.sv(127) @ 5830000: uvm_test_top.env.chk [CHK] 24b4f59d lane 2: result 00000001, expected 00000000
+UVM_ERROR alu_tb.sv(127) @ 5830000: uvm_test_top.env.chk [CHK] 24b4f59d lane 7: result 00000001, expected 00000000
+UVM_ERROR alu_tb.sv(127) @ 5860000: uvm_test_top.env.chk [CHK] 247b3c79 lane 0: result 00000000, expected 00000001
+UVM_ERROR alu_tb.sv(127) @ 5860000: uvm_test_top.env.chk [CHK] 247b3c79 lane 1: result 00000000, expected 00000001
+UVM_ERROR alu_tb.sv(127) @ 5860000: uvm_test_top.env.chk [CHK] 247b3c79 lane 3: result 00000000, expected 00000001
+UVM_ERROR alu_tb.sv(127) @ 6660000: uvm_test_top.env.chk [CHK] 279a5b2b lane 1: result 00000000, expected 00000001
+UVM_ERROR alu_tb.sv(127) @ 7310000: uvm_test_top.env.chk [CHK] 262df4e5 lane 0: result 00000000, expected 00000001
+UVM_ERROR alu_tb.sv(127) @ 7310000: uvm_test_top.env.chk [CHK] 262df4e5 lane 2: result 00000001, expected 00000000
+UVM_ERROR alu_tb.sv(127) @ 7310000: uvm_test_top.env.chk [CHK] 262df4e5 lane 4: result 00000000, expected 00000001
+UVM_ERROR alu_tb.sv(127) @ 7310000: uvm_test_top.env.chk [CHK] 262df4e5 lane 5: result 00000001, expected 00000000
+UVM_ERROR alu_tb.sv(127) @ 7620000: uvm_test_top.env.chk [CHK] 2713b314 lane 1: result 00000001, expected 00000000
+UVM_ERROR alu_tb.sv(127) @ 7620000: uvm_test_top.env.chk [CHK] 2713b314 lane 2: result 00000000, expected 00000001
+UVM_ERROR alu_tb.sv(127) @ 7620000: uvm_test_top.env.chk [CHK] 2713b314 lane 5: result 00000000, expected 00000001
+UVM_ERROR alu_tb.sv(127) @ 7740000: uvm_test_top.env.chk [CHK] 26dc5832 lane 6: result 00000000, expected 00000001
+UVM_ERROR alu_tb.sv(127) @ 7760000: uvm_test_top.env.chk [CHK] 2463eb9c lane 0: result 00000000, expected 00000001
+UVM_ERROR alu_tb.sv(127) @ 7760000: uvm_test_top.env.chk [CHK] 2463eb9c lane 5: result 00000000, expected 00000001
+UVM_ERROR alu_tb.sv(127) @ 7760000: uvm_test_top.env.chk [CHK] 2463eb9c lane 6: result 00000000, expected 00000001
+UVM_ERROR alu_tb.sv(127) @ 7760000: uvm_test_top.env.chk [CHK] 2463eb9c lane 7: result 00000000, expected 00000001
+UVM_ERROR alu_tb.sv(127) @ 8160000: uvm_test_top.env.chk [CHK] 2458421e lane 3: result 00000001, expected 00000000
+UVM_ERROR alu_tb.sv(127) @ 8160000: uvm_test_top.env.chk [CHK] 2458421e lane 5: result 00000001, expected 00000000
+UVM_ERROR alu_tb.sv(127) @ 8220000: uvm_test_top.env.chk [CHK] 24df9519 lane 2: result 00000000, expected 00000001
+UVM_ERROR alu_tb.sv(127) @ 8220000: uvm_test_top.env.chk [CHK] 24df9519 lane 6: result 00000000, expected 00000001
+UVM_ERROR alu_tb.sv(127) @ 8780000: uvm_test_top.env.chk [CHK] 24613e29 lane 0: result 00000000, expected 00000001
+UVM_ERROR alu_tb.sv(127) @ 8780000: uvm_test_top.env.chk [CHK] 24613e29 lane 1: result 00000000, expected 00000001
+UVM_ERROR alu_tb.sv(127) @ 8780000: uvm_test_top.env.chk [CHK] 24613e29 lane 5: result 00000001, expected 00000000
+UVM_ERROR alu_tb.sv(127) @ 8960000: uvm_test_top.env.chk [CHK] 279764ca lane 3: result 00000000, expected 00000001
+UVM_ERROR alu_tb.sv(127) @ 8960000: uvm_test_top.env.chk [CHK] 279764ca lane 5: result 00000001, expected 00000000
+UVM_ERROR alu_tb.sv(127) @ 8960000: uvm_test_top.env.chk [CHK] 279764ca lane 6: result 00000001, expected 00000000
+UVM_ERROR alu_tb.sv(127) @ 8960000: uvm_test_top.env.chk [CHK] 279764ca lane 7: result 00000000, expected 00000001
+UVM_ERROR alu_tb.sv(127) @ 9920000: uvm_test_top.env.chk [CHK] 27f818dc lane 1: result 00000000, expected 00000001
+UVM_ERROR alu_tb.sv(127) @ 9920000: uvm_test_top.env.chk [CHK] 27f818dc lane 2: result 00000000, expected 00000001
+UVM_ERROR alu_tb.sv(127) @ 9920000: uvm_test_top.env.chk [CHK] 27f818dc lane 3: result 00000000, expected 00000001
+UVM_ERROR alu_tb.sv(127) @ 9920000: uvm_test_top.env.chk [CHK] 27f818dc lane 5: result 00000000, expected 00000001
+UVM_ERROR alu_tb.sv(127) @ 9920000: uvm_test_top.env.chk [CHK] 27f818dc lane 6: result 00000001, expected 00000000
+UVM_ERROR alu_tb.sv(127) @ 12420000: uvm_test_top.env.chk [CHK] 26135fc2 lane 1: result 00000000, expected 00000001
+UVM_ERROR alu_tb.sv(127) @ 12420000: uvm_test_top.env.chk [CHK] 26135fc2 lane 2: result 00000001, expected 00000000
+UVM_ERROR alu_tb.sv(127) @ 12420000: uvm_test_top.env.chk [CHK] 26135fc2 lane 4: result 00000001, expected 00000000
+UVM_ERROR alu_tb.sv(127) @ 12420000: uvm_test_top.env.chk [CHK] 26135fc2 lane 5: result 00000000, expected 00000001
+UVM_ERROR alu_tb.sv(127) @ 13340000: uvm_test_top.env.chk [CHK] 253f50d7 lane 0: result 00000001, expected 00000000
+UVM_ERROR alu_tb.sv(127) @ 13340000: uvm_test_top.env.chk [CHK] 253f50d7 lane 2: result 00000001, expected 00000000
+UVM_ERROR alu_tb.sv(127) @ 13340000: uvm_test_top.env.chk [CHK] 253f50d7 lane 5: result 00000000, expected 00000001
+UVM_ERROR alu_tb.sv(127) @ 13520000: uvm_test_top.env.chk [CHK] 246a71fc lane 0: result 00000000, expected 00000001
+UVM_ERROR alu_tb.sv(127) @ 13520000: uvm_test_top.env.chk [CHK] 246a71fc lane 2: result 00000000, expected 00000001
+UVM_ERROR alu_tb.sv(127) @ 13520000: uvm_test_top.env.chk [CHK] 246a71fc lane 3: result 00000000, expected 00000001
+UVM_ERROR alu_tb.sv(127) @ 13520000: uvm_test_top.env.chk [CHK] 246a71fc lane 4: result 00000000, expected 00000001
+UVM_ERROR alu_tb.sv(127) @ 13520000: uvm_test_top.env.chk [CHK] 246a71fc lane 5: result 00000000, expected 00000001
+UVM_ERROR alu_tb.sv(127) @ 13660000: uvm_test_top.env.chk [CHK] 268b9d75 lane 3: result 00000000, expected 00000001
+UVM_ERROR alu_tb.sv(127) @ 13660000: uvm_test_top.env.chk [CHK] 268b9d75 lane 5: result 00000001, expected 00000000
+UVM_ERROR alu_tb.sv(127) @ 14680000: uvm_test_top.env.chk [CHK] 2725fdf3 lane 1: result 00000001, expected 00000000
+UVM_ERROR alu_tb.sv(127) @ 14680000: uvm_test_top.env.chk [CHK] 2725fdf3 lane 2: result 00000000, expected 00000001
+UVM_ERROR alu_tb.sv(127) @ 14680000: uvm_test_top.env.chk [CHK] 2725fdf3 lane 3: result 00000000, expected 00000001
+UVM_ERROR alu_tb.sv(127) @ 14680000: uvm_test_top.env.chk [CHK] 2725fdf3 lane 4: result 00000001, expected 00000000
+UVM_ERROR alu_tb.sv(127) @ 14680000: uvm_test_top.env.chk [CHK] 2725fdf3 lane 5: result 00000000, expected 00000001
+UVM_ERROR alu_tb.sv(127) @ 14680000: uvm_test_top.env.chk [CHK] 2725fdf3 lane 6: result 00000001, expected 00000000
+UVM_ERROR alu_tb.sv(127) @ 15120000: uvm_test_top.env.chk [CHK] 25d85c64 lane 0: result 00000000, expected 00000001
+UVM_ERROR alu_tb.sv(127) @ 15120000: uvm_test_top.env.chk [CHK] 25d85c64 lane 3: result 00000001, expected 00000000
+UVM_ERROR alu_tb.sv(127) @ 15120000: uvm_test_top.env.chk [CHK] 25d85c64 lane 4: result 00000000, expected 00000001
+UVM_ERROR alu_tb.sv(127) @ 15120000: uvm_test_top.env.chk [CHK] 25d85c64 lane 7: result 00000001, expected 00000000
+UVM_ERROR alu_tb.sv(127) @ 15220000: uvm_test_top.env.chk [CHK] 26cb2fe2 lane 6: result 00000000, expected 00000001
+UVM_ERROR alu_tb.sv(127) @ 15220000: uvm_test_top.env.chk [CHK] 26cb2fe2 lane 7: result 00000000, expected 00000001
+UVM_ERROR alu_tb.sv(127) @ 15450000: uvm_test_top.env.chk [CHK] 245cdde2 lane 2: result 00000001, expected 00000000
+UVM_ERROR alu_tb.sv(127) @ 15450000: uvm_test_top.env.chk [CHK] 245cdde2 lane 3: result 00000000, expected 00000001
+UVM_ERROR alu_tb.sv(127) @ 15450000: uvm_test_top.env.chk [CHK] 245cdde2 lane 5: result 00000000, expected 00000001
+UVM_ERROR alu_tb.sv(127) @ 15540000: uvm_test_top.env.chk [CHK] 255e426c lane 2: result 00000001, expected 00000000
+UVM_ERROR alu_tb.sv(127) @ 15540000: uvm_test_top.env.chk [CHK] 255e426c lane 3: result 00000000, expected 00000001
+UVM_ERROR alu_tb.sv(127) @ 15540000: uvm_test_top.env.chk [CHK] 255e426c lane 6: result 00000001, expected 00000000
+UVM_ERROR alu_tb.sv(127) @ 16280000: uvm_test_top.env.chk [CHK] 26d05c0c lane 1: result 00000000, expected 00000001
+UVM_ERROR alu_tb.sv(127) @ 16280000: uvm_test_top.env.chk [CHK] 26d05c0c lane 7: result 00000000, expected 00000001
+UVM_ERROR alu_tb.sv(127) @ 16900000: uvm_test_top.env.chk [CHK] 257aadb7 lane 1: result 00000000, expected 00000001
+UVM_ERROR alu_tb.sv(127) @ 16900000: uvm_test_top.env.chk [CHK] 257aadb7 lane 2: result 00000000, expected 00000001
+UVM_ERROR alu_tb.sv(127) @ 16900000: uvm_test_top.env.chk [CHK] 257aadb7 lane 6: result 00000001, expected 00000000
+UVM_ERROR alu_tb.sv(127) @ 17310000: uvm_test_top.env.chk [CHK] 270efd4d lane 1: result 00000001, expected 00000000
+UVM_ERROR alu_tb.sv(127) @ 17310000: uvm_test_top.env.chk [CHK] 270efd4d lane 2: result 00000001, expected 00000000
+UVM_ERROR alu_tb.sv(127) @ 17310000: uvm_test_top.env.chk [CHK] 270efd4d lane 4: result 00000000, expected 00000001
+UVM_ERROR alu_tb.sv(127) @ 17310000: uvm_test_top.env.chk [CHK] 270efd4d lane 6: result 00000000, expected 00000001
+UVM_ERROR alu_tb.sv(127) @ 17310000: uvm_test_top.env.chk [CHK] 270efd4d lane 7: result 00000001, expected 00000000
+UVM_ERROR alu_tb.sv(127) @ 17520000: uvm_test_top.env.chk [CHK] 26839d7d lane 0: result 00000001, expected 00000000
+UVM_ERROR alu_tb.sv(127) @ 17520000: uvm_test_top.env.chk [CHK] 26839d7d lane 3: result 00000001, expected 00000000
+UVM_ERROR alu_tb.sv(127) @ 17520000: uvm_test_top.env.chk [CHK] 26839d7d lane 5: result 00000000, expected 00000001
+UVM_ERROR alu_tb.sv(127) @ 18480000: uvm_test_top.env.chk [CHK] 2575412d lane 3: result 00000001, expected 00000000
+UVM_ERROR alu_tb.sv(127) @ 18710000: uvm_test_top.env.chk [CHK] 26be7531 lane 1: result 00000000, expected 00000001
+UVM_ERROR alu_tb.sv(127) @ 18710000: uvm_test_top.env.chk [CHK] 26be7531 lane 4: result 00000001, expected 00000000
+UVM_ERROR alu_tb.sv(127) @ 18710000: uvm_test_top.env.chk [CHK] 26be7531 lane 5: result 00000000, expected 00000001
+UVM_ERROR alu_tb.sv(127) @ 18830000: uvm_test_top.env.chk [CHK] 25d3267d lane 3: result 00000000, expected 00000001
+UVM_ERROR alu_tb.sv(127) @ 18830000: uvm_test_top.env.chk [CHK] 25d3267d lane 5: result 00000000, expected 00000001
+UVM_ERROR alu_tb.sv(127) @ 18890000: uvm_test_top.env.chk [CHK] 2451f26a lane 1: result 00000000, expected 00000001
+UVM_ERROR alu_tb.sv(127) @ 18890000: uvm_test_top.env.chk [CHK] 2451f26a lane 4: result 00000000, expected 00000001
+UVM_ERROR alu_tb.sv(127) @ 18890000: uvm_test_top.env.chk [CHK] 2451f26a lane 5: result 00000000, expected 00000001
+UVM_ERROR alu_tb.sv(127) @ 19370000: uvm_test_top.env.chk [CHK] 25bf9907 lane 1: result 00000000, expected 00000001
+UVM_ERROR alu_tb.sv(127) @ 19370000: uvm_test_top.env.chk [CHK] 25bf9907 lane 3: result 00000001, expected 00000000
+UVM_ERROR alu_tb.sv(127) @ 19370000: uvm_test_top.env.chk [CHK] 25bf9907 lane 7: result 00000001, expected 00000000
+UVM_ERROR alu_tb.sv(127) @ 19420000: uvm_test_top.env.chk [CHK] 24bf953b lane 0: result 00000000, expected 00000001
+UVM_ERROR alu_tb.sv(127) @ 19420000: uvm_test_top.env.chk [CHK] 24bf953b lane 2: result 00000000, expected 00000001
+UVM_ERROR alu_tb.sv(127) @ 19450000: uvm_test_top.env.chk [CHK] 258fc853 lane 1: result 00000000, expected 00000001
+UVM_ERROR alu_tb.sv(127) @ 20050000: uvm_test_top.env.chk [CHK] 26edb7d6 lane 5: result 00000001, expected 00000000
+UVM_ERROR alu_tb.sv(127) @ 20050000: uvm_test_top.env.chk [CHK] 26edb7d6 lane 7: result 00000000, expected 00000001
+UVM_ERROR alu_tb.sv(127) @ 20620000: uvm_test_top.env.chk [CHK] 27e8a2ca lane 1: result 00000001, expected 00000000
+UVM_ERROR alu_tb.sv(127) @ 20620000: uvm_test_top.env.chk [CHK] 27e8a2ca lane 6: result 00000000, expected 00000001
+UVM_ERROR alu_tb.sv(127) @ 20790000: uvm_test_top.env.chk [CHK] 25f74265 lane 1: result 00000001, expected 00000000
+UVM_ERROR alu_tb.sv(127) @ 20790000: uvm_test_top.env.chk [CHK] 25f74265 lane 2: result 00000001, expected 00000000
+UVM_ERROR alu_tb.sv(127) @ 20790000: uvm_test_top.env.chk [CHK] 25f74265 lane 3: result 00000000, expected 00000001
+UVM_ERROR alu_tb.sv(127) @ 20790000: uvm_test_top.env.chk [CHK] 25f74265 lane 5: result 00000000, expected 00000001
+UVM_ERROR alu_tb.sv(127) @ 20790000: uvm_test_top.env.chk [CHK] 25f74265 lane 6: result 00000001, expected 00000000
+UVM_ERROR alu_tb.sv(127) @ 20790000: uvm_test_top.env.chk [CHK] 25f74265 lane 7: result 00000001, expected 00000000
+UVM_ERROR alu_tb.sv(127) @ 21090000: uvm_test_top.env.chk [CHK] 278307ad lane 4: result 00000000, expected 00000001
+UVM_ERROR alu_tb.sv(127) @ 21200000: uvm_test_top.env.chk [CHK] 26f86a73 lane 1: result 00000000, expected 00000001
+UVM_ERROR alu_tb.sv(127) @ 21200000: uvm_test_top.env.chk [CHK] 26f86a73 lane 3: result 00000001, expected 00000000
+UVM_ERROR alu_tb.sv(127) @ 21200000: uvm_test_top.env.chk [CHK] 26f86a73 lane 6: result 00000000, expected 00000001
+UVM_ERROR alu_tb.sv(127) @ 21200000: uvm_test_top.env.chk [CHK] 26f86a73 lane 7: result 00000001, expected 00000000
+UVM_ERROR alu_tb.sv(127) @ 21890000: uvm_test_top.env.chk [CHK] 26f3572e lane 1: result 00000001, expected 00000000
+UVM_ERROR alu_tb.sv(127) @ 21890000: uvm_test_top.env.chk [CHK] 26f3572e lane 2: result 00000000, expected 00000001
+UVM_ERROR alu_tb.sv(127) @ 21890000: uvm_test_top.env.chk [CHK] 26f3572e lane 5: result 00000001, expected 00000000
+UVM_ERROR alu_tb.sv(127) @ 21890000: uvm_test_top.env.chk [CHK] 26f3572e lane 6: result 00000000, expected 00000001
+UVM_ERROR alu_tb.sv(127) @ 22380000: uvm_test_top.env.chk [CHK] 258f5df9 lane 2: result 00000000, expected 00000001
+UVM_ERROR alu_tb.sv(127) @ 22380000: uvm_test_top.env.chk [CHK] 258f5df9 lane 4: result 00000001, expected 00000000
+UVM_ERROR alu_tb.sv(127) @ 22380000: uvm_test_top.env.chk [CHK] 258f5df9 lane 6: result 00000000, expected 00000001
+UVM_ERROR alu_tb.sv(127) @ 22440000: uvm_test_top.env.chk [CHK] 266e5699 lane 2: result 00000000, expected 00000001
+UVM_ERROR alu_tb.sv(127) @ 22440000: uvm_test_top.env.chk [CHK] 266e5699 lane 3: result 00000000, expected 00000001
+UVM_ERROR alu_tb.sv(127) @ 22440000: uvm_test_top.env.chk [CHK] 266e5699 lane 4: result 00000001, expected 00000000
+UVM_ERROR alu_tb.sv(127) @ 22790000: uvm_test_top.env.chk [CHK] 248c3961 lane 0: result 00000000, expected 00000001
+UVM_ERROR alu_tb.sv(127) @ 22790000: uvm_test_top.env.chk [CHK] 248c3961 lane 1: result 00000000, expected 00000001
+UVM_ERROR alu_tb.sv(127) @ 22790000: uvm_test_top.env.chk [CHK] 248c3961 lane 4: result 00000000, expected 00000001
+UVM_ERROR alu_tb.sv(127) @ 22790000: uvm_test_top.env.chk [CHK] 248c3961 lane 5: result 00000000, expected 00000001
+UVM_ERROR alu_tb.sv(127) @ 22790000: uvm_test_top.env.chk [CHK] 248c3961 lane 6: result 00000000, expected 00000001
+UVM_ERROR alu_tb.sv(127) @ 22790000: uvm_test_top.env.chk [CHK] 248c3961 lane 7: result 00000000, expected 00000001
+UVM_ERROR alu_tb.sv(127) @ 22970000: uvm_test_top.env.chk [CHK] 24bae234 lane 4: result 00000001, expected 00000000
+UVM_ERROR alu_tb.sv(127) @ 23500000: uvm_test_top.env.chk [CHK] 250bb2d6 lane 0: result 00000001, expected 00000000
+UVM_ERROR alu_tb.sv(127) @ 23610000: uvm_test_top.env.chk [CHK] 27019ccc lane 1: result 00000000, expected 00000001
+UVM_ERROR alu_tb.sv(127) @ 23610000: uvm_test_top.env.chk [CHK] 27019ccc lane 2: result 00000000, expected 00000001
+UVM_ERROR alu_tb.sv(127) @ 23610000: uvm_test_top.env.chk [CHK] 27019ccc lane 4: result 00000001, expected 00000000
+UVM_ERROR alu_tb.sv(127) @ 23730000: uvm_test_top.env.chk [CHK] 2707b6f5 lane 0: result 00000000, expected 00000001
+UVM_ERROR alu_tb.sv(127) @ 23730000: uvm_test_top.env.chk [CHK] 2707b6f5 lane 2: result 00000000, expected 00000001
+UVM_ERROR alu_tb.sv(127) @ 23730000: uvm_test_top.env.chk [CHK] 2707b6f5 lane 3: result 00000001, expected 00000000
+UVM_ERROR alu_tb.sv(127) @ 24240000: uvm_test_top.env.chk [CHK] 24bd0036 lane 0: result 00000000, expected 00000001
+UVM_ERROR alu_tb.sv(127) @ 24240000: uvm_test_top.env.chk [CHK] 24bd0036 lane 1: result 00000000, expected 00000001
+UVM_ERROR alu_tb.sv(127) @ 24240000: uvm_test_top.env.chk [CHK] 24bd0036 lane 3: result 00000000, expected 00000001
+UVM_ERROR alu_tb.sv(127) @ 24500000: uvm_test_top.env.chk [CHK] 27623bbf lane 1: result 00000000, expected 00000001
+UVM_ERROR alu_tb.sv(127) @ 24500000: uvm_test_top.env.chk [CHK] 27623bbf lane 3: result 00000001, expected 00000000
+UVM_ERROR alu_tb.sv(127) @ 24500000: uvm_test_top.env.chk [CHK] 27623bbf lane 4: result 00000001, expected 00000000
+UVM_ERROR alu_tb.sv(127) @ 24500000: uvm_test_top.env.chk [CHK] 27623bbf lane 6: result 00000001, expected 00000000
+UVM_ERROR alu_tb.sv(127) @ 24500000: uvm_test_top.env.chk [CHK] 27623bbf lane 7: result 00000001, expected 00000000
+UVM_ERROR alu_tb.sv(127) @ 24700000: uvm_test_top.env.chk [CHK] 24d6a235 lane 1: result 00000000, expected 00000001
+UVM_ERROR alu_tb.sv(127) @ 24700000: uvm_test_top.env.chk [CHK] 24d6a235 lane 2: result 00000000, expected 00000001
+UVM_ERROR alu_tb.sv(127) @ 25540000: uvm_test_top.env.chk [CHK] 26679cf2 lane 0: result 00000000, expected 00000001
+UVM_ERROR alu_tb.sv(127) @ 25540000: uvm_test_top.env.chk [CHK] 26679cf2 lane 3: result 00000001, expected 00000000
+UVM_ERROR alu_tb.sv(127) @ 26340000: uvm_test_top.env.chk [CHK] 25da638e lane 1: result 00000000, expected 00000001
+UVM_ERROR alu_tb.sv(127) @ 26340000: uvm_test_top.env.chk [CHK] 25da638e lane 4: result 00000001, expected 00000000
+UVM_ERROR alu_tb.sv(127) @ 26340000: uvm_test_top.env.chk [CHK] 25da638e lane 5: result 00000000, expected 00000001
+UVM_ERROR alu_tb.sv(127) @ 26340000: uvm_test_top.env.chk [CHK] 25da638e lane 6: result 00000001, expected 00000000
+UVM_ERROR alu_tb.sv(127) @ 27160000: uvm_test_top.env.chk [CHK] 27057e4a lane 4: result 00000000, expected 00000001
+UVM_ERROR alu_tb.sv(127) @ 27160000: uvm_test_top.env.chk [CHK] 27057e4a lane 6: result 00000000, expected 00000001
+UVM_ERROR alu_tb.sv(127) @ 27160000: uvm_test_top.env.chk [CHK] 27057e4a lane 7: result 00000000, expected 00000001
+UVM_ERROR alu_tb.sv(127) @ 28630000: uvm_test_top.env.chk [CHK] 2658e7a2 lane 0: result 00000000, expected 00000001
+UVM_ERROR alu_tb.sv(127) @ 28630000: uvm_test_top.env.chk [CHK] 2658e7a2 lane 1: result 00000000, expected 00000001
+UVM_ERROR alu_tb.sv(127) @ 28630000: uvm_test_top.env.chk [CHK] 2658e7a2 lane 2: result 00000001, expected 00000000
+UVM_ERROR alu_tb.sv(127) @ 28630000: uvm_test_top.env.chk [CHK] 2658e7a2 lane 4: result 00000000, expected 00000001
+UVM_ERROR alu_tb.sv(127) @ 28630000: uvm_test_top.env.chk [CHK] 2658e7a2 lane 5: result 00000000, expected 00000001
+UVM_ERROR alu_tb.sv(127) @ 28630000: uvm_test_top.env.chk [CHK] 2658e7a2 lane 6: result 00000000, expected 00000001
+UVM_ERROR alu_tb.sv(127) @ 28890000: uvm_test_top.env.chk [CHK] 247a6326 lane 2: result 00000001, expected 00000000
+UVM_ERROR alu_tb.sv(127) @ 28890000: uvm_test_top.env.chk [CHK] 247a6326 lane 3: result 00000000, expected 00000001
+UVM_ERROR alu_tb.sv(127) @ 28890000: uvm_test_top.env.chk [CHK] 247a6326 lane 4: result 00000001, expected 00000000
+UVM_ERROR alu_tb.sv(127) @ 28890000: uvm_test_top.env.chk [CHK] 247a6326 lane 7: result 00000001, expected 00000000
+UVM_ERROR alu_tb.sv(127) @ 28960000: uvm_test_top.env.chk [CHK] 2749ae77 lane 5: result 00000000, expected 00000001
+UVM_ERROR alu_tb.sv(127) @ 28960000: uvm_test_top.env.chk [CHK] 2749ae77 lane 7: result 00000001, expected 00000000
+UVM_ERROR alu_tb.sv(127) @ 29660000: uvm_test_top.env.chk [CHK] 26bd07c1 lane 0: result 00000000, expected 00000001
+UVM_ERROR alu_tb.sv(127) @ 29660000: uvm_test_top.env.chk [CHK] 26bd07c1 lane 1: result 00000000, expected 00000001
+UVM_ERROR alu_tb.sv(127) @ 29660000: uvm_test_top.env.chk [CHK] 26bd07c1 lane 2: result 00000001, expected 00000000
+UVM_ERROR alu_tb.sv(127) @ 29660000: uvm_test_top.env.chk [CHK] 26bd07c1 lane 3: result 00000000, expected 00000001
+UVM_ERROR alu_tb.sv(127) @ 29660000: uvm_test_top.env.chk [CHK] 26bd07c1 lane 7: result 00000001, expected 00000000
+UVM_ERROR alu_tb.sv(127) @ 29670000: uvm_test_top.env.chk [CHK] 26bb7a6c lane 0: result 00000000, expected 00000001
+UVM_ERROR alu_tb.sv(127) @ 29670000: uvm_test_top.env.chk [CHK] 26bb7a6c lane 2: result 00000000, expected 00000001
+UVM_ERROR alu_tb.sv(127) @ 29760000: uvm_test_top.env.chk [CHK] 24ccaa20 lane 0: result 00000000, expected 00000001
+UVM_ERROR alu_tb.sv(127) @ 29760000: uvm_test_top.env.chk [CHK] 24ccaa20 lane 4: result 00000001, expected 00000000
+UVM_ERROR alu_tb.sv(127) @ 30450000: uvm_test_top.env.chk [CHK] 26b1c230 lane 1: result 00000001, expected 00000000
+UVM_ERROR alu_tb.sv(127) @ 30450000: uvm_test_top.env.chk [CHK] 26b1c230 lane 4: result 00000001, expected 00000000
+UVM_ERROR alu_tb.sv(127) @ 30450000: uvm_test_top.env.chk [CHK] 26b1c230 lane 5: result 00000000, expected 00000001
+UVM_ERROR alu_tb.sv(127) @ 30760000: uvm_test_top.env.chk [CHK] 2718c240 lane 1: result 00000000, expected 00000001
+UVM_ERROR alu_tb.sv(127) @ 31260000: uvm_test_top.env.chk [CHK] 27309d72 lane 1: result 00000000, expected 00000001
+UVM_ERROR alu_tb.sv(127) @ 31260000: uvm_test_top.env.chk [CHK] 27309d72 lane 7: result 00000000, expected 00000001
+UVM_ERROR alu_tb.sv(127) @ 31970000: uvm_test_top.env.chk [CHK] 26f21dcc lane 0: result 00000001, expected 00000000
+UVM_ERROR alu_tb.sv(127) @ 31970000: uvm_test_top.env.chk [CHK] 26f21dcc lane 1: result 00000001, expected 00000000
+UVM_ERROR alu_tb.sv(127) @ 31970000: uvm_test_top.env.chk [CHK] 26f21dcc lane 2: result 00000000, expected 00000001
+UVM_ERROR alu_tb.sv(127) @ 31970000: uvm_test_top.env.chk [CHK] 26f21dcc lane 5: result 00000001, expected 00000000
+UVM_ERROR alu_tb.sv(127) @ 31970000: uvm_test_top.env.chk [CHK] 26f21dcc lane 6: result 00000001, expected 00000000
+UVM_ERROR alu_tb.sv(127) @ 31970000: uvm_test_top.env.chk [CHK] 26f21dcc lane 7: result 00000001, expected 00000000
+UVM_ERROR alu_tb.sv(127) @ 32010000: uvm_test_top.env.chk [CHK] 2442a841 lane 2: result 00000000, expected 00000001
+UVM_ERROR alu_tb.sv(127) @ 32280000: uvm_test_top.env.chk [CHK] 25f29252 lane 1: result 00000000, expected 00000001
+UVM_ERROR alu_tb.sv(127) @ 32280000: uvm_test_top.env.chk [CHK] 25f29252 lane 6: result 00000000, expected 00000001
+UVM_ERROR alu_tb.sv(127) @ 33520000: uvm_test_top.env.chk [CHK] 249684c5 lane 4: result 00000001, expected 00000000
+UVM_ERROR alu_tb.sv(127) @ 33540000: uvm_test_top.env.chk [CHK] 2440f432 lane 5: result 00000000, expected 00000001
+UVM_ERROR alu_tb.sv(127) @ 34410000: uvm_test_top.env.chk [CHK] 27599992 lane 0: result 00000001, expected 00000000
+UVM_ERROR alu_tb.sv(127) @ 34410000: uvm_test_top.env.chk [CHK] 27599992 lane 2: result 00000001, expected 00000000
+UVM_ERROR alu_tb.sv(127) @ 35200000: uvm_test_top.env.chk [CHK] 27e56fcc lane 5: result 00000001, expected 00000000
+UVM_ERROR alu_tb.sv(127) @ 35340000: uvm_test_top.env.chk [CHK] 27973e7e lane 2: result 00000000, expected 00000001
+UVM_ERROR alu_tb.sv(127) @ 35340000: uvm_test_top.env.chk [CHK] 27973e7e lane 3: result 00000000, expected 00000001
+UVM_ERROR alu_tb.sv(127) @ 35340000: uvm_test_top.env.chk [CHK] 27973e7e lane 7: result 00000001, expected 00000000
+UVM_ERROR alu_tb.sv(127) @ 36700000: uvm_test_top.env.chk [CHK] 27757f93 lane 2: result 00000000, expected 00000001
+UVM_ERROR alu_tb.sv(127) @ 36700000: uvm_test_top.env.chk [CHK] 27757f93 lane 5: result 00000001, expected 00000000
+UVM_ERROR alu_tb.sv(127) @ 36700000: uvm_test_top.env.chk [CHK] 27757f93 lane 6: result 00000001, expected 00000000
+UVM_ERROR alu_tb.sv(127) @ 36730000: uvm_test_top.env.chk [CHK] 25d3104b lane 0: result 00000001, expected 00000000
+UVM_ERROR alu_tb.sv(127) @ 36730000: uvm_test_top.env.chk [CHK] 25d3104b lane 3: result 00000001, expected 00000000
+UVM_ERROR alu_tb.sv(127) @ 36730000: uvm_test_top.env.chk [CHK] 25d3104b lane 4: result 00000000, expected 00000001
+UVM_ERROR alu_tb.sv(127) @ 36730000: uvm_test_top.env.chk [CHK] 25d3104b lane 6: result 00000001, expected 00000000
+UVM_ERROR alu_tb.sv(127) @ 36730000: uvm_test_top.env.chk [CHK] 25d3104b lane 7: result 00000001, expected 00000000
+UVM_ERROR alu_tb.sv(127) @ 37110000: uvm_test_top.env.chk [CHK] 2733ca08 lane 0: result 00000001, expected 00000000
+UVM_ERROR alu_tb.sv(127) @ 37110000: uvm_test_top.env.chk [CHK] 2733ca08 lane 2: result 00000001, expected 00000000
+UVM_ERROR alu_tb.sv(127) @ 37110000: uvm_test_top.env.chk [CHK] 2733ca08 lane 6: result 00000000, expected 00000001
+UVM_ERROR alu_tb.sv(127) @ 37110000: uvm_test_top.env.chk [CHK] 2733ca08 lane 7: result 00000001, expected 00000000
+UVM_ERROR alu_tb.sv(127) @ 37840000: uvm_test_top.env.chk [CHK] 27b60ee2 lane 2: result 00000001, expected 00000000
+UVM_ERROR alu_tb.sv(127) @ 37840000: uvm_test_top.env.chk [CHK] 27b60ee2 lane 3: result 00000001, expected 00000000
+UVM_ERROR alu_tb.sv(127) @ 37840000: uvm_test_top.env.chk [CHK] 27b60ee2 lane 7: result 00000000, expected 00000001
+UVM_ERROR alu_tb.sv(127) @ 38650000: uvm_test_top.env.chk [CHK] 263cccf8 lane 1: result 00000000, expected 00000001
+UVM_ERROR alu_tb.sv(127) @ 38650000: uvm_test_top.env.chk [CHK] 263cccf8 lane 2: result 00000001, expected 00000000
+UVM_ERROR alu_tb.sv(127) @ 38650000: uvm_test_top.env.chk [CHK] 263cccf8 lane 4: result 00000000, expected 00000001
+UVM_ERROR alu_tb.sv(127) @ 38650000: uvm_test_top.env.chk [CHK] 263cccf8 lane 6: result 00000001, expected 00000000
+UVM_ERROR alu_tb.sv(127) @ 38650000: uvm_test_top.env.chk [CHK] 263cccf8 lane 7: result 00000001, expected 00000000
+UVM_ERROR alu_tb.sv(127) @ 38810000: uvm_test_top.env.chk [CHK] 2643fb23 lane 0: result 00000000, expected 00000001
+UVM_ERROR alu_tb.sv(127) @ 38810000: uvm_test_top.env.chk [CHK] 2643fb23 lane 2: result 00000001, expected 00000000
+UVM_ERROR alu_tb.sv(127) @ 38810000: uvm_test_top.env.chk [CHK] 2643fb23 lane 4: result 00000000, expected 00000001
+UVM_ERROR alu_tb.sv(127) @ 38810000: uvm_test_top.env.chk [CHK] 2643fb23 lane 6: result 00000001, expected 00000000
+UVM_ERROR alu_tb.sv(127) @ 38810000: uvm_test_top.env.chk [CHK] 2643fb23 lane 7: result 00000000, expected 00000001
+UVM_ERROR alu_tb.sv(127) @ 39150000: uvm_test_top.env.chk [CHK] 2629eca1 lane 3: result 00000001, expected 00000000
+UVM_ERROR alu_tb.sv(127) @ 39150000: uvm_test_top.env.chk [CHK] 2629eca1 lane 7: result 00000000, expected 00000001
+UVM_ERROR alu_tb.sv(127) @ 39530000: uvm_test_top.env.chk [CHK] 25f1b91e lane 0: result 00000001, expected 00000000
+UVM_ERROR alu_tb.sv(127) @ 39530000: uvm_test_top.env.chk [CHK] 25f1b91e lane 2: result 00000001, expected 00000000
+UVM_ERROR alu_tb.sv(127) @ 39530000: uvm_test_top.env.chk [CHK] 25f1b91e lane 4: result 00000000, expected 00000001
+UVM_ERROR alu_tb.sv(127) @ 39530000: uvm_test_top.env.chk [CHK] 25f1b91e lane 5: result 00000001, expected 00000000
+UVM_ERROR alu_tb.sv(127) @ 39530000: uvm_test_top.env.chk [CHK] 25f1b91e lane 7: result 00000001, expected 00000000
+UVM_ERROR alu_tb.sv(127) @ 39640000: uvm_test_top.env.chk [CHK] 270ed03e lane 4: result 00000001, expected 00000000
+UVM_ERROR alu_tb.sv(127) @ 39640000: uvm_test_top.env.chk [CHK] 270ed03e lane 6: result 00000000, expected 00000001
+UVM_ERROR alu_tb.sv(127) @ 40760000: uvm_test_top.env.chk [CHK] 2790999e lane 1: result 00000000, expected 00000001
+UVM_ERROR alu_tb.sv(127) @ 40760000: uvm_test_top.env.chk [CHK] 2790999e lane 3: result 00000000, expected 00000001
+UVM_ERROR alu_tb.sv(127) @ 41020000: uvm_test_top.env.chk [CHK] 27ba41cd lane 3: result 00000001, expected 00000000
+UVM_ERROR alu_tb.sv(127) @ 41020000: uvm_test_top.env.chk [CHK] 27ba41cd lane 5: result 00000001, expected 00000000
+UVM_ERROR alu_tb.sv(127) @ 41170000: uvm_test_top.env.chk [CHK] 2528e7e9 lane 0: result 00000000, expected 00000001
+UVM_ERROR alu_tb.sv(127) @ 41170000: uvm_test_top.env.chk [CHK] 2528e7e9 lane 1: result 00000000, expected 00000001
+UVM_ERROR alu_tb.sv(127) @ 41170000: uvm_test_top.env.chk [CHK] 2528e7e9 lane 3: result 00000001, expected 00000000
+UVM_ERROR alu_tb.sv(127) @ 41170000: uvm_test_top.env.chk [CHK] 2528e7e9 lane 4: result 00000000, expected 00000001
+UVM_ERROR alu_tb.sv(127) @ 41170000: uvm_test_top.env.chk [CHK] 2528e7e9 lane 6: result 00000000, expected 00000001
+UVM_ERROR alu_tb.sv(127) @ 41170000: uvm_test_top.env.chk [CHK] 2528e7e9 lane 7: result 00000000, expected 00000001
+UVM_ERROR alu_tb.sv(127) @ 41410000: uvm_test_top.env.chk [CHK] 25036d69 lane 4: result 00000000, expected 00000001
+UVM_ERROR alu_tb.sv(127) @ 41410000: uvm_test_top.env.chk [CHK] 25036d69 lane 5: result 00000001, expected 00000000
+UVM_ERROR alu_tb.sv(127) @ 42290000: uvm_test_top.env.chk [CHK] 27147669 lane 0: result 00000000, expected 00000001
+UVM_ERROR alu_tb.sv(127) @ 42290000: uvm_test_top.env.chk [CHK] 27147669 lane 1: result 00000000, expected 00000001
+UVM_ERROR alu_tb.sv(127) @ 42290000: uvm_test_top.env.chk [CHK] 27147669 lane 5: result 00000000, expected 00000001
+UVM_ERROR alu_tb.sv(127) @ 42290000: uvm_test_top.env.chk [CHK] 27147669 lane 7: result 00000000, expected 00000001
+UVM_ERROR alu_tb.sv(127) @ 42750000: uvm_test_top.env.chk [CHK] 27e6e024 lane 2: result 00000001, expected 00000000
+UVM_ERROR alu_tb.sv(127) @ 42750000: uvm_test_top.env.chk [CHK] 27e6e024 lane 6: result 00000000, expected 00000001
+UVM_ERROR alu_tb.sv(127) @ 42750000: uvm_test_top.env.chk [CHK] 27e6e024 lane 7: result 00000000, expected 00000001
+UVM_ERROR alu_tb.sv(127) @ 43460000: uvm_test_top.env.chk [CHK] 259d6c37 lane 2: result 00000001, expected 00000000
+UVM_ERROR alu_tb.sv(127) @ 43460000: uvm_test_top.env.chk [CHK] 259d6c37 lane 4: result 00000001, expected 00000000
+UVM_ERROR alu_tb.sv(127) @ 43460000: uvm_test_top.env.chk [CHK] 259d6c37 lane 6: result 00000000, expected 00000001
+UVM_ERROR alu_tb.sv(127) @ 44290000: uvm_test_top.env.chk [CHK] 25335be1 lane 2: result 00000001, expected 00000000
+UVM_ERROR alu_tb.sv(127) @ 44290000: uvm_test_top.env.chk [CHK] 25335be1 lane 4: result 00000001, expected 00000000
+UVM_ERROR alu_tb.sv(127) @ 44840000: uvm_test_top.env.chk [CHK] 265c7c8c lane 3: result 00000001, expected 00000000
+UVM_ERROR alu_tb.sv(127) @ 45530000: uvm_test_top.env.chk [CHK] 25e2fd75 lane 3: result 00000000, expected 00000001
+UVM_ERROR alu_tb.sv(127) @ 45530000: uvm_test_top.env.chk [CHK] 25e2fd75 lane 7: result 00000001, expected 00000000
+UVM_ERROR alu_tb.sv(127) @ 45790000: uvm_test_top.env.chk [CHK] 27051dec lane 1: result 00000001, expected 00000000
+UVM_ERROR alu_tb.sv(127) @ 45790000: uvm_test_top.env.chk [CHK] 27051dec lane 3: result 00000000, expected 00000001
+UVM_ERROR alu_tb.sv(127) @ 45790000: uvm_test_top.env.chk [CHK] 27051dec lane 6: result 00000001, expected 00000000
+UVM_ERROR alu_tb.sv(127) @ 46580000: uvm_test_top.env.chk [CHK] 2792edc5 lane 1: result 00000001, expected 00000000
+UVM_ERROR alu_tb.sv(127) @ 46580000: uvm_test_top.env.chk [CHK] 2792edc5 lane 3: result 00000000, expected 00000001
+UVM_ERROR alu_tb.sv(127) @ 46580000: uvm_test_top.env.chk [CHK] 2792edc5 lane 5: result 00000000, expected 00000001
+UVM_ERROR alu_tb.sv(127) @ 46580000: uvm_test_top.env.chk [CHK] 2792edc5 lane 7: result 00000001, expected 00000000
+UVM_ERROR alu_tb.sv(127) @ 47420000: uvm_test_top.env.chk [CHK] 26201c3e lane 1: result 00000000, expected 00000001
+UVM_ERROR alu_tb.sv(127) @ 47420000: uvm_test_top.env.chk [CHK] 26201c3e lane 2: result 00000000, expected 00000001
+UVM_ERROR alu_tb.sv(127) @ 47420000: uvm_test_top.env.chk [CHK] 26201c3e lane 7: result 00000001, expected 00000000
+UVM_ERROR alu_tb.sv(127) @ 47650000: uvm_test_top.env.chk [CHK] 267f4355 lane 0: result 00000001, expected 00000000
+UVM_ERROR alu_tb.sv(127) @ 47650000: uvm_test_top.env.chk [CHK] 267f4355 lane 3: result 00000000, expected 00000001
+UVM_ERROR alu_tb.sv(127) @ 47650000: uvm_test_top.env.chk [CHK] 267f4355 lane 4: result 00000001, expected 00000000
+UVM_ERROR alu_tb.sv(127) @ 47650000: uvm_test_top.env.chk [CHK] 267f4355 lane 5: result 00000001, expected 00000000
+UVM_ERROR alu_tb.sv(127) @ 47650000: uvm_test_top.env.chk [CHK] 267f4355 lane 6: result 00000001, expected 00000000
+UVM_ERROR alu_tb.sv(127) @ 47720000: uvm_test_top.env.chk [CHK] 25919ee8 lane 5: result 00000000, expected 00000001
+UVM_ERROR alu_tb.sv(127) @ 47760000: uvm_test_top.env.chk [CHK] 273858c6 lane 2: result 00000000, expected 00000001
+UVM_ERROR alu_tb.sv(127) @ 47760000: uvm_test_top.env.chk [CHK] 273858c6 lane 4: result 00000000, expected 00000001
+UVM_ERROR alu_tb.sv(127) @ 48120000: uvm_test_top.env.chk [CHK] 267660a9 lane 6: result 00000001, expected 00000000
+UVM_ERROR alu_tb.sv(127) @ 49170000: uvm_test_top.env.chk [CHK] 26b31b75 lane 2: result 00000000, expected 00000001
+UVM_ERROR alu_tb.sv(127) @ 49170000: uvm_test_top.env.chk [CHK] 26b31b75 lane 4: result 00000000, expected 00000001
+UVM_ERROR alu_tb.sv(127) @ 51010000: uvm_test_top.env.chk [CHK] 263184d9 lane 2: result 00000001, expected 00000000
+UVM_ERROR alu_tb.sv(127) @ 51010000: uvm_test_top.env.chk [CHK] 263184d9 lane 3: result 00000001, expected 00000000
+UVM_ERROR alu_tb.sv(127) @ 51010000: uvm_test_top.env.chk [CHK] 263184d9 lane 4: result 00000001, expected 00000000
+UVM_ERROR alu_tb.sv(127) @ 51010000: uvm_test_top.env.chk [CHK] 263184d9 lane 6: result 00000001, expected 00000000
+UVM_ERROR alu_tb.sv(127) @ 52170000: uvm_test_top.env.chk [CHK] 25cb4088 lane 0: result 00000000, expected 00000001
+UVM_ERROR alu_tb.sv(127) @ 52170000: uvm_test_top.env.chk [CHK] 25cb4088 lane 3: result 00000000, expected 00000001
+UVM_ERROR alu_tb.sv(127) @ 52170000: uvm_test_top.env.chk [CHK] 25cb4088 lane 4: result 00000000, expected 00000001
+UVM_ERROR alu_tb.sv(127) @ 52170000: uvm_test_top.env.chk [CHK] 25cb4088 lane 7: result 00000000, expected 00000001
+UVM_ERROR alu_tb.sv(127) @ 52520000: uvm_test_top.env.chk [CHK] 26098d2c lane 5: result 00000001, expected 00000000
+UVM_ERROR alu_tb.sv(127) @ 53230000: uvm_test_top.env.chk [CHK] 271bbd45 lane 1: result 00000000, expected 00000001
+UVM_ERROR alu_tb.sv(127) @ 53230000: uvm_test_top.env.chk [CHK] 271bbd45 lane 2: result 00000001, expected 00000000
+UVM_ERROR alu_tb.sv(127) @ 53230000: uvm_test_top.env.chk [CHK] 271bbd45 lane 3: result 00000000, expected 00000001
+UVM_ERROR alu_tb.sv(127) @ 53230000: uvm_test_top.env.chk [CHK] 271bbd45 lane 7: result 00000000, expected 00000001
+UVM_ERROR alu_tb.sv(127) @ 53660000: uvm_test_top.env.chk [CHK] 253080f8 lane 0: result 00000000, expected 00000001
+UVM_ERROR alu_tb.sv(127) @ 53660000: uvm_test_top.env.chk [CHK] 253080f8 lane 1: result 00000000, expected 00000001
+UVM_ERROR alu_tb.sv(127) @ 53660000: uvm_test_top.env.chk [CHK] 253080f8 lane 3: result 00000000, expected 00000001
+UVM_ERROR alu_tb.sv(127) @ 53660000: uvm_test_top.env.chk [CHK] 253080f8 lane 5: result 00000000, expected 00000001
+UVM_ERROR alu_tb.sv(127) @ 53660000: uvm_test_top.env.chk [CHK] 253080f8 lane 6: result 00000000, expected 00000001
+UVM_ERROR alu_tb.sv(127) @ 53660000: uvm_test_top.env.chk [CHK] 253080f8 lane 7: result 00000000, expected 00000001
+UVM_ERROR alu_tb.sv(127) @ 54670000: uvm_test_top.env.chk [CHK] 26446884 lane 0: result 00000001, expected 00000000
+UVM_ERROR alu_tb.sv(127) @ 54670000: uvm_test_top.env.chk [CHK] 26446884 lane 1: result 00000001, expected 00000000
+UVM_ERROR alu_tb.sv(127) @ 54670000: uvm_test_top.env.chk [CHK] 26446884 lane 5: result 00000001, expected 00000000
+UVM_ERROR alu_tb.sv(127) @ 54670000: uvm_test_top.env.chk [CHK] 26446884 lane 6: result 00000001, expected 00000000
+UVM_ERROR alu_tb.sv(127) @ 54720000: uvm_test_top.env.chk [CHK] 274c1d88 lane 0: result 00000000, expected 00000001
+UVM_ERROR alu_tb.sv(127) @ 54720000: uvm_test_top.env.chk [CHK] 274c1d88 lane 1: result 00000001, expected 00000000
+UVM_ERROR alu_tb.sv(127) @ 54720000: uvm_test_top.env.chk [CHK] 274c1d88 lane 2: result 00000001, expected 00000000
+UVM_ERROR alu_tb.sv(127) @ 54720000: uvm_test_top.env.chk [CHK] 274c1d88 lane 5: result 00000001, expected 00000000
+UVM_ERROR alu_tb.sv(127) @ 54720000: uvm_test_top.env.chk [CHK] 274c1d88 lane 7: result 00000001, expected 00000000
+UVM_ERROR alu_tb.sv(127) @ 55150000: uvm_test_top.env.chk [CHK] 255d7dfb lane 0: result 00000000, expected 00000001
+UVM_ERROR alu_tb.sv(127) @ 55150000: uvm_test_top.env.chk [CHK] 255d7dfb lane 2: result 00000000, expected 00000001
+UVM_ERROR alu_tb.sv(127) @ 55150000: uvm_test_top.env.chk [CHK] 255d7dfb lane 4: result 00000001, expected 00000000
+UVM_ERROR alu_tb.sv(127) @ 56220000: uvm_test_top.env.chk [CHK] 24de4c0d lane 3: result 00000000, expected 00000001
+UVM_ERROR alu_tb.sv(127) @ 56220000: uvm_test_top.env.chk [CHK] 24de4c0d lane 4: result 00000000, expected 00000001
+UVM_ERROR alu_tb.sv(127) @ 56330000: uvm_test_top.env.chk [CHK] 27ceb7d1 lane 3: result 00000000, expected 00000001
+UVM_ERROR alu_tb.sv(127) @ 56450000: uvm_test_top.env.chk [CHK] 2507ebf4 lane 0: result 00000001, expected 00000000
+UVM_ERROR alu_tb.sv(127) @ 56450000: uvm_test_top.env.chk [CHK] 2507ebf4 lane 1: result 00000001, expected 00000000
+UVM_ERROR alu_tb.sv(127) @ 56450000: uvm_test_top.env.chk [CHK] 2507ebf4 lane 2: result 00000000, expected 00000001
+UVM_ERROR alu_tb.sv(127) @ 56450000: uvm_test_top.env.chk [CHK] 2507ebf4 lane 4: result 00000000, expected 00000001
+UVM_ERROR alu_tb.sv(127) @ 56450000: uvm_test_top.env.chk [CHK] 2507ebf4 lane 7: result 00000001, expected 00000000
+UVM_ERROR alu_tb.sv(127) @ 56650000: uvm_test_top.env.chk [CHK] 24726baa lane 0: result 00000001, expected 00000000
+UVM_ERROR alu_tb.sv(127) @ 56650000: uvm_test_top.env.chk [CHK] 24726baa lane 1: result 00000000, expected 00000001
+UVM_ERROR alu_tb.sv(127) @ 56650000: uvm_test_top.env.chk [CHK] 24726baa lane 4: result 00000001, expected 00000000
+UVM_ERROR alu_tb.sv(127) @ 56650000: uvm_test_top.env.chk [CHK] 24726baa lane 5: result 00000000, expected 00000001
+UVM_ERROR alu_tb.sv(127) @ 56650000: uvm_test_top.env.chk [CHK] 24726baa lane 7: result 00000001, expected 00000000
+UVM_ERROR alu_tb.sv(127) @ 57390000: uvm_test_top.env.chk [CHK] 26c3a768 lane 2: result 00000000, expected 00000001
+UVM_ERROR alu_tb.sv(127) @ 57390000: uvm_test_top.env.chk [CHK] 26c3a768 lane 4: result 00000001, expected 00000000
+UVM_ERROR alu_tb.sv(127) @ 57390000: uvm_test_top.env.chk [CHK] 26c3a768 lane 6: result 00000000, expected 00000001
+UVM_ERROR alu_tb.sv(127) @ 58630000: uvm_test_top.env.chk [CHK] 2591e472 lane 0: result 00000001, expected 00000000
+UVM_ERROR alu_tb.sv(127) @ 58630000: uvm_test_top.env.chk [CHK] 2591e472 lane 6: result 00000000, expected 00000001
+UVM_ERROR alu_tb.sv(127) @ 58770000: uvm_test_top.env.chk [CHK] 245ecd06 lane 1: result 00000001, expected 00000000
+UVM_ERROR alu_tb.sv(127) @ 58770000: uvm_test_top.env.chk [CHK] 245ecd06 lane 3: result 00000000, expected 00000001
+UVM_ERROR alu_tb.sv(127) @ 58770000: uvm_test_top.env.chk [CHK] 245ecd06 lane 4: result 00000001, expected 00000000
+UVM_ERROR alu_tb.sv(127) @ 58770000: uvm_test_top.env.chk [CHK] 245ecd06 lane 6: result 00000000, expected 00000001
+UVM_ERROR alu_tb.sv(127) @ 59820000: uvm_test_top.env.chk [CHK] 27d54ad1 lane 2: result 00000000, expected 00000001
+UVM_ERROR alu_tb.sv(127) @ 60190000: uvm_test_top.env.chk [CHK] 2505a186 lane 1: result 00000001, expected 00000000
+UVM_ERROR alu_tb.sv(127) @ 60190000: uvm_test_top.env.chk [CHK] 2505a186 lane 4: result 00000001, expected 00000000
+UVM_ERROR alu_tb.sv(127) @ 60280000: uvm_test_top.env.chk [CHK] 268025cc lane 1: result 00000001, expected 00000000
+UVM_ERROR alu_tb.sv(127) @ 60280000: uvm_test_top.env.chk [CHK] 268025cc lane 2: result 00000001, expected 00000000
+UVM_ERROR alu_tb.sv(127) @ 60280000: uvm_test_top.env.chk [CHK] 268025cc lane 5: result 00000001, expected 00000000
+UVM_ERROR alu_tb.sv(127) @ 60280000: uvm_test_top.env.chk [CHK] 268025cc lane 7: result 00000001, expected 00000000
+UVM_ERROR alu_tb.sv(127) @ 61140000: uvm_test_top.env.chk [CHK] 26cd48c1 lane 2: result 00000001, expected 00000000
+UVM_ERROR alu_tb.sv(127) @ 61140000: uvm_test_top.env.chk [CHK] 26cd48c1 lane 5: result 00000001, expected 00000000
+UVM_ERROR alu_tb.sv(127) @ 62020000: uvm_test_top.env.chk [CHK] 26d8e3ba lane 3: result 00000001, expected 00000000
+UVM_ERROR alu_tb.sv(127) @ 62020000: uvm_test_top.env.chk [CHK] 26d8e3ba lane 5: result 00000000, expected 00000001
+UVM_ERROR alu_tb.sv(127) @ 62020000: uvm_test_top.env.chk [CHK] 26d8e3ba lane 6: result 00000001, expected 00000000
+UVM_ERROR alu_tb.sv(127) @ 62380000: uvm_test_top.env.chk [CHK] 248877ac lane 1: result 00000000, expected 00000001
+UVM_ERROR alu_tb.sv(127) @ 62380000: uvm_test_top.env.chk [CHK] 248877ac lane 2: result 00000000, expected 00000001
+UVM_ERROR alu_tb.sv(127) @ 62380000: uvm_test_top.env.chk [CHK] 248877ac lane 4: result 00000001, expected 00000000
+UVM_ERROR alu_tb.sv(127) @ 63780000: uvm_test_top.env.chk [CHK] 2733f381 lane 0: result 00000001, expected 00000000
+UVM_ERROR alu_tb.sv(127) @ 63780000: uvm_test_top.env.chk [CHK] 2733f381 lane 2: result 00000001, expected 00000000
+UVM_ERROR alu_tb.sv(127) @ 63780000: uvm_test_top.env.chk [CHK] 2733f381 lane 3: result 00000001, expected 00000000
+UVM_ERROR alu_tb.sv(127) @ 64210000: uvm_test_top.env.chk [CHK] 24d85ba3 lane 0: result 00000001, expected 00000000
+UVM_ERROR alu_tb.sv(127) @ 64210000: uvm_test_top.env.chk [CHK] 24d85ba3 lane 2: result 00000000, expected 00000001
+UVM_ERROR alu_tb.sv(127) @ 64210000: uvm_test_top.env.chk [CHK] 24d85ba3 lane 6: result 00000001, expected 00000000
+UVM_ERROR alu_tb.sv(127) @ 64210000: uvm_test_top.env.chk [CHK] 24d85ba3 lane 7: result 00000001, expected 00000000
+UVM_ERROR alu_tb.sv(127) @ 64630000: uvm_test_top.env.chk [CHK] 263af039 lane 0: result 00000001, expected 00000000
+UVM_ERROR alu_tb.sv(127) @ 64630000: uvm_test_top.env.chk [CHK] 263af039 lane 1: result 00000001, expected 00000000
+UVM_ERROR alu_tb.sv(127) @ 64630000: uvm_test_top.env.chk [CHK] 263af039 lane 2: result 00000000, expected 00000001
+UVM_ERROR alu_tb.sv(127) @ 64630000: uvm_test_top.env.chk [CHK] 263af039 lane 3: result 00000001, expected 00000000
+UVM_ERROR alu_tb.sv(127) @ 64630000: uvm_test_top.env.chk [CHK] 263af039 lane 4: result 00000001, expected 00000000
+UVM_ERROR alu_tb.sv(127) @ 64630000: uvm_test_top.env.chk [CHK] 263af039 lane 5: result 00000001, expected 00000000
+UVM_ERROR alu_tb.sv(127) @ 65860000: uvm_test_top.env.chk [CHK] 2594771e lane 0: result 00000001, expected 00000000
+UVM_ERROR alu_tb.sv(127) @ 65860000: uvm_test_top.env.chk [CHK] 2594771e lane 6: result 00000001, expected 00000000
+UVM_ERROR alu_tb.sv(127) @ 65860000: uvm_test_top.env.chk [CHK] 2594771e lane 7: result 00000000, expected 00000001
+UVM_ERROR alu_tb.sv(127) @ 66830000: uvm_test_top.env.chk [CHK] 272d9443 lane 1: result 00000000, expected 00000001
+UVM_ERROR alu_tb.sv(127) @ 66830000: uvm_test_top.env.chk [CHK] 272d9443 lane 2: result 00000000, expected 00000001
+UVM_ERROR alu_tb.sv(127) @ 66830000: uvm_test_top.env.chk [CHK] 272d9443 lane 5: result 00000001, expected 00000000
+UVM_ERROR alu_tb.sv(127) @ 67620000: uvm_test_top.env.chk [CHK] 27c04335 lane 0: result 00000000, expected 00000001
+UVM_ERROR alu_tb.sv(127) @ 67620000: uvm_test_top.env.chk [CHK] 27c04335 lane 4: result 00000000, expected 00000001
+UVM_ERROR alu_tb.sv(127) @ 68140000: uvm_test_top.env.chk [CHK] 27db0639 lane 4: result 00000000, expected 00000001
+UVM_ERROR alu_tb.sv(127) @ 68140000: uvm_test_top.env.chk [CHK] 27db0639 lane 6: result 00000000, expected 00000001
+UVM_ERROR alu_tb.sv(127) @ 68170000: uvm_test_top.env.chk [CHK] 2462e286 lane 2: result 00000000, expected 00000001
+UVM_ERROR alu_tb.sv(127) @ 68170000: uvm_test_top.env.chk [CHK] 2462e286 lane 3: result 00000001, expected 00000000
+UVM_ERROR alu_tb.sv(127) @ 68170000: uvm_test_top.env.chk [CHK] 2462e286 lane 6: result 00000000, expected 00000001
+UVM_ERROR alu_tb.sv(127) @ 68730000: uvm_test_top.env.chk [CHK] 25361cd6 lane 3: result 00000000, expected 00000001
+UVM_ERROR alu_tb.sv(127) @ 68730000: uvm_test_top.env.chk [CHK] 25361cd6 lane 4: result 00000000, expected 00000001
+UVM_ERROR alu_tb.sv(127) @ 68730000: uvm_test_top.env.chk [CHK] 25361cd6 lane 5: result 00000001, expected 00000000
+UVM_ERROR alu_tb.sv(127) @ 68730000: uvm_test_top.env.chk [CHK] 25361cd6 lane 6: result 00000000, expected 00000001
+UVM_ERROR alu_tb.sv(127) @ 69190000: uvm_test_top.env.chk [CHK] 26247b4d lane 3: result 00000000, expected 00000001
+UVM_ERROR alu_tb.sv(127) @ 69200000: uvm_test_top.env.chk [CHK] 272ca023 lane 2: result 00000000, expected 00000001
+UVM_ERROR alu_tb.sv(127) @ 69200000: uvm_test_top.env.chk [CHK] 272ca023 lane 5: result 00000001, expected 00000000
+UVM_ERROR alu_tb.sv(127) @ 69220000: uvm_test_top.env.chk [CHK] 26100966 lane 1: result 00000000, expected 00000001
+UVM_ERROR alu_tb.sv(127) @ 69370000: uvm_test_top.env.chk [CHK] 249abab5 lane 1: result 00000000, expected 00000001
+UVM_ERROR alu_tb.sv(127) @ 69370000: uvm_test_top.env.chk [CHK] 249abab5 lane 3: result 00000001, expected 00000000
+UVM_ERROR alu_tb.sv(127) @ 69370000: uvm_test_top.env.chk [CHK] 249abab5 lane 4: result 00000000, expected 00000001
+UVM_ERROR alu_tb.sv(127) @ 69370000: uvm_test_top.env.chk [CHK] 249abab5 lane 5: result 00000000, expected 00000001
+UVM_ERROR alu_tb.sv(127) @ 69370000: uvm_test_top.env.chk [CHK] 249abab5 lane 7: result 00000000, expected 00000001
+UVM_ERROR alu_tb.sv(127) @ 69840000: uvm_test_top.env.chk [CHK] 2728ffde lane 0: result 00000000, expected 00000001
+UVM_ERROR alu_tb.sv(127) @ 69890000: uvm_test_top.env.chk [CHK] 27e6ef84 lane 5: result 00000000, expected 00000001
+UVM_ERROR alu_tb.sv(127) @ 70920000: uvm_test_top.env.chk [CHK] 262e050e lane 4: result 00000000, expected 00000001
+UVM_ERROR alu_tb.sv(127) @ 70920000: uvm_test_top.env.chk [CHK] 262e050e lane 5: result 00000001, expected 00000000
+UVM_ERROR alu_tb.sv(127) @ 70920000: uvm_test_top.env.chk [CHK] 262e050e lane 6: result 00000001, expected 00000000
+UVM_INFO alu_tb.sv(257) @ 71365000: uvm_test_top.env.chk [CHK] writebacks=1602 branches=2452 errors=427
+UVM_INFO alu_tb.sv(258) @ 71365000: uvm_test_top.env.chk [COV] functional coverage = 100.0%
+    op_ADD                       88
+    op_SUB                       128
+    op_MUL                       99
+    op_AND                       86
+    op_OR                        76
+    op_XOR                       158
+    op_SHL                       76
+    op_SHR                       231
+    op_SLT                       148
+    op_ADDI                      122
+    op_LUI                       79
+    op_S2R                       311
+    s2r_lane                     32
+    s2r_warp                     43
+    s2r_wg                       40
+    s2r_tid                      29
+    s2r_arg                      42
+    s2r_undefined                125
+    tid_nwarps_1                 9
+    tid_nwarps_4                 13
+    br_beq                       887
+    br_bne                       89
+    br_all_taken                 78
+    br_none_taken                529
+    br_some_taken                369
+    br_jmp                       240
+    br_exit                      1236
+    nop_no_writeback             828
+    rd_r0_no_writeback           118
+    add_overflow                 236
+    slt_negative                 427
+    shift_32_or_more             1556
+    partial_mask                 4985
+    wb_backpressure              390
+UVM_INFO /Users/sankalpahota/Documents/GIT/mGPU/uvm/base/uvm_report_server.svh(1009) @ 71365000: reporter [UVM/REPORT/SERVER] 
+--- UVM Report Summary ---
+
+** Report counts by severity
+UVM_INFO :    6
+UVM_WARNING :    2
+UVM_ERROR :  427
+UVM_FATAL :    0
+** Report counts by id
+[CHK]   428
+[COV]     1
+[NO_DPI_TSTNAME]     1
+[NO_DPI_USED]     1
+[NO_VISIT_CHECK]     1
+[RNTST]     1
+[UVM/COMP/NAMECHECK]     1
+[UVM/RELNOTES]     1
+
+- /Users/sankalpahota/Documents/GIT/mGPU/uvm/base/uvm_test_runner.svh:297: Verilog $finish
+- S i m u l a t i o n   R e p o r t: Verilator 5.052 2026-09-05
+- Verilator: $finish at 71us; walltime 19.126 s; speed 3.731 us/s
+- Verilator: cpu 1.025 s on 1 threads; allocated 14 MB

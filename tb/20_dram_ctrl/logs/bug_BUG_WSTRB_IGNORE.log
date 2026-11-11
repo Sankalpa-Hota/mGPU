@@ -1,0 +1,209 @@
+%Warning: System has stack size 65520 kb which may be too small; failed to request more using 'ulimit -s 129380662'
+UVM_INFO /Users/sankalpahota/Documents/GIT/mGPU/uvm/base/uvm_root.svh(457) @ 0: reporter [UVM/RELNOTES] 
+  ***********       IMPORTANT RELEASE NOTES         ************
+
+  This implementation of the UVM Library deviates from the 1800.2-2020
+  standard.  See the DEVIATIONS.md file contained in the release
+  for more details.
+
+----------------------------------------------------------------
+Accellera:1800.2:UVM:2020.3.2
+
+All copyright owners for this kit are listed in NOTICE.txt
+All Rights Reserved Worldwide
+----------------------------------------------------------------
+
+      (Specify +UVM_NO_RELNOTES to turn off this notice)
+
+UVM_WARNING /Users/sankalpahota/Documents/GIT/mGPU/uvm/base/uvm_test_runner.svh(207) @ 0: reporter [NO_DPI_USED] We are thinking of removing support for UVM_NO_DPI.  Please try this test without it and evaluate the impact
+UVM_INFO /Users/sankalpahota/Documents/GIT/mGPU/uvm/base/uvm_test_runner.svh(210) @ 0: reporter [NO_DPI_TSTNAME] UVM_NO_DPI defined--getting UVM_TESTNAME directly, without DPI
+UVM_INFO @ 0: reporter [RNTST] Running test dram_rand_test...
+UVM_INFO /Users/sankalpahota/Documents/GIT/mGPU/uvm/base/uvm_traversal.svh(345) @ 0: reporter [UVM/COMP/NAMECHECK] This implementation of the component name checks requires DPI to be enabled
+UVM_WARNING /Users/sankalpahota/Documents/GIT/mGPU/uvm/base/uvm_traversal.svh(314) @ 0: reporter [NO_VISIT_CHECK] Because UVM_REGEX_NO_DPI is defined, no uvm component name constraints will be checked
+UVM_ERROR dram_tb.sv(62) @ 18140000: uvm_test_top.env.m [CHK] read 0009c70c beat 8: 076cef3f, expected 00000000
+UVM_ERROR dram_tb.sv(62) @ 18190000: uvm_test_top.env.m [CHK] read 0009c70c beat 11: e8b44c7b, expected 00004c00
+UVM_ERROR dram_tb.sv(62) @ 22060000: uvm_test_top.env.m [CHK] read 00091410 beat 2: 215dc12c, expected 2100c100
+UVM_ERROR dram_tb.sv(62) @ 22080000: uvm_test_top.env.m [CHK] read 00091410 beat 4: d76930f6, expected 00693000
+UVM_ERROR dram_tb.sv(62) @ 34780000: uvm_test_top.env.m [CHK] read 0001ed34 beat 2: deb563d4, expected deb56300
+UVM_ERROR dram_tb.sv(62) @ 43600000: uvm_test_top.env.m [CHK] read 00015a74 beat 0: 6458358f, expected 6400008f
+UVM_ERROR dram_tb.sv(62) @ 43620000: uvm_test_top.env.m [CHK] read 00015a74 beat 2: 09c8d390, expected 09c8d300
+UVM_ERROR dram_tb.sv(62) @ 43630000: uvm_test_top.env.m [CHK] read 00015a74 beat 3: 232a1ece, expected 002a00ce
+UVM_ERROR dram_tb.sv(62) @ 51130000: uvm_test_top.env.m [CHK] read 0008ba2c beat 3: 9f8dd9f9, expected 0000d9f9
+UVM_ERROR dram_tb.sv(62) @ 51180000: uvm_test_top.env.m [CHK] read 0008ba2c beat 7: 55e78bf8, expected 55008bf8
+UVM_ERROR dram_tb.sv(62) @ 51190000: uvm_test_top.env.m [CHK] read 0008ba2c beat 8: ad749500, expected 00749500
+UVM_ERROR dram_tb.sv(62) @ 51200000: uvm_test_top.env.m [CHK] read 0008ba2c beat 9: 9df9425c, expected 9d00005c
+UVM_ERROR dram_tb.sv(62) @ 51240000: uvm_test_top.env.m [CHK] read 0008ba2c beat 12: 8249061e, expected 0049061e
+UVM_ERROR dram_tb.sv(62) @ 51260000: uvm_test_top.env.m [CHK] read 0008ba2c beat 14: 8bbfb5e6, expected 000000e6
+UVM_ERROR dram_tb.sv(62) @ 53060000: uvm_test_top.env.m [CHK] read 000a2b7c beat 0: 77e47b28, expected 77007b00
+UVM_ERROR dram_tb.sv(62) @ 53100000: uvm_test_top.env.m [CHK] read 000a2b7c beat 2: 26c9b5f7, expected 00000000
+UVM_ERROR dram_tb.sv(62) @ 53150000: uvm_test_top.env.m [CHK] read 000a2b7c beat 7: 2233bb3c, expected 2200bb3c
+UVM_ERROR dram_tb.sv(62) @ 73340000: uvm_test_top.env.m [CHK] read 000a9648 beat 0: d169aa74, expected 00000000
+UVM_ERROR dram_tb.sv(62) @ 74850000: uvm_test_top.env.m [CHK] read 000ffb28 beat 8: a752b420, expected a7520000
+UVM_ERROR dram_tb.sv(62) @ 88720000: uvm_test_top.env.m [CHK] read 000f7ae8 beat 1: b683c7f5, expected 0083c700
+UVM_ERROR dram_tb.sv(62) @ 94000000: uvm_test_top.env.m [CHK] read 0004b384 beat 8: e3cc466f, expected e3cc006f
+UVM_ERROR dram_tb.sv(62) @ 116360000: uvm_test_top.env.m [CHK] read 00070454 beat 0: 4597862e, expected 0000862e
+UVM_ERROR dram_tb.sv(62) @ 116400000: uvm_test_top.env.m [CHK] read 00070454 beat 4: 4bf23de0, expected 00f20000
+UVM_ERROR dram_tb.sv(62) @ 116440000: uvm_test_top.env.m [CHK] read 00070454 beat 7: 4ee50f54, expected 4ee50000
+UVM_ERROR dram_tb.sv(62) @ 116460000: uvm_test_top.env.m [CHK] read 00070454 beat 8: 7e0322af, expected 00030000
+UVM_ERROR dram_tb.sv(62) @ 116470000: uvm_test_top.env.m [CHK] read 00070454 beat 9: 96e73f1f, expected 96e73f00
+UVM_ERROR dram_tb.sv(62) @ 141900000: uvm_test_top.env.m [CHK] read 000491cc beat 0: 23e17a92, expected 23000000
+UVM_ERROR dram_tb.sv(62) @ 144920000: uvm_test_top.env.m [CHK] read 000248d8 beat 3: 8ef6ae3d, expected 00000000
+UVM_ERROR dram_tb.sv(62) @ 176380000: uvm_test_top.env.m [CHK] read 00088eb8 beat 4: aa4a8e9c, expected aa4a8e00
+UVM_ERROR dram_tb.sv(62) @ 183100000: uvm_test_top.env.m [CHK] read 00081834 beat 1: fd401bdc, expected fd4000dc
+UVM_ERROR dram_tb.sv(62) @ 183130000: uvm_test_top.env.m [CHK] read 00081834 beat 4: df2f18c5, expected 00000000
+UVM_ERROR dram_tb.sv(62) @ 183140000: uvm_test_top.env.m [CHK] read 00081834 beat 5: 58fcdab2, expected 5800da00
+UVM_ERROR dram_tb.sv(62) @ 183150000: uvm_test_top.env.m [CHK] read 00081834 beat 6: c1d1e2ac, expected c1d100ac
+UVM_ERROR dram_tb.sv(62) @ 183180000: uvm_test_top.env.m [CHK] read 00081834 beat 8: c2a82f3f, expected c2002f00
+UVM_ERROR dram_tb.sv(62) @ 183930000: uvm_test_top.env.m [CHK] read 0008c8f8 beat 0: d23e8c69, expected 00000000
+UVM_ERROR dram_tb.sv(62) @ 183940000: uvm_test_top.env.m [CHK] read 0008c8f8 beat 1: 184c06a7, expected 18000000
+UVM_ERROR dram_tb.sv(62) @ 183950000: uvm_test_top.env.m [CHK] read 0008c8f8 beat 2: 6ebb7cd5, expected 6e0000d5
+UVM_ERROR dram_tb.sv(62) @ 184030000: uvm_test_top.env.m [CHK] read 0008c8f8 beat 9: 3b4d31b9, expected 3b4d0000
+UVM_ERROR dram_tb.sv(62) @ 191470000: uvm_test_top.env.m [CHK] read 0009621c beat 7: 3df21303, expected 00001300
+UVM_ERROR dram_tb.sv(62) @ 191490000: uvm_test_top.env.m [CHK] read 0009621c beat 9: 701f06e0, expected 70000600
+UVM_ERROR dram_tb.sv(62) @ 192530000: uvm_test_top.env.m [CHK] read 0005a3b4 beat 5: 306a3ef3, expected 30000000
+UVM_ERROR dram_tb.sv(62) @ 193350000: uvm_test_top.env.m [CHK] read 00033adc beat 0: 6f06cce5, expected 6f00cce5
+UVM_ERROR dram_tb.sv(62) @ 196410000: uvm_test_top.env.m [CHK] read 00047ec8 beat 2: d27456bc, expected 007400bc
+UVM_ERROR dram_tb.sv(62) @ 196430000: uvm_test_top.env.m [CHK] read 00047ec8 beat 4: ffb83d11, expected ffb80000
+UVM_ERROR dram_tb.sv(62) @ 196450000: uvm_test_top.env.m [CHK] read 00047ec8 beat 6: 5245f952, expected 00000052
+UVM_ERROR dram_tb.sv(62) @ 196620000: uvm_test_top.env.m [CHK] read 00047614 beat 2: bb55a468, expected 00550000
+UVM_ERROR dram_tb.sv(62) @ 196630000: uvm_test_top.env.m [CHK] read 00047614 beat 3: 2368aff4, expected 230000f4
+UVM_ERROR dram_tb.sv(62) @ 196640000: uvm_test_top.env.m [CHK] read 00047614 beat 4: 9f1d50be, expected 000050be
+UVM_ERROR dram_tb.sv(62) @ 196650000: uvm_test_top.env.m [CHK] read 00047614 beat 5: b9a818d0, expected 00a80000
+UVM_ERROR dram_tb.sv(62) @ 196690000: uvm_test_top.env.m [CHK] read 00047614 beat 8: f59c1018, expected f5001000
+UVM_ERROR dram_tb.sv(62) @ 199050000: uvm_test_top.env.m [CHK] read 000b551c beat 7: 992e015f, expected 002e015f
+UVM_ERROR dram_tb.sv(62) @ 199080000: uvm_test_top.env.m [CHK] read 000b551c beat 10: f9d42752, expected f9d40000
+UVM_ERROR dram_tb.sv(62) @ 199110000: uvm_test_top.env.m [CHK] read 000b551c beat 13: dde5451b, expected 00004500
+UVM_ERROR dram_tb.sv(62) @ 201350000: uvm_test_top.env.m [CHK] read 00092dac beat 1: 2ae9353c, expected 0000003c
+UVM_ERROR dram_tb.sv(62) @ 201360000: uvm_test_top.env.m [CHK] read 00092dac beat 2: 367e84ed, expected 00008400
+UVM_ERROR dram_tb.sv(62) @ 201380000: uvm_test_top.env.m [CHK] read 00092dac beat 4: 2f3ca9f6, expected 2f00a900
+UVM_ERROR dram_tb.sv(62) @ 201400000: uvm_test_top.env.m [CHK] read 00092dac beat 5: a35899c4, expected 005800c4
+UVM_ERROR dram_tb.sv(62) @ 201410000: uvm_test_top.env.m [CHK] read 00092dac beat 6: 50e1c003, expected 50e1c000
+UVM_ERROR dram_tb.sv(62) @ 205970000: uvm_test_top.env.m [CHK] read 0001a79c beat 2: 5eee6bab, expected 5eee6b00
+UVM_ERROR dram_tb.sv(62) @ 205980000: uvm_test_top.env.m [CHK] read 0001a79c beat 3: d6615fc6, expected d60000c6
+UVM_ERROR dram_tb.sv(62) @ 207690000: uvm_test_top.env.m [CHK] read 0004a80c beat 2: a161556e, expected a1615500
+UVM_ERROR dram_tb.sv(62) @ 207730000: uvm_test_top.env.m [CHK] read 0004a80c beat 5: 828413a2, expected 828400a2
+UVM_ERROR dram_tb.sv(62) @ 207740000: uvm_test_top.env.m [CHK] read 0004a80c beat 6: f9cb6a16, expected 00cb0016
+UVM_ERROR dram_tb.sv(62) @ 207750000: uvm_test_top.env.m [CHK] read 0004a80c beat 7: f414f208, expected f400f208
+UVM_ERROR dram_tb.sv(62) @ 207770000: uvm_test_top.env.m [CHK] read 0004a80c beat 8: 6bf9ba4b, expected 6bf9ba00
+UVM_ERROR dram_tb.sv(62) @ 207780000: uvm_test_top.env.m [CHK] read 0004a80c beat 9: 905bba11, expected 90000000
+UVM_ERROR dram_tb.sv(62) @ 207820000: uvm_test_top.env.m [CHK] read 0004a80c beat 13: 33864acd, expected 33004acd
+UVM_ERROR dram_tb.sv(62) @ 211510000: uvm_test_top.env.m [CHK] read 000e1a34 beat 4: 3b55b268, expected 0000b200
+UVM_ERROR dram_tb.sv(62) @ 211630000: uvm_test_top.env.m [CHK] read 000e1a34 beat 13: 3f18619b, expected 0018619b
+UVM_ERROR dram_tb.sv(62) @ 211650000: uvm_test_top.env.m [CHK] read 000e1a34 beat 14: e997667b, expected e997007b
+UVM_ERROR dram_tb.sv(62) @ 212690000: uvm_test_top.env.m [CHK] read 00040884 beat 5: 90715b6b, expected 90715b00
+UVM_ERROR dram_tb.sv(62) @ 230930000: uvm_test_top.env.m [CHK] read 000a15a0 beat 4: 1d49deab, expected 0049de00
+UVM_ERROR dram_tb.sv(62) @ 236530000: uvm_test_top.env.m [CHK] read 000b35b4 beat 0: 05b7be63, expected 05000000
+UVM_ERROR dram_tb.sv(62) @ 236560000: uvm_test_top.env.m [CHK] read 000b35b4 beat 3: 2514d1bf, expected 0000d1bf
+UVM_ERROR dram_tb.sv(62) @ 238520000: uvm_test_top.env.m [CHK] read 000995f0 beat 12: 0956cb72, expected 09560000
+UVM_ERROR dram_tb.sv(62) @ 241610000: uvm_test_top.env.m [CHK] read 000afcb8 beat 2: 0e048394, expected 0e000000
+UVM_ERROR dram_tb.sv(62) @ 241620000: uvm_test_top.env.m [CHK] read 000afcb8 beat 3: 7a0c4fc6, expected 000c4fc6
+UVM_ERROR dram_tb.sv(62) @ 241640000: uvm_test_top.env.m [CHK] read 000afcb8 beat 5: 82231975, expected 82231900
+UVM_ERROR dram_tb.sv(62) @ 241650000: uvm_test_top.env.m [CHK] read 000afcb8 beat 6: 7f38aea4, expected 7f380000
+UVM_ERROR dram_tb.sv(62) @ 260390000: uvm_test_top.env.m [CHK] read 0003f578 beat 0: 6209c437, expected 0000c400
+UVM_ERROR dram_tb.sv(62) @ 260400000: uvm_test_top.env.m [CHK] read 0003f578 beat 1: 40428519, expected 00420019
+UVM_ERROR dram_tb.sv(62) @ 260500000: uvm_test_top.env.m [CHK] read 0003f578 beat 5: 6b04df03, expected 6b00df03
+UVM_ERROR dram_tb.sv(62) @ 260520000: uvm_test_top.env.m [CHK] read 0003f578 beat 7: dfe88bb4, expected 00e80000
+UVM_ERROR dram_tb.sv(62) @ 268120000: uvm_test_top.env.m [CHK] read 000f5850 beat 4: f7b35b57, expected f7000000
+UVM_ERROR dram_tb.sv(62) @ 271610000: uvm_test_top.env.m [CHK] read 000799c0 beat 2: dab768d2, expected dab70000
+UVM_ERROR dram_tb.sv(62) @ 271650000: uvm_test_top.env.m [CHK] read 000799c0 beat 4: 5aaddfcf, expected 5a000000
+UVM_ERROR dram_tb.sv(62) @ 277190000: uvm_test_top.env.m [CHK] read 000cdae4 beat 5: bcf682b2, expected 000082b2
+UVM_ERROR dram_tb.sv(62) @ 277240000: uvm_test_top.env.m [CHK] read 000cdae4 beat 9: 648dfbdf, expected 0000fb00
+UVM_ERROR dram_tb.sv(62) @ 277250000: uvm_test_top.env.m [CHK] read 000cdae4 beat 10: ebee35b1, expected eb0000b1
+UVM_ERROR dram_tb.sv(62) @ 282180000: uvm_test_top.env.m [CHK] read 0005b99c beat 1: f9658e23, expected f9658e00
+UVM_ERROR dram_tb.sv(62) @ 282190000: uvm_test_top.env.m [CHK] read 0005b99c beat 2: e5e31cf5, expected 00000000
+UVM_ERROR dram_tb.sv(62) @ 282230000: uvm_test_top.env.m [CHK] read 0005b99c beat 5: 5c4a1283, expected 004a0000
+UVM_ERROR dram_tb.sv(62) @ 287940000: uvm_test_top.env.m [CHK] read 000c964c beat 9: 51745ef7, expected 51005ef7
+UVM_ERROR dram_tb.sv(62) @ 287970000: uvm_test_top.env.m [CHK] read 000c964c beat 11: 06fcf24a, expected 00fc0000
+UVM_ERROR dram_tb.sv(62) @ 288020000: uvm_test_top.env.m [CHK] read 000c964c beat 14: d3854f5c, expected 00004f5c
+UVM_ERROR dram_tb.sv(62) @ 296150000: uvm_test_top.env.m [CHK] read 000cbf98 beat 1: 835bb3a8, expected c75b03a8
+UVM_ERROR dram_tb.sv(62) @ 296160000: uvm_test_top.env.m [CHK] read 000cbf98 beat 2: 1a2d416c, expected fb29416c
+UVM_ERROR dram_tb.sv(62) @ 296180000: uvm_test_top.env.m [CHK] read 000cbf98 beat 4: 5b7dca44, expected 5b00ca44
+UVM_ERROR dram_tb.sv(62) @ 296220000: uvm_test_top.env.m [CHK] read 000cbf98 beat 8: b7c77b6b, expected 00c77b6b
+UVM_ERROR dram_tb.sv(62) @ 306590000: uvm_test_top.env.m [CHK] read 0003faf4 beat 4: d3932c53, expected d3000053
+UVM_ERROR dram_tb.sv(62) @ 306600000: uvm_test_top.env.m [CHK] read 0003faf4 beat 5: 1726ce64, expected 17260000
+UVM_ERROR dram_tb.sv(62) @ 308230000: uvm_test_top.env.m [CHK] read 00064714 beat 2: 87aa1e88, expected 87aa0088
+UVM_ERROR dram_tb.sv(62) @ 308240000: uvm_test_top.env.m [CHK] read 00064714 beat 3: 711a2f48, expected 00000048
+UVM_ERROR dram_tb.sv(62) @ 316470000: uvm_test_top.env.m [CHK] read 00025bfc beat 0: 06767049, expected 00000049
+UVM_ERROR dram_tb.sv(62) @ 317150000: uvm_test_top.env.m [CHK] read 00017dac beat 2: 1566cb8a, expected 15000000
+UVM_ERROR dram_tb.sv(62) @ 317190000: uvm_test_top.env.m [CHK] read 00017dac beat 3: 19688574, expected 00008574
+UVM_ERROR dram_tb.sv(62) @ 317200000: uvm_test_top.env.m [CHK] read 00017dac beat 4: 8cedef91, expected 00ed0091
+UVM_ERROR dram_tb.sv(62) @ 318890000: uvm_test_top.env.m [CHK] read 00040a70 beat 3: 076edad1, expected 006e00d1
+UVM_ERROR dram_tb.sv(62) @ 318900000: uvm_test_top.env.m [CHK] read 00040a70 beat 4: 50bc53cd, expected 00bc0000
+UVM_ERROR dram_tb.sv(62) @ 318910000: uvm_test_top.env.m [CHK] read 00040a70 beat 5: 22f54c60, expected 00004c60
+UVM_ERROR dram_tb.sv(62) @ 322060000: uvm_test_top.env.m [CHK] read 0009d158 beat 12: 63da2c24, expected 00002c24
+UVM_ERROR dram_tb.sv(62) @ 322070000: uvm_test_top.env.m [CHK] read 0009d158 beat 13: 3f5c7eef, expected 005c7eef
+UVM_ERROR dram_tb.sv(62) @ 324930000: uvm_test_top.env.m [CHK] read 00031d48 beat 11: fe2b285b, expected fe00285b
+UVM_ERROR dram_tb.sv(62) @ 324950000: uvm_test_top.env.m [CHK] read 00031d48 beat 13: c522f8a9, expected c5220000
+UVM_ERROR dram_tb.sv(62) @ 330630000: uvm_test_top.env.m [CHK] read 0008dbc0 beat 2: cc50f1ae, expected cc000000
+UVM_ERROR dram_tb.sv(62) @ 330680000: uvm_test_top.env.m [CHK] read 0008dbc0 beat 6: 2060f75b, expected 2060f700
+UVM_ERROR dram_tb.sv(62) @ 332710000: uvm_test_top.env.m [CHK] read 0000df84 beat 12: 7a548497, expected 00008497
+UVM_ERROR dram_tb.sv(62) @ 337760000: uvm_test_top.env.m [CHK] read 000040dc beat 2: b326647f, expected b3266400
+UVM_ERROR dram_tb.sv(62) @ 337770000: uvm_test_top.env.m [CHK] read 000040dc beat 3: a27a6066, expected a2006000
+UVM_ERROR dram_tb.sv(62) @ 337780000: uvm_test_top.env.m [CHK] read 000040dc beat 4: 04142111, expected 00000000
+UVM_ERROR dram_tb.sv(62) @ 341010000: uvm_test_top.env.m [CHK] read 000b7b44 beat 0: 4ec15d29, expected 00c10000
+UVM_ERROR dram_tb.sv(62) @ 345500000: uvm_test_top.env.m [CHK] read 0001d894 beat 0: 7666ebbf, expected 766600bf
+UVM_ERROR dram_tb.sv(62) @ 349330000: uvm_test_top.env.m [CHK] read 00010150 beat 8: 6bca573c, expected 00ca0000
+UVM_ERROR dram_tb.sv(62) @ 349350000: uvm_test_top.env.m [CHK] read 00010150 beat 10: e6f332bc, expected 00003200
+UVM_ERROR dram_tb.sv(62) @ 349410000: uvm_test_top.env.m [CHK] read 00010150 beat 14: 71b9a9f5, expected 00000000
+UVM_ERROR dram_tb.sv(62) @ 349420000: uvm_test_top.env.m [CHK] read 00010150 beat 15: 3e1def30, expected 3e1def00
+UVM_ERROR dram_tb.sv(62) @ 349870000: uvm_test_top.env.m [CHK] read 000e3b38 beat 0: d271485b, expected d271005b
+UVM_ERROR dram_tb.sv(62) @ 353570000: uvm_test_top.env.m [CHK] read 00082a84 beat 15: 8bc17c2b, expected 0000002b
+UVM_ERROR dram_tb.sv(62) @ 353950000: uvm_test_top.env.m [CHK] read 000e7f2c beat 0: c5e427da, expected c5e42700
+UVM_ERROR dram_tb.sv(62) @ 354040000: uvm_test_top.env.m [CHK] read 000e7f2c beat 7: ffb7667e, expected 00000000
+UVM_ERROR dram_tb.sv(62) @ 354060000: uvm_test_top.env.m [CHK] read 000e7f2c beat 9: bc22c8c8, expected bc2200c8
+UVM_ERROR dram_tb.sv(62) @ 354670000: uvm_test_top.env.m [CHK] read 00050b58 beat 5: d74d071c, expected d7000700
+UVM_ERROR dram_tb.sv(62) @ 354700000: uvm_test_top.env.m [CHK] read 00050b58 beat 8: 20943918, expected 20003900
+UVM_ERROR dram_tb.sv(62) @ 355880000: uvm_test_top.env.m [CHK] read 000d5d74 beat 0: c7e1c769, expected c7e10000
+UVM_ERROR dram_tb.sv(62) @ 356870000: uvm_test_top.env.m [CHK] read 000e7c20 beat 4: e0185dca, expected e0895dca
+UVM_ERROR dram_tb.sv(62) @ 356910000: uvm_test_top.env.m [CHK] read 000e7c20 beat 6: 5b75ce7b, expected 0075007b
+UVM_ERROR dram_tb.sv(62) @ 357780000: uvm_test_top.env.m [CHK] read 000eb9ac beat 6: 44b1dd6a, expected 44000000
+UVM_ERROR dram_tb.sv(62) @ 359680000: uvm_test_top.env.m [CHK] read 000e9dc0 beat 9: e3740cf0, expected e37400f0
+UVM_ERROR dram_tb.sv(62) @ 359710000: uvm_test_top.env.m [CHK] read 000e9dc0 beat 12: 85054731, expected 85050031
+UVM_ERROR dram_tb.sv(62) @ 359730000: uvm_test_top.env.m [CHK] read 000e9dc0 beat 13: 3f13c45a, expected 0013c400
+UVM_ERROR dram_tb.sv(62) @ 360930000: uvm_test_top.env.m [CHK] read 00079fe8 beat 0: 2b081db5, expected 2b0800b5
+UVM_ERROR dram_tb.sv(62) @ 363820000: uvm_test_top.env.m [CHK] read 0006e49c beat 0: 1986ec21, expected 00000000
+UVM_ERROR dram_tb.sv(62) @ 363890000: uvm_test_top.env.m [CHK] read 0006e49c beat 5: f9cf26e9, expected 00cf26e9
+UVM_ERROR dram_tb.sv(62) @ 366440000: uvm_test_top.env.m [CHK] read 000932b4 beat 1: 19b4db26, expected 00b40000
+UVM_ERROR dram_tb.sv(62) @ 366470000: uvm_test_top.env.m [CHK] read 000932b4 beat 4: 46f965a1, expected 460000a1
+UVM_ERROR dram_tb.sv(62) @ 366480000: uvm_test_top.env.m [CHK] read 000932b4 beat 5: dddb968f, expected 00db9600
+UVM_ERROR dram_tb.sv(62) @ 366500000: uvm_test_top.env.m [CHK] read 000932b4 beat 7: 81ace8bf, expected 81ac00bf
+UVM_ERROR dram_tb.sv(62) @ 366510000: uvm_test_top.env.m [CHK] read 000932b4 beat 8: d5117d49, expected 00117d49
+UVM_INFO dram_tb.sv(181) @ 369255000: uvm_test_top.env.m [CHK] read bursts=2000 write bursts=2000 errors=148 (read beats racing a write, not checked: 57)
+UVM_INFO dram_tb.sv(182) @ 369255000: uvm_test_top.env.m [COV] functional coverage = 100.0%
+    read                         2000
+    write                        2000
+    len_1                        1012
+    len_2_15                     2458
+    len_16                       530
+    slverr_burst_type            93
+    slverr_size                  95
+    decerr                       187
+    partial_strobe               4813
+    read_and_write_pending       1906
+    both_start_same_cycle        63
+    rready_backpressure          3906
+    bready_backpressure          440
+    row_hit                      730
+    row_miss                     2895
+UVM_INFO /Users/sankalpahota/Documents/GIT/mGPU/uvm/base/uvm_report_server.svh(1009) @ 369255000: reporter [UVM/REPORT/SERVER] 
+--- UVM Report Summary ---
+
+** Report counts by severity
+UVM_INFO :    6
+UVM_WARNING :    2
+UVM_ERROR :  148
+UVM_FATAL :    0
+** Report counts by id
+[CHK]   149
+[COV]     1
+[NO_DPI_TSTNAME]     1
+[NO_DPI_USED]     1
+[NO_VISIT_CHECK]     1
+[RNTST]     1
+[UVM/COMP/NAMECHECK]     1
+[UVM/RELNOTES]     1
+
+- /Users/sankalpahota/Documents/GIT/mGPU/uvm/base/uvm_test_runner.svh:297: Verilog $finish
+- S i m u l a t i o n   R e p o r t: Verilator 5.052 2026-09-05
+- Verilator: $finish at 369us; walltime 0.209 s; speed 1.765 ms/s
+- Verilator: cpu 0.209 s on 1 threads; allocated 16 MB

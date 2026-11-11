@@ -1,0 +1,1468 @@
+%Warning: System has stack size 65520 kb which may be too small; failed to request more using 'ulimit -s 129380638'
+UVM_INFO /Users/sankalpahota/Documents/GIT/mGPU/uvm/base/uvm_root.svh(457) @ 0: reporter [UVM/RELNOTES] 
+  ***********       IMPORTANT RELEASE NOTES         ************
+
+  This implementation of the UVM Library deviates from the 1800.2-2020
+  standard.  See the DEVIATIONS.md file contained in the release
+  for more details.
+
+----------------------------------------------------------------
+Accellera:1800.2:UVM:2020.3.2
+
+All copyright owners for this kit are listed in NOTICE.txt
+All Rights Reserved Worldwide
+----------------------------------------------------------------
+
+      (Specify +UVM_NO_RELNOTES to turn off this notice)
+
+UVM_WARNING /Users/sankalpahota/Documents/GIT/mGPU/uvm/base/uvm_test_runner.svh(207) @ 0: reporter [NO_DPI_USED] We are thinking of removing support for UVM_NO_DPI.  Please try this test without it and evaluate the impact
+UVM_INFO /Users/sankalpahota/Documents/GIT/mGPU/uvm/base/uvm_test_runner.svh(210) @ 0: reporter [NO_DPI_TSTNAME] UVM_NO_DPI defined--getting UVM_TESTNAME directly, without DPI
+UVM_INFO @ 0: reporter [RNTST] Running test dram_error_test...
+UVM_INFO /Users/sankalpahota/Documents/GIT/mGPU/uvm/base/uvm_traversal.svh(345) @ 0: reporter [UVM/COMP/NAMECHECK] This implementation of the component name checks requires DPI to be enabled
+UVM_WARNING /Users/sankalpahota/Documents/GIT/mGPU/uvm/base/uvm_traversal.svh(314) @ 0: reporter [NO_VISIT_CHECK] Because UVM_REGEX_NO_DPI is defined, no uvm component name constraints will be checked
+UVM_ERROR dram_tb.sv(62) @ 180000: uvm_test_top.env.m [CHK] read 00104000 beat 0: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 280000: uvm_test_top.env.m [CHK] write 0010e000: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 300000: uvm_test_top.env.m [CHK] read 00101000 beat 0: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 310000: uvm_test_top.env.m [CHK] read 00101000 beat 1: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 370000: uvm_test_top.env.m [CHK] read 00101000 beat 2: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 410000: uvm_test_top.env.m [CHK] read 00101000 beat 3: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 460000: uvm_test_top.env.m [CHK] read 00101000 beat 4: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 470000: uvm_test_top.env.m [CHK] read 00101000 beat 5: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 480000: uvm_test_top.env.m [CHK] read 00101000 beat 6: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 540000: uvm_test_top.env.m [CHK] read 00101000 beat 7: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 570000: uvm_test_top.env.m [CHK] write 00109000: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 580000: uvm_test_top.env.m [CHK] read 00101000 beat 8: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 620000: uvm_test_top.env.m [CHK] read 00101000 beat 9: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 630000: uvm_test_top.env.m [CHK] read 00101000 beat 10: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 640000: uvm_test_top.env.m [CHK] read 00101000 beat 11: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 660000: uvm_test_top.env.m [CHK] read 00101000 beat 12: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 1680000: uvm_test_top.env.m [CHK] read 00106000 beat 0: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 1700000: uvm_test_top.env.m [CHK] read 00106000 beat 1: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 1720000: uvm_test_top.env.m [CHK] read 00106000 beat 2: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 1740000: uvm_test_top.env.m [CHK] read 00106000 beat 3: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 1770000: uvm_test_top.env.m [CHK] read 00106000 beat 4: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 1780000: uvm_test_top.env.m [CHK] read 00106000 beat 5: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 1790000: uvm_test_top.env.m [CHK] read 00106000 beat 6: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 2000000: uvm_test_top.env.m [CHK] write 0010a000: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 2980000: uvm_test_top.env.m [CHK] read 00108000 beat 0: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 2980000: uvm_test_top.env.m [CHK] write 00108000: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 3030000: uvm_test_top.env.m [CHK] read 00108000 beat 1: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 3050000: uvm_test_top.env.m [CHK] read 00108000 beat 2: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 3100000: uvm_test_top.env.m [CHK] read 00108000 beat 3: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 3120000: uvm_test_top.env.m [CHK] read 00108000 beat 4: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 3130000: uvm_test_top.env.m [CHK] read 00108000 beat 5: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 3160000: uvm_test_top.env.m [CHK] write 0010a000: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 3160000: uvm_test_top.env.m [CHK] read 00108000 beat 6: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 3170000: uvm_test_top.env.m [CHK] read 00108000 beat 7: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 3180000: uvm_test_top.env.m [CHK] read 00108000 beat 8: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 3200000: uvm_test_top.env.m [CHK] read 00108000 beat 9: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 3230000: uvm_test_top.env.m [CHK] read 00108000 beat 10: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 3240000: uvm_test_top.env.m [CHK] read 00108000 beat 11: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 3700000: uvm_test_top.env.m [CHK] write 00105000: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 3910000: uvm_test_top.env.m [CHK] write 00101000: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 4240000: uvm_test_top.env.m [CHK] write 00106000: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 4760000: uvm_test_top.env.m [CHK] write 0010c000: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 5040000: uvm_test_top.env.m [CHK] write 0010b000: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 5220000: uvm_test_top.env.m [CHK] write 00108000: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 6190000: uvm_test_top.env.m [CHK] write 00106000: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 6710000: uvm_test_top.env.m [CHK] write 00105000: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 7790000: uvm_test_top.env.m [CHK] write 00102000: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 10470000: uvm_test_top.env.m [CHK] write 00101000: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 11390000: uvm_test_top.env.m [CHK] read 00108000 beat 0: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 11400000: uvm_test_top.env.m [CHK] read 00108000 beat 1: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 11440000: uvm_test_top.env.m [CHK] read 00108000 beat 2: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 11450000: uvm_test_top.env.m [CHK] read 00108000 beat 3: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 11480000: uvm_test_top.env.m [CHK] read 00108000 beat 4: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 11490000: uvm_test_top.env.m [CHK] read 00108000 beat 5: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 11500000: uvm_test_top.env.m [CHK] read 00108000 beat 6: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 11570000: uvm_test_top.env.m [CHK] read 00108000 beat 7: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 11590000: uvm_test_top.env.m [CHK] read 00108000 beat 8: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 11600000: uvm_test_top.env.m [CHK] read 00108000 beat 9: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 11630000: uvm_test_top.env.m [CHK] read 00108000 beat 10: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 11670000: uvm_test_top.env.m [CHK] read 00108000 beat 11: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 11680000: uvm_test_top.env.m [CHK] read 00108000 beat 12: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 11690000: uvm_test_top.env.m [CHK] read 00108000 beat 13: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 11700000: uvm_test_top.env.m [CHK] read 00108000 beat 14: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 11770000: uvm_test_top.env.m [CHK] read 00108000 beat 15: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 11920000: uvm_test_top.env.m [CHK] read 00101000 beat 0: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 11940000: uvm_test_top.env.m [CHK] read 00101000 beat 1: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 11960000: uvm_test_top.env.m [CHK] read 00101000 beat 2: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 11980000: uvm_test_top.env.m [CHK] read 00101000 beat 3: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 12010000: uvm_test_top.env.m [CHK] read 00101000 beat 4: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 12060000: uvm_test_top.env.m [CHK] read 00101000 beat 5: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 12070000: uvm_test_top.env.m [CHK] read 00101000 beat 6: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 12770000: uvm_test_top.env.m [CHK] write 0010d000: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 12980000: uvm_test_top.env.m [CHK] read 00105000 beat 0: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 13040000: uvm_test_top.env.m [CHK] read 00105000 beat 1: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 13050000: uvm_test_top.env.m [CHK] read 00105000 beat 2: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 13070000: uvm_test_top.env.m [CHK] read 00105000 beat 3: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 13100000: uvm_test_top.env.m [CHK] read 00105000 beat 4: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 13120000: uvm_test_top.env.m [CHK] read 00105000 beat 5: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 13130000: uvm_test_top.env.m [CHK] read 00105000 beat 6: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 13140000: uvm_test_top.env.m [CHK] read 00105000 beat 7: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 13160000: uvm_test_top.env.m [CHK] read 00105000 beat 8: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 13190000: uvm_test_top.env.m [CHK] read 00105000 beat 9: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 13210000: uvm_test_top.env.m [CHK] read 00105000 beat 10: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 13220000: uvm_test_top.env.m [CHK] read 00105000 beat 11: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 13250000: uvm_test_top.env.m [CHK] read 00105000 beat 12: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 13270000: uvm_test_top.env.m [CHK] read 00105000 beat 13: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 13280000: uvm_test_top.env.m [CHK] read 00105000 beat 14: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 13390000: uvm_test_top.env.m [CHK] read 00107000 beat 0: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 13440000: uvm_test_top.env.m [CHK] read 00107000 beat 1: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 14330000: uvm_test_top.env.m [CHK] write 0010d000: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 14650000: uvm_test_top.env.m [CHK] burst at 000283c8: row hit=0 reported, model says 1
+UVM_ERROR dram_tb.sv(62) @ 14670000: uvm_test_top.env.m [CHK] read 00105000 beat 0: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 14680000: uvm_test_top.env.m [CHK] read 00105000 beat 1: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 14760000: uvm_test_top.env.m [CHK] read 00105000 beat 2: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 14780000: uvm_test_top.env.m [CHK] read 00105000 beat 3: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 14810000: uvm_test_top.env.m [CHK] read 00105000 beat 4: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 14830000: uvm_test_top.env.m [CHK] read 00105000 beat 5: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 14840000: uvm_test_top.env.m [CHK] read 00105000 beat 6: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 14850000: uvm_test_top.env.m [CHK] read 00105000 beat 7: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 14860000: uvm_test_top.env.m [CHK] read 00105000 beat 8: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 14890000: uvm_test_top.env.m [CHK] read 00105000 beat 9: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 14900000: uvm_test_top.env.m [CHK] read 00105000 beat 10: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 14920000: uvm_test_top.env.m [CHK] read 00105000 beat 11: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 15020000: uvm_test_top.env.m [CHK] read 00105000 beat 12: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 15050000: uvm_test_top.env.m [CHK] read 00105000 beat 13: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 15800000: uvm_test_top.env.m [CHK] read 00102000 beat 0: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 15810000: uvm_test_top.env.m [CHK] read 00102000 beat 1: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 15820000: uvm_test_top.env.m [CHK] read 00102000 beat 2: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 15850000: uvm_test_top.env.m [CHK] read 00102000 beat 3: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 15860000: uvm_test_top.env.m [CHK] read 00102000 beat 4: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 15890000: uvm_test_top.env.m [CHK] read 00102000 beat 5: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 15900000: uvm_test_top.env.m [CHK] read 00102000 beat 6: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 15920000: uvm_test_top.env.m [CHK] read 00102000 beat 7: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 15940000: uvm_test_top.env.m [CHK] read 00102000 beat 8: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 15950000: uvm_test_top.env.m [CHK] read 00102000 beat 9: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 16120000: uvm_test_top.env.m [CHK] write 00106000: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 17850000: uvm_test_top.env.m [CHK] write 0010a000: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 18370000: uvm_test_top.env.m [CHK] write 00106000: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 18930000: uvm_test_top.env.m [CHK] read 00104000 beat 0: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 18960000: uvm_test_top.env.m [CHK] read 00104000 beat 1: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 18980000: uvm_test_top.env.m [CHK] read 00104000 beat 2: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 18990000: uvm_test_top.env.m [CHK] read 00104000 beat 3: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 19000000: uvm_test_top.env.m [CHK] read 00104000 beat 4: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 19010000: uvm_test_top.env.m [CHK] read 00104000 beat 5: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 19020000: uvm_test_top.env.m [CHK] read 00104000 beat 6: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 19030000: uvm_test_top.env.m [CHK] read 00104000 beat 7: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 19050000: uvm_test_top.env.m [CHK] read 00104000 beat 8: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 19060000: uvm_test_top.env.m [CHK] read 00104000 beat 9: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 19070000: uvm_test_top.env.m [CHK] read 00104000 beat 10: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 19200000: uvm_test_top.env.m [CHK] write 00103000: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 19210000: uvm_test_top.env.m [CHK] read 00103000 beat 0: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 19760000: uvm_test_top.env.m [CHK] write 00100000: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 19900000: uvm_test_top.env.m [CHK] read 00105000 beat 0: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 19920000: uvm_test_top.env.m [CHK] read 00105000 beat 1: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 19950000: uvm_test_top.env.m [CHK] read 00105000 beat 2: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 20010000: uvm_test_top.env.m [CHK] read 00105000 beat 3: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 20030000: uvm_test_top.env.m [CHK] read 00105000 beat 4: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 21470000: uvm_test_top.env.m [CHK] read 00100000 beat 0: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 21490000: uvm_test_top.env.m [CHK] read 00100000 beat 1: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 21500000: uvm_test_top.env.m [CHK] read 00100000 beat 2: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 21510000: uvm_test_top.env.m [CHK] read 00100000 beat 3: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 21520000: uvm_test_top.env.m [CHK] read 00100000 beat 4: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 21540000: uvm_test_top.env.m [CHK] read 00100000 beat 5: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 21580000: uvm_test_top.env.m [CHK] read 00100000 beat 6: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 21590000: uvm_test_top.env.m [CHK] read 00100000 beat 7: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 21610000: uvm_test_top.env.m [CHK] read 00100000 beat 8: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 21660000: uvm_test_top.env.m [CHK] read 00100000 beat 9: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 21770000: uvm_test_top.env.m [CHK] read 00100000 beat 10: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 21810000: uvm_test_top.env.m [CHK] read 00100000 beat 11: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 21820000: uvm_test_top.env.m [CHK] read 00100000 beat 12: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 22860000: uvm_test_top.env.m [CHK] read 00106000 beat 0: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 22870000: uvm_test_top.env.m [CHK] read 00106000 beat 1: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 22960000: uvm_test_top.env.m [CHK] read 00106000 beat 2: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 22970000: uvm_test_top.env.m [CHK] read 00106000 beat 3: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 22980000: uvm_test_top.env.m [CHK] read 00106000 beat 4: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 23010000: uvm_test_top.env.m [CHK] read 00106000 beat 5: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 23040000: uvm_test_top.env.m [CHK] read 00106000 beat 6: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 23160000: uvm_test_top.env.m [CHK] read 00103000 beat 0: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 23370000: uvm_test_top.env.m [CHK] write 00109000: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 24220000: uvm_test_top.env.m [CHK] read 00105000 beat 0: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 24240000: uvm_test_top.env.m [CHK] read 00105000 beat 1: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 24720000: uvm_test_top.env.m [CHK] write 00101000: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 25590000: uvm_test_top.env.m [CHK] read 00104000 beat 0: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 25600000: uvm_test_top.env.m [CHK] read 00104000 beat 1: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 25630000: uvm_test_top.env.m [CHK] read 00104000 beat 2: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 25660000: uvm_test_top.env.m [CHK] read 00104000 beat 3: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 25680000: uvm_test_top.env.m [CHK] read 00104000 beat 4: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 25690000: uvm_test_top.env.m [CHK] read 00104000 beat 5: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 25750000: uvm_test_top.env.m [CHK] read 00104000 beat 6: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 25760000: uvm_test_top.env.m [CHK] read 00104000 beat 7: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 25770000: uvm_test_top.env.m [CHK] read 00104000 beat 8: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 25780000: uvm_test_top.env.m [CHK] read 00104000 beat 9: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 25800000: uvm_test_top.env.m [CHK] read 00104000 beat 10: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 26140000: uvm_test_top.env.m [CHK] write 00108000: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 26750000: uvm_test_top.env.m [CHK] read 00104000 beat 0: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 26770000: uvm_test_top.env.m [CHK] read 00104000 beat 1: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 26800000: uvm_test_top.env.m [CHK] read 00104000 beat 2: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 26810000: uvm_test_top.env.m [CHK] read 00104000 beat 3: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 26830000: uvm_test_top.env.m [CHK] read 00104000 beat 4: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 26840000: uvm_test_top.env.m [CHK] read 00104000 beat 5: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 26870000: uvm_test_top.env.m [CHK] read 00104000 beat 6: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 26900000: uvm_test_top.env.m [CHK] read 00104000 beat 7: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 26970000: uvm_test_top.env.m [CHK] read 00104000 beat 8: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 26990000: uvm_test_top.env.m [CHK] read 00104000 beat 9: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 27010000: uvm_test_top.env.m [CHK] read 00104000 beat 10: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 27250000: uvm_test_top.env.m [CHK] write 0010d000: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 27410000: uvm_test_top.env.m [CHK] write 0010c000: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 28030000: uvm_test_top.env.m [CHK] burst at 00083148: row hit=0 reported, model says 1
+UVM_ERROR dram_tb.sv(62) @ 28060000: uvm_test_top.env.m [CHK] write 00108000: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 28490000: uvm_test_top.env.m [CHK] read 00104000 beat 0: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 28560000: uvm_test_top.env.m [CHK] read 00104000 beat 1: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 28620000: uvm_test_top.env.m [CHK] read 00104000 beat 2: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 28630000: uvm_test_top.env.m [CHK] read 00104000 beat 3: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 28680000: uvm_test_top.env.m [CHK] read 00104000 beat 4: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 28740000: uvm_test_top.env.m [CHK] read 00104000 beat 5: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 28800000: uvm_test_top.env.m [CHK] read 00104000 beat 6: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 28820000: uvm_test_top.env.m [CHK] read 00104000 beat 7: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 28840000: uvm_test_top.env.m [CHK] read 00104000 beat 8: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 28870000: uvm_test_top.env.m [CHK] read 00104000 beat 9: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 28880000: uvm_test_top.env.m [CHK] read 00104000 beat 10: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 28910000: uvm_test_top.env.m [CHK] read 00104000 beat 11: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 28930000: uvm_test_top.env.m [CHK] read 00104000 beat 12: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 29010000: uvm_test_top.env.m [CHK] read 00104000 beat 13: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 29030000: uvm_test_top.env.m [CHK] read 00104000 beat 14: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 29080000: uvm_test_top.env.m [CHK] read 00104000 beat 15: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 29350000: uvm_test_top.env.m [CHK] read 0010d000 beat 0: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 29570000: uvm_test_top.env.m [CHK] write 00100000: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 29890000: uvm_test_top.env.m [CHK] read 0010e000 beat 0: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 29940000: uvm_test_top.env.m [CHK] read 0010e000 beat 1: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 29980000: uvm_test_top.env.m [CHK] read 0010e000 beat 2: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 29990000: uvm_test_top.env.m [CHK] read 0010e000 beat 3: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 30000000: uvm_test_top.env.m [CHK] read 0010e000 beat 4: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 30030000: uvm_test_top.env.m [CHK] read 0010e000 beat 5: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 30080000: uvm_test_top.env.m [CHK] read 0010e000 beat 6: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 30120000: uvm_test_top.env.m [CHK] read 0010e000 beat 7: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 30160000: uvm_test_top.env.m [CHK] read 0010e000 beat 8: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 30180000: uvm_test_top.env.m [CHK] read 0010e000 beat 9: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 30230000: uvm_test_top.env.m [CHK] read 0010e000 beat 10: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 30270000: uvm_test_top.env.m [CHK] read 0010e000 beat 11: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 30550000: uvm_test_top.env.m [CHK] write 00105000: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 31260000: uvm_test_top.env.m [CHK] read 00100000 beat 0: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 31280000: uvm_test_top.env.m [CHK] read 00100000 beat 1: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 32040000: uvm_test_top.env.m [CHK] read 0010c000 beat 0: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 32050000: uvm_test_top.env.m [CHK] read 0010c000 beat 1: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 32080000: uvm_test_top.env.m [CHK] read 0010c000 beat 2: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 32100000: uvm_test_top.env.m [CHK] read 0010c000 beat 3: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 32110000: uvm_test_top.env.m [CHK] read 0010c000 beat 4: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 32150000: uvm_test_top.env.m [CHK] read 0010c000 beat 5: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 32180000: uvm_test_top.env.m [CHK] read 0010c000 beat 6: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 32240000: uvm_test_top.env.m [CHK] read 0010c000 beat 7: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 32260000: uvm_test_top.env.m [CHK] read 0010c000 beat 8: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 32270000: uvm_test_top.env.m [CHK] read 0010c000 beat 9: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 32290000: uvm_test_top.env.m [CHK] read 0010c000 beat 10: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 32530000: uvm_test_top.env.m [CHK] read 0010c000 beat 0: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 32570000: uvm_test_top.env.m [CHK] read 0010c000 beat 1: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 32600000: uvm_test_top.env.m [CHK] read 0010c000 beat 2: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 32830000: uvm_test_top.env.m [CHK] write 00100000: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 33250000: uvm_test_top.env.m [CHK] write 0010d000: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 33490000: uvm_test_top.env.m [CHK] write 0010a000: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 34350000: uvm_test_top.env.m [CHK] read 00101000 beat 0: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 34620000: uvm_test_top.env.m [CHK] write 0010a000: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 36790000: uvm_test_top.env.m [CHK] read 00105000 beat 0: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 37210000: uvm_test_top.env.m [CHK] write 0010b000: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 37910000: uvm_test_top.env.m [CHK] read 0010d000 beat 0: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 39890000: uvm_test_top.env.m [CHK] write 00104000: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 40010000: uvm_test_top.env.m [CHK] write 00109000: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 40180000: uvm_test_top.env.m [CHK] read 0010f000 beat 0: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 40860000: uvm_test_top.env.m [CHK] read 00108000 beat 0: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 40870000: uvm_test_top.env.m [CHK] read 00108000 beat 1: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 40950000: uvm_test_top.env.m [CHK] read 00108000 beat 2: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 41550000: uvm_test_top.env.m [CHK] read 00108000 beat 0: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 41940000: uvm_test_top.env.m [CHK] write 00109000: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 43370000: uvm_test_top.env.m [CHK] write 00100000: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 43740000: uvm_test_top.env.m [CHK] read 00103000 beat 0: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 43750000: uvm_test_top.env.m [CHK] read 00103000 beat 1: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 43780000: uvm_test_top.env.m [CHK] read 00103000 beat 2: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 43800000: uvm_test_top.env.m [CHK] read 00103000 beat 3: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 43810000: uvm_test_top.env.m [CHK] read 00103000 beat 4: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 43820000: uvm_test_top.env.m [CHK] read 00103000 beat 5: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 43830000: uvm_test_top.env.m [CHK] read 00103000 beat 6: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 43860000: uvm_test_top.env.m [CHK] write 0010a000: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 43870000: uvm_test_top.env.m [CHK] read 00103000 beat 7: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 43880000: uvm_test_top.env.m [CHK] read 00103000 beat 8: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 43920000: uvm_test_top.env.m [CHK] read 00103000 beat 9: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 43950000: uvm_test_top.env.m [CHK] read 00103000 beat 10: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 43960000: uvm_test_top.env.m [CHK] read 00103000 beat 11: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 43970000: uvm_test_top.env.m [CHK] read 00103000 beat 12: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 44070000: uvm_test_top.env.m [CHK] read 00103000 beat 13: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 44080000: uvm_test_top.env.m [CHK] read 00103000 beat 14: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 44700000: uvm_test_top.env.m [CHK] read 0010a000 beat 0: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 44830000: uvm_test_top.env.m [CHK] read 00105000 beat 0: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 45410000: uvm_test_top.env.m [CHK] write 0010b000: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 46110000: uvm_test_top.env.m [CHK] read 0010a000 beat 0: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 46130000: uvm_test_top.env.m [CHK] read 0010a000 beat 1: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 46210000: uvm_test_top.env.m [CHK] read 0010a000 beat 2: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 46220000: uvm_test_top.env.m [CHK] read 0010a000 beat 3: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 46230000: uvm_test_top.env.m [CHK] read 0010a000 beat 4: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 46240000: uvm_test_top.env.m [CHK] read 0010a000 beat 5: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 46250000: uvm_test_top.env.m [CHK] read 0010a000 beat 6: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 46280000: uvm_test_top.env.m [CHK] read 0010a000 beat 7: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 46330000: uvm_test_top.env.m [CHK] read 0010a000 beat 8: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 46390000: uvm_test_top.env.m [CHK] read 0010a000 beat 9: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 46400000: uvm_test_top.env.m [CHK] read 0010a000 beat 10: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 47290000: uvm_test_top.env.m [CHK] write 00104000: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 47720000: uvm_test_top.env.m [CHK] read 00107000 beat 0: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 47760000: uvm_test_top.env.m [CHK] burst at 0005c3a4: row hit=0 reported, model says 1
+UVM_ERROR dram_tb.sv(62) @ 48560000: uvm_test_top.env.m [CHK] write 0010c000: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 48810000: uvm_test_top.env.m [CHK] read 00108000 beat 0: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 48820000: uvm_test_top.env.m [CHK] read 00108000 beat 1: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 48840000: uvm_test_top.env.m [CHK] read 00108000 beat 2: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 48860000: uvm_test_top.env.m [CHK] read 00108000 beat 3: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 48870000: uvm_test_top.env.m [CHK] read 00108000 beat 4: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 48880000: uvm_test_top.env.m [CHK] read 00108000 beat 5: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 48950000: uvm_test_top.env.m [CHK] read 00108000 beat 6: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 50050000: uvm_test_top.env.m [CHK] write 00108000: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 50820000: uvm_test_top.env.m [CHK] write 0010a000: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 52190000: uvm_test_top.env.m [CHK] write 00104000: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 52410000: uvm_test_top.env.m [CHK] write 0010b000: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 52530000: uvm_test_top.env.m [CHK] read 00108000 beat 0: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 52700000: uvm_test_top.env.m [CHK] write 0010e000: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 54000000: uvm_test_top.env.m [CHK] read 0010d000 beat 0: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 55010000: uvm_test_top.env.m [CHK] read 0010e000 beat 0: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 55020000: uvm_test_top.env.m [CHK] read 0010e000 beat 1: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 55130000: uvm_test_top.env.m [CHK] read 0010e000 beat 2: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 55140000: uvm_test_top.env.m [CHK] read 0010e000 beat 3: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 55150000: uvm_test_top.env.m [CHK] read 0010e000 beat 4: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 55170000: uvm_test_top.env.m [CHK] read 0010e000 beat 5: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 55180000: uvm_test_top.env.m [CHK] read 0010e000 beat 6: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 55210000: uvm_test_top.env.m [CHK] read 0010e000 beat 7: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 55220000: uvm_test_top.env.m [CHK] read 0010e000 beat 8: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 55230000: uvm_test_top.env.m [CHK] read 0010e000 beat 9: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 55300000: uvm_test_top.env.m [CHK] write 0010f000: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 55340000: uvm_test_top.env.m [CHK] read 00108000 beat 0: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 55450000: uvm_test_top.env.m [CHK] read 00109000 beat 0: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 55460000: uvm_test_top.env.m [CHK] read 00109000 beat 1: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 55470000: uvm_test_top.env.m [CHK] read 00109000 beat 2: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 55520000: uvm_test_top.env.m [CHK] write 0010d000: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 55520000: uvm_test_top.env.m [CHK] read 00109000 beat 3: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 55730000: uvm_test_top.env.m [CHK] write 00106000: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 56340000: uvm_test_top.env.m [CHK] write 00108000: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 57660000: uvm_test_top.env.m [CHK] read 0010a000 beat 0: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 57690000: uvm_test_top.env.m [CHK] read 0010a000 beat 1: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 57700000: uvm_test_top.env.m [CHK] read 0010a000 beat 2: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 57760000: uvm_test_top.env.m [CHK] read 0010a000 beat 3: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 57790000: uvm_test_top.env.m [CHK] read 0010a000 beat 4: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 57800000: uvm_test_top.env.m [CHK] read 0010a000 beat 5: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 57810000: uvm_test_top.env.m [CHK] read 0010a000 beat 6: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 57860000: uvm_test_top.env.m [CHK] read 0010a000 beat 7: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 57890000: uvm_test_top.env.m [CHK] read 0010a000 beat 8: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 57910000: uvm_test_top.env.m [CHK] read 0010a000 beat 9: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 57920000: uvm_test_top.env.m [CHK] read 0010a000 beat 10: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 57930000: uvm_test_top.env.m [CHK] read 0010a000 beat 11: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 58040000: uvm_test_top.env.m [CHK] read 0010d000 beat 0: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 58060000: uvm_test_top.env.m [CHK] read 0010d000 beat 1: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 58070000: uvm_test_top.env.m [CHK] write 00102000: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 58070000: uvm_test_top.env.m [CHK] read 0010d000 beat 2: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 58090000: uvm_test_top.env.m [CHK] read 0010d000 beat 3: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 58100000: uvm_test_top.env.m [CHK] read 0010d000 beat 4: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 58110000: uvm_test_top.env.m [CHK] read 0010d000 beat 5: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 58150000: uvm_test_top.env.m [CHK] read 0010d000 beat 6: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 58180000: uvm_test_top.env.m [CHK] read 0010d000 beat 7: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 58220000: uvm_test_top.env.m [CHK] read 0010d000 beat 8: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 58260000: uvm_test_top.env.m [CHK] write 00109000: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 58280000: uvm_test_top.env.m [CHK] read 0010d000 beat 9: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 58520000: uvm_test_top.env.m [CHK] read 0010b000 beat 0: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 58840000: uvm_test_top.env.m [CHK] read 00102000 beat 0: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 58850000: uvm_test_top.env.m [CHK] read 00102000 beat 1: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 58890000: uvm_test_top.env.m [CHK] read 00102000 beat 2: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 59050000: uvm_test_top.env.m [CHK] write 0010c000: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 59430000: uvm_test_top.env.m [CHK] read 00103000 beat 0: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 59460000: uvm_test_top.env.m [CHK] read 00103000 beat 1: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 59480000: uvm_test_top.env.m [CHK] read 00103000 beat 2: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 59490000: uvm_test_top.env.m [CHK] read 00103000 beat 3: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 59510000: uvm_test_top.env.m [CHK] read 00103000 beat 4: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 59550000: uvm_test_top.env.m [CHK] read 00103000 beat 5: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 59570000: uvm_test_top.env.m [CHK] read 00103000 beat 6: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 59610000: uvm_test_top.env.m [CHK] read 00103000 beat 7: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 59650000: uvm_test_top.env.m [CHK] read 00103000 beat 8: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 59660000: uvm_test_top.env.m [CHK] read 00103000 beat 9: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 59680000: uvm_test_top.env.m [CHK] read 00103000 beat 10: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 59690000: uvm_test_top.env.m [CHK] read 00103000 beat 11: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 59730000: uvm_test_top.env.m [CHK] read 00103000 beat 12: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 59790000: uvm_test_top.env.m [CHK] read 00103000 beat 13: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 59830000: uvm_test_top.env.m [CHK] read 00103000 beat 14: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 59860000: uvm_test_top.env.m [CHK] read 00103000 beat 15: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 59970000: uvm_test_top.env.m [CHK] read 00102000 beat 0: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 59980000: uvm_test_top.env.m [CHK] read 00102000 beat 1: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 59990000: uvm_test_top.env.m [CHK] read 00102000 beat 2: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 60010000: uvm_test_top.env.m [CHK] read 00102000 beat 3: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 60020000: uvm_test_top.env.m [CHK] read 00102000 beat 4: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 60030000: uvm_test_top.env.m [CHK] read 00102000 beat 5: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 60050000: uvm_test_top.env.m [CHK] read 00102000 beat 6: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 60060000: uvm_test_top.env.m [CHK] read 00102000 beat 7: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 60070000: uvm_test_top.env.m [CHK] read 00102000 beat 8: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 60090000: uvm_test_top.env.m [CHK] read 00102000 beat 9: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 60120000: uvm_test_top.env.m [CHK] read 00102000 beat 10: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 60150000: uvm_test_top.env.m [CHK] read 00102000 beat 11: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 60170000: uvm_test_top.env.m [CHK] read 00102000 beat 12: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 60180000: uvm_test_top.env.m [CHK] read 00102000 beat 13: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 60670000: uvm_test_top.env.m [CHK] write 0010d000: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 60990000: uvm_test_top.env.m [CHK] read 00108000 beat 0: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 61010000: uvm_test_top.env.m [CHK] read 00108000 beat 1: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 61030000: uvm_test_top.env.m [CHK] read 00108000 beat 2: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 61120000: uvm_test_top.env.m [CHK] read 00108000 beat 3: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 62080000: uvm_test_top.env.m [CHK] read 00105000 beat 0: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 62090000: uvm_test_top.env.m [CHK] read 00105000 beat 1: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 62100000: uvm_test_top.env.m [CHK] read 00105000 beat 2: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 62120000: uvm_test_top.env.m [CHK] read 00105000 beat 3: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 62120000: uvm_test_top.env.m [CHK] write 0010c000: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 63210000: uvm_test_top.env.m [CHK] read 00108000 beat 0: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 63240000: uvm_test_top.env.m [CHK] burst at 000e3038: row hit=0 reported, model says 1
+UVM_ERROR dram_tb.sv(62) @ 63470000: uvm_test_top.env.m [CHK] write 00105000: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 63860000: uvm_test_top.env.m [CHK] write 0010a000: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 63960000: uvm_test_top.env.m [CHK] read 0010c000 beat 0: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 64810000: uvm_test_top.env.m [CHK] write 00103000: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 65270000: uvm_test_top.env.m [CHK] read 00102000 beat 0: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 65280000: uvm_test_top.env.m [CHK] write 0010f000: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 65350000: uvm_test_top.env.m [CHK] read 00102000 beat 1: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 65370000: uvm_test_top.env.m [CHK] read 00102000 beat 2: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 65390000: uvm_test_top.env.m [CHK] read 00102000 beat 3: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 65420000: uvm_test_top.env.m [CHK] read 00102000 beat 4: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 65430000: uvm_test_top.env.m [CHK] read 00102000 beat 5: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 65490000: uvm_test_top.env.m [CHK] read 00102000 beat 6: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 65520000: uvm_test_top.env.m [CHK] read 00102000 beat 7: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 66150000: uvm_test_top.env.m [CHK] write 0010d000: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 66780000: uvm_test_top.env.m [CHK] write 0010f000: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 67530000: uvm_test_top.env.m [CHK] read 0010b000 beat 0: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 67540000: uvm_test_top.env.m [CHK] read 0010b000 beat 1: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 67550000: uvm_test_top.env.m [CHK] read 0010b000 beat 2: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 67580000: uvm_test_top.env.m [CHK] read 0010b000 beat 3: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 67590000: uvm_test_top.env.m [CHK] read 0010b000 beat 4: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 67920000: uvm_test_top.env.m [CHK] write 00104000: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 68320000: uvm_test_top.env.m [CHK] read 0010d000 beat 0: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 68330000: uvm_test_top.env.m [CHK] read 0010d000 beat 1: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 68440000: uvm_test_top.env.m [CHK] read 0010a000 beat 0: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 68450000: uvm_test_top.env.m [CHK] read 0010a000 beat 1: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 68530000: uvm_test_top.env.m [CHK] read 0010a000 beat 2: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 68550000: uvm_test_top.env.m [CHK] read 0010a000 beat 3: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 68560000: uvm_test_top.env.m [CHK] read 0010a000 beat 4: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 68570000: uvm_test_top.env.m [CHK] read 0010a000 beat 5: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 68580000: uvm_test_top.env.m [CHK] read 0010a000 beat 6: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 68590000: uvm_test_top.env.m [CHK] read 0010a000 beat 7: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 68650000: uvm_test_top.env.m [CHK] read 0010a000 beat 8: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 68660000: uvm_test_top.env.m [CHK] read 0010a000 beat 9: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 68740000: uvm_test_top.env.m [CHK] read 0010a000 beat 10: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 68750000: uvm_test_top.env.m [CHK] read 0010a000 beat 11: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 68780000: uvm_test_top.env.m [CHK] read 0010a000 beat 12: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 68810000: uvm_test_top.env.m [CHK] read 0010a000 beat 13: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 68830000: uvm_test_top.env.m [CHK] write 0010c000: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 68860000: uvm_test_top.env.m [CHK] read 0010a000 beat 14: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 68900000: uvm_test_top.env.m [CHK] write 0010c000: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 69040000: uvm_test_top.env.m [CHK] write 0010d000: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 69320000: uvm_test_top.env.m [CHK] read 00104000 beat 0: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 69350000: uvm_test_top.env.m [CHK] read 00104000 beat 1: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 69380000: uvm_test_top.env.m [CHK] read 00104000 beat 2: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 69400000: uvm_test_top.env.m [CHK] read 00104000 beat 3: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 70110000: uvm_test_top.env.m [CHK] write 0010c000: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 70620000: uvm_test_top.env.m [CHK] write 0010b000: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 70810000: uvm_test_top.env.m [CHK] write 0010b000: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 70870000: uvm_test_top.env.m [CHK] write 0010b000: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 71000000: uvm_test_top.env.m [CHK] write 00109000: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 71270000: uvm_test_top.env.m [CHK] read 00108000 beat 0: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 71380000: uvm_test_top.env.m [CHK] read 00108000 beat 1: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 71400000: uvm_test_top.env.m [CHK] read 00108000 beat 2: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 71420000: uvm_test_top.env.m [CHK] read 00108000 beat 3: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 71440000: uvm_test_top.env.m [CHK] read 00108000 beat 4: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 71470000: uvm_test_top.env.m [CHK] read 00108000 beat 5: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 71490000: uvm_test_top.env.m [CHK] read 00108000 beat 6: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 71500000: uvm_test_top.env.m [CHK] read 00108000 beat 7: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 71520000: uvm_test_top.env.m [CHK] read 00108000 beat 8: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 71530000: uvm_test_top.env.m [CHK] read 00108000 beat 9: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 71540000: uvm_test_top.env.m [CHK] read 00108000 beat 10: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 71550000: uvm_test_top.env.m [CHK] read 00108000 beat 11: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 71570000: uvm_test_top.env.m [CHK] read 00108000 beat 12: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 71610000: uvm_test_top.env.m [CHK] read 00108000 beat 13: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 73670000: uvm_test_top.env.m [CHK] read 00101000 beat 0: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 73700000: uvm_test_top.env.m [CHK] read 00101000 beat 1: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 73730000: uvm_test_top.env.m [CHK] read 00101000 beat 2: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 73740000: uvm_test_top.env.m [CHK] read 00101000 beat 3: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 73830000: uvm_test_top.env.m [CHK] read 00101000 beat 4: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 73850000: uvm_test_top.env.m [CHK] read 00101000 beat 5: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 73860000: uvm_test_top.env.m [CHK] read 00101000 beat 6: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 75540000: uvm_test_top.env.m [CHK] write 00106000: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 76140000: uvm_test_top.env.m [CHK] write 0010a000: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 77930000: uvm_test_top.env.m [CHK] read 00102000 beat 0: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 77940000: uvm_test_top.env.m [CHK] read 00102000 beat 1: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 77960000: uvm_test_top.env.m [CHK] read 00102000 beat 2: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 78000000: uvm_test_top.env.m [CHK] read 00102000 beat 3: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 78020000: uvm_test_top.env.m [CHK] read 00102000 beat 4: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 78040000: uvm_test_top.env.m [CHK] read 00102000 beat 5: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 78060000: uvm_test_top.env.m [CHK] read 00102000 beat 6: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 78150000: uvm_test_top.env.m [CHK] read 00102000 beat 7: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 78160000: uvm_test_top.env.m [CHK] read 00102000 beat 8: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 78170000: uvm_test_top.env.m [CHK] write 0010a000: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 78210000: uvm_test_top.env.m [CHK] read 00102000 beat 9: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 78700000: uvm_test_top.env.m [CHK] write 00104000: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 79270000: uvm_test_top.env.m [CHK] write 00101000: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 79590000: uvm_test_top.env.m [CHK] read 00106000 beat 0: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 79610000: uvm_test_top.env.m [CHK] read 00106000 beat 1: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 79620000: uvm_test_top.env.m [CHK] read 00106000 beat 2: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 79630000: uvm_test_top.env.m [CHK] read 00106000 beat 3: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 79650000: uvm_test_top.env.m [CHK] read 00106000 beat 4: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 79660000: uvm_test_top.env.m [CHK] read 00106000 beat 5: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 79680000: uvm_test_top.env.m [CHK] read 00106000 beat 6: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 79730000: uvm_test_top.env.m [CHK] read 00106000 beat 7: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 79740000: uvm_test_top.env.m [CHK] read 00106000 beat 8: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 79750000: uvm_test_top.env.m [CHK] read 00106000 beat 9: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 79760000: uvm_test_top.env.m [CHK] read 00106000 beat 10: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 79770000: uvm_test_top.env.m [CHK] write 00106000: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 81340000: uvm_test_top.env.m [CHK] read 00101000 beat 0: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 81350000: uvm_test_top.env.m [CHK] read 00101000 beat 1: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 81400000: uvm_test_top.env.m [CHK] read 00101000 beat 2: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 81440000: uvm_test_top.env.m [CHK] read 00101000 beat 3: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 81460000: uvm_test_top.env.m [CHK] read 00101000 beat 4: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 81470000: uvm_test_top.env.m [CHK] read 00101000 beat 5: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 81490000: uvm_test_top.env.m [CHK] read 00101000 beat 6: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 81500000: uvm_test_top.env.m [CHK] read 00101000 beat 7: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 81510000: uvm_test_top.env.m [CHK] read 00101000 beat 8: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 81550000: uvm_test_top.env.m [CHK] read 00101000 beat 9: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 81590000: uvm_test_top.env.m [CHK] read 00101000 beat 10: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 81610000: uvm_test_top.env.m [CHK] read 00101000 beat 11: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 81630000: uvm_test_top.env.m [CHK] read 00101000 beat 12: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 81650000: uvm_test_top.env.m [CHK] read 00101000 beat 13: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 81660000: uvm_test_top.env.m [CHK] read 00101000 beat 14: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 81680000: uvm_test_top.env.m [CHK] read 00101000 beat 15: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 82480000: uvm_test_top.env.m [CHK] read 0010c000 beat 0: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 82600000: uvm_test_top.env.m [CHK] read 0010d000 beat 0: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 82690000: uvm_test_top.env.m [CHK] read 0010d000 beat 1: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 82710000: uvm_test_top.env.m [CHK] read 0010d000 beat 2: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 82720000: uvm_test_top.env.m [CHK] read 0010d000 beat 3: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 82730000: uvm_test_top.env.m [CHK] read 0010d000 beat 4: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 82770000: uvm_test_top.env.m [CHK] read 0010d000 beat 5: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 82780000: uvm_test_top.env.m [CHK] read 0010d000 beat 6: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 82790000: uvm_test_top.env.m [CHK] read 0010d000 beat 7: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 82800000: uvm_test_top.env.m [CHK] read 0010d000 beat 8: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 83460000: uvm_test_top.env.m [CHK] write 0010a000: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 84230000: uvm_test_top.env.m [CHK] write 0010e000: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 84690000: uvm_test_top.env.m [CHK] write 00107000: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 84970000: uvm_test_top.env.m [CHK] write 0010a000: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 85120000: uvm_test_top.env.m [CHK] write 00109000: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 85290000: uvm_test_top.env.m [CHK] write 0010b000: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 86060000: uvm_test_top.env.m [CHK] write 0010f000: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 86620000: uvm_test_top.env.m [CHK] write 00100000: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 87070000: uvm_test_top.env.m [CHK] write 0010d000: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 87260000: uvm_test_top.env.m [CHK] read 00109000 beat 0: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 87270000: uvm_test_top.env.m [CHK] read 00109000 beat 1: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 87290000: uvm_test_top.env.m [CHK] read 00109000 beat 2: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 87310000: uvm_test_top.env.m [CHK] read 00109000 beat 3: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 87320000: uvm_test_top.env.m [CHK] read 00109000 beat 4: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 87360000: uvm_test_top.env.m [CHK] read 00109000 beat 5: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 87400000: uvm_test_top.env.m [CHK] read 00109000 beat 6: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 87440000: uvm_test_top.env.m [CHK] read 00109000 beat 7: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 87450000: uvm_test_top.env.m [CHK] read 00109000 beat 8: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 87480000: uvm_test_top.env.m [CHK] write 00103000: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 87480000: uvm_test_top.env.m [CHK] read 00109000 beat 9: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 87510000: uvm_test_top.env.m [CHK] read 00109000 beat 10: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 87550000: uvm_test_top.env.m [CHK] read 00109000 beat 11: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 87570000: uvm_test_top.env.m [CHK] read 00109000 beat 12: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 87580000: uvm_test_top.env.m [CHK] read 00109000 beat 13: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 87600000: uvm_test_top.env.m [CHK] read 00109000 beat 14: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 87640000: uvm_test_top.env.m [CHK] write 00105000: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 88520000: uvm_test_top.env.m [CHK] read 00101000 beat 0: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 88530000: uvm_test_top.env.m [CHK] read 00101000 beat 1: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 88540000: uvm_test_top.env.m [CHK] read 00101000 beat 2: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 88630000: uvm_test_top.env.m [CHK] write 00106000: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 89440000: uvm_test_top.env.m [CHK] read 00108000 beat 0: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 89450000: uvm_test_top.env.m [CHK] read 00108000 beat 1: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 89460000: uvm_test_top.env.m [CHK] read 00108000 beat 2: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 89480000: uvm_test_top.env.m [CHK] read 00108000 beat 3: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 89520000: uvm_test_top.env.m [CHK] read 00108000 beat 4: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 89530000: uvm_test_top.env.m [CHK] read 00108000 beat 5: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 89550000: uvm_test_top.env.m [CHK] read 00108000 beat 6: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 89570000: uvm_test_top.env.m [CHK] read 00108000 beat 7: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 89580000: uvm_test_top.env.m [CHK] read 00108000 beat 8: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 89590000: uvm_test_top.env.m [CHK] read 00108000 beat 9: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 89640000: uvm_test_top.env.m [CHK] read 00108000 beat 10: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 89750000: uvm_test_top.env.m [CHK] read 00106000 beat 0: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 89770000: uvm_test_top.env.m [CHK] read 00106000 beat 1: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 89780000: uvm_test_top.env.m [CHK] read 00106000 beat 2: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 89790000: uvm_test_top.env.m [CHK] read 00106000 beat 3: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 89800000: uvm_test_top.env.m [CHK] read 00106000 beat 4: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 89810000: uvm_test_top.env.m [CHK] read 00106000 beat 5: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 89830000: uvm_test_top.env.m [CHK] read 00106000 beat 6: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 89850000: uvm_test_top.env.m [CHK] read 00106000 beat 7: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 90050000: uvm_test_top.env.m [CHK] burst at 00060348: row hit=0 reported, model says 1
+UVM_ERROR dram_tb.sv(62) @ 90150000: uvm_test_top.env.m [CHK] write 00104000: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 91360000: uvm_test_top.env.m [CHK] read 00108000 beat 0: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 91370000: uvm_test_top.env.m [CHK] read 00108000 beat 1: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 91710000: uvm_test_top.env.m [CHK] read 00104000 beat 0: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 91840000: uvm_test_top.env.m [CHK] write 00109000: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 91860000: uvm_test_top.env.m [CHK] read 00101000 beat 0: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 91880000: uvm_test_top.env.m [CHK] read 00101000 beat 1: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 91930000: uvm_test_top.env.m [CHK] read 00101000 beat 2: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 91940000: uvm_test_top.env.m [CHK] read 00101000 beat 3: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 91950000: uvm_test_top.env.m [CHK] read 00101000 beat 4: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 91980000: uvm_test_top.env.m [CHK] read 00101000 beat 5: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 92200000: uvm_test_top.env.m [CHK] write 00106000: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 92580000: uvm_test_top.env.m [CHK] read 00103000 beat 0: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 92680000: uvm_test_top.env.m [CHK] read 00103000 beat 1: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 92710000: uvm_test_top.env.m [CHK] read 00103000 beat 2: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 92720000: uvm_test_top.env.m [CHK] read 00103000 beat 3: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 92750000: uvm_test_top.env.m [CHK] read 00103000 beat 4: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 92800000: uvm_test_top.env.m [CHK] read 00103000 beat 5: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 92850000: uvm_test_top.env.m [CHK] read 00103000 beat 6: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 92860000: uvm_test_top.env.m [CHK] read 00103000 beat 7: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 92870000: uvm_test_top.env.m [CHK] read 00103000 beat 8: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 92880000: uvm_test_top.env.m [CHK] read 00103000 beat 9: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 92890000: uvm_test_top.env.m [CHK] read 00103000 beat 10: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 92960000: uvm_test_top.env.m [CHK] read 00103000 beat 11: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 93000000: uvm_test_top.env.m [CHK] read 00103000 beat 12: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 93120000: uvm_test_top.env.m [CHK] read 0010c000 beat 0: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 93130000: uvm_test_top.env.m [CHK] read 0010c000 beat 1: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 93630000: uvm_test_top.env.m [CHK] read 0010e000 beat 0: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 93650000: uvm_test_top.env.m [CHK] read 0010e000 beat 1: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 93670000: uvm_test_top.env.m [CHK] read 0010e000 beat 2: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 93680000: uvm_test_top.env.m [CHK] read 0010e000 beat 3: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 93710000: uvm_test_top.env.m [CHK] read 0010e000 beat 4: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 93790000: uvm_test_top.env.m [CHK] read 0010e000 beat 5: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 93800000: uvm_test_top.env.m [CHK] read 0010e000 beat 6: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 93840000: uvm_test_top.env.m [CHK] read 0010e000 beat 7: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 93860000: uvm_test_top.env.m [CHK] read 0010e000 beat 8: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 93890000: uvm_test_top.env.m [CHK] burst at 0008f108: row hit=0 reported, model says 1
+UVM_ERROR dram_tb.sv(62) @ 94020000: uvm_test_top.env.m [CHK] write 00102000: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 94050000: uvm_test_top.env.m [CHK] burst at 0008f254: row hit=0 reported, model says 1
+UVM_ERROR dram_tb.sv(62) @ 94120000: uvm_test_top.env.m [CHK] read 0010c000 beat 0: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 94140000: uvm_test_top.env.m [CHK] read 0010c000 beat 1: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 94170000: uvm_test_top.env.m [CHK] read 0010c000 beat 2: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 94210000: uvm_test_top.env.m [CHK] read 0010c000 beat 3: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 94220000: uvm_test_top.env.m [CHK] read 0010c000 beat 4: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 94250000: uvm_test_top.env.m [CHK] read 0010c000 beat 5: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 94260000: uvm_test_top.env.m [CHK] read 0010c000 beat 6: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 94270000: uvm_test_top.env.m [CHK] read 0010c000 beat 7: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 94290000: uvm_test_top.env.m [CHK] read 0010c000 beat 8: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 94300000: uvm_test_top.env.m [CHK] read 0010c000 beat 9: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 94320000: uvm_test_top.env.m [CHK] read 0010c000 beat 10: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 94430000: uvm_test_top.env.m [CHK] read 00109000 beat 0: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 94460000: uvm_test_top.env.m [CHK] read 00109000 beat 1: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 94480000: uvm_test_top.env.m [CHK] read 00109000 beat 2: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 94570000: uvm_test_top.env.m [CHK] write 00106000: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 94970000: uvm_test_top.env.m [CHK] write 0010b000: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 95220000: uvm_test_top.env.m [CHK] write 0010a000: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 95380000: uvm_test_top.env.m [CHK] read 00102000 beat 0: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 95400000: uvm_test_top.env.m [CHK] read 00102000 beat 1: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 95410000: uvm_test_top.env.m [CHK] read 00102000 beat 2: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 95450000: uvm_test_top.env.m [CHK] read 00102000 beat 3: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 95470000: uvm_test_top.env.m [CHK] read 00102000 beat 4: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 95480000: uvm_test_top.env.m [CHK] read 00102000 beat 5: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 95500000: uvm_test_top.env.m [CHK] read 00102000 beat 6: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 95510000: uvm_test_top.env.m [CHK] read 00102000 beat 7: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 95520000: uvm_test_top.env.m [CHK] read 00102000 beat 8: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 95550000: uvm_test_top.env.m [CHK] read 00102000 beat 9: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 95560000: uvm_test_top.env.m [CHK] read 00102000 beat 10: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 95570000: uvm_test_top.env.m [CHK] read 00102000 beat 11: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 95590000: uvm_test_top.env.m [CHK] read 00102000 beat 12: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 95600000: uvm_test_top.env.m [CHK] read 00102000 beat 13: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 95610000: uvm_test_top.env.m [CHK] read 00102000 beat 14: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 97440000: uvm_test_top.env.m [CHK] write 0010d000: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 97620000: uvm_test_top.env.m [CHK] write 0010f000: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 98820000: uvm_test_top.env.m [CHK] write 00102000: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 99180000: uvm_test_top.env.m [CHK] read 00100000 beat 0: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 99200000: uvm_test_top.env.m [CHK] read 00100000 beat 1: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 99230000: uvm_test_top.env.m [CHK] read 00100000 beat 2: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 99320000: uvm_test_top.env.m [CHK] read 00100000 beat 3: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 99330000: uvm_test_top.env.m [CHK] read 00100000 beat 4: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 99340000: uvm_test_top.env.m [CHK] read 00100000 beat 5: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 99350000: uvm_test_top.env.m [CHK] read 00100000 beat 6: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 99410000: uvm_test_top.env.m [CHK] read 00100000 beat 7: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 99480000: uvm_test_top.env.m [CHK] read 00100000 beat 8: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 99490000: uvm_test_top.env.m [CHK] read 00100000 beat 9: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 99500000: uvm_test_top.env.m [CHK] read 00100000 beat 10: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 99550000: uvm_test_top.env.m [CHK] read 00100000 beat 11: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 99570000: uvm_test_top.env.m [CHK] read 00100000 beat 12: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 99580000: uvm_test_top.env.m [CHK] read 00100000 beat 13: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 99590000: uvm_test_top.env.m [CHK] read 00100000 beat 14: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 99610000: uvm_test_top.env.m [CHK] read 00100000 beat 15: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 99720000: uvm_test_top.env.m [CHK] write 0010c000: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 99870000: uvm_test_top.env.m [CHK] burst at 0008b2d8: row hit=0 reported, model says 1
+UVM_ERROR dram_tb.sv(62) @ 100070000: uvm_test_top.env.m [CHK] read 00103000 beat 0: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 100100000: uvm_test_top.env.m [CHK] burst at 0008b310: row hit=0 reported, model says 1
+UVM_ERROR dram_tb.sv(62) @ 100250000: uvm_test_top.env.m [CHK] write 00101000: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 100890000: uvm_test_top.env.m [CHK] write 00101000: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 101370000: uvm_test_top.env.m [CHK] read 00105000 beat 0: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 101450000: uvm_test_top.env.m [CHK] read 00105000 beat 1: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 101560000: uvm_test_top.env.m [CHK] read 0010f000 beat 0: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 101740000: uvm_test_top.env.m [CHK] write 00100000: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 102140000: uvm_test_top.env.m [CHK] write 0010b000: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 102890000: uvm_test_top.env.m [CHK] write 00108000: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 103340000: uvm_test_top.env.m [CHK] read 00106000 beat 0: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 103500000: uvm_test_top.env.m [CHK] read 00103000 beat 0: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 103650000: uvm_test_top.env.m [CHK] read 0010f000 beat 0: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 103690000: uvm_test_top.env.m [CHK] read 0010f000 beat 1: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 103710000: uvm_test_top.env.m [CHK] read 0010f000 beat 2: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 103720000: uvm_test_top.env.m [CHK] read 0010f000 beat 3: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 103750000: uvm_test_top.env.m [CHK] read 0010f000 beat 4: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 103760000: uvm_test_top.env.m [CHK] read 0010f000 beat 5: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 103770000: uvm_test_top.env.m [CHK] read 0010f000 beat 6: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 103780000: uvm_test_top.env.m [CHK] read 0010f000 beat 7: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 103790000: uvm_test_top.env.m [CHK] read 0010f000 beat 8: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 103830000: uvm_test_top.env.m [CHK] read 0010f000 beat 9: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 103840000: uvm_test_top.env.m [CHK] read 0010f000 beat 10: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 104790000: uvm_test_top.env.m [CHK] read 0010b000 beat 0: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 104810000: uvm_test_top.env.m [CHK] read 0010b000 beat 1: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 104820000: uvm_test_top.env.m [CHK] read 0010b000 beat 2: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 104840000: uvm_test_top.env.m [CHK] read 0010b000 beat 3: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 104870000: uvm_test_top.env.m [CHK] read 0010b000 beat 4: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 104880000: uvm_test_top.env.m [CHK] read 0010b000 beat 5: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 105750000: uvm_test_top.env.m [CHK] write 0010b000: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 105970000: uvm_test_top.env.m [CHK] write 0010d000: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 106660000: uvm_test_top.env.m [CHK] read 00103000 beat 0: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 106680000: uvm_test_top.env.m [CHK] read 00103000 beat 1: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 106700000: uvm_test_top.env.m [CHK] read 00103000 beat 2: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 106730000: uvm_test_top.env.m [CHK] read 00103000 beat 3: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 106790000: uvm_test_top.env.m [CHK] read 00103000 beat 4: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 106810000: uvm_test_top.env.m [CHK] read 00103000 beat 5: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 106830000: uvm_test_top.env.m [CHK] read 00103000 beat 6: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 106850000: uvm_test_top.env.m [CHK] read 00103000 beat 7: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 106860000: uvm_test_top.env.m [CHK] read 00103000 beat 8: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 106890000: uvm_test_top.env.m [CHK] read 00103000 beat 9: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 106900000: uvm_test_top.env.m [CHK] read 00103000 beat 10: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 106910000: uvm_test_top.env.m [CHK] read 00103000 beat 11: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 106960000: uvm_test_top.env.m [CHK] write 00105000: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 106960000: uvm_test_top.env.m [CHK] read 00103000 beat 12: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 106970000: uvm_test_top.env.m [CHK] read 00103000 beat 13: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 106980000: uvm_test_top.env.m [CHK] read 00103000 beat 14: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 106990000: uvm_test_top.env.m [CHK] read 00103000 beat 15: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 107360000: uvm_test_top.env.m [CHK] write 00103000: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 108110000: uvm_test_top.env.m [CHK] read 00101000 beat 0: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 108120000: uvm_test_top.env.m [CHK] read 00101000 beat 1: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 108130000: uvm_test_top.env.m [CHK] read 00101000 beat 2: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 108150000: uvm_test_top.env.m [CHK] read 00101000 beat 3: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 108160000: uvm_test_top.env.m [CHK] read 00101000 beat 4: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 108220000: uvm_test_top.env.m [CHK] read 00101000 beat 5: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 108240000: uvm_test_top.env.m [CHK] read 00101000 beat 6: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 108270000: uvm_test_top.env.m [CHK] read 00101000 beat 7: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 108280000: uvm_test_top.env.m [CHK] read 00101000 beat 8: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 108350000: uvm_test_top.env.m [CHK] read 00101000 beat 9: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 108370000: uvm_test_top.env.m [CHK] read 00101000 beat 10: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 108380000: uvm_test_top.env.m [CHK] write 00100000: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 108380000: uvm_test_top.env.m [CHK] read 00101000 beat 11: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 108420000: uvm_test_top.env.m [CHK] read 00101000 beat 12: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 108430000: uvm_test_top.env.m [CHK] read 00101000 beat 13: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 108470000: uvm_test_top.env.m [CHK] read 00101000 beat 14: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 108520000: uvm_test_top.env.m [CHK] read 00101000 beat 15: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 109120000: uvm_test_top.env.m [CHK] write 00104000: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 109240000: uvm_test_top.env.m [CHK] write 00106000: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 109300000: uvm_test_top.env.m [CHK] read 00108000 beat 0: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 109320000: uvm_test_top.env.m [CHK] read 00108000 beat 1: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 109340000: uvm_test_top.env.m [CHK] read 00108000 beat 2: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 109350000: uvm_test_top.env.m [CHK] read 00108000 beat 3: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 109360000: uvm_test_top.env.m [CHK] read 00108000 beat 4: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 109370000: uvm_test_top.env.m [CHK] read 00108000 beat 5: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 109390000: uvm_test_top.env.m [CHK] read 00108000 beat 6: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 109530000: uvm_test_top.env.m [CHK] read 00104000 beat 0: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 109560000: uvm_test_top.env.m [CHK] read 00104000 beat 1: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 109620000: uvm_test_top.env.m [CHK] read 00104000 beat 2: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 109640000: uvm_test_top.env.m [CHK] read 00104000 beat 3: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 109920000: uvm_test_top.env.m [CHK] read 00107000 beat 0: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 111740000: uvm_test_top.env.m [CHK] write 00100000: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 111870000: uvm_test_top.env.m [CHK] read 0010b000 beat 0: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 112530000: uvm_test_top.env.m [CHK] read 0010f000 beat 0: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 112570000: uvm_test_top.env.m [CHK] read 0010f000 beat 1: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 112580000: uvm_test_top.env.m [CHK] write 00105000: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 112600000: uvm_test_top.env.m [CHK] read 0010f000 beat 2: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 112610000: uvm_test_top.env.m [CHK] read 0010f000 beat 3: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 112620000: uvm_test_top.env.m [CHK] read 0010f000 beat 4: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 112640000: uvm_test_top.env.m [CHK] read 0010f000 beat 5: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 112650000: uvm_test_top.env.m [CHK] read 0010f000 beat 6: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 113210000: uvm_test_top.env.m [CHK] write 00106000: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 113460000: uvm_test_top.env.m [CHK] read 00109000 beat 0: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 113480000: uvm_test_top.env.m [CHK] read 00109000 beat 1: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 113490000: uvm_test_top.env.m [CHK] read 00109000 beat 2: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 113510000: uvm_test_top.env.m [CHK] read 00109000 beat 3: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 113520000: uvm_test_top.env.m [CHK] read 00109000 beat 4: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 113560000: uvm_test_top.env.m [CHK] read 00109000 beat 5: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 113640000: uvm_test_top.env.m [CHK] read 00109000 beat 6: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 113680000: uvm_test_top.env.m [CHK] write 0010b000: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 115100000: uvm_test_top.env.m [CHK] read 00105000 beat 0: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 115130000: uvm_test_top.env.m [CHK] read 00105000 beat 1: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 115140000: uvm_test_top.env.m [CHK] read 00105000 beat 2: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 115180000: uvm_test_top.env.m [CHK] read 00105000 beat 3: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 115210000: uvm_test_top.env.m [CHK] read 00105000 beat 4: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 115250000: uvm_test_top.env.m [CHK] read 00105000 beat 5: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 115260000: uvm_test_top.env.m [CHK] read 00105000 beat 6: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 115480000: uvm_test_top.env.m [CHK] write 00109000: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 115970000: uvm_test_top.env.m [CHK] write 0010c000: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 116870000: uvm_test_top.env.m [CHK] write 00109000: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 117070000: uvm_test_top.env.m [CHK] read 0010d000 beat 0: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 117080000: uvm_test_top.env.m [CHK] read 0010d000 beat 1: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 117090000: uvm_test_top.env.m [CHK] read 0010d000 beat 2: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 117100000: uvm_test_top.env.m [CHK] read 0010d000 beat 3: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 117150000: uvm_test_top.env.m [CHK] read 0010d000 beat 4: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 117180000: uvm_test_top.env.m [CHK] read 0010d000 beat 5: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 117200000: uvm_test_top.env.m [CHK] read 0010d000 beat 6: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 117230000: uvm_test_top.env.m [CHK] read 0010d000 beat 7: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 118950000: uvm_test_top.env.m [CHK] read 0010b000 beat 0: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 119000000: uvm_test_top.env.m [CHK] read 0010b000 beat 1: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 119010000: uvm_test_top.env.m [CHK] read 0010b000 beat 2: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 119020000: uvm_test_top.env.m [CHK] write 0010e000: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 119040000: uvm_test_top.env.m [CHK] read 0010b000 beat 3: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 119070000: uvm_test_top.env.m [CHK] read 0010b000 beat 4: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 119090000: uvm_test_top.env.m [CHK] read 0010b000 beat 5: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 119100000: uvm_test_top.env.m [CHK] read 0010b000 beat 6: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 119110000: uvm_test_top.env.m [CHK] read 0010b000 beat 7: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 119140000: uvm_test_top.env.m [CHK] read 0010b000 beat 8: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 119150000: uvm_test_top.env.m [CHK] read 0010b000 beat 9: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 119160000: uvm_test_top.env.m [CHK] read 0010b000 beat 10: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 119180000: uvm_test_top.env.m [CHK] read 0010b000 beat 11: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 119300000: uvm_test_top.env.m [CHK] read 00103000 beat 0: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 119430000: uvm_test_top.env.m [CHK] write 00103000: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 119670000: uvm_test_top.env.m [CHK] write 00108000: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 120120000: uvm_test_top.env.m [CHK] read 00102000 beat 0: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 120170000: uvm_test_top.env.m [CHK] read 00102000 beat 1: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 120190000: uvm_test_top.env.m [CHK] read 00102000 beat 2: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 120680000: uvm_test_top.env.m [CHK] write 00102000: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 120780000: uvm_test_top.env.m [CHK] read 00107000 beat 0: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 121570000: uvm_test_top.env.m [CHK] read 00101000 beat 0: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 121580000: uvm_test_top.env.m [CHK] read 00101000 beat 1: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 121600000: uvm_test_top.env.m [CHK] read 00101000 beat 2: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 121630000: uvm_test_top.env.m [CHK] read 00101000 beat 3: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 121650000: uvm_test_top.env.m [CHK] read 00101000 beat 4: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 121660000: uvm_test_top.env.m [CHK] read 00101000 beat 5: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 121670000: uvm_test_top.env.m [CHK] read 00101000 beat 6: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 121680000: uvm_test_top.env.m [CHK] read 00101000 beat 7: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 121720000: uvm_test_top.env.m [CHK] read 00101000 beat 8: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 121790000: uvm_test_top.env.m [CHK] read 00101000 beat 9: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 121840000: uvm_test_top.env.m [CHK] read 00101000 beat 10: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 121890000: uvm_test_top.env.m [CHK] read 00101000 beat 11: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 121900000: uvm_test_top.env.m [CHK] write 00103000: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 121910000: uvm_test_top.env.m [CHK] read 00101000 beat 12: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 121920000: uvm_test_top.env.m [CHK] read 00101000 beat 13: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 121930000: uvm_test_top.env.m [CHK] read 00101000 beat 14: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 121950000: uvm_test_top.env.m [CHK] read 00101000 beat 15: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 122130000: uvm_test_top.env.m [CHK] write 0010f000: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 123770000: uvm_test_top.env.m [CHK] read 0010a000 beat 0: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 124950000: uvm_test_top.env.m [CHK] write 0010d000: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 125200000: uvm_test_top.env.m [CHK] read 00107000 beat 0: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 125210000: uvm_test_top.env.m [CHK] read 00107000 beat 1: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 125240000: uvm_test_top.env.m [CHK] read 00107000 beat 2: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 125250000: uvm_test_top.env.m [CHK] read 00107000 beat 3: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 125280000: uvm_test_top.env.m [CHK] read 00107000 beat 4: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 125300000: uvm_test_top.env.m [CHK] read 00107000 beat 5: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 125330000: uvm_test_top.env.m [CHK] read 00107000 beat 6: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 125370000: uvm_test_top.env.m [CHK] read 00107000 beat 7: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 125400000: uvm_test_top.env.m [CHK] read 00107000 beat 8: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 125430000: uvm_test_top.env.m [CHK] read 00107000 beat 9: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 125440000: uvm_test_top.env.m [CHK] read 00107000 beat 10: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 126150000: uvm_test_top.env.m [CHK] write 00100000: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 126290000: uvm_test_top.env.m [CHK] read 00101000 beat 0: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 126520000: uvm_test_top.env.m [CHK] read 0010b000 beat 0: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 126550000: uvm_test_top.env.m [CHK] read 0010b000 beat 1: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 126560000: uvm_test_top.env.m [CHK] read 0010b000 beat 2: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 126570000: uvm_test_top.env.m [CHK] write 00108000: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 126580000: uvm_test_top.env.m [CHK] read 0010b000 beat 3: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 126630000: uvm_test_top.env.m [CHK] read 0010b000 beat 4: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 126640000: uvm_test_top.env.m [CHK] read 0010b000 beat 5: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 126710000: uvm_test_top.env.m [CHK] write 0010b000: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 126710000: uvm_test_top.env.m [CHK] read 0010b000 beat 6: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 126750000: uvm_test_top.env.m [CHK] read 0010b000 beat 7: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 126800000: uvm_test_top.env.m [CHK] read 0010b000 beat 8: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 126820000: uvm_test_top.env.m [CHK] read 0010b000 beat 9: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 126850000: uvm_test_top.env.m [CHK] read 0010b000 beat 10: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 126860000: uvm_test_top.env.m [CHK] read 0010b000 beat 11: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 126880000: uvm_test_top.env.m [CHK] read 0010b000 beat 12: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 126890000: uvm_test_top.env.m [CHK] read 0010b000 beat 13: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 126910000: uvm_test_top.env.m [CHK] read 0010b000 beat 14: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 126920000: uvm_test_top.env.m [CHK] read 0010b000 beat 15: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 127170000: uvm_test_top.env.m [CHK] write 00102000: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 129580000: uvm_test_top.env.m [CHK] write 00107000: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 129890000: uvm_test_top.env.m [CHK] read 00108000 beat 0: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 129960000: uvm_test_top.env.m [CHK] read 00108000 beat 0: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 129990000: uvm_test_top.env.m [CHK] write 0010a000: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 130020000: uvm_test_top.env.m [CHK] read 00108000 beat 1: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 130030000: uvm_test_top.env.m [CHK] read 00108000 beat 2: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 130050000: uvm_test_top.env.m [CHK] read 00108000 beat 3: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 130070000: uvm_test_top.env.m [CHK] read 00108000 beat 4: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 130080000: uvm_test_top.env.m [CHK] read 00108000 beat 5: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 130100000: uvm_test_top.env.m [CHK] read 00108000 beat 6: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 130120000: uvm_test_top.env.m [CHK] read 00108000 beat 7: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 130140000: uvm_test_top.env.m [CHK] read 00108000 beat 8: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 130180000: uvm_test_top.env.m [CHK] read 00108000 beat 9: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 130830000: uvm_test_top.env.m [CHK] write 0010a000: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 131070000: uvm_test_top.env.m [CHK] write 0010b000: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 132900000: uvm_test_top.env.m [CHK] write 0010a000: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 134360000: uvm_test_top.env.m [CHK] write 00101000: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 135920000: uvm_test_top.env.m [CHK] read 0010f000 beat 0: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 135930000: uvm_test_top.env.m [CHK] read 0010f000 beat 1: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 135950000: uvm_test_top.env.m [CHK] write 00109000: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 135950000: uvm_test_top.env.m [CHK] read 0010f000 beat 2: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 135970000: uvm_test_top.env.m [CHK] read 0010f000 beat 3: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 135990000: uvm_test_top.env.m [CHK] read 0010f000 beat 4: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 136020000: uvm_test_top.env.m [CHK] read 0010f000 beat 5: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 136130000: uvm_test_top.env.m [CHK] read 0010f000 beat 6: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 136150000: uvm_test_top.env.m [CHK] read 0010f000 beat 7: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 136170000: uvm_test_top.env.m [CHK] read 0010f000 beat 8: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 136650000: uvm_test_top.env.m [CHK] write 0010a000: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 137160000: uvm_test_top.env.m [CHK] write 00104000: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 138250000: uvm_test_top.env.m [CHK] read 00105000 beat 0: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 138620000: uvm_test_top.env.m [CHK] write 00101000: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 139590000: uvm_test_top.env.m [CHK] read 0010e000 beat 0: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 139600000: uvm_test_top.env.m [CHK] read 0010e000 beat 1: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 139620000: uvm_test_top.env.m [CHK] read 0010e000 beat 2: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 139630000: uvm_test_top.env.m [CHK] read 0010e000 beat 3: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 139670000: uvm_test_top.env.m [CHK] read 0010e000 beat 4: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 139710000: uvm_test_top.env.m [CHK] read 0010e000 beat 5: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 139770000: uvm_test_top.env.m [CHK] read 0010e000 beat 6: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 139780000: uvm_test_top.env.m [CHK] write 0010e000: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 139780000: uvm_test_top.env.m [CHK] read 0010e000 beat 7: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 139810000: uvm_test_top.env.m [CHK] read 0010e000 beat 8: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 139830000: uvm_test_top.env.m [CHK] read 0010e000 beat 9: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 139840000: uvm_test_top.env.m [CHK] read 0010e000 beat 10: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 139860000: uvm_test_top.env.m [CHK] read 0010e000 beat 11: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 139900000: uvm_test_top.env.m [CHK] read 0010e000 beat 12: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 140240000: uvm_test_top.env.m [CHK] read 00108000 beat 0: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 140480000: uvm_test_top.env.m [CHK] write 00104000: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 141070000: uvm_test_top.env.m [CHK] write 00101000: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 141410000: uvm_test_top.env.m [CHK] read 00101000 beat 0: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 141480000: uvm_test_top.env.m [CHK] read 00101000 beat 1: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 141550000: uvm_test_top.env.m [CHK] read 00101000 beat 2: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 141570000: uvm_test_top.env.m [CHK] read 00101000 beat 3: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 141580000: uvm_test_top.env.m [CHK] read 00101000 beat 4: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 141600000: uvm_test_top.env.m [CHK] read 00101000 beat 5: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 141630000: uvm_test_top.env.m [CHK] read 00101000 beat 6: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 141710000: uvm_test_top.env.m [CHK] read 00101000 beat 7: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 141740000: uvm_test_top.env.m [CHK] read 00101000 beat 8: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 141750000: uvm_test_top.env.m [CHK] read 00101000 beat 9: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 141920000: uvm_test_top.env.m [CHK] read 00100000 beat 0: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 142500000: uvm_test_top.env.m [CHK] read 0010e000 beat 0: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 143010000: uvm_test_top.env.m [CHK] read 00100000 beat 0: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 143050000: uvm_test_top.env.m [CHK] read 00100000 beat 1: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 143060000: uvm_test_top.env.m [CHK] read 00100000 beat 2: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 143100000: uvm_test_top.env.m [CHK] read 00100000 beat 3: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 143110000: uvm_test_top.env.m [CHK] read 00100000 beat 4: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 143140000: uvm_test_top.env.m [CHK] read 00100000 beat 5: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 143150000: uvm_test_top.env.m [CHK] read 00100000 beat 6: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 143170000: uvm_test_top.env.m [CHK] read 00100000 beat 7: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 143180000: uvm_test_top.env.m [CHK] read 00100000 beat 8: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 143200000: uvm_test_top.env.m [CHK] read 00100000 beat 9: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 143220000: uvm_test_top.env.m [CHK] read 00100000 beat 10: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 143240000: uvm_test_top.env.m [CHK] read 00100000 beat 11: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 143250000: uvm_test_top.env.m [CHK] read 00100000 beat 12: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 143260000: uvm_test_top.env.m [CHK] read 00100000 beat 13: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 143280000: uvm_test_top.env.m [CHK] read 00100000 beat 14: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 143290000: uvm_test_top.env.m [CHK] read 00100000 beat 15: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 143430000: uvm_test_top.env.m [CHK] read 0010c000 beat 0: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 143440000: uvm_test_top.env.m [CHK] read 0010c000 beat 1: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 143490000: uvm_test_top.env.m [CHK] read 0010c000 beat 2: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 143500000: uvm_test_top.env.m [CHK] read 0010c000 beat 3: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 143520000: uvm_test_top.env.m [CHK] read 0010c000 beat 4: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 143540000: uvm_test_top.env.m [CHK] read 0010c000 beat 5: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 143560000: uvm_test_top.env.m [CHK] read 0010c000 beat 6: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 143580000: uvm_test_top.env.m [CHK] read 0010c000 beat 7: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 143600000: uvm_test_top.env.m [CHK] read 0010c000 beat 8: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 143620000: uvm_test_top.env.m [CHK] read 0010c000 beat 9: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 143640000: uvm_test_top.env.m [CHK] read 0010c000 beat 10: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 143710000: uvm_test_top.env.m [CHK] read 0010c000 beat 11: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 143730000: uvm_test_top.env.m [CHK] read 0010c000 beat 12: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 144160000: uvm_test_top.env.m [CHK] read 00109000 beat 0: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 144170000: uvm_test_top.env.m [CHK] read 00109000 beat 1: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 144280000: uvm_test_top.env.m [CHK] read 0010d000 beat 0: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 144290000: uvm_test_top.env.m [CHK] read 0010d000 beat 1: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 144320000: uvm_test_top.env.m [CHK] read 0010d000 beat 2: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 144330000: uvm_test_top.env.m [CHK] read 0010d000 beat 3: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 144340000: uvm_test_top.env.m [CHK] read 0010d000 beat 4: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 144350000: uvm_test_top.env.m [CHK] read 0010d000 beat 5: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 144390000: uvm_test_top.env.m [CHK] read 0010d000 beat 6: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 144410000: uvm_test_top.env.m [CHK] read 0010d000 beat 7: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 144440000: uvm_test_top.env.m [CHK] read 0010d000 beat 8: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 144460000: uvm_test_top.env.m [CHK] read 0010d000 beat 9: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 144470000: uvm_test_top.env.m [CHK] read 0010d000 beat 10: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 144480000: uvm_test_top.env.m [CHK] read 0010d000 beat 11: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 144490000: uvm_test_top.env.m [CHK] read 0010d000 beat 12: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 144520000: uvm_test_top.env.m [CHK] read 0010d000 beat 13: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 144540000: uvm_test_top.env.m [CHK] read 0010d000 beat 14: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 144570000: uvm_test_top.env.m [CHK] read 0010d000 beat 15: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 144710000: uvm_test_top.env.m [CHK] read 0010b000 beat 0: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 144720000: uvm_test_top.env.m [CHK] read 0010b000 beat 1: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 144940000: uvm_test_top.env.m [CHK] write 00109000: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 145630000: uvm_test_top.env.m [CHK] read 0010b000 beat 0: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 145660000: uvm_test_top.env.m [CHK] read 0010b000 beat 1: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 145670000: uvm_test_top.env.m [CHK] read 0010b000 beat 2: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 145720000: uvm_test_top.env.m [CHK] read 0010b000 beat 3: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 145730000: uvm_test_top.env.m [CHK] read 0010b000 beat 4: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 145740000: uvm_test_top.env.m [CHK] read 0010b000 beat 5: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 145770000: uvm_test_top.env.m [CHK] write 00105000: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 145950000: uvm_test_top.env.m [CHK] write 00102000: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 146430000: uvm_test_top.env.m [CHK] write 0010c000: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 146450000: uvm_test_top.env.m [CHK] read 0010b000 beat 0: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 146920000: uvm_test_top.env.m [CHK] read 00108000 beat 0: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 146980000: uvm_test_top.env.m [CHK] write 0010f000: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 147060000: uvm_test_top.env.m [CHK] read 00102000 beat 0: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 147410000: uvm_test_top.env.m [CHK] read 00101000 beat 0: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 147420000: uvm_test_top.env.m [CHK] read 00101000 beat 1: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 147440000: uvm_test_top.env.m [CHK] read 00101000 beat 2: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 147450000: uvm_test_top.env.m [CHK] read 00101000 beat 3: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 147470000: uvm_test_top.env.m [CHK] read 00101000 beat 4: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 147490000: uvm_test_top.env.m [CHK] read 00101000 beat 5: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 147560000: uvm_test_top.env.m [CHK] read 00101000 beat 6: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 147600000: uvm_test_top.env.m [CHK] read 00101000 beat 7: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 147610000: uvm_test_top.env.m [CHK] read 00101000 beat 8: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 147630000: uvm_test_top.env.m [CHK] read 00101000 beat 9: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 147640000: uvm_test_top.env.m [CHK] read 00101000 beat 10: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 149150000: uvm_test_top.env.m [CHK] write 00106000: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 150320000: uvm_test_top.env.m [CHK] write 00107000: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 150460000: uvm_test_top.env.m [CHK] read 00108000 beat 0: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 150590000: uvm_test_top.env.m [CHK] read 00106000 beat 0: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 150600000: uvm_test_top.env.m [CHK] write 00109000: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 150600000: uvm_test_top.env.m [CHK] read 00106000 beat 1: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 150620000: uvm_test_top.env.m [CHK] read 00106000 beat 2: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 150660000: uvm_test_top.env.m [CHK] read 00106000 beat 3: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 150670000: uvm_test_top.env.m [CHK] read 00106000 beat 4: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 150680000: uvm_test_top.env.m [CHK] read 00106000 beat 5: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 150730000: uvm_test_top.env.m [CHK] read 00106000 beat 6: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 150770000: uvm_test_top.env.m [CHK] read 00106000 beat 7: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 150780000: uvm_test_top.env.m [CHK] read 00106000 beat 8: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 150800000: uvm_test_top.env.m [CHK] read 00106000 beat 9: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 150820000: uvm_test_top.env.m [CHK] read 00106000 beat 10: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 151070000: uvm_test_top.env.m [CHK] read 00105000 beat 0: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 152270000: uvm_test_top.env.m [CHK] read 0010b000 beat 0: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 152310000: uvm_test_top.env.m [CHK] read 0010b000 beat 1: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 152340000: uvm_test_top.env.m [CHK] read 0010b000 beat 2: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 152360000: uvm_test_top.env.m [CHK] read 0010b000 beat 3: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 152380000: uvm_test_top.env.m [CHK] read 0010b000 beat 4: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 152390000: uvm_test_top.env.m [CHK] read 0010b000 beat 5: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 152400000: uvm_test_top.env.m [CHK] read 0010b000 beat 6: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 152440000: uvm_test_top.env.m [CHK] read 0010b000 beat 7: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 152450000: uvm_test_top.env.m [CHK] read 0010b000 beat 8: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 152530000: uvm_test_top.env.m [CHK] read 0010b000 beat 9: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 152580000: uvm_test_top.env.m [CHK] read 0010b000 beat 10: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 152600000: uvm_test_top.env.m [CHK] read 0010b000 beat 11: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 152630000: uvm_test_top.env.m [CHK] read 0010b000 beat 12: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 152640000: uvm_test_top.env.m [CHK] read 0010b000 beat 13: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 153160000: uvm_test_top.env.m [CHK] read 00100000 beat 0: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 153170000: uvm_test_top.env.m [CHK] read 00100000 beat 1: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 153180000: uvm_test_top.env.m [CHK] read 00100000 beat 2: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 153200000: uvm_test_top.env.m [CHK] read 00100000 beat 3: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 153250000: uvm_test_top.env.m [CHK] read 00100000 beat 4: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 153280000: uvm_test_top.env.m [CHK] read 00100000 beat 5: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 153340000: uvm_test_top.env.m [CHK] read 00100000 beat 6: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 153360000: uvm_test_top.env.m [CHK] read 00100000 beat 7: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 153390000: uvm_test_top.env.m [CHK] read 00100000 beat 8: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 153400000: uvm_test_top.env.m [CHK] read 00100000 beat 9: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 153410000: uvm_test_top.env.m [CHK] read 00100000 beat 10: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 153480000: uvm_test_top.env.m [CHK] read 00100000 beat 11: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 153520000: uvm_test_top.env.m [CHK] write 00105000: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 153530000: uvm_test_top.env.m [CHK] read 00100000 beat 12: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 153890000: uvm_test_top.env.m [CHK] write 00100000: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 154090000: uvm_test_top.env.m [CHK] read 0010a000 beat 0: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 154230000: uvm_test_top.env.m [CHK] write 0010b000: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 154660000: uvm_test_top.env.m [CHK] read 0010e000 beat 0: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 154930000: uvm_test_top.env.m [CHK] write 00102000: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 155210000: uvm_test_top.env.m [CHK] write 00108000: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 156060000: uvm_test_top.env.m [CHK] write 00103000: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 156620000: uvm_test_top.env.m [CHK] read 00101000 beat 0: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 156630000: uvm_test_top.env.m [CHK] read 00101000 beat 1: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 156670000: uvm_test_top.env.m [CHK] read 00101000 beat 2: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 156710000: uvm_test_top.env.m [CHK] read 00101000 beat 3: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 156720000: uvm_test_top.env.m [CHK] read 00101000 beat 4: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 156740000: uvm_test_top.env.m [CHK] read 00101000 beat 5: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 156770000: uvm_test_top.env.m [CHK] read 00101000 beat 6: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 156800000: uvm_test_top.env.m [CHK] read 00101000 beat 7: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 156820000: uvm_test_top.env.m [CHK] read 00101000 beat 8: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 156830000: uvm_test_top.env.m [CHK] read 00101000 beat 9: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 156850000: uvm_test_top.env.m [CHK] read 00101000 beat 10: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 157400000: uvm_test_top.env.m [CHK] read 00101000 beat 0: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 157440000: uvm_test_top.env.m [CHK] read 00101000 beat 1: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 157460000: uvm_test_top.env.m [CHK] read 00101000 beat 2: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 157470000: uvm_test_top.env.m [CHK] read 00101000 beat 3: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 157480000: uvm_test_top.env.m [CHK] read 00101000 beat 4: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 157500000: uvm_test_top.env.m [CHK] read 00101000 beat 5: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 157510000: uvm_test_top.env.m [CHK] read 00101000 beat 6: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 157560000: uvm_test_top.env.m [CHK] write 00100000: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 157580000: uvm_test_top.env.m [CHK] read 00101000 beat 7: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 159840000: uvm_test_top.env.m [CHK] read 00109000 beat 0: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 160360000: uvm_test_top.env.m [CHK] read 00109000 beat 0: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 160370000: uvm_test_top.env.m [CHK] read 00109000 beat 1: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 160440000: uvm_test_top.env.m [CHK] read 00109000 beat 2: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 160470000: uvm_test_top.env.m [CHK] read 00109000 beat 3: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 163670000: uvm_test_top.env.m [CHK] read 0010c000 beat 0: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 163800000: uvm_test_top.env.m [CHK] read 00106000 beat 0: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 163930000: uvm_test_top.env.m [CHK] read 00106000 beat 1: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 163980000: uvm_test_top.env.m [CHK] read 00106000 beat 2: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 163990000: uvm_test_top.env.m [CHK] read 00106000 beat 3: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 164040000: uvm_test_top.env.m [CHK] read 00106000 beat 4: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 164050000: uvm_test_top.env.m [CHK] read 00106000 beat 5: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 164090000: uvm_test_top.env.m [CHK] read 00106000 beat 6: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 164120000: uvm_test_top.env.m [CHK] read 00106000 beat 7: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 164140000: uvm_test_top.env.m [CHK] read 00106000 beat 8: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 164150000: uvm_test_top.env.m [CHK] read 00106000 beat 9: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 164170000: uvm_test_top.env.m [CHK] read 00106000 beat 10: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 164220000: uvm_test_top.env.m [CHK] read 00106000 beat 11: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 164300000: uvm_test_top.env.m [CHK] read 00106000 beat 12: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 164310000: uvm_test_top.env.m [CHK] read 00106000 beat 13: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 164370000: uvm_test_top.env.m [CHK] read 00106000 beat 14: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 164400000: uvm_test_top.env.m [CHK] read 00106000 beat 15: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 164910000: uvm_test_top.env.m [CHK] read 00108000 beat 0: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 164970000: uvm_test_top.env.m [CHK] read 00108000 beat 1: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 164980000: uvm_test_top.env.m [CHK] read 00108000 beat 2: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 165020000: uvm_test_top.env.m [CHK] read 00108000 beat 3: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 165050000: uvm_test_top.env.m [CHK] read 00108000 beat 4: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 165080000: uvm_test_top.env.m [CHK] read 00108000 beat 5: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 165160000: uvm_test_top.env.m [CHK] read 00108000 beat 6: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 165200000: uvm_test_top.env.m [CHK] read 00108000 beat 7: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 165230000: uvm_test_top.env.m [CHK] burst at 000f4004: row hit=0 reported, model says 1
+UVM_ERROR dram_tb.sv(62) @ 170850000: uvm_test_top.env.m [CHK] read 0010d000 beat 0: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 170880000: uvm_test_top.env.m [CHK] read 0010d000 beat 1: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 170890000: uvm_test_top.env.m [CHK] read 0010d000 beat 2: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 170900000: uvm_test_top.env.m [CHK] read 0010d000 beat 3: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 170910000: uvm_test_top.env.m [CHK] read 0010d000 beat 4: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 170960000: uvm_test_top.env.m [CHK] read 0010d000 beat 5: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 170990000: uvm_test_top.env.m [CHK] read 0010d000 beat 6: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 171030000: uvm_test_top.env.m [CHK] read 0010d000 beat 7: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 171070000: uvm_test_top.env.m [CHK] read 0010d000 beat 8: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 171080000: uvm_test_top.env.m [CHK] read 0010d000 beat 9: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 171110000: uvm_test_top.env.m [CHK] read 0010d000 beat 10: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 171120000: uvm_test_top.env.m [CHK] read 0010d000 beat 11: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 171140000: uvm_test_top.env.m [CHK] read 0010d000 beat 12: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 171170000: uvm_test_top.env.m [CHK] read 0010d000 beat 13: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 171290000: uvm_test_top.env.m [CHK] read 00102000 beat 0: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 171730000: uvm_test_top.env.m [CHK] read 0010d000 beat 0: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 171740000: uvm_test_top.env.m [CHK] read 0010d000 beat 1: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 171760000: uvm_test_top.env.m [CHK] read 0010d000 beat 2: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 171780000: uvm_test_top.env.m [CHK] read 0010d000 beat 3: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 171790000: uvm_test_top.env.m [CHK] read 0010d000 beat 4: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 171800000: uvm_test_top.env.m [CHK] read 0010d000 beat 5: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 171820000: uvm_test_top.env.m [CHK] read 0010d000 beat 6: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 171840000: uvm_test_top.env.m [CHK] read 0010d000 beat 7: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 171890000: uvm_test_top.env.m [CHK] read 0010d000 beat 8: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 171900000: uvm_test_top.env.m [CHK] read 0010d000 beat 9: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 171960000: uvm_test_top.env.m [CHK] read 0010d000 beat 10: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 171970000: uvm_test_top.env.m [CHK] read 0010d000 beat 11: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 171990000: uvm_test_top.env.m [CHK] read 0010d000 beat 12: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 172020000: uvm_test_top.env.m [CHK] read 0010d000 beat 13: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 172150000: uvm_test_top.env.m [CHK] read 00108000 beat 0: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 172160000: uvm_test_top.env.m [CHK] read 00108000 beat 1: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 172220000: uvm_test_top.env.m [CHK] read 00108000 beat 2: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 172230000: uvm_test_top.env.m [CHK] read 00108000 beat 3: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 172240000: uvm_test_top.env.m [CHK] read 00108000 beat 4: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 172270000: uvm_test_top.env.m [CHK] read 00108000 beat 5: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 172280000: uvm_test_top.env.m [CHK] read 00108000 beat 6: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 172290000: uvm_test_top.env.m [CHK] read 00108000 beat 7: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 172310000: uvm_test_top.env.m [CHK] read 00108000 beat 8: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 172330000: uvm_test_top.env.m [CHK] read 00108000 beat 9: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 172340000: uvm_test_top.env.m [CHK] read 00108000 beat 10: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 172380000: uvm_test_top.env.m [CHK] read 00108000 beat 11: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 172410000: uvm_test_top.env.m [CHK] read 00108000 beat 12: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 172430000: uvm_test_top.env.m [CHK] read 00108000 beat 13: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 172450000: uvm_test_top.env.m [CHK] read 00108000 beat 14: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 172460000: uvm_test_top.env.m [CHK] read 00108000 beat 15: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 173720000: uvm_test_top.env.m [CHK] read 00104000 beat 0: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 173740000: uvm_test_top.env.m [CHK] read 00104000 beat 1: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 173760000: uvm_test_top.env.m [CHK] read 00104000 beat 2: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 173780000: uvm_test_top.env.m [CHK] read 00104000 beat 3: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 173790000: uvm_test_top.env.m [CHK] read 00104000 beat 4: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 173820000: uvm_test_top.env.m [CHK] read 00104000 beat 5: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 173880000: uvm_test_top.env.m [CHK] read 00104000 beat 6: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 173900000: uvm_test_top.env.m [CHK] read 00104000 beat 7: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 173920000: uvm_test_top.env.m [CHK] read 00104000 beat 8: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 173970000: uvm_test_top.env.m [CHK] read 00104000 beat 9: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 173980000: uvm_test_top.env.m [CHK] read 00104000 beat 10: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 174000000: uvm_test_top.env.m [CHK] read 00104000 beat 11: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 174030000: uvm_test_top.env.m [CHK] read 00104000 beat 12: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 174070000: uvm_test_top.env.m [CHK] read 00104000 beat 13: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 174080000: uvm_test_top.env.m [CHK] read 00104000 beat 14: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 174130000: uvm_test_top.env.m [CHK] read 00104000 beat 15: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 175090000: uvm_test_top.env.m [CHK] read 00107000 beat 0: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 175110000: uvm_test_top.env.m [CHK] read 00107000 beat 1: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 175130000: uvm_test_top.env.m [CHK] read 00107000 beat 2: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 175490000: uvm_test_top.env.m [CHK] read 00101000 beat 0: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 175500000: uvm_test_top.env.m [CHK] read 00101000 beat 1: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 175510000: uvm_test_top.env.m [CHK] read 00101000 beat 2: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 175540000: uvm_test_top.env.m [CHK] read 00101000 beat 3: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 175550000: uvm_test_top.env.m [CHK] read 00101000 beat 4: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 175560000: uvm_test_top.env.m [CHK] read 00101000 beat 5: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 175570000: uvm_test_top.env.m [CHK] read 00101000 beat 6: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 175590000: uvm_test_top.env.m [CHK] read 00101000 beat 7: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 175600000: uvm_test_top.env.m [CHK] read 00101000 beat 8: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 175620000: uvm_test_top.env.m [CHK] read 00101000 beat 9: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 175630000: uvm_test_top.env.m [CHK] read 00101000 beat 10: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 175650000: uvm_test_top.env.m [CHK] read 00101000 beat 11: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 175660000: uvm_test_top.env.m [CHK] read 00101000 beat 12: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 175670000: uvm_test_top.env.m [CHK] read 00101000 beat 13: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 176490000: uvm_test_top.env.m [CHK] read 00108000 beat 0: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 176510000: uvm_test_top.env.m [CHK] read 00108000 beat 1: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 176530000: uvm_test_top.env.m [CHK] read 00108000 beat 2: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 176540000: uvm_test_top.env.m [CHK] read 00108000 beat 3: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 176550000: uvm_test_top.env.m [CHK] read 00108000 beat 4: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 176560000: uvm_test_top.env.m [CHK] read 00108000 beat 5: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 176690000: uvm_test_top.env.m [CHK] read 0010d000 beat 0: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 176700000: uvm_test_top.env.m [CHK] read 0010d000 beat 1: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 176710000: uvm_test_top.env.m [CHK] read 0010d000 beat 2: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 176720000: uvm_test_top.env.m [CHK] read 0010d000 beat 3: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 176740000: uvm_test_top.env.m [CHK] read 0010d000 beat 4: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 176750000: uvm_test_top.env.m [CHK] read 0010d000 beat 5: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 176760000: uvm_test_top.env.m [CHK] read 0010d000 beat 6: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 176770000: uvm_test_top.env.m [CHK] read 0010d000 beat 7: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 176780000: uvm_test_top.env.m [CHK] read 0010d000 beat 8: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 176830000: uvm_test_top.env.m [CHK] read 0010d000 beat 9: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 176880000: uvm_test_top.env.m [CHK] read 0010d000 beat 10: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 180690000: uvm_test_top.env.m [CHK] read 0010d000 beat 0: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 180720000: uvm_test_top.env.m [CHK] read 0010d000 beat 1: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 180730000: uvm_test_top.env.m [CHK] read 0010d000 beat 2: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 180780000: uvm_test_top.env.m [CHK] read 0010d000 beat 3: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 180810000: uvm_test_top.env.m [CHK] read 0010d000 beat 4: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 180840000: uvm_test_top.env.m [CHK] read 0010d000 beat 5: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 180880000: uvm_test_top.env.m [CHK] read 0010d000 beat 6: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 180960000: uvm_test_top.env.m [CHK] read 0010d000 beat 7: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 180990000: uvm_test_top.env.m [CHK] read 0010d000 beat 8: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 181010000: uvm_test_top.env.m [CHK] read 0010d000 beat 9: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 181030000: uvm_test_top.env.m [CHK] read 0010d000 beat 10: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 181040000: uvm_test_top.env.m [CHK] read 0010d000 beat 11: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 181070000: uvm_test_top.env.m [CHK] read 0010d000 beat 12: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 181640000: uvm_test_top.env.m [CHK] read 00106000 beat 0: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 181750000: uvm_test_top.env.m [CHK] read 0010a000 beat 0: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 184240000: uvm_test_top.env.m [CHK] read 00109000 beat 0: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 184250000: uvm_test_top.env.m [CHK] read 00109000 beat 1: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 184260000: uvm_test_top.env.m [CHK] read 00109000 beat 2: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 184280000: uvm_test_top.env.m [CHK] read 00109000 beat 3: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 184310000: uvm_test_top.env.m [CHK] read 00109000 beat 4: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 184320000: uvm_test_top.env.m [CHK] read 00109000 beat 5: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 184890000: uvm_test_top.env.m [CHK] read 0010e000 beat 0: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 186990000: uvm_test_top.env.m [CHK] read 00106000 beat 0: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 189000000: uvm_test_top.env.m [CHK] read 00106000 beat 0: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 189030000: uvm_test_top.env.m [CHK] read 00106000 beat 1: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 189060000: uvm_test_top.env.m [CHK] read 00106000 beat 2: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 189100000: uvm_test_top.env.m [CHK] read 00106000 beat 3: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 189120000: uvm_test_top.env.m [CHK] read 00106000 beat 4: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 189210000: uvm_test_top.env.m [CHK] read 00106000 beat 5: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 189240000: uvm_test_top.env.m [CHK] read 00106000 beat 6: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 189250000: uvm_test_top.env.m [CHK] read 00106000 beat 7: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 189270000: uvm_test_top.env.m [CHK] read 00106000 beat 8: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 189930000: uvm_test_top.env.m [CHK] read 0010c000 beat 0: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 189950000: uvm_test_top.env.m [CHK] read 0010c000 beat 1: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 189960000: uvm_test_top.env.m [CHK] read 0010c000 beat 2: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 189980000: uvm_test_top.env.m [CHK] read 0010c000 beat 3: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 190020000: uvm_test_top.env.m [CHK] read 0010c000 beat 4: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 190090000: uvm_test_top.env.m [CHK] read 0010c000 beat 5: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 190130000: uvm_test_top.env.m [CHK] read 0010c000 beat 6: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 190150000: uvm_test_top.env.m [CHK] read 0010c000 beat 7: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 190160000: uvm_test_top.env.m [CHK] read 0010c000 beat 8: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 190170000: uvm_test_top.env.m [CHK] read 0010c000 beat 9: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 190190000: uvm_test_top.env.m [CHK] read 0010c000 beat 10: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 190250000: uvm_test_top.env.m [CHK] read 0010c000 beat 11: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 190270000: uvm_test_top.env.m [CHK] read 0010c000 beat 12: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 190280000: uvm_test_top.env.m [CHK] read 0010c000 beat 13: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 190300000: uvm_test_top.env.m [CHK] read 0010c000 beat 14: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 190340000: uvm_test_top.env.m [CHK] read 0010c000 beat 15: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 191180000: uvm_test_top.env.m [CHK] read 00101000 beat 0: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 191220000: uvm_test_top.env.m [CHK] read 00101000 beat 1: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 191280000: uvm_test_top.env.m [CHK] read 00101000 beat 2: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 191320000: uvm_test_top.env.m [CHK] read 00101000 beat 3: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 191360000: uvm_test_top.env.m [CHK] read 00101000 beat 4: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 191370000: uvm_test_top.env.m [CHK] read 00101000 beat 5: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 192620000: uvm_test_top.env.m [CHK] read 0000e030 beat 0: eec17382, expected 00000000
+UVM_ERROR dram_tb.sv(62) @ 192630000: uvm_test_top.env.m [CHK] read 0000e030 beat 1: 68fe27d5, expected 00000000
+UVM_ERROR dram_tb.sv(62) @ 192660000: uvm_test_top.env.m [CHK] read 0000e030 beat 2: a337aa6a, expected 00000000
+UVM_ERROR dram_tb.sv(62) @ 192670000: uvm_test_top.env.m [CHK] read 0000e030 beat 3: 009a0000, expected 00000000
+UVM_ERROR dram_tb.sv(62) @ 195660000: uvm_test_top.env.m [CHK] read 00106000 beat 0: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 195670000: uvm_test_top.env.m [CHK] read 00106000 beat 1: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 195700000: uvm_test_top.env.m [CHK] read 00106000 beat 2: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 195710000: uvm_test_top.env.m [CHK] read 00106000 beat 3: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 195730000: uvm_test_top.env.m [CHK] read 00106000 beat 4: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 195740000: uvm_test_top.env.m [CHK] read 00106000 beat 5: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 195750000: uvm_test_top.env.m [CHK] read 00106000 beat 6: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 195790000: uvm_test_top.env.m [CHK] read 00106000 beat 7: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 195800000: uvm_test_top.env.m [CHK] read 00106000 beat 8: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 195820000: uvm_test_top.env.m [CHK] read 00106000 beat 9: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 195840000: uvm_test_top.env.m [CHK] read 00106000 beat 10: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 196550000: uvm_test_top.env.m [CHK] read 00104000 beat 0: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 196570000: uvm_test_top.env.m [CHK] read 00104000 beat 1: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 196590000: uvm_test_top.env.m [CHK] read 00104000 beat 2: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 196600000: uvm_test_top.env.m [CHK] read 00104000 beat 3: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 196620000: uvm_test_top.env.m [CHK] read 00104000 beat 4: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 196640000: uvm_test_top.env.m [CHK] read 00104000 beat 5: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 196660000: uvm_test_top.env.m [CHK] read 00104000 beat 6: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 196670000: uvm_test_top.env.m [CHK] read 00104000 beat 7: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 196680000: uvm_test_top.env.m [CHK] read 00104000 beat 8: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 196710000: uvm_test_top.env.m [CHK] read 00104000 beat 9: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 196740000: uvm_test_top.env.m [CHK] read 00104000 beat 10: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 196800000: uvm_test_top.env.m [CHK] read 00104000 beat 11: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 196820000: uvm_test_top.env.m [CHK] read 00104000 beat 12: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 196840000: uvm_test_top.env.m [CHK] read 00104000 beat 13: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 196870000: uvm_test_top.env.m [CHK] read 00104000 beat 14: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 196910000: uvm_test_top.env.m [CHK] read 00104000 beat 15: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 198050000: uvm_test_top.env.m [CHK] read 00100000 beat 0: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 198090000: uvm_test_top.env.m [CHK] read 00100000 beat 1: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 198140000: uvm_test_top.env.m [CHK] read 00100000 beat 2: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 198170000: uvm_test_top.env.m [CHK] read 00100000 beat 3: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 198180000: uvm_test_top.env.m [CHK] read 00100000 beat 4: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 198190000: uvm_test_top.env.m [CHK] read 00100000 beat 5: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 198200000: uvm_test_top.env.m [CHK] read 00100000 beat 6: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 198220000: uvm_test_top.env.m [CHK] read 00100000 beat 7: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 198250000: uvm_test_top.env.m [CHK] read 00100000 beat 8: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 198260000: uvm_test_top.env.m [CHK] read 00100000 beat 9: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 198290000: uvm_test_top.env.m [CHK] read 00100000 beat 10: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 198320000: uvm_test_top.env.m [CHK] read 00100000 beat 11: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 198360000: uvm_test_top.env.m [CHK] read 00100000 beat 12: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 198380000: uvm_test_top.env.m [CHK] read 00100000 beat 13: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 198400000: uvm_test_top.env.m [CHK] read 00100000 beat 14: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 198420000: uvm_test_top.env.m [CHK] read 00100000 beat 15: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 198840000: uvm_test_top.env.m [CHK] read 0010d000 beat 0: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 198870000: uvm_test_top.env.m [CHK] read 0010d000 beat 1: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 199020000: uvm_test_top.env.m [CHK] read 00108000 beat 0: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 200670000: uvm_test_top.env.m [CHK] read 00103000 beat 0: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 200690000: uvm_test_top.env.m [CHK] read 00103000 beat 1: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 200700000: uvm_test_top.env.m [CHK] read 00103000 beat 2: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 200730000: uvm_test_top.env.m [CHK] read 00103000 beat 3: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 200770000: uvm_test_top.env.m [CHK] read 00103000 beat 4: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 200790000: uvm_test_top.env.m [CHK] read 00103000 beat 5: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 200830000: uvm_test_top.env.m [CHK] read 00103000 beat 6: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 200850000: uvm_test_top.env.m [CHK] read 00103000 beat 7: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 200860000: uvm_test_top.env.m [CHK] read 00103000 beat 8: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 200920000: uvm_test_top.env.m [CHK] read 00103000 beat 9: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 200980000: uvm_test_top.env.m [CHK] read 00103000 beat 10: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 201020000: uvm_test_top.env.m [CHK] read 00103000 beat 11: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 201050000: uvm_test_top.env.m [CHK] read 00103000 beat 12: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 201060000: uvm_test_top.env.m [CHK] read 00103000 beat 13: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 201070000: uvm_test_top.env.m [CHK] read 00103000 beat 14: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 201080000: uvm_test_top.env.m [CHK] read 00103000 beat 15: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 201960000: uvm_test_top.env.m [CHK] read 0010e000 beat 0: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 201970000: uvm_test_top.env.m [CHK] read 0010e000 beat 1: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 202010000: uvm_test_top.env.m [CHK] read 0010e000 beat 2: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 202050000: uvm_test_top.env.m [CHK] read 0010e000 beat 3: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 202080000: uvm_test_top.env.m [CHK] read 0010e000 beat 4: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 202090000: uvm_test_top.env.m [CHK] read 0010e000 beat 5: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 202130000: uvm_test_top.env.m [CHK] read 0010e000 beat 6: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 202150000: uvm_test_top.env.m [CHK] read 0010e000 beat 7: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 202160000: uvm_test_top.env.m [CHK] read 0010e000 beat 8: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 202200000: uvm_test_top.env.m [CHK] read 0010e000 beat 9: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 202210000: uvm_test_top.env.m [CHK] read 0010e000 beat 10: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 202220000: uvm_test_top.env.m [CHK] read 0010e000 beat 11: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 202270000: uvm_test_top.env.m [CHK] read 0010e000 beat 12: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 202290000: uvm_test_top.env.m [CHK] read 0010e000 beat 13: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 202300000: uvm_test_top.env.m [CHK] read 0010e000 beat 14: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 202310000: uvm_test_top.env.m [CHK] read 0010e000 beat 15: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 202870000: uvm_test_top.env.m [CHK] read 00103000 beat 0: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 202930000: uvm_test_top.env.m [CHK] read 00103000 beat 1: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 202960000: uvm_test_top.env.m [CHK] read 00103000 beat 2: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 202990000: uvm_test_top.env.m [CHK] read 00103000 beat 3: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 203010000: uvm_test_top.env.m [CHK] read 00103000 beat 4: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 203090000: uvm_test_top.env.m [CHK] read 00103000 beat 5: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 203130000: uvm_test_top.env.m [CHK] read 00103000 beat 6: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 203140000: uvm_test_top.env.m [CHK] read 00103000 beat 7: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 203160000: uvm_test_top.env.m [CHK] read 00103000 beat 8: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 203170000: uvm_test_top.env.m [CHK] read 00103000 beat 9: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 204000000: uvm_test_top.env.m [CHK] read 00101000 beat 0: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 204020000: uvm_test_top.env.m [CHK] read 00101000 beat 1: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 204050000: uvm_test_top.env.m [CHK] read 00101000 beat 2: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 204070000: uvm_test_top.env.m [CHK] read 00101000 beat 3: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 204110000: uvm_test_top.env.m [CHK] read 00101000 beat 4: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 204130000: uvm_test_top.env.m [CHK] read 00101000 beat 5: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 204610000: uvm_test_top.env.m [CHK] read 00101000 beat 0: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 204620000: uvm_test_top.env.m [CHK] read 00101000 beat 1: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 204630000: uvm_test_top.env.m [CHK] read 00101000 beat 2: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 206020000: uvm_test_top.env.m [CHK] read 0010f000 beat 0: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 206030000: uvm_test_top.env.m [CHK] read 0010f000 beat 1: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 206060000: uvm_test_top.env.m [CHK] read 0010f000 beat 2: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 206090000: uvm_test_top.env.m [CHK] read 0010f000 beat 3: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 206110000: uvm_test_top.env.m [CHK] read 0010f000 beat 4: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 206120000: uvm_test_top.env.m [CHK] read 0010f000 beat 5: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 206130000: uvm_test_top.env.m [CHK] read 0010f000 beat 6: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 206140000: uvm_test_top.env.m [CHK] read 0010f000 beat 7: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 206160000: uvm_test_top.env.m [CHK] read 0010f000 beat 8: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 206170000: uvm_test_top.env.m [CHK] read 0010f000 beat 9: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 208670000: uvm_test_top.env.m [CHK] read 00105000 beat 0: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 208680000: uvm_test_top.env.m [CHK] read 00105000 beat 1: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 208730000: uvm_test_top.env.m [CHK] read 00105000 beat 2: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 208780000: uvm_test_top.env.m [CHK] read 00105000 beat 3: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 208810000: uvm_test_top.env.m [CHK] read 00105000 beat 4: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 208820000: uvm_test_top.env.m [CHK] read 00105000 beat 5: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 208830000: uvm_test_top.env.m [CHK] read 00105000 beat 6: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 208840000: uvm_test_top.env.m [CHK] read 00105000 beat 7: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 208870000: uvm_test_top.env.m [CHK] read 00105000 beat 8: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 208880000: uvm_test_top.env.m [CHK] read 00105000 beat 9: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 210370000: uvm_test_top.env.m [CHK] read 00103000 beat 0: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 210380000: uvm_test_top.env.m [CHK] read 00103000 beat 1: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 210410000: uvm_test_top.env.m [CHK] read 00103000 beat 2: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 210420000: uvm_test_top.env.m [CHK] read 00103000 beat 3: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 210480000: uvm_test_top.env.m [CHK] read 00103000 beat 4: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 210550000: uvm_test_top.env.m [CHK] read 00103000 beat 0: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 210560000: uvm_test_top.env.m [CHK] read 00103000 beat 1: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 210570000: uvm_test_top.env.m [CHK] read 00103000 beat 2: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 210580000: uvm_test_top.env.m [CHK] read 00103000 beat 3: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 211650000: uvm_test_top.env.m [CHK] read 00104000 beat 0: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 211660000: uvm_test_top.env.m [CHK] read 00104000 beat 1: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 211710000: uvm_test_top.env.m [CHK] read 00104000 beat 2: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 215640000: uvm_test_top.env.m [CHK] read 00109000 beat 0: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 215690000: uvm_test_top.env.m [CHK] read 00109000 beat 1: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 215700000: uvm_test_top.env.m [CHK] read 00109000 beat 2: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 215750000: uvm_test_top.env.m [CHK] read 00109000 beat 3: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 215760000: uvm_test_top.env.m [CHK] read 00109000 beat 4: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 215790000: uvm_test_top.env.m [CHK] read 00109000 beat 5: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 217980000: uvm_test_top.env.m [CHK] read 0010e000 beat 0: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 218280000: uvm_test_top.env.m [CHK] read 00101000 beat 0: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 218310000: uvm_test_top.env.m [CHK] read 00101000 beat 1: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 218320000: uvm_test_top.env.m [CHK] read 00101000 beat 2: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 218340000: uvm_test_top.env.m [CHK] read 00101000 beat 3: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 218400000: uvm_test_top.env.m [CHK] read 00101000 beat 4: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 218450000: uvm_test_top.env.m [CHK] read 00101000 beat 5: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 218460000: uvm_test_top.env.m [CHK] read 00101000 beat 6: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 218510000: uvm_test_top.env.m [CHK] read 00101000 beat 7: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 218520000: uvm_test_top.env.m [CHK] read 00101000 beat 8: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 219570000: uvm_test_top.env.m [CHK] read 0010f000 beat 0: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 219580000: uvm_test_top.env.m [CHK] read 0010f000 beat 1: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 219600000: uvm_test_top.env.m [CHK] read 0010f000 beat 2: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 219680000: uvm_test_top.env.m [CHK] read 0010f000 beat 3: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 219700000: uvm_test_top.env.m [CHK] read 0010f000 beat 4: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 219710000: uvm_test_top.env.m [CHK] read 0010f000 beat 5: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 221490000: uvm_test_top.env.m [CHK] read 00108000 beat 0: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 221500000: uvm_test_top.env.m [CHK] read 00108000 beat 1: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 221550000: uvm_test_top.env.m [CHK] read 00108000 beat 2: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 221570000: uvm_test_top.env.m [CHK] read 00108000 beat 3: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 221590000: uvm_test_top.env.m [CHK] read 00108000 beat 4: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 221610000: uvm_test_top.env.m [CHK] read 00108000 beat 5: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 221640000: uvm_test_top.env.m [CHK] read 00108000 beat 6: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 221650000: uvm_test_top.env.m [CHK] read 00108000 beat 7: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 221660000: uvm_test_top.env.m [CHK] read 00108000 beat 8: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 221690000: uvm_test_top.env.m [CHK] read 00108000 beat 9: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 221710000: uvm_test_top.env.m [CHK] read 00108000 beat 10: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 221740000: uvm_test_top.env.m [CHK] read 00108000 beat 11: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 221760000: uvm_test_top.env.m [CHK] read 00108000 beat 12: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 221790000: uvm_test_top.env.m [CHK] read 00108000 beat 13: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 221800000: uvm_test_top.env.m [CHK] read 00108000 beat 14: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 221810000: uvm_test_top.env.m [CHK] read 00108000 beat 15: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 222510000: uvm_test_top.env.m [CHK] read 00101000 beat 0: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 222530000: uvm_test_top.env.m [CHK] read 00101000 beat 1: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 222570000: uvm_test_top.env.m [CHK] read 00101000 beat 2: resp 0, expected 3
+UVM_ERROR dram_tb.sv(62) @ 222590000: uvm_test_top.env.m [CHK] read 00101000 beat 3: resp 0, expected 3
+UVM_INFO dram_tb.sv(181) @ 222915000: uvm_test_top.env.m [CHK] read bursts=800 write bursts=800 errors=1407 (read beats racing a write, not checked: 25)
+UVM_INFO dram_tb.sv(182) @ 222915000: uvm_test_top.env.m [COV] functional coverage = 100.0%
+    read                         800
+    write                        800
+    len_1                        399
+    len_2_15                     1007
+    len_16                       194
+    slverr_burst_type            214
+    slverr_size                  194
+    decerr                       335
+    partial_strobe               1959
+    read_and_write_pending       572
+    both_start_same_cycle        21
+    rready_backpressure          8956
+    bready_backpressure          1233
+    row_hit                      127
+    row_miss                     730
+UVM_INFO /Users/sankalpahota/Documents/GIT/mGPU/uvm/base/uvm_report_server.svh(1009) @ 222915000: reporter [UVM/REPORT/SERVER] 
+--- UVM Report Summary ---
+
+** Report counts by severity
+UVM_INFO :    6
+UVM_WARNING :    2
+UVM_ERROR : 1407
+UVM_FATAL :    0
+** Report counts by id
+[CHK]  1408
+[COV]     1
+[NO_DPI_TSTNAME]     1
+[NO_DPI_USED]     1
+[NO_VISIT_CHECK]     1
+[RNTST]     1
+[UVM/COMP/NAMECHECK]     1
+[UVM/RELNOTES]     1
+
+- /Users/sankalpahota/Documents/GIT/mGPU/uvm/base/uvm_test_runner.svh:297: Verilog $finish
+- S i m u l a t i o n   R e p o r t: Verilator 5.052 2026-09-05
+- Verilator: $finish at 223us; walltime 0.100 s; speed 2.227 ms/s
+- Verilator: cpu 0.100 s on 1 threads; allocated 14 MB

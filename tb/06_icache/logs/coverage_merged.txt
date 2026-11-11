@@ -1,0 +1,15 @@
+merged functional coverage = 100.0% (14/14 bins)
+  hit_port0                      19274
+  hit_port1                      19707
+  miss_port0                     2967
+  miss_port1                     2976
+  both_ports_request             406
+  port_waits_during_miss         36699
+  conflict_eviction              5281
+  invalidate_idle                32
+  invalidate_during_miss         28
+  miss_after_invalidate          230
+  index_first                    2679
+  index_last                     2698
+  same_line_back_to_back_other_port 1851
+  tag_alias_msb                  30

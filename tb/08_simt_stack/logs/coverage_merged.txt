@@ -1,0 +1,15 @@
+merged functional coverage = 100.0% (14/14 bins)
+  uniform_taken                  22456
+  uniform_not_taken              23320
+  divergent                      24212
+  depth_3                        17548
+  depth_5                        2924
+  depth_7                        60
+  loop_divergence                8644
+  exit_partial                   4276
+  exit_whole_warp                3492
+  jmp                            11780
+  target_is_join                 8364
+  reuse_top                      4652
+  four_warps_live                406641
+  overflow                       4

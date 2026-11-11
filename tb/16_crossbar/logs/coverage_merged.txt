@@ -1,0 +1,15 @@
+merged functional coverage = 100.0% (14/14 bins)
+  r0_bank0                       8029
+  r0_bank1                       16377
+  r1_bank0                       7954
+  r1_bank1                       16281
+  r2_bank0                       7875
+  r2_bank1                       16456
+  r3_bank0                       7989
+  r3_bank1                       16310
+  two_requesters_one_bank        42312
+  four_requesting                1640
+  both_banks_accept              5177
+  two_answers_one_cycle          5506
+  out_of_order_answers           24029
+  bank_backpressure              83248

@@ -1,0 +1,9 @@
+merged functional coverage = 91.7% (11/12 bins)
+  UNHIT idle_count_reset_by_want
+12
+building 21_gmu +define+BUG_OFF_WHILE_BUSY
+BUG CAUGHT  logs/bug_BUG_OFF_WHILE_BUSY.log (errors=31070)
+building 21_gmu +define+BUG_AVAIL_EARLY
+BUG CAUGHT  logs/bug_BUG_AVAIL_EARLY.log (errors=7510)
+building 21_gmu +define+BUG_IDLE_NO_RESET
+BUG CAUGHT  logs/bug_BUG_IDLE_NO_RESET.log (errors=916)

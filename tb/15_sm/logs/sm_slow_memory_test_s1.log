@@ -1,0 +1,86 @@
+%Warning: System has stack size 65520 kb which may be too small; failed to request more using 'ulimit -s 131446869'
+UVM_INFO /Users/sankalpahota/Documents/GIT/mGPU/uvm/base/uvm_root.svh(457) @ 0: reporter [UVM/RELNOTES] 
+  ***********       IMPORTANT RELEASE NOTES         ************
+
+  This implementation of the UVM Library deviates from the 1800.2-2020
+  standard.  See the DEVIATIONS.md file contained in the release
+  for more details.
+
+----------------------------------------------------------------
+Accellera:1800.2:UVM:2020.3.2
+
+All copyright owners for this kit are listed in NOTICE.txt
+All Rights Reserved Worldwide
+----------------------------------------------------------------
+
+      (Specify +UVM_NO_RELNOTES to turn off this notice)
+
+UVM_WARNING /Users/sankalpahota/Documents/GIT/mGPU/uvm/base/uvm_test_runner.svh(207) @ 0: reporter [NO_DPI_USED] We are thinking of removing support for UVM_NO_DPI.  Please try this test without it and evaluate the impact
+UVM_INFO /Users/sankalpahota/Documents/GIT/mGPU/uvm/base/uvm_test_runner.svh(210) @ 0: reporter [NO_DPI_TSTNAME] UVM_NO_DPI defined--getting UVM_TESTNAME directly, without DPI
+UVM_INFO @ 0: reporter [RNTST] Running test sm_slow_memory_test...
+UVM_INFO /Users/sankalpahota/Documents/GIT/mGPU/uvm/base/uvm_traversal.svh(345) @ 0: reporter [UVM/COMP/NAMECHECK] This implementation of the component name checks requires DPI to be enabled
+UVM_WARNING /Users/sankalpahota/Documents/GIT/mGPU/uvm/base/uvm_traversal.svh(314) @ 0: reporter [NO_VISIT_CHECK] Because UVM_REGEX_NO_DPI is defined, no uvm component name constraints will be checked
+UVM_INFO sm_tb.sv(170) @ 7546000: uvm_test_top.env.run [KERNEL] vector_add    wg=5 warps/wg=1 threads=40  cycles=747  instructions=85  IPC=0.11  mismatches=0
+UVM_INFO sm_tb.sv(170) @ 21446000: uvm_test_top.env.run [KERNEL] vector_add    wg=5 warps/wg=2 threads=80  cycles=1390  instructions=170  IPC=0.12  mismatches=0
+UVM_INFO sm_tb.sv(170) @ 45856000: uvm_test_top.env.run [KERNEL] vector_add    wg=5 warps/wg=4 threads=160  cycles=2441  instructions=340  IPC=0.14  mismatches=0
+UVM_INFO sm_tb.sv(170) @ 53036000: uvm_test_top.env.run [KERNEL] saxpy         wg=5 warps/wg=1 threads=40  cycles=718  instructions=95  IPC=0.13  mismatches=0
+UVM_INFO sm_tb.sv(170) @ 66316000: uvm_test_top.env.run [KERNEL] saxpy         wg=5 warps/wg=2 threads=80  cycles=1328  instructions=190  IPC=0.14  mismatches=0
+UVM_INFO sm_tb.sv(170) @ 92196000: uvm_test_top.env.run [KERNEL] saxpy         wg=5 warps/wg=4 threads=160  cycles=2588  instructions=380  IPC=0.15  mismatches=0
+UVM_INFO sm_tb.sv(170) @ 104006000: uvm_test_top.env.run [KERNEL] reduction     wg=5 warps/wg=1 threads=40  cycles=1181  instructions=290  IPC=0.25  mismatches=0
+UVM_INFO sm_tb.sv(170) @ 120796000: uvm_test_top.env.run [KERNEL] reduction     wg=5 warps/wg=2 threads=80  cycles=1679  instructions=545  IPC=0.32  mismatches=0
+UVM_INFO sm_tb.sv(170) @ 148376000: uvm_test_top.env.run [KERNEL] reduction     wg=5 warps/wg=4 threads=160  cycles=2758  instructions=1105  IPC=0.40  mismatches=0
+UVM_INFO sm_tb.sv(170) @ 159406000: uvm_test_top.env.run [KERNEL] divergence    wg=5 warps/wg=1 threads=40  cycles=1103  instructions=225  IPC=0.20  mismatches=0
+UVM_INFO sm_tb.sv(170) @ 174176000: uvm_test_top.env.run [KERNEL] divergence    wg=5 warps/wg=2 threads=80  cycles=1477  instructions=450  IPC=0.30  mismatches=0
+UVM_INFO sm_tb.sv(170) @ 201156000: uvm_test_top.env.run [KERNEL] divergence    wg=5 warps/wg=4 threads=160  cycles=2698  instructions=900  IPC=0.33  mismatches=0
+UVM_INFO sm_tb.sv(170) @ 208396000: uvm_test_top.env.run [KERNEL] sfu           wg=5 warps/wg=1 threads=40  cycles=724  instructions=95  IPC=0.13  mismatches=0
+UVM_INFO sm_tb.sv(170) @ 218756000: uvm_test_top.env.run [KERNEL] sfu           wg=5 warps/wg=2 threads=80  cycles=1036  instructions=190  IPC=0.18  mismatches=0
+UVM_INFO sm_tb.sv(170) @ 241606000: uvm_test_top.env.run [KERNEL] sfu           wg=5 warps/wg=4 threads=160  cycles=2285  instructions=380  IPC=0.17  mismatches=0
+UVM_INFO sm_tb.sv(170) @ 249816000: uvm_test_top.env.run [KERNEL] exit_barrier  wg=5 warps/wg=1 threads=40  cycles=821  instructions=160  IPC=0.19  mismatches=0
+UVM_INFO sm_tb.sv(170) @ 261016000: uvm_test_top.env.run [KERNEL] exit_barrier  wg=5 warps/wg=2 threads=80  cycles=1120  instructions=240  IPC=0.21  mismatches=0
+UVM_INFO sm_tb.sv(170) @ 281486000: uvm_test_top.env.run [KERNEL] exit_barrier  wg=5 warps/wg=4 threads=160  cycles=2047  instructions=480  IPC=0.23  mismatches=0
+UVM_INFO sm_tb.sv(170) @ 288016000: uvm_test_top.env.run [KERNEL] smem_conflict wg=5 warps/wg=1 threads=40  cycles=653  instructions=140  IPC=0.21  mismatches=0
+UVM_INFO sm_tb.sv(170) @ 299186000: uvm_test_top.env.run [KERNEL] smem_conflict wg=5 warps/wg=2 threads=80  cycles=1117  instructions=280  IPC=0.25  mismatches=0
+UVM_INFO sm_tb.sv(170) @ 319586000: uvm_test_top.env.run [KERNEL] smem_conflict wg=5 warps/wg=4 threads=160  cycles=2040  instructions=560  IPC=0.27  mismatches=0
+UVM_INFO sm_tb.sv(173) @ 319685000: uvm_test_top.env.run [KERNEL] kernels=21 errors=0 L1 read hits=533 max SIMT stack depth=5
+UVM_INFO sm_tb.sv(174) @ 319685000: uvm_test_top.env.run [COV] functional coverage = 89.5%
+    kernel_vector_add            3
+    kernel_saxpy                 3
+    kernel_reduction             3
+    kernel_divergence            3
+    kernel_sfu                   3
+    kernel_exit_barrier          3
+    kernel_smem_conflict         3
+    kernel_random                0
+    simt_depth_3                 1148
+    simt_depth_5                 130
+    barrier_release              105
+    smem_bank_conflict           70
+    lsu_coalesced_1_line         1120
+    lsu_scattered_lines          0
+    l1_hit                       533
+    both_subcores_busy           24366
+    wg_1_warp                    7
+    wg_4_warps                   7
+    more_workgroups_than_subcores 21
+UVM_INFO /Users/sankalpahota/Documents/GIT/mGPU/uvm/base/uvm_report_server.svh(1009) @ 319685000: reporter [UVM/REPORT/SERVER] 
+--- UVM Report Summary ---
+
+** Report counts by severity
+UVM_INFO :   27
+UVM_WARNING :    2
+UVM_ERROR :    0
+UVM_FATAL :    0
+** Report counts by id
+[COV]     1
+[KERNEL]    22
+[NO_DPI_TSTNAME]     1
+[NO_DPI_USED]     1
+[NO_VISIT_CHECK]     1
+[RNTST]     1
+[UVM/COMP/NAMECHECK]     1
+[UVM/RELNOTES]     1
+
+- /Users/sankalpahota/Documents/GIT/mGPU/uvm/base/uvm_test_runner.svh:297: Verilog $finish
+- S i m u l a t i o n   R e p o r t: Verilator 5.052 2026-09-05
+- Verilator: $finish at 320us; walltime 0.161 s; speed 1.982 ms/s
+- Verilator: cpu 0.161 s on 1 threads; allocated 13 MB

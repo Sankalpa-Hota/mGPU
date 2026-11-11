@@ -1,0 +1,15 @@
+merged functional coverage = 100.0% (14/14 bins)
+  tlb_hit                        13706
+  walk                           13594
+  fault_level1                   1098
+  fault_level2                   3327
+  fault_write_readonly_walk      1123
+  fault_write_readonly_tlb_hit   1832
+  read_readonly_ok               4402
+  tlb_replacement                6441
+  invalidate_then_walk           357
+  remapped_page_used             356
+  bypass                         1500
+  fault_reported                 4033
+  fault_cleared                  4028
+  memory_backpressure            40779

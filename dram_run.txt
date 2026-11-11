@@ -1,0 +1,10 @@
+merged functional coverage = 100.0% (15/15 bins)
+12
+building 20_dram_ctrl +define+BUG_WSTRB_IGNORE
+BUG CAUGHT  logs/bug_BUG_WSTRB_IGNORE.log (errors=148)
+building 20_dram_ctrl +define+BUG_RLAST_EARLY
+BUG CAUGHT  logs/bug_BUG_RLAST_EARLY.log (errors=2972)
+building 20_dram_ctrl +define+BUG_NO_DECERR
+BUG CAUGHT  logs/bug_BUG_NO_DECERR.log (errors=1407)
+building 20_dram_ctrl +define+BUG_RDATA_LIVE
+BUG CAUGHT  logs/bug_BUG_RDATA_LIVE.log (errors=3)

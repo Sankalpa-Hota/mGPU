@@ -1,0 +1,8 @@
+merged functional coverage = 100.0% (14/14 bins)
+15
+building 18_mmu +define+BUG_TLB_NO_INVAL
+BUG CAUGHT  logs/bug_BUG_TLB_NO_INVAL.log (errors=6040)
+building 18_mmu +define+BUG_PERM
+BUG CAUGHT  logs/bug_BUG_PERM.log (errors=556)
+building 18_mmu +define+BUG_PTE_INDEX
+BUG CAUGHT  logs/bug_BUG_PTE_INDEX.log (errors=9975)

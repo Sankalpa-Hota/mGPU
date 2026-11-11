@@ -1,0 +1,179 @@
+%Warning: System has stack size 65520 kb which may be too small; failed to request more using 'ulimit -s 131446869'
+UVM_INFO /Users/sankalpahota/Documents/GIT/mGPU/uvm/base/uvm_root.svh(457) @ 0: reporter [UVM/RELNOTES] 
+  ***********       IMPORTANT RELEASE NOTES         ************
+
+  This implementation of the UVM Library deviates from the 1800.2-2020
+  standard.  See the DEVIATIONS.md file contained in the release
+  for more details.
+
+----------------------------------------------------------------
+Accellera:1800.2:UVM:2020.3.2
+
+All copyright owners for this kit are listed in NOTICE.txt
+All Rights Reserved Worldwide
+----------------------------------------------------------------
+
+      (Specify +UVM_NO_RELNOTES to turn off this notice)
+
+UVM_WARNING /Users/sankalpahota/Documents/GIT/mGPU/uvm/base/uvm_test_runner.svh(207) @ 0: reporter [NO_DPI_USED] We are thinking of removing support for UVM_NO_DPI.  Please try this test without it and evaluate the impact
+UVM_INFO /Users/sankalpahota/Documents/GIT/mGPU/uvm/base/uvm_test_runner.svh(210) @ 0: reporter [NO_DPI_TSTNAME] UVM_NO_DPI defined--getting UVM_TESTNAME directly, without DPI
+UVM_INFO @ 0: reporter [RNTST] Running test sm_slow_memory_test...
+UVM_INFO /Users/sankalpahota/Documents/GIT/mGPU/uvm/base/uvm_traversal.svh(345) @ 0: reporter [UVM/COMP/NAMECHECK] This implementation of the component name checks requires DPI to be enabled
+UVM_WARNING /Users/sankalpahota/Documents/GIT/mGPU/uvm/base/uvm_traversal.svh(314) @ 0: reporter [NO_VISIT_CHECK] Because UVM_REGEX_NO_DPI is defined, no uvm component name constraints will be checked
+UVM_ERROR sm_tb.sv(126) @ 7146000: uvm_test_top.env.run [KERNEL] vector_add: memory[00040080] = 00000000, ISS expects 00017847
+UVM_ERROR sm_tb.sv(126) @ 7146000: uvm_test_top.env.run [KERNEL] vector_add: memory[00040084] = 00000000, ISS expects 000225c1
+UVM_ERROR sm_tb.sv(126) @ 7146000: uvm_test_top.env.run [KERNEL] vector_add: memory[00040088] = 00000000, ISS expects 0002263d
+UVM_ERROR sm_tb.sv(126) @ 7146000: uvm_test_top.env.run [KERNEL] vector_add: memory[0004008c] = 00000000, ISS expects 0000c67d
+UVM_ERROR sm_tb.sv(126) @ 7146000: uvm_test_top.env.run [KERNEL] vector_add: memory[00040090] = 00000000, ISS expects 0001a604
+UVM_INFO sm_tb.sv(170) @ 7146000: uvm_test_top.env.run [KERNEL] vector_add    wg=5 warps/wg=1 threads=40  cycles=707  instructions=85  IPC=0.12  mismatches=8
+UVM_ERROR sm_tb.sv(126) @ 20766000: uvm_test_top.env.run [KERNEL] vector_add: memory[00040100] = 00000000, ISS expects 000127ad
+UVM_ERROR sm_tb.sv(126) @ 20766000: uvm_test_top.env.run [KERNEL] vector_add: memory[00040104] = 00000000, ISS expects 00018cf1
+UVM_ERROR sm_tb.sv(126) @ 20766000: uvm_test_top.env.run [KERNEL] vector_add: memory[00040108] = 00000000, ISS expects 000159c1
+UVM_ERROR sm_tb.sv(126) @ 20766000: uvm_test_top.env.run [KERNEL] vector_add: memory[0004010c] = 00000000, ISS expects 00017235
+UVM_ERROR sm_tb.sv(126) @ 20766000: uvm_test_top.env.run [KERNEL] vector_add: memory[00040110] = 00000000, ISS expects 00010484
+UVM_INFO sm_tb.sv(170) @ 20766000: uvm_test_top.env.run [KERNEL] vector_add    wg=5 warps/wg=2 threads=80  cycles=1362  instructions=170  IPC=0.12  mismatches=8
+UVM_ERROR sm_tb.sv(126) @ 44806000: uvm_test_top.env.run [KERNEL] vector_add: memory[00040200] = 00000000, ISS expects 0001bfdf
+UVM_ERROR sm_tb.sv(126) @ 44806000: uvm_test_top.env.run [KERNEL] vector_add: memory[00040204] = 00000000, ISS expects 0001cfff
+UVM_ERROR sm_tb.sv(126) @ 44806000: uvm_test_top.env.run [KERNEL] vector_add: memory[00040208] = 00000000, ISS expects 000138de
+UVM_ERROR sm_tb.sv(126) @ 44806000: uvm_test_top.env.run [KERNEL] vector_add: memory[0004020c] = 00000000, ISS expects 0001cbf6
+UVM_ERROR sm_tb.sv(126) @ 44806000: uvm_test_top.env.run [KERNEL] vector_add: memory[00040210] = 00000000, ISS expects 0001a815
+UVM_INFO sm_tb.sv(170) @ 44806000: uvm_test_top.env.run [KERNEL] vector_add    wg=5 warps/wg=4 threads=160  cycles=2404  instructions=340  IPC=0.14  mismatches=8
+UVM_ERROR sm_tb.sv(126) @ 53436000: uvm_test_top.env.run [KERNEL] saxpy: memory[00040080] = 0000c9b2, ISS expects 0004a74d
+UVM_ERROR sm_tb.sv(126) @ 53436000: uvm_test_top.env.run [KERNEL] saxpy: memory[00040084] = 00017fae, ISS expects 000233d0
+UVM_ERROR sm_tb.sv(126) @ 53436000: uvm_test_top.env.run [KERNEL] saxpy: memory[00040088] = 0001fdfe, ISS expects 0002d54f
+UVM_ERROR sm_tb.sv(126) @ 53436000: uvm_test_top.env.run [KERNEL] saxpy: memory[0004008c] = 0002625b, ISS expects 00036c3f
+UVM_ERROR sm_tb.sv(126) @ 53436000: uvm_test_top.env.run [KERNEL] saxpy: memory[00040090] = 00019715, ISS expects 00047703
+UVM_INFO sm_tb.sv(170) @ 53436000: uvm_test_top.env.run [KERNEL] saxpy         wg=5 warps/wg=1 threads=40  cycles=863  instructions=95  IPC=0.11  mismatches=8
+UVM_ERROR sm_tb.sv(126) @ 66926000: uvm_test_top.env.run [KERNEL] saxpy: memory[00040100] = 000150c6, ISS expects 000500d6
+UVM_ERROR sm_tb.sv(126) @ 66926000: uvm_test_top.env.run [KERNEL] saxpy: memory[00040104] = 0001bfb6, ISS expects 00042434
+UVM_ERROR sm_tb.sv(126) @ 66926000: uvm_test_top.env.run [KERNEL] saxpy: memory[00040108] = 0002102f, ISS expects 00046138
+UVM_ERROR sm_tb.sv(126) @ 66926000: uvm_test_top.env.run [KERNEL] saxpy: memory[0004010c] = 0000ccaf, ISS expects 00028539
+UVM_ERROR sm_tb.sv(126) @ 66926000: uvm_test_top.env.run [KERNEL] saxpy: memory[00040110] = 000107f5, ISS expects 0001354d
+UVM_INFO sm_tb.sv(170) @ 66926000: uvm_test_top.env.run [KERNEL] saxpy         wg=5 warps/wg=2 threads=80  cycles=1349  instructions=190  IPC=0.14  mismatches=8
+UVM_ERROR sm_tb.sv(126) @ 92596000: uvm_test_top.env.run [KERNEL] saxpy: memory[00040200] = 0001bfdf, ISS expects 000457ed
+UVM_ERROR sm_tb.sv(126) @ 92596000: uvm_test_top.env.run [KERNEL] saxpy: memory[00040204] = 0001cfff, ISS expects 00042e52
+UVM_ERROR sm_tb.sv(126) @ 92596000: uvm_test_top.env.run [KERNEL] saxpy: memory[00040208] = 000138de, ISS expects 0004d271
+UVM_ERROR sm_tb.sv(126) @ 92596000: uvm_test_top.env.run [KERNEL] saxpy: memory[0004020c] = 0001cbf6, ISS expects 00054c9c
+UVM_ERROR sm_tb.sv(126) @ 92596000: uvm_test_top.env.run [KERNEL] saxpy: memory[00040210] = 0001a815, ISS expects 000178f4
+UVM_INFO sm_tb.sv(170) @ 92596000: uvm_test_top.env.run [KERNEL] saxpy         wg=5 warps/wg=4 threads=160  cycles=2567  instructions=380  IPC=0.15  mismatches=8
+UVM_ERROR sm_tb.sv(126) @ 104226000: uvm_test_top.env.run [KERNEL] reduction: memory[00040010] = 0004c558, ISS expects 0003838c
+UVM_INFO sm_tb.sv(170) @ 104226000: uvm_test_top.env.run [KERNEL] reduction     wg=5 warps/wg=1 threads=40  cycles=1163  instructions=290  IPC=0.25  mismatches=1
+UVM_ERROR sm_tb.sv(126) @ 120406000: uvm_test_top.env.run [KERNEL] reduction: memory[00040010] = 0003838c, ISS expects 000ae7f6
+UVM_INFO sm_tb.sv(170) @ 120406000: uvm_test_top.env.run [KERNEL] reduction     wg=5 warps/wg=2 threads=80  cycles=1618  instructions=545  IPC=0.34  mismatches=1
+UVM_ERROR sm_tb.sv(126) @ 146846000: uvm_test_top.env.run [KERNEL] reduction: memory[00040010] = 000ae7f6, ISS expects 00187090
+UVM_INFO sm_tb.sv(170) @ 146846000: uvm_test_top.env.run [KERNEL] reduction     wg=5 warps/wg=4 threads=160  cycles=2644  instructions=1105  IPC=0.42  mismatches=1
+UVM_ERROR sm_tb.sv(126) @ 157446000: uvm_test_top.env.run [KERNEL] divergence: memory[00040080] = 0001c4f5, ISS expects 0000775a
+UVM_ERROR sm_tb.sv(126) @ 157446000: uvm_test_top.env.run [KERNEL] divergence: memory[00040084] = 00033bd7, ISS expects 0000ffd8
+UVM_ERROR sm_tb.sv(126) @ 157446000: uvm_test_top.env.run [KERNEL] divergence: memory[00040088] = 0002db6f, ISS expects 00014823
+UVM_ERROR sm_tb.sv(126) @ 157446000: uvm_test_top.env.run [KERNEL] divergence: memory[0004008c] = 0004340d, ISS expects 00003eef
+UVM_ERROR sm_tb.sv(126) @ 157446000: uvm_test_top.env.run [KERNEL] divergence: memory[00040090] = 00009854, ISS expects 00015432
+UVM_INFO sm_tb.sv(170) @ 157446000: uvm_test_top.env.run [KERNEL] divergence    wg=5 warps/wg=1 threads=40  cycles=1060  instructions=225  IPC=0.21  mismatches=8
+UVM_ERROR sm_tb.sv(126) @ 171186000: uvm_test_top.env.run [KERNEL] divergence: memory[00040100] = 000511f8, ISS expects 0000a9be
+UVM_ERROR sm_tb.sv(126) @ 171186000: uvm_test_top.env.run [KERNEL] divergence: memory[00040104] = 000383f3, ISS expects 0002fefe
+UVM_ERROR sm_tb.sv(126) @ 171186000: uvm_test_top.env.run [KERNEL] divergence: memory[00040108] = 0002d820, ISS expects 000043c4
+UVM_ERROR sm_tb.sv(126) @ 171186000: uvm_test_top.env.run [KERNEL] divergence: memory[0004010c] = 0001f717, ISS expects 00018c30
+UVM_ERROR sm_tb.sv(126) @ 171186000: uvm_test_top.env.run [KERNEL] divergence: memory[00040110] = 00029715, ISS expects 0000f530
+UVM_INFO sm_tb.sv(170) @ 171186000: uvm_test_top.env.run [KERNEL] divergence    wg=5 warps/wg=2 threads=80  cycles=1374  instructions=450  IPC=0.33  mismatches=8
+UVM_ERROR sm_tb.sv(126) @ 196656000: uvm_test_top.env.run [KERNEL] divergence: memory[00040200] = 000457ed, ISS expects 00014861
+UVM_ERROR sm_tb.sv(126) @ 196656000: uvm_test_top.env.run [KERNEL] divergence: memory[00040204] = 00042e52, ISS expects 0000da94
+UVM_ERROR sm_tb.sv(126) @ 196656000: uvm_test_top.env.run [KERNEL] divergence: memory[00040208] = 0004d271, ISS expects 00000584
+UVM_ERROR sm_tb.sv(126) @ 196656000: uvm_test_top.env.run [KERNEL] divergence: memory[0004020c] = 00054c9c, ISS expects 00009c02
+UVM_ERROR sm_tb.sv(126) @ 196656000: uvm_test_top.env.run [KERNEL] divergence: memory[00040210] = 000178f4, ISS expects 000157e6
+UVM_INFO sm_tb.sv(170) @ 196656000: uvm_test_top.env.run [KERNEL] divergence    wg=5 warps/wg=4 threads=160  cycles=2547  instructions=900  IPC=0.35  mismatches=8
+UVM_ERROR sm_tb.sv(126) @ 203736000: uvm_test_top.env.run [KERNEL] sfu: memory[00040080] = 00001f30, ISS expects 0141ad3f
+UVM_ERROR sm_tb.sv(126) @ 203736000: uvm_test_top.env.run [KERNEL] sfu: memory[00040084] = 0001ddce, ISS expects 030652d5
+UVM_ERROR sm_tb.sv(126) @ 203736000: uvm_test_top.env.run [KERNEL] sfu: memory[00040088] = 0000fea1, ISS expects 006a3196
+UVM_ERROR sm_tb.sv(126) @ 203736000: uvm_test_top.env.run [KERNEL] sfu: memory[0004008c] = 0000db3f, ISS expects 0412b99e
+UVM_ERROR sm_tb.sv(126) @ 203736000: uvm_test_top.env.run [KERNEL] sfu: memory[00040090] = 00011618, ISS expects 0167bd20
+UVM_INFO sm_tb.sv(170) @ 203736000: uvm_test_top.env.run [KERNEL] sfu           wg=5 warps/wg=1 threads=40  cycles=708  instructions=95  IPC=0.13  mismatches=8
+UVM_ERROR sm_tb.sv(126) @ 214206000: uvm_test_top.env.run [KERNEL] sfu: memory[00040100] = 0001199a, ISS expects 01468e6f
+UVM_ERROR sm_tb.sv(126) @ 214206000: uvm_test_top.env.run [KERNEL] sfu: memory[00040104] = 000005d6, ISS expects 03a43670
+UVM_ERROR sm_tb.sv(126) @ 214206000: uvm_test_top.env.run [KERNEL] sfu: memory[00040108] = 00000c56, ISS expects 0059aeb8
+UVM_ERROR sm_tb.sv(126) @ 214206000: uvm_test_top.env.run [KERNEL] sfu: memory[0004010c] = 00026418, ISS expects 028d278c
+UVM_ERROR sm_tb.sv(126) @ 214206000: uvm_test_top.env.run [KERNEL] sfu: memory[00040110] = 0000f448, ISS expects 037080f2
+UVM_INFO sm_tb.sv(170) @ 214206000: uvm_test_top.env.run [KERNEL] sfu           wg=5 warps/wg=2 threads=80  cycles=1047  instructions=190  IPC=0.18  mismatches=8
+UVM_ERROR sm_tb.sv(126) @ 237496000: uvm_test_top.env.run [KERNEL] sfu: memory[00040200] = 00014861, ISS expects 015fbb62
+UVM_ERROR sm_tb.sv(126) @ 237496000: uvm_test_top.env.run [KERNEL] sfu: memory[00040204] = 0000da94, ISS expects 008979d6
+UVM_ERROR sm_tb.sv(126) @ 237496000: uvm_test_top.env.run [KERNEL] sfu: memory[00040208] = 00000584, ISS expects 00488850
+UVM_ERROR sm_tb.sv(126) @ 237496000: uvm_test_top.env.run [KERNEL] sfu: memory[0004020c] = 00009c02, ISS expects 0062b6d9
+UVM_ERROR sm_tb.sv(126) @ 237496000: uvm_test_top.env.run [KERNEL] sfu: memory[00040210] = 000157e6, ISS expects 01e793cd
+UVM_INFO sm_tb.sv(170) @ 237496000: uvm_test_top.env.run [KERNEL] sfu           wg=5 warps/wg=4 threads=160  cycles=2329  instructions=380  IPC=0.16  mismatches=8
+UVM_ERROR sm_tb.sv(126) @ 245726000: uvm_test_top.env.run [KERNEL] exit_barrier: memory[00040080] = 01816aac, ISS expects 00007ce2
+UVM_ERROR sm_tb.sv(126) @ 245726000: uvm_test_top.env.run [KERNEL] exit_barrier: memory[00040084] = 066773c1, ISS expects 0001810e
+UVM_ERROR sm_tb.sv(126) @ 245726000: uvm_test_top.env.run [KERNEL] exit_barrier: memory[00040088] = 01296dab, ISS expects 00016a71
+UVM_ERROR sm_tb.sv(126) @ 245726000: uvm_test_top.env.run [KERNEL] exit_barrier: memory[0004008c] = 018693f7, ISS expects 00014888
+UVM_ERROR sm_tb.sv(126) @ 245726000: uvm_test_top.env.run [KERNEL] exit_barrier: memory[00040090] = 01013f3b, ISS expects 0000f8b0
+UVM_INFO sm_tb.sv(170) @ 245726000: uvm_test_top.env.run [KERNEL] exit_barrier  wg=5 warps/wg=1 threads=40  cycles=823  instructions=160  IPC=0.19  mismatches=6
+UVM_ERROR sm_tb.sv(126) @ 256816000: uvm_test_top.env.run [KERNEL] exit_barrier: memory[00040100] = 02d7a639, ISS expects 00010334
+UVM_ERROR sm_tb.sv(126) @ 256816000: uvm_test_top.env.run [KERNEL] exit_barrier: memory[00040104] = 03423883, ISS expects 00004982
+UVM_ERROR sm_tb.sv(126) @ 256816000: uvm_test_top.env.run [KERNEL] exit_barrier: memory[00040108] = 02786520, ISS expects 00008b9c
+UVM_ERROR sm_tb.sv(126) @ 256816000: uvm_test_top.env.run [KERNEL] exit_barrier: memory[0004010c] = 036c398f, ISS expects 00000367
+UVM_ERROR sm_tb.sv(126) @ 256816000: uvm_test_top.env.run [KERNEL] exit_barrier: memory[00040110] = 0225fbdc, ISS expects 000027b5
+UVM_INFO sm_tb.sv(170) @ 256816000: uvm_test_top.env.run [KERNEL] exit_barrier  wg=5 warps/wg=2 threads=80  cycles=1109  instructions=240  IPC=0.22  mismatches=6
+UVM_ERROR sm_tb.sv(126) @ 276956000: uvm_test_top.env.run [KERNEL] exit_barrier: memory[00040200] = 015fbb62, ISS expects 00014569
+UVM_ERROR sm_tb.sv(126) @ 276956000: uvm_test_top.env.run [KERNEL] exit_barrier: memory[00040204] = 008979d6, ISS expects 000119d6
+UVM_ERROR sm_tb.sv(126) @ 276956000: uvm_test_top.env.run [KERNEL] exit_barrier: memory[00040208] = 00488850, ISS expects 00012253
+UVM_ERROR sm_tb.sv(126) @ 276956000: uvm_test_top.env.run [KERNEL] exit_barrier: memory[0004020c] = 0062b6d9, ISS expects 00002ca8
+UVM_ERROR sm_tb.sv(126) @ 276956000: uvm_test_top.env.run [KERNEL] exit_barrier: memory[00040210] = 01e793cd, ISS expects 00009c07
+UVM_INFO sm_tb.sv(170) @ 276956000: uvm_test_top.env.run [KERNEL] exit_barrier  wg=5 warps/wg=4 threads=160  cycles=2014  instructions=480  IPC=0.24  mismatches=6
+UVM_ERROR sm_tb.sv(126) @ 283116000: uvm_test_top.env.run [KERNEL] smem_conflict: memory[00040080] = 00002df2, ISS expects 00007311
+UVM_ERROR sm_tb.sv(126) @ 283116000: uvm_test_top.env.run [KERNEL] smem_conflict: memory[00040084] = 00007787, ISS expects 0000722f
+UVM_ERROR sm_tb.sv(126) @ 283116000: uvm_test_top.env.run [KERNEL] smem_conflict: memory[00040088] = 00012a1c, ISS expects 000130d4
+UVM_ERROR sm_tb.sv(126) @ 283116000: uvm_test_top.env.run [KERNEL] smem_conflict: memory[0004008c] = 0000c9b8, ISS expects 0000c01c
+UVM_ERROR sm_tb.sv(126) @ 283116000: uvm_test_top.env.run [KERNEL] smem_conflict: memory[00040090] = 00007a67, ISS expects 000098f3
+UVM_INFO sm_tb.sv(170) @ 283116000: uvm_test_top.env.run [KERNEL] smem_conflict wg=5 warps/wg=1 threads=40  cycles=616  instructions=140  IPC=0.23  mismatches=8
+UVM_ERROR sm_tb.sv(126) @ 293756000: uvm_test_top.env.run [KERNEL] smem_conflict: memory[00040100] = 000063d6, ISS expects 00003986
+UVM_ERROR sm_tb.sv(126) @ 293756000: uvm_test_top.env.run [KERNEL] smem_conflict: memory[00040104] = 000041ff, ISS expects 0000d22a
+UVM_ERROR sm_tb.sv(126) @ 293756000: uvm_test_top.env.run [KERNEL] smem_conflict: memory[00040108] = 00011e42, ISS expects 00012d14
+UVM_ERROR sm_tb.sv(126) @ 293756000: uvm_test_top.env.run [KERNEL] smem_conflict: memory[0004010c] = 00012b24, ISS expects 0001230f
+UVM_ERROR sm_tb.sv(126) @ 293756000: uvm_test_top.env.run [KERNEL] smem_conflict: memory[00040110] = 000145cd, ISS expects 0000bba4
+UVM_INFO sm_tb.sv(170) @ 293756000: uvm_test_top.env.run [KERNEL] smem_conflict wg=5 warps/wg=2 threads=80  cycles=1064  instructions=280  IPC=0.26  mismatches=8
+UVM_ERROR sm_tb.sv(126) @ 315256000: uvm_test_top.env.run [KERNEL] smem_conflict: memory[00040200] = 00014569, ISS expects 000152b8
+UVM_ERROR sm_tb.sv(126) @ 315256000: uvm_test_top.env.run [KERNEL] smem_conflict: memory[00040204] = 000119d6, ISS expects 0000ba7d
+UVM_ERROR sm_tb.sv(126) @ 315256000: uvm_test_top.env.run [KERNEL] smem_conflict: memory[00040208] = 00012253, ISS expects 00016f81
+UVM_ERROR sm_tb.sv(126) @ 315256000: uvm_test_top.env.run [KERNEL] smem_conflict: memory[0004020c] = 00002ca8, ISS expects 000178d5
+UVM_ERROR sm_tb.sv(126) @ 315256000: uvm_test_top.env.run [KERNEL] smem_conflict: memory[00040210] = 00009c07, ISS expects 00005611
+UVM_INFO sm_tb.sv(170) @ 315256000: uvm_test_top.env.run [KERNEL] smem_conflict wg=5 warps/wg=4 threads=160  cycles=2150  instructions=560  IPC=0.26  mismatches=8
+UVM_INFO sm_tb.sv(173) @ 315355000: uvm_test_top.env.run [KERNEL] kernels=21 errors=93 L1 read hits=533 max SIMT stack depth=5
+UVM_INFO sm_tb.sv(174) @ 315355000: uvm_test_top.env.run [COV] functional coverage = 89.5%
+    kernel_vector_add            3
+    kernel_saxpy                 3
+    kernel_reduction             3
+    kernel_divergence            3
+    kernel_sfu                   3
+    kernel_exit_barrier          3
+    kernel_smem_conflict         3
+    kernel_random                0
+    simt_depth_3                 890
+    simt_depth_5                 142
+    barrier_release              105
+    smem_bank_conflict           70
+    lsu_coalesced_1_line         1119
+    lsu_scattered_lines          0
+    l1_hit                       533
+    both_subcores_busy           23576
+    wg_1_warp                    7
+    wg_4_warps                   7
+    more_workgroups_than_subcores 21
+UVM_INFO /Users/sankalpahota/Documents/GIT/mGPU/uvm/base/uvm_report_server.svh(1009) @ 315355000: reporter [UVM/REPORT/SERVER] 
+--- UVM Report Summary ---
+
+** Report counts by severity
+UVM_INFO :   27
+UVM_WARNING :    2
+UVM_ERROR :   93
+UVM_FATAL :    0
+** Report counts by id
+[COV]     1
+[KERNEL]   115
+[NO_DPI_TSTNAME]     1
+[NO_DPI_USED]     1
+[NO_VISIT_CHECK]     1
+[RNTST]     1
+[UVM/COMP/NAMECHECK]     1
+[UVM/RELNOTES]     1
+
+- /Users/sankalpahota/Documents/GIT/mGPU/uvm/base/uvm_test_runner.svh:297: Verilog $finish
+- S i m u l a t i o n   R e p o r t: Verilator 5.052 2026-09-05
+- Verilator: $finish at 315us; walltime 0.459 s; speed 687.151 us/s
+- Verilator: cpu 0.328 s on 1 threads; allocated 13 MB

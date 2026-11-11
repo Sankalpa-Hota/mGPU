@@ -1,0 +1,16 @@
+merged functional coverage = 100.0% (15/15 bins)
+  op_LD                          4070
+  op_ST                          3378
+  op_LDS                         2418
+  op_STS                         2434
+  lines_1                        1971
+  lines_2                        2035
+  lines_3_7                      2055
+  lines_8                        1173
+  lines_0_empty_mask             214
+  all_lanes_same_word            789
+  store_same_word_two_lanes      2185
+  negative_offset                3144
+  l1_backpressure                26369
+  wb_backpressure                5069
+  partial_mask                   5839

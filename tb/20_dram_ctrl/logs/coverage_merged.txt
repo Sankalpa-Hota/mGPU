@@ -1,0 +1,16 @@
+merged functional coverage = 100.0% (15/15 bins)
+  read                           12990
+  write                          12990
+  len_1                          6524
+  len_2_15                       16210
+  len_16                         3246
+  slverr_burst_type              916
+  slverr_size                    889
+  decerr                         1521
+  partial_strobe                 30952
+  read_and_write_pending         11751
+  both_start_same_cycle          392
+  rready_backpressure            47162
+  bready_backpressure            6381
+  row_hit                        8861
+  row_miss                       13793

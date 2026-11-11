@@ -1,0 +1,81 @@
+%Warning: System has stack size 65520 kb which may be too small; failed to request more using 'ulimit -s 191690838'
+UVM_INFO /Users/sankalpahota/Documents/GIT/mGPU/third_party/uvm/base/uvm_root.svh(457) @ 0: reporter [UVM/RELNOTES] 
+  ***********       IMPORTANT RELEASE NOTES         ************
+
+  This implementation of the UVM Library deviates from the 1800.2-2020
+  standard.  See the DEVIATIONS.md file contained in the release
+  for more details.
+
+----------------------------------------------------------------
+Accellera:1800.2:UVM:2020.3.2
+
+All copyright owners for this kit are listed in NOTICE.txt
+All Rights Reserved Worldwide
+----------------------------------------------------------------
+
+      (Specify +UVM_NO_RELNOTES to turn off this notice)
+
+UVM_WARNING /Users/sankalpahota/Documents/GIT/mGPU/third_party/uvm/base/uvm_test_runner.svh(207) @ 0: reporter [NO_DPI_USED] We are thinking of removing support for UVM_NO_DPI.  Please try this test without it and evaluate the impact
+UVM_INFO /Users/sankalpahota/Documents/GIT/mGPU/third_party/uvm/base/uvm_test_runner.svh(210) @ 0: reporter [NO_DPI_TSTNAME] UVM_NO_DPI defined--getting UVM_TESTNAME directly, without DPI
+UVM_INFO @ 0: reporter [RNTST] Running test rbbm_static_reg_test...
+UVM_INFO /Users/sankalpahota/Documents/GIT/mGPU/third_party/uvm/base/uvm_traversal.svh(345) @ 0: reporter [UVM/COMP/NAMECHECK] This implementation of the component name checks requires DPI to be enabled
+UVM_WARNING /Users/sankalpahota/Documents/GIT/mGPU/third_party/uvm/base/uvm_traversal.svh(314) @ 0: reporter [NO_VISIT_CHECK] Because UVM_REGEX_NO_DPI is defined, no uvm component name constraints will be checked
+UVM_INFO rbbm_reference_model.sv(146) @ 5805000: uvm_test_top.env.model [MODEL] APB reads checked=180 writes=102 errors=0
+UVM_INFO rbbm_reference_model.sv(147) @ 5805000: uvm_test_top.env.model [COV] functional coverage = 62.9%
+    rd_ID                        20
+    rd_RING_BASE                 20
+    rd_RING_WPTR                 20
+    rd_RING_RPTR                 0
+    rd_IRQ_STATUS                0
+    rd_IRQ_MASK                  20
+    rd_BUSY_STATUS               0
+    rd_HANG_TIMEOUT              20
+    rd_PERF_SEL                  80
+    rd_PERF_CNT                  0
+    wr_RING_BASE                 20
+    wr_RING_WPTR                 20
+    wr_IRQ_STATUS                0
+    wr_IRQ_MASK                  20
+    wr_HANG_TIMEOUT              20
+    wr_SOFT_RESET                2
+    wr_PERF_SEL                  20
+    wr_PERF_CNT                  0
+    slverr_unmapped              0
+    slverr_write_ro              0
+    irq_src_fence                24
+    irq_src_bad_pkt              1
+    irq_src_bad_op               3
+    irq_src_hang                 0
+    irq_masked_pending           472
+    irq_line_high                409
+    w1c_clear                    0
+    w1c_same_cycle_as_event      0
+    hang_fired                   0
+    hang_count_reset_by_progress 59
+    perf_counted_0               284
+    perf_counted_1               280
+    perf_counted_2               294
+    perf_counted_3               306
+    perf_write_same_cycle_as_event 0
+UVM_INFO /Users/sankalpahota/Documents/GIT/mGPU/third_party/uvm/base/uvm_report_server.svh(1009) @ 5805000: reporter [UVM/REPORT/SERVER] 
+--- UVM Report Summary ---
+
+** Report counts by severity
+UVM_INFO :    6
+UVM_WARNING :    2
+UVM_ERROR :    0
+UVM_FATAL :    0
+** Report counts by id
+[COV]     1
+[MODEL]     1
+[NO_DPI_TSTNAME]     1
+[NO_DPI_USED]     1
+[NO_VISIT_CHECK]     1
+[RNTST]     1
+[UVM/COMP/NAMECHECK]     1
+[UVM/RELNOTES]     1
+
+- /Users/sankalpahota/Documents/GIT/mGPU/third_party/uvm/base/uvm_test_runner.svh:297: Verilog $finish
+- S i m u l a t i o n   R e p o r t: Verilator 5.052 2026-09-05
+- Verilator: $finish at 6us; walltime 0.011 s; speed 524.580 us/s
+- Verilator: cpu 0.011 s on 1 threads; allocated 17 MB

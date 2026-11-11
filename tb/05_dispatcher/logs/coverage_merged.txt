@@ -1,0 +1,21 @@
+merged functional coverage = 100.0% (20/20 bins)
+  wg_count_zero                  72
+  wg_count_one                   77
+  wg_count_fits                  208
+  wg_count_queues                933
+  nwarps_1                       285
+  nwarps_2                       280
+  nwarps_3                       251
+  nwarps_4                       230
+  nwarps_clamped_low             250
+  nwarps_clamped_high            686
+  slot_0                         2737
+  slot_1                         2750
+  slot_2                         2744
+  slot_3                         2761
+  all_slots_full_wait            76941
+  sm_asleep_wait                 3728
+  done_and_launch_same_cycle     2328
+  slot_reused_next_cycle         7263
+  dispatch_while_previous_running 1067
+  cfg_written_while_launching    4755

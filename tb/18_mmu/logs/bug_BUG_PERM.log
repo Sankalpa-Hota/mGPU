@@ -1,0 +1,616 @@
+%Warning: System has stack size 65520 kb which may be too small; failed to request more using 'ulimit -s 132303615'
+UVM_INFO /Users/sankalpahota/Documents/GIT/mGPU/uvm/base/uvm_root.svh(457) @ 0: reporter [UVM/RELNOTES] 
+  ***********       IMPORTANT RELEASE NOTES         ************
+
+  This implementation of the UVM Library deviates from the 1800.2-2020
+  standard.  See the DEVIATIONS.md file contained in the release
+  for more details.
+
+----------------------------------------------------------------
+Accellera:1800.2:UVM:2020.3.2
+
+All copyright owners for this kit are listed in NOTICE.txt
+All Rights Reserved Worldwide
+----------------------------------------------------------------
+
+      (Specify +UVM_NO_RELNOTES to turn off this notice)
+
+UVM_WARNING /Users/sankalpahota/Documents/GIT/mGPU/uvm/base/uvm_test_runner.svh(207) @ 0: reporter [NO_DPI_USED] We are thinking of removing support for UVM_NO_DPI.  Please try this test without it and evaluate the impact
+UVM_INFO /Users/sankalpahota/Documents/GIT/mGPU/uvm/base/uvm_test_runner.svh(210) @ 0: reporter [NO_DPI_TSTNAME] UVM_NO_DPI defined--getting UVM_TESTNAME directly, without DPI
+UVM_INFO @ 0: reporter [RNTST] Running test mmu_rand_test...
+UVM_INFO /Users/sankalpahota/Documents/GIT/mGPU/uvm/base/uvm_traversal.svh(345) @ 0: reporter [UVM/COMP/NAMECHECK] This implementation of the component name checks requires DPI to be enabled
+UVM_WARNING /Users/sankalpahota/Documents/GIT/mGPU/uvm/base/uvm_traversal.svh(314) @ 0: reporter [NO_VISIT_CHECK] Because UVM_REGEX_NO_DPI is defined, no uvm component name constraints will be checked
+UVM_ERROR mmu_tb.sv(150) @ 1780000: uvm_test_top.env.chk [CHK] unexpected memory request 00208d40 we=1
+UVM_ERROR mmu_tb.sv(150) @ 1800000: uvm_test_top.env.chk [CHK] va 0040fd40: err=0, expected 1
+UVM_ERROR mmu_tb.sv(150) @ 1970000: uvm_test_top.env.chk [CHK] unexpected memory request 00202fe0 we=1
+UVM_ERROR mmu_tb.sv(150) @ 2030000: uvm_test_top.env.chk [CHK] va 00403fe0: err=0, expected 1
+UVM_ERROR mmu_tb.sv(150) @ 2180000: uvm_test_top.env.chk [CHK] unexpected memory request 00208dc0 we=1
+UVM_ERROR mmu_tb.sv(150) @ 2240000: uvm_test_top.env.chk [CHK] va 0040fdc0: err=0, expected 1
+UVM_ERROR mmu_tb.sv(150) @ 2390000: uvm_test_top.env.chk [CHK] fault recorded va 00c04e80 w=0, expected 0040fdc0 w=1
+UVM_ERROR mmu_tb.sv(150) @ 8240000: uvm_test_top.env.chk [CHK] unexpected memory request 00202640 we=1
+UVM_ERROR mmu_tb.sv(150) @ 8270000: uvm_test_top.env.chk [CHK] va 00403640: err=0, expected 1
+UVM_ERROR mmu_tb.sv(150) @ 9490000: uvm_test_top.env.chk [CHK] fault recorded va 004092e0 w=0, expected 00403640 w=1
+UVM_ERROR mmu_tb.sv(150) @ 11490000: uvm_test_top.env.chk [CHK] unexpected memory request 002028a0 we=1
+UVM_ERROR mmu_tb.sv(150) @ 11540000: uvm_test_top.env.chk [CHK] va 004038a0: err=0, expected 1
+UVM_ERROR mmu_tb.sv(150) @ 11690000: uvm_test_top.env.chk [CHK] fault recorded va 00805a20 w=1, expected 004038a0 w=1
+UVM_ERROR mmu_tb.sv(150) @ 11960000: uvm_test_top.env.chk [CHK] unexpected memory request 00202220 we=1
+UVM_ERROR mmu_tb.sv(150) @ 12020000: uvm_test_top.env.chk [CHK] va 00403220: err=0, expected 1
+UVM_ERROR mmu_tb.sv(150) @ 13810000: uvm_test_top.env.chk [CHK] unexpected memory request 00202a40 we=1
+UVM_ERROR mmu_tb.sv(150) @ 13850000: uvm_test_top.env.chk [CHK] va 00403a40: err=0, expected 1
+UVM_ERROR mmu_tb.sv(150) @ 14180000: uvm_test_top.env.chk [CHK] fault recorded va 00409bc0 w=0, expected 00403a40 w=1
+UVM_ERROR mmu_tb.sv(150) @ 14340000: uvm_test_top.env.chk [CHK] unexpected memory request 00208840 we=1
+UVM_ERROR mmu_tb.sv(150) @ 14420000: uvm_test_top.env.chk [CHK] va 0040f840: err=0, expected 1
+UVM_ERROR mmu_tb.sv(150) @ 14620000: uvm_test_top.env.chk [CHK] unexpected memory request 00208800 we=1
+UVM_ERROR mmu_tb.sv(150) @ 14690000: uvm_test_top.env.chk [CHK] va 0040f800: err=0, expected 1
+UVM_ERROR mmu_tb.sv(150) @ 18150000: uvm_test_top.env.chk [CHK] unexpected memory request 002088c0 we=1
+UVM_ERROR mmu_tb.sv(150) @ 18230000: uvm_test_top.env.chk [CHK] va 0040f8c0: err=0, expected 1
+UVM_ERROR mmu_tb.sv(150) @ 20360000: uvm_test_top.env.chk [CHK] unexpected memory request 00202b20 we=1
+UVM_ERROR mmu_tb.sv(150) @ 20430000: uvm_test_top.env.chk [CHK] va 00403b20: err=0, expected 1
+UVM_ERROR mmu_tb.sv(150) @ 21230000: uvm_test_top.env.chk [CHK] fault recorded va 00c04820 w=1, expected 00403b20 w=1
+UVM_ERROR mmu_tb.sv(150) @ 21650000: uvm_test_top.env.chk [CHK] unexpected memory request 00202440 we=1
+UVM_ERROR mmu_tb.sv(150) @ 21730000: uvm_test_top.env.chk [CHK] va 00403440: err=0, expected 1
+UVM_ERROR mmu_tb.sv(150) @ 27930000: uvm_test_top.env.chk [CHK] unexpected memory request 002021a0 we=1
+UVM_ERROR mmu_tb.sv(150) @ 28000000: uvm_test_top.env.chk [CHK] va 004031a0: err=0, expected 1
+UVM_ERROR mmu_tb.sv(150) @ 30550000: uvm_test_top.env.chk [CHK] unexpected memory request 00208e00 we=1
+UVM_ERROR mmu_tb.sv(150) @ 30630000: uvm_test_top.env.chk [CHK] va 0040fe00: err=0, expected 1
+UVM_ERROR mmu_tb.sv(150) @ 31220000: uvm_test_top.env.chk [CHK] unexpected memory request 00208380 we=1
+UVM_ERROR mmu_tb.sv(150) @ 31250000: uvm_test_top.env.chk [CHK] va 0040f380: err=0, expected 1
+UVM_ERROR mmu_tb.sv(150) @ 31450000: uvm_test_top.env.chk [CHK] fault recorded va 004091c0 w=1, expected 0040f380 w=1
+UVM_ERROR mmu_tb.sv(150) @ 33660000: uvm_test_top.env.chk [CHK] unexpected memory request 00202e00 we=1
+UVM_ERROR mmu_tb.sv(150) @ 33690000: uvm_test_top.env.chk [CHK] va 00403e00: err=0, expected 1
+UVM_ERROR mmu_tb.sv(150) @ 34610000: uvm_test_top.env.chk [CHK] fault recorded va 00409820 w=1, expected 00403e00 w=1
+UVM_ERROR mmu_tb.sv(150) @ 37870000: uvm_test_top.env.chk [CHK] unexpected memory request 002085e0 we=1
+UVM_ERROR mmu_tb.sv(150) @ 37930000: uvm_test_top.env.chk [CHK] va 0040f5e0: err=0, expected 1
+UVM_ERROR mmu_tb.sv(150) @ 37960000: uvm_test_top.env.chk [CHK] unexpected memory request 002084c0 we=1
+UVM_ERROR mmu_tb.sv(150) @ 37990000: uvm_test_top.env.chk [CHK] va 0040f4c0: err=0, expected 1
+UVM_ERROR mmu_tb.sv(150) @ 38470000: uvm_test_top.env.chk [CHK] fault recorded va 00c13840 w=0, expected 0040f5e0 w=1
+UVM_ERROR mmu_tb.sv(150) @ 39260000: uvm_test_top.env.chk [CHK] unexpected memory request 002040c0 we=1
+UVM_ERROR mmu_tb.sv(150) @ 39340000: uvm_test_top.env.chk [CHK] va 00c070c0: err=0, expected 1
+UVM_ERROR mmu_tb.sv(150) @ 39710000: uvm_test_top.env.chk [CHK] unexpected memory request 00208b80 we=1
+UVM_ERROR mmu_tb.sv(150) @ 39760000: uvm_test_top.env.chk [CHK] va 0040fb80: err=0, expected 1
+UVM_ERROR mmu_tb.sv(150) @ 40760000: uvm_test_top.env.chk [CHK] fault recorded va 00c13740 w=1, expected 00c070c0 w=1
+UVM_ERROR mmu_tb.sv(150) @ 41490000: uvm_test_top.env.chk [CHK] unexpected memory request 00204c40 we=1
+UVM_ERROR mmu_tb.sv(150) @ 41520000: uvm_test_top.env.chk [CHK] va 00c07c40: err=0, expected 1
+UVM_ERROR mmu_tb.sv(150) @ 42690000: uvm_test_top.env.chk [CHK] unexpected memory request 002089a0 we=1
+UVM_ERROR mmu_tb.sv(150) @ 42760000: uvm_test_top.env.chk [CHK] va 0040f9a0: err=0, expected 1
+UVM_ERROR mmu_tb.sv(150) @ 42790000: uvm_test_top.env.chk [CHK] unexpected memory request 00202ce0 we=1
+UVM_ERROR mmu_tb.sv(150) @ 42820000: uvm_test_top.env.chk [CHK] va 00403ce0: err=0, expected 1
+UVM_ERROR mmu_tb.sv(150) @ 43010000: uvm_test_top.env.chk [CHK] fault recorded va 00c047e0 w=1, expected 0040f9a0 w=1
+UVM_ERROR mmu_tb.sv(150) @ 43880000: uvm_test_top.env.chk [CHK] unexpected memory request 00208dc0 we=1
+UVM_ERROR mmu_tb.sv(150) @ 43920000: uvm_test_top.env.chk [CHK] va 0040fdc0: err=0, expected 1
+UVM_ERROR mmu_tb.sv(150) @ 44030000: uvm_test_top.env.chk [CHK] fault recorded va 00409540 w=0, expected 0040fdc0 w=1
+UVM_ERROR mmu_tb.sv(150) @ 44600000: uvm_test_top.env.chk [CHK] unexpected memory request 00202760 we=1
+UVM_ERROR mmu_tb.sv(150) @ 44680000: uvm_test_top.env.chk [CHK] va 00403760: err=0, expected 1
+UVM_ERROR mmu_tb.sv(150) @ 45290000: uvm_test_top.env.chk [CHK] fault recorded va 00409f00 w=1, expected 00403760 w=1
+UVM_ERROR mmu_tb.sv(150) @ 47910000: uvm_test_top.env.chk [CHK] unexpected memory request 00202060 we=1
+UVM_ERROR mmu_tb.sv(150) @ 47940000: uvm_test_top.env.chk [CHK] va 00403060: err=0, expected 1
+UVM_ERROR mmu_tb.sv(150) @ 47970000: uvm_test_top.env.chk [CHK] unexpected memory request 00202a60 we=1
+UVM_ERROR mmu_tb.sv(150) @ 48030000: uvm_test_top.env.chk [CHK] va 00403a60: err=0, expected 1
+UVM_ERROR mmu_tb.sv(150) @ 48860000: uvm_test_top.env.chk [CHK] unexpected memory request 00204820 we=1
+UVM_ERROR mmu_tb.sv(150) @ 48940000: uvm_test_top.env.chk [CHK] va 00c07820: err=0, expected 1
+UVM_ERROR mmu_tb.sv(150) @ 50020000: uvm_test_top.env.chk [CHK] unexpected memory request 00208200 we=1
+UVM_ERROR mmu_tb.sv(150) @ 50080000: uvm_test_top.env.chk [CHK] va 0040f200: err=0, expected 1
+UVM_ERROR mmu_tb.sv(150) @ 50250000: uvm_test_top.env.chk [CHK] fault recorded va 00c135c0 w=0, expected 00c07820 w=1
+UVM_ERROR mmu_tb.sv(150) @ 50290000: uvm_test_top.env.chk [CHK] unexpected memory request 002021e0 we=1
+UVM_ERROR mmu_tb.sv(150) @ 50340000: uvm_test_top.env.chk [CHK] va 004031e0: err=0, expected 1
+UVM_ERROR mmu_tb.sv(150) @ 51850000: uvm_test_top.env.chk [CHK] unexpected memory request 002084e0 we=1
+UVM_ERROR mmu_tb.sv(150) @ 51920000: uvm_test_top.env.chk [CHK] va 0040f4e0: err=0, expected 1
+UVM_ERROR mmu_tb.sv(150) @ 57200000: uvm_test_top.env.chk [CHK] unexpected memory request 002026e0 we=1
+UVM_ERROR mmu_tb.sv(150) @ 57260000: uvm_test_top.env.chk [CHK] va 004036e0: err=0, expected 1
+UVM_ERROR mmu_tb.sv(150) @ 59390000: uvm_test_top.env.chk [CHK] unexpected memory request 00204660 we=1
+UVM_ERROR mmu_tb.sv(150) @ 59470000: uvm_test_top.env.chk [CHK] va 00c07660: err=0, expected 1
+UVM_ERROR mmu_tb.sv(150) @ 59600000: uvm_test_top.env.chk [CHK] unexpected memory request 00202a80 we=1
+UVM_ERROR mmu_tb.sv(150) @ 59630000: uvm_test_top.env.chk [CHK] va 00403a80: err=0, expected 1
+UVM_ERROR mmu_tb.sv(150) @ 61310000: uvm_test_top.env.chk [CHK] unexpected memory request 002085c0 we=1
+UVM_ERROR mmu_tb.sv(150) @ 61330000: uvm_test_top.env.chk [CHK] va 0040f5c0: err=0, expected 1
+UVM_ERROR mmu_tb.sv(150) @ 61490000: uvm_test_top.env.chk [CHK] fault recorded va 00c04240 w=0, expected 0040f5c0 w=1
+UVM_ERROR mmu_tb.sv(150) @ 61530000: uvm_test_top.env.chk [CHK] unexpected memory request 002085e0 we=1
+UVM_ERROR mmu_tb.sv(150) @ 61560000: uvm_test_top.env.chk [CHK] va 0040f5e0: err=0, expected 1
+UVM_ERROR mmu_tb.sv(150) @ 61830000: uvm_test_top.env.chk [CHK] unexpected memory request 002044c0 we=1
+UVM_ERROR mmu_tb.sv(150) @ 61870000: uvm_test_top.env.chk [CHK] va 00c074c0: err=0, expected 1
+UVM_ERROR mmu_tb.sv(150) @ 61930000: uvm_test_top.env.chk [CHK] fault recorded va 00808000 w=1, expected 00c074c0 w=1
+UVM_ERROR mmu_tb.sv(150) @ 62480000: uvm_test_top.env.chk [CHK] unexpected memory request 00202940 we=1
+UVM_ERROR mmu_tb.sv(150) @ 62540000: uvm_test_top.env.chk [CHK] va 00403940: err=0, expected 1
+UVM_ERROR mmu_tb.sv(150) @ 68060000: uvm_test_top.env.chk [CHK] unexpected memory request 00202e60 we=1
+UVM_ERROR mmu_tb.sv(150) @ 68110000: uvm_test_top.env.chk [CHK] va 00403e60: err=0, expected 1
+UVM_ERROR mmu_tb.sv(150) @ 68230000: uvm_test_top.env.chk [CHK] fault recorded va 0080edc0 w=1, expected 00403e60 w=1
+UVM_ERROR mmu_tb.sv(150) @ 71230000: uvm_test_top.env.chk [CHK] unexpected memory request 00208c60 we=1
+UVM_ERROR mmu_tb.sv(150) @ 71260000: uvm_test_top.env.chk [CHK] va 0040fc60: err=0, expected 1
+UVM_ERROR mmu_tb.sv(150) @ 71950000: uvm_test_top.env.chk [CHK] unexpected memory request 002043e0 we=1
+UVM_ERROR mmu_tb.sv(150) @ 72000000: uvm_test_top.env.chk [CHK] va 00c073e0: err=0, expected 1
+UVM_ERROR mmu_tb.sv(150) @ 72450000: uvm_test_top.env.chk [CHK] fault recorded va 004099a0 w=1, expected 00c073e0 w=1
+UVM_ERROR mmu_tb.sv(150) @ 74190000: uvm_test_top.env.chk [CHK] unexpected memory request 00202d40 we=1
+UVM_ERROR mmu_tb.sv(150) @ 74260000: uvm_test_top.env.chk [CHK] va 00403d40: err=0, expected 1
+UVM_ERROR mmu_tb.sv(150) @ 74620000: uvm_test_top.env.chk [CHK] fault recorded va 00c04b20 w=1, expected 00403d40 w=1
+UVM_ERROR mmu_tb.sv(150) @ 77770000: uvm_test_top.env.chk [CHK] unexpected memory request 00202760 we=1
+UVM_ERROR mmu_tb.sv(150) @ 77850000: uvm_test_top.env.chk [CHK] va 00403760: err=0, expected 1
+UVM_ERROR mmu_tb.sv(150) @ 78150000: uvm_test_top.env.chk [CHK] fault recorded va 00814aa0 w=0, expected 00403760 w=1
+UVM_ERROR mmu_tb.sv(150) @ 81090000: uvm_test_top.env.chk [CHK] unexpected memory request 002086a0 we=1
+UVM_ERROR mmu_tb.sv(150) @ 81130000: uvm_test_top.env.chk [CHK] va 0040f6a0: err=0, expected 1
+UVM_ERROR mmu_tb.sv(150) @ 81260000: uvm_test_top.env.chk [CHK] unexpected memory request 00202d40 we=1
+UVM_ERROR mmu_tb.sv(150) @ 81340000: uvm_test_top.env.chk [CHK] va 00403d40: err=0, expected 1
+UVM_ERROR mmu_tb.sv(150) @ 81670000: uvm_test_top.env.chk [CHK] fault recorded va 00811200 w=0, expected 0040f6a0 w=1
+UVM_ERROR mmu_tb.sv(150) @ 88600000: uvm_test_top.env.chk [CHK] unexpected memory request 00202800 we=1
+UVM_ERROR mmu_tb.sv(150) @ 88640000: uvm_test_top.env.chk [CHK] va 00403800: err=0, expected 1
+UVM_ERROR mmu_tb.sv(150) @ 88670000: uvm_test_top.env.chk [CHK] unexpected memory request 002088e0 we=1
+UVM_ERROR mmu_tb.sv(150) @ 88720000: uvm_test_top.env.chk [CHK] va 0040f8e0: err=0, expected 1
+UVM_ERROR mmu_tb.sv(150) @ 89500000: uvm_test_top.env.chk [CHK] fault recorded va 00409660 w=0, expected 00403800 w=1
+UVM_ERROR mmu_tb.sv(150) @ 89630000: uvm_test_top.env.chk [CHK] unexpected memory request 00208c40 we=1
+UVM_ERROR mmu_tb.sv(150) @ 89710000: uvm_test_top.env.chk [CHK] va 0040fc40: err=0, expected 1
+UVM_ERROR mmu_tb.sv(150) @ 90450000: uvm_test_top.env.chk [CHK] fault recorded va 0080e1c0 w=1, expected 0040fc40 w=1
+UVM_ERROR mmu_tb.sv(150) @ 90840000: uvm_test_top.env.chk [CHK] unexpected memory request 00204880 we=1
+UVM_ERROR mmu_tb.sv(150) @ 90880000: uvm_test_top.env.chk [CHK] va 00c07880: err=0, expected 1
+UVM_ERROR mmu_tb.sv(150) @ 92480000: uvm_test_top.env.chk [CHK] unexpected memory request 00204f20 we=1
+UVM_ERROR mmu_tb.sv(150) @ 92500000: uvm_test_top.env.chk [CHK] va 00c07f20: err=0, expected 1
+UVM_ERROR mmu_tb.sv(150) @ 92700000: uvm_test_top.env.chk [CHK] unexpected memory request 00204f00 we=1
+UVM_ERROR mmu_tb.sv(150) @ 92770000: uvm_test_top.env.chk [CHK] va 00c07f00: err=0, expected 1
+UVM_ERROR mmu_tb.sv(150) @ 93250000: uvm_test_top.env.chk [CHK] fault recorded va 00c13300 w=0, expected 00c07f00 w=1
+UVM_ERROR mmu_tb.sv(150) @ 96230000: uvm_test_top.env.chk [CHK] unexpected memory request 002087c0 we=1
+UVM_ERROR mmu_tb.sv(150) @ 96250000: uvm_test_top.env.chk [CHK] va 0040f7c0: err=0, expected 1
+UVM_ERROR mmu_tb.sv(150) @ 96400000: uvm_test_top.env.chk [CHK] fault recorded va 00409140 w=0, expected 0040f7c0 w=1
+UVM_ERROR mmu_tb.sv(150) @ 98610000: uvm_test_top.env.chk [CHK] unexpected memory request 002021c0 we=1
+UVM_ERROR mmu_tb.sv(150) @ 98640000: uvm_test_top.env.chk [CHK] va 004031c0: err=0, expected 1
+UVM_ERROR mmu_tb.sv(150) @ 99870000: uvm_test_top.env.chk [CHK] fault recorded va 00c04580 w=0, expected 004031c0 w=1
+UVM_ERROR mmu_tb.sv(150) @ 103880000: uvm_test_top.env.chk [CHK] unexpected memory request 002021a0 we=1
+UVM_ERROR mmu_tb.sv(150) @ 103940000: uvm_test_top.env.chk [CHK] va 004031a0: err=0, expected 1
+UVM_ERROR mmu_tb.sv(150) @ 104230000: uvm_test_top.env.chk [CHK] unexpected memory request 002082a0 we=1
+UVM_ERROR mmu_tb.sv(150) @ 104310000: uvm_test_top.env.chk [CHK] va 0040f2a0: err=0, expected 1
+UVM_ERROR mmu_tb.sv(150) @ 104410000: uvm_test_top.env.chk [CHK] fault recorded va 00814020 w=0, expected 004031a0 w=1
+UVM_ERROR mmu_tb.sv(150) @ 105240000: uvm_test_top.env.chk [CHK] unexpected memory request 002089a0 we=1
+UVM_ERROR mmu_tb.sv(150) @ 105290000: uvm_test_top.env.chk [CHK] va 0040f9a0: err=0, expected 1
+UVM_ERROR mmu_tb.sv(150) @ 105580000: uvm_test_top.env.chk [CHK] unexpected memory request 002042e0 we=1
+UVM_ERROR mmu_tb.sv(150) @ 105650000: uvm_test_top.env.chk [CHK] va 00c072e0: err=0, expected 1
+UVM_ERROR mmu_tb.sv(150) @ 106750000: uvm_test_top.env.chk [CHK] fault recorded va 004097c0 w=0, expected 00c072e0 w=1
+UVM_ERROR mmu_tb.sv(150) @ 110050000: uvm_test_top.env.chk [CHK] unexpected memory request 00202a40 we=1
+UVM_ERROR mmu_tb.sv(150) @ 110100000: uvm_test_top.env.chk [CHK] va 00403a40: err=0, expected 1
+UVM_ERROR mmu_tb.sv(150) @ 115960000: uvm_test_top.env.chk [CHK] unexpected memory request 00208e00 we=1
+UVM_ERROR mmu_tb.sv(150) @ 116040000: uvm_test_top.env.chk [CHK] va 0040fe00: err=0, expected 1
+UVM_ERROR mmu_tb.sv(150) @ 116190000: uvm_test_top.env.chk [CHK] fault recorded va 00c13ca0 w=0, expected 0040fe00 w=1
+UVM_ERROR mmu_tb.sv(150) @ 116640000: uvm_test_top.env.chk [CHK] unexpected memory request 002020c0 we=1
+UVM_ERROR mmu_tb.sv(150) @ 116670000: uvm_test_top.env.chk [CHK] va 004030c0: err=0, expected 1
+UVM_ERROR mmu_tb.sv(150) @ 117180000: uvm_test_top.env.chk [CHK] fault recorded va 00c13c60 w=0, expected 004030c0 w=1
+UVM_ERROR mmu_tb.sv(150) @ 117870000: uvm_test_top.env.chk [CHK] unexpected memory request 00204a60 we=1
+UVM_ERROR mmu_tb.sv(150) @ 117920000: uvm_test_top.env.chk [CHK] va 00c07a60: err=0, expected 1
+UVM_ERROR mmu_tb.sv(150) @ 118790000: uvm_test_top.env.chk [CHK] unexpected memory request 00208d80 we=1
+UVM_ERROR mmu_tb.sv(150) @ 118850000: uvm_test_top.env.chk [CHK] va 0040fd80: err=0, expected 1
+UVM_ERROR mmu_tb.sv(150) @ 119520000: uvm_test_top.env.chk [CHK] fault recorded va 00c04a60 w=0, expected 00c07a60 w=1
+UVM_ERROR mmu_tb.sv(150) @ 120940000: uvm_test_top.env.chk [CHK] unexpected memory request 002089a0 we=1
+UVM_ERROR mmu_tb.sv(150) @ 120970000: uvm_test_top.env.chk [CHK] va 0040f9a0: err=0, expected 1
+UVM_ERROR mmu_tb.sv(150) @ 121450000: uvm_test_top.env.chk [CHK] fault recorded va 00c04280 w=0, expected 0040f9a0 w=1
+UVM_ERROR mmu_tb.sv(150) @ 121680000: uvm_test_top.env.chk [CHK] unexpected memory request 00202140 we=1
+UVM_ERROR mmu_tb.sv(150) @ 121730000: uvm_test_top.env.chk [CHK] va 00403140: err=0, expected 1
+UVM_ERROR mmu_tb.sv(150) @ 121940000: uvm_test_top.env.chk [CHK] fault recorded va 00802980 w=1, expected 00403140 w=1
+UVM_ERROR mmu_tb.sv(150) @ 122370000: uvm_test_top.env.chk [CHK] unexpected memory request 00208860 we=1
+UVM_ERROR mmu_tb.sv(150) @ 122430000: uvm_test_top.env.chk [CHK] va 0040f860: err=0, expected 1
+UVM_ERROR mmu_tb.sv(150) @ 122930000: uvm_test_top.env.chk [CHK] unexpected memory request 002040e0 we=1
+UVM_ERROR mmu_tb.sv(150) @ 123000000: uvm_test_top.env.chk [CHK] va 00c070e0: err=0, expected 1
+UVM_ERROR mmu_tb.sv(150) @ 123120000: uvm_test_top.env.chk [CHK] fault recorded va 00c132a0 w=1, expected 00c070e0 w=1
+UVM_ERROR mmu_tb.sv(150) @ 123530000: uvm_test_top.env.chk [CHK] unexpected memory request 002048a0 we=1
+UVM_ERROR mmu_tb.sv(150) @ 123570000: uvm_test_top.env.chk [CHK] va 00c078a0: err=0, expected 1
+UVM_ERROR mmu_tb.sv(150) @ 124070000: uvm_test_top.env.chk [CHK] fault recorded va 00409aa0 w=1, expected 00c078a0 w=1
+UVM_ERROR mmu_tb.sv(150) @ 126840000: uvm_test_top.env.chk [CHK] unexpected memory request 002082e0 we=1
+UVM_ERROR mmu_tb.sv(150) @ 126900000: uvm_test_top.env.chk [CHK] va 0040f2e0: err=0, expected 1
+UVM_ERROR mmu_tb.sv(150) @ 127380000: uvm_test_top.env.chk [CHK] fault recorded va 00409ee0 w=1, expected 0040f2e0 w=1
+UVM_ERROR mmu_tb.sv(150) @ 131280000: uvm_test_top.env.chk [CHK] unexpected memory request 00202f40 we=1
+UVM_ERROR mmu_tb.sv(150) @ 131310000: uvm_test_top.env.chk [CHK] va 00403f40: err=0, expected 1
+UVM_ERROR mmu_tb.sv(150) @ 136140000: uvm_test_top.env.chk [CHK] unexpected memory request 002027a0 we=1
+UVM_ERROR mmu_tb.sv(150) @ 136170000: uvm_test_top.env.chk [CHK] va 004037a0: err=0, expected 1
+UVM_ERROR mmu_tb.sv(150) @ 136450000: uvm_test_top.env.chk [CHK] fault recorded va 00802240 w=1, expected 004037a0 w=1
+UVM_ERROR mmu_tb.sv(150) @ 137720000: uvm_test_top.env.chk [CHK] unexpected memory request 00208de0 we=1
+UVM_ERROR mmu_tb.sv(150) @ 137770000: uvm_test_top.env.chk [CHK] va 0040fde0: err=0, expected 1
+UVM_ERROR mmu_tb.sv(150) @ 138550000: uvm_test_top.env.chk [CHK] fault recorded va 00805900 w=1, expected 0040fde0 w=1
+UVM_ERROR mmu_tb.sv(150) @ 138850000: uvm_test_top.env.chk [CHK] unexpected memory request 00202ec0 we=1
+UVM_ERROR mmu_tb.sv(150) @ 138900000: uvm_test_top.env.chk [CHK] va 00403ec0: err=0, expected 1
+UVM_ERROR mmu_tb.sv(150) @ 140000000: uvm_test_top.env.chk [CHK] unexpected memory request 00208cc0 we=1
+UVM_ERROR mmu_tb.sv(150) @ 140050000: uvm_test_top.env.chk [CHK] va 0040fcc0: err=0, expected 1
+UVM_ERROR mmu_tb.sv(150) @ 141970000: uvm_test_top.env.chk [CHK] unexpected memory request 00208580 we=1
+UVM_ERROR mmu_tb.sv(150) @ 142050000: uvm_test_top.env.chk [CHK] va 0040f580: err=0, expected 1
+UVM_ERROR mmu_tb.sv(150) @ 142840000: uvm_test_top.env.chk [CHK] fault recorded va 00409320 w=1, expected 0040f580 w=1
+UVM_ERROR mmu_tb.sv(150) @ 145840000: uvm_test_top.env.chk [CHK] unexpected memory request 00204640 we=1
+UVM_ERROR mmu_tb.sv(150) @ 145860000: uvm_test_top.env.chk [CHK] va 00c07640: err=0, expected 1
+UVM_ERROR mmu_tb.sv(150) @ 146690000: uvm_test_top.env.chk [CHK] fault recorded va 004095e0 w=0, expected 00c07640 w=1
+UVM_ERROR mmu_tb.sv(150) @ 147770000: uvm_test_top.env.chk [CHK] unexpected memory request 00202f60 we=1
+UVM_ERROR mmu_tb.sv(150) @ 147840000: uvm_test_top.env.chk [CHK] va 00403f60: err=0, expected 1
+UVM_ERROR mmu_tb.sv(150) @ 147940000: uvm_test_top.env.chk [CHK] fault recorded va 00817b60 w=0, expected 00403f60 w=1
+UVM_ERROR mmu_tb.sv(150) @ 147970000: uvm_test_top.env.chk [CHK] unexpected memory request 002023a0 we=1
+UVM_ERROR mmu_tb.sv(150) @ 148030000: uvm_test_top.env.chk [CHK] va 004033a0: err=0, expected 1
+UVM_ERROR mmu_tb.sv(150) @ 156920000: uvm_test_top.env.chk [CHK] unexpected memory request 00202a20 we=1
+UVM_ERROR mmu_tb.sv(150) @ 156950000: uvm_test_top.env.chk [CHK] va 00403a20: err=0, expected 1
+UVM_ERROR mmu_tb.sv(150) @ 157140000: uvm_test_top.env.chk [CHK] fault recorded va 0080bec0 w=0, expected 00403a20 w=1
+UVM_ERROR mmu_tb.sv(150) @ 158260000: uvm_test_top.env.chk [CHK] unexpected memory request 00202900 we=1
+UVM_ERROR mmu_tb.sv(150) @ 158330000: uvm_test_top.env.chk [CHK] va 00403900: err=0, expected 1
+UVM_ERROR mmu_tb.sv(150) @ 166050000: uvm_test_top.env.chk [CHK] unexpected memory request 002022e0 we=1
+UVM_ERROR mmu_tb.sv(150) @ 166080000: uvm_test_top.env.chk [CHK] va 004032e0: err=0, expected 1
+UVM_ERROR mmu_tb.sv(150) @ 170280000: uvm_test_top.env.chk [CHK] unexpected memory request 002089a0 we=1
+UVM_ERROR mmu_tb.sv(150) @ 170300000: uvm_test_top.env.chk [CHK] va 0040f9a0: err=0, expected 1
+UVM_ERROR mmu_tb.sv(150) @ 170520000: uvm_test_top.env.chk [CHK] fault recorded va 00c04ea0 w=0, expected 0040f9a0 w=1
+UVM_ERROR mmu_tb.sv(150) @ 175860000: uvm_test_top.env.chk [CHK] unexpected memory request 00202880 we=1
+UVM_ERROR mmu_tb.sv(150) @ 175890000: uvm_test_top.env.chk [CHK] va 00403880: err=0, expected 1
+UVM_ERROR mmu_tb.sv(150) @ 176160000: uvm_test_top.env.chk [CHK] fault recorded va 00c04c60 w=0, expected 00403880 w=1
+UVM_ERROR mmu_tb.sv(150) @ 176830000: uvm_test_top.env.chk [CHK] unexpected memory request 00208620 we=1
+UVM_ERROR mmu_tb.sv(150) @ 176880000: uvm_test_top.env.chk [CHK] va 0040f620: err=0, expected 1
+UVM_ERROR mmu_tb.sv(150) @ 180340000: uvm_test_top.env.chk [CHK] unexpected memory request 002085c0 we=1
+UVM_ERROR mmu_tb.sv(150) @ 180410000: uvm_test_top.env.chk [CHK] va 0040f5c0: err=0, expected 1
+UVM_ERROR mmu_tb.sv(150) @ 180640000: uvm_test_top.env.chk [CHK] fault recorded va 00409fa0 w=0, expected 0040f5c0 w=1
+UVM_ERROR mmu_tb.sv(150) @ 180840000: uvm_test_top.env.chk [CHK] unexpected memory request 00208380 we=1
+UVM_ERROR mmu_tb.sv(150) @ 180870000: uvm_test_top.env.chk [CHK] va 0040f380: err=0, expected 1
+UVM_ERROR mmu_tb.sv(150) @ 181340000: uvm_test_top.env.chk [CHK] unexpected memory request 00208940 we=1
+UVM_ERROR mmu_tb.sv(150) @ 181380000: uvm_test_top.env.chk [CHK] va 0040f940: err=0, expected 1
+UVM_ERROR mmu_tb.sv(150) @ 181520000: uvm_test_top.env.chk [CHK] fault recorded va 00c13bc0 w=0, expected 0040f940 w=1
+UVM_ERROR mmu_tb.sv(150) @ 181550000: uvm_test_top.env.chk [CHK] unexpected memory request 00208f60 we=1
+UVM_ERROR mmu_tb.sv(150) @ 181590000: uvm_test_top.env.chk [CHK] va 0040ff60: err=0, expected 1
+UVM_ERROR mmu_tb.sv(150) @ 182000000: uvm_test_top.env.chk [CHK] unexpected memory request 00208040 we=1
+UVM_ERROR mmu_tb.sv(150) @ 182060000: uvm_test_top.env.chk [CHK] va 0040f040: err=0, expected 1
+UVM_ERROR mmu_tb.sv(150) @ 182230000: uvm_test_top.env.chk [CHK] fault recorded va 00409660 w=0, expected 0040f040 w=1
+UVM_ERROR mmu_tb.sv(150) @ 185820000: uvm_test_top.env.chk [CHK] unexpected memory request 00204620 we=1
+UVM_ERROR mmu_tb.sv(150) @ 185870000: uvm_test_top.env.chk [CHK] va 00c07620: err=0, expected 1
+UVM_ERROR mmu_tb.sv(150) @ 185920000: uvm_test_top.env.chk [CHK] unexpected memory request 00208400 we=1
+UVM_ERROR mmu_tb.sv(150) @ 185970000: uvm_test_top.env.chk [CHK] va 0040f400: err=0, expected 1
+UVM_ERROR mmu_tb.sv(150) @ 186360000: uvm_test_top.env.chk [CHK] unexpected memory request 00208aa0 we=1
+UVM_ERROR mmu_tb.sv(150) @ 186410000: uvm_test_top.env.chk [CHK] va 0040faa0: err=0, expected 1
+UVM_ERROR mmu_tb.sv(150) @ 186750000: uvm_test_top.env.chk [CHK] fault recorded va 00409c20 w=0, expected 0040f400 w=1
+UVM_ERROR mmu_tb.sv(150) @ 186880000: uvm_test_top.env.chk [CHK] unexpected memory request 00202f60 we=1
+UVM_ERROR mmu_tb.sv(150) @ 186900000: uvm_test_top.env.chk [CHK] va 00403f60: err=0, expected 1
+UVM_ERROR mmu_tb.sv(150) @ 188390000: uvm_test_top.env.chk [CHK] unexpected memory request 00208ac0 we=1
+UVM_ERROR mmu_tb.sv(150) @ 188450000: uvm_test_top.env.chk [CHK] va 0040fac0: err=0, expected 1
+UVM_ERROR mmu_tb.sv(150) @ 190500000: uvm_test_top.env.chk [CHK] fault recorded va 00c135a0 w=1, expected 0040fac0 w=1
+UVM_ERROR mmu_tb.sv(150) @ 192100000: uvm_test_top.env.chk [CHK] unexpected memory request 00208680 we=1
+UVM_ERROR mmu_tb.sv(150) @ 192140000: uvm_test_top.env.chk [CHK] va 0040f680: err=0, expected 1
+UVM_ERROR mmu_tb.sv(150) @ 192440000: uvm_test_top.env.chk [CHK] fault recorded va 00409ba0 w=0, expected 0040f680 w=1
+UVM_ERROR mmu_tb.sv(150) @ 192790000: uvm_test_top.env.chk [CHK] unexpected memory request 00202be0 we=1
+UVM_ERROR mmu_tb.sv(150) @ 192850000: uvm_test_top.env.chk [CHK] va 00403be0: err=0, expected 1
+UVM_ERROR mmu_tb.sv(150) @ 194600000: uvm_test_top.env.chk [CHK] unexpected memory request 00202ec0 we=1
+UVM_ERROR mmu_tb.sv(150) @ 194620000: uvm_test_top.env.chk [CHK] va 00403ec0: err=0, expected 1
+UVM_ERROR mmu_tb.sv(150) @ 196270000: uvm_test_top.env.chk [CHK] unexpected memory request 00208260 we=1
+UVM_ERROR mmu_tb.sv(150) @ 196340000: uvm_test_top.env.chk [CHK] va 0040f260: err=0, expected 1
+UVM_ERROR mmu_tb.sv(150) @ 196460000: uvm_test_top.env.chk [CHK] fault recorded va 00c13840 w=0, expected 0040f260 w=1
+UVM_ERROR mmu_tb.sv(150) @ 197550000: uvm_test_top.env.chk [CHK] unexpected memory request 00202720 we=1
+UVM_ERROR mmu_tb.sv(150) @ 197600000: uvm_test_top.env.chk [CHK] va 00403720: err=0, expected 1
+UVM_ERROR mmu_tb.sv(150) @ 198760000: uvm_test_top.env.chk [CHK] unexpected memory request 00208300 we=1
+UVM_ERROR mmu_tb.sv(150) @ 198780000: uvm_test_top.env.chk [CHK] va 0040f300: err=0, expected 1
+UVM_ERROR mmu_tb.sv(150) @ 200520000: uvm_test_top.env.chk [CHK] unexpected memory request 00208360 we=1
+UVM_ERROR mmu_tb.sv(150) @ 200570000: uvm_test_top.env.chk [CHK] va 0040f360: err=0, expected 1
+UVM_ERROR mmu_tb.sv(150) @ 201610000: uvm_test_top.env.chk [CHK] fault recorded va 00409420 w=0, expected 0040f360 w=1
+UVM_ERROR mmu_tb.sv(150) @ 202230000: uvm_test_top.env.chk [CHK] unexpected memory request 00208f60 we=1
+UVM_ERROR mmu_tb.sv(150) @ 202290000: uvm_test_top.env.chk [CHK] va 0040ff60: err=0, expected 1
+UVM_ERROR mmu_tb.sv(150) @ 204210000: uvm_test_top.env.chk [CHK] unexpected memory request 00202c00 we=1
+UVM_ERROR mmu_tb.sv(150) @ 204250000: uvm_test_top.env.chk [CHK] va 00403c00: err=0, expected 1
+UVM_ERROR mmu_tb.sv(150) @ 204880000: uvm_test_top.env.chk [CHK] fault recorded va 00c13400 w=0, expected 00403c00 w=1
+UVM_ERROR mmu_tb.sv(150) @ 205390000: uvm_test_top.env.chk [CHK] unexpected memory request 00202140 we=1
+UVM_ERROR mmu_tb.sv(150) @ 205450000: uvm_test_top.env.chk [CHK] va 00403140: err=0, expected 1
+UVM_ERROR mmu_tb.sv(150) @ 205530000: uvm_test_top.env.chk [CHK] fault recorded va 0080b300 w=0, expected 00403140 w=1
+UVM_ERROR mmu_tb.sv(150) @ 207080000: uvm_test_top.env.chk [CHK] unexpected memory request 00208920 we=1
+UVM_ERROR mmu_tb.sv(150) @ 207100000: uvm_test_top.env.chk [CHK] va 0040f920: err=0, expected 1
+UVM_ERROR mmu_tb.sv(150) @ 207190000: uvm_test_top.env.chk [CHK] unexpected memory request 002040a0 we=1
+UVM_ERROR mmu_tb.sv(150) @ 207220000: uvm_test_top.env.chk [CHK] va 00c070a0: err=0, expected 1
+UVM_ERROR mmu_tb.sv(150) @ 207640000: uvm_test_top.env.chk [CHK] unexpected memory request 002029a0 we=1
+UVM_ERROR mmu_tb.sv(150) @ 207680000: uvm_test_top.env.chk [CHK] va 004039a0: err=0, expected 1
+UVM_ERROR mmu_tb.sv(150) @ 209830000: uvm_test_top.env.chk [CHK] unexpected memory request 00202ba0 we=1
+UVM_ERROR mmu_tb.sv(150) @ 209880000: uvm_test_top.env.chk [CHK] va 00403ba0: err=0, expected 1
+UVM_ERROR mmu_tb.sv(150) @ 210060000: uvm_test_top.env.chk [CHK] fault recorded va 00409460 w=0, expected 00403ba0 w=1
+UVM_ERROR mmu_tb.sv(150) @ 211100000: uvm_test_top.env.chk [CHK] unexpected memory request 00202d20 we=1
+UVM_ERROR mmu_tb.sv(150) @ 211120000: uvm_test_top.env.chk [CHK] va 00403d20: err=0, expected 1
+UVM_ERROR mmu_tb.sv(150) @ 211470000: uvm_test_top.env.chk [CHK] unexpected memory request 002025a0 we=1
+UVM_ERROR mmu_tb.sv(150) @ 211500000: uvm_test_top.env.chk [CHK] va 004035a0: err=0, expected 1
+UVM_ERROR mmu_tb.sv(150) @ 212060000: uvm_test_top.env.chk [CHK] unexpected memory request 00208ba0 we=1
+UVM_ERROR mmu_tb.sv(150) @ 212100000: uvm_test_top.env.chk [CHK] va 0040fba0: err=0, expected 1
+UVM_ERROR mmu_tb.sv(150) @ 212970000: uvm_test_top.env.chk [CHK] unexpected memory request 00204340 we=1
+UVM_ERROR mmu_tb.sv(150) @ 212990000: uvm_test_top.env.chk [CHK] va 00c07340: err=0, expected 1
+UVM_ERROR mmu_tb.sv(150) @ 213070000: uvm_test_top.env.chk [CHK] fault recorded va 00805fa0 w=1, expected 004035a0 w=1
+UVM_ERROR mmu_tb.sv(150) @ 214190000: uvm_test_top.env.chk [CHK] unexpected memory request 00202680 we=1
+UVM_ERROR mmu_tb.sv(150) @ 214250000: uvm_test_top.env.chk [CHK] va 00403680: err=0, expected 1
+UVM_ERROR mmu_tb.sv(150) @ 214430000: uvm_test_top.env.chk [CHK] fault recorded va 00409a20 w=1, expected 00403680 w=1
+UVM_ERROR mmu_tb.sv(150) @ 217840000: uvm_test_top.env.chk [CHK] unexpected memory request 002085e0 we=1
+UVM_ERROR mmu_tb.sv(150) @ 217890000: uvm_test_top.env.chk [CHK] va 0040f5e0: err=0, expected 1
+UVM_ERROR mmu_tb.sv(150) @ 217950000: uvm_test_top.env.chk [CHK] fault recorded va 00805160 w=0, expected 0040f5e0 w=1
+UVM_ERROR mmu_tb.sv(150) @ 220520000: uvm_test_top.env.chk [CHK] unexpected memory request 00208340 we=1
+UVM_ERROR mmu_tb.sv(150) @ 220590000: uvm_test_top.env.chk [CHK] va 0040f340: err=0, expected 1
+UVM_ERROR mmu_tb.sv(150) @ 220860000: uvm_test_top.env.chk [CHK] unexpected memory request 00204ac0 we=1
+UVM_ERROR mmu_tb.sv(150) @ 220940000: uvm_test_top.env.chk [CHK] va 00c07ac0: err=0, expected 1
+UVM_ERROR mmu_tb.sv(150) @ 221110000: uvm_test_top.env.chk [CHK] fault recorded va 00c13c40 w=1, expected 00c07ac0 w=1
+UVM_ERROR mmu_tb.sv(150) @ 224240000: uvm_test_top.env.chk [CHK] unexpected memory request 00202b40 we=1
+UVM_ERROR mmu_tb.sv(150) @ 224280000: uvm_test_top.env.chk [CHK] va 00403b40: err=0, expected 1
+UVM_ERROR mmu_tb.sv(150) @ 224650000: uvm_test_top.env.chk [CHK] unexpected memory request 00208d60 we=1
+UVM_ERROR mmu_tb.sv(150) @ 224680000: uvm_test_top.env.chk [CHK] va 0040fd60: err=0, expected 1
+UVM_ERROR mmu_tb.sv(150) @ 224900000: uvm_test_top.env.chk [CHK] fault recorded va 00c04060 w=0, expected 00403b40 w=1
+UVM_ERROR mmu_tb.sv(150) @ 228720000: uvm_test_top.env.chk [CHK] unexpected memory request 00202360 we=1
+UVM_ERROR mmu_tb.sv(150) @ 228770000: uvm_test_top.env.chk [CHK] va 00403360: err=0, expected 1
+UVM_ERROR mmu_tb.sv(150) @ 231570000: uvm_test_top.env.chk [CHK] unexpected memory request 00208fe0 we=1
+UVM_ERROR mmu_tb.sv(150) @ 231590000: uvm_test_top.env.chk [CHK] va 0040ffe0: err=0, expected 1
+UVM_ERROR mmu_tb.sv(150) @ 231700000: uvm_test_top.env.chk [CHK] fault recorded va 004090a0 w=1, expected 0040ffe0 w=1
+UVM_ERROR mmu_tb.sv(150) @ 232100000: uvm_test_top.env.chk [CHK] unexpected memory request 00208700 we=1
+UVM_ERROR mmu_tb.sv(150) @ 232180000: uvm_test_top.env.chk [CHK] va 0040f700: err=0, expected 1
+UVM_ERROR mmu_tb.sv(150) @ 233830000: uvm_test_top.env.chk [CHK] unexpected memory request 00208a40 we=1
+UVM_ERROR mmu_tb.sv(150) @ 233890000: uvm_test_top.env.chk [CHK] va 0040fa40: err=0, expected 1
+UVM_ERROR mmu_tb.sv(150) @ 233990000: uvm_test_top.env.chk [CHK] unexpected memory request 002026e0 we=1
+UVM_ERROR mmu_tb.sv(150) @ 234060000: uvm_test_top.env.chk [CHK] va 004036e0: err=0, expected 1
+UVM_ERROR mmu_tb.sv(150) @ 234330000: uvm_test_top.env.chk [CHK] unexpected memory request 00202fe0 we=1
+UVM_ERROR mmu_tb.sv(150) @ 234410000: uvm_test_top.env.chk [CHK] va 00403fe0: err=0, expected 1
+UVM_ERROR mmu_tb.sv(150) @ 234500000: uvm_test_top.env.chk [CHK] fault recorded va 008050a0 w=0, expected 00403fe0 w=1
+UVM_ERROR mmu_tb.sv(150) @ 236250000: uvm_test_top.env.chk [CHK] unexpected memory request 002029c0 we=1
+UVM_ERROR mmu_tb.sv(150) @ 236290000: uvm_test_top.env.chk [CHK] va 004039c0: err=0, expected 1
+UVM_ERROR mmu_tb.sv(150) @ 236990000: uvm_test_top.env.chk [CHK] unexpected memory request 002042a0 we=1
+UVM_ERROR mmu_tb.sv(150) @ 237030000: uvm_test_top.env.chk [CHK] va 00c072a0: err=0, expected 1
+UVM_ERROR mmu_tb.sv(150) @ 237090000: uvm_test_top.env.chk [CHK] fault recorded va 008052c0 w=0, expected 004039c0 w=1
+UVM_ERROR mmu_tb.sv(150) @ 238740000: uvm_test_top.env.chk [CHK] unexpected memory request 00204080 we=1
+UVM_ERROR mmu_tb.sv(150) @ 238820000: uvm_test_top.env.chk [CHK] va 00c07080: err=0, expected 1
+UVM_ERROR mmu_tb.sv(150) @ 238880000: uvm_test_top.env.chk [CHK] fault recorded va 00814120 w=1, expected 00c07080 w=1
+UVM_ERROR mmu_tb.sv(150) @ 240660000: uvm_test_top.env.chk [CHK] unexpected memory request 00202aa0 we=1
+UVM_ERROR mmu_tb.sv(150) @ 240690000: uvm_test_top.env.chk [CHK] va 00403aa0: err=0, expected 1
+UVM_ERROR mmu_tb.sv(150) @ 240830000: uvm_test_top.env.chk [CHK] fault recorded va 00c13300 w=0, expected 00403aa0 w=1
+UVM_ERROR mmu_tb.sv(150) @ 241030000: uvm_test_top.env.chk [CHK] unexpected memory request 00204660 we=1
+UVM_ERROR mmu_tb.sv(150) @ 241110000: uvm_test_top.env.chk [CHK] va 00c07660: err=0, expected 1
+UVM_ERROR mmu_tb.sv(150) @ 244080000: uvm_test_top.env.chk [CHK] unexpected memory request 00202ca0 we=1
+UVM_ERROR mmu_tb.sv(150) @ 244100000: uvm_test_top.env.chk [CHK] va 00403ca0: err=0, expected 1
+UVM_ERROR mmu_tb.sv(150) @ 244890000: uvm_test_top.env.chk [CHK] unexpected memory request 00208460 we=1
+UVM_ERROR mmu_tb.sv(150) @ 244910000: uvm_test_top.env.chk [CHK] va 0040f460: err=0, expected 1
+UVM_ERROR mmu_tb.sv(150) @ 246530000: uvm_test_top.env.chk [CHK] unexpected memory request 002021c0 we=1
+UVM_ERROR mmu_tb.sv(150) @ 246570000: uvm_test_top.env.chk [CHK] va 004031c0: err=0, expected 1
+UVM_ERROR mmu_tb.sv(150) @ 246600000: uvm_test_top.env.chk [CHK] unexpected memory request 00208060 we=1
+UVM_ERROR mmu_tb.sv(150) @ 246670000: uvm_test_top.env.chk [CHK] va 0040f060: err=0, expected 1
+UVM_ERROR mmu_tb.sv(150) @ 246930000: uvm_test_top.env.chk [CHK] fault recorded va 008025e0 w=0, expected 004031c0 w=1
+UVM_ERROR mmu_tb.sv(150) @ 247670000: uvm_test_top.env.chk [CHK] unexpected memory request 00202760 we=1
+UVM_ERROR mmu_tb.sv(150) @ 247710000: uvm_test_top.env.chk [CHK] va 00403760: err=0, expected 1
+UVM_ERROR mmu_tb.sv(150) @ 248250000: uvm_test_top.env.chk [CHK] fault recorded va 00409840 w=0, expected 00403760 w=1
+UVM_ERROR mmu_tb.sv(150) @ 249120000: uvm_test_top.env.chk [CHK] unexpected memory request 00208460 we=1
+UVM_ERROR mmu_tb.sv(150) @ 249150000: uvm_test_top.env.chk [CHK] va 0040f460: err=0, expected 1
+UVM_ERROR mmu_tb.sv(150) @ 249860000: uvm_test_top.env.chk [CHK] fault recorded va 00c043a0 w=1, expected 0040f460 w=1
+UVM_ERROR mmu_tb.sv(150) @ 251120000: uvm_test_top.env.chk [CHK] unexpected memory request 00204300 we=1
+UVM_ERROR mmu_tb.sv(150) @ 251140000: uvm_test_top.env.chk [CHK] va 00c07300: err=0, expected 1
+UVM_ERROR mmu_tb.sv(150) @ 251640000: uvm_test_top.env.chk [CHK] fault recorded va 00c04b60 w=0, expected 00c07300 w=1
+UVM_ERROR mmu_tb.sv(150) @ 253360000: uvm_test_top.env.chk [CHK] unexpected memory request 002080a0 we=1
+UVM_ERROR mmu_tb.sv(150) @ 253380000: uvm_test_top.env.chk [CHK] va 0040f0a0: err=0, expected 1
+UVM_ERROR mmu_tb.sv(150) @ 253730000: uvm_test_top.env.chk [CHK] fault recorded va 00c13380 w=0, expected 0040f0a0 w=1
+UVM_ERROR mmu_tb.sv(150) @ 256870000: uvm_test_top.env.chk [CHK] unexpected memory request 002043c0 we=1
+UVM_ERROR mmu_tb.sv(150) @ 256890000: uvm_test_top.env.chk [CHK] va 00c073c0: err=0, expected 1
+UVM_ERROR mmu_tb.sv(150) @ 256940000: uvm_test_top.env.chk [CHK] unexpected memory request 00202680 we=1
+UVM_ERROR mmu_tb.sv(150) @ 256960000: uvm_test_top.env.chk [CHK] va 00403680: err=0, expected 1
+UVM_ERROR mmu_tb.sv(150) @ 257520000: uvm_test_top.env.chk [CHK] fault recorded va 00c134e0 w=1, expected 00403680 w=1
+UVM_ERROR mmu_tb.sv(150) @ 259050000: uvm_test_top.env.chk [CHK] unexpected memory request 00208400 we=1
+UVM_ERROR mmu_tb.sv(150) @ 259120000: uvm_test_top.env.chk [CHK] va 0040f400: err=0, expected 1
+UVM_ERROR mmu_tb.sv(150) @ 259260000: uvm_test_top.env.chk [CHK] fault recorded va 00c04dc0 w=1, expected 0040f400 w=1
+UVM_ERROR mmu_tb.sv(150) @ 260360000: uvm_test_top.env.chk [CHK] unexpected memory request 002044e0 we=1
+UVM_ERROR mmu_tb.sv(150) @ 260400000: uvm_test_top.env.chk [CHK] va 00c074e0: err=0, expected 1
+UVM_ERROR mmu_tb.sv(150) @ 261090000: uvm_test_top.env.chk [CHK] unexpected memory request 00202de0 we=1
+UVM_ERROR mmu_tb.sv(150) @ 261130000: uvm_test_top.env.chk [CHK] va 00403de0: err=0, expected 1
+UVM_ERROR mmu_tb.sv(150) @ 261960000: uvm_test_top.env.chk [CHK] fault recorded va 0080e4a0 w=1, expected 00403de0 w=1
+UVM_ERROR mmu_tb.sv(150) @ 265980000: uvm_test_top.env.chk [CHK] unexpected memory request 00204620 we=1
+UVM_ERROR mmu_tb.sv(150) @ 266040000: uvm_test_top.env.chk [CHK] va 00c07620: err=0, expected 1
+UVM_ERROR mmu_tb.sv(150) @ 268100000: uvm_test_top.env.chk [CHK] unexpected memory request 00208920 we=1
+UVM_ERROR mmu_tb.sv(150) @ 268150000: uvm_test_top.env.chk [CHK] va 0040f920: err=0, expected 1
+UVM_ERROR mmu_tb.sv(150) @ 268320000: uvm_test_top.env.chk [CHK] fault recorded va 00409c60 w=0, expected 0040f920 w=1
+UVM_ERROR mmu_tb.sv(150) @ 268370000: uvm_test_top.env.chk [CHK] unexpected memory request 00208ca0 we=1
+UVM_ERROR mmu_tb.sv(150) @ 268390000: uvm_test_top.env.chk [CHK] va 0040fca0: err=0, expected 1
+UVM_ERROR mmu_tb.sv(150) @ 268640000: uvm_test_top.env.chk [CHK] fault recorded va 008084e0 w=0, expected 0040fca0 w=1
+UVM_ERROR mmu_tb.sv(150) @ 269710000: uvm_test_top.env.chk [CHK] unexpected memory request 00202ae0 we=1
+UVM_ERROR mmu_tb.sv(150) @ 269790000: uvm_test_top.env.chk [CHK] va 00403ae0: err=0, expected 1
+UVM_ERROR mmu_tb.sv(150) @ 272940000: uvm_test_top.env.chk [CHK] unexpected memory request 00202d80 we=1
+UVM_ERROR mmu_tb.sv(150) @ 273000000: uvm_test_top.env.chk [CHK] va 00403d80: err=0, expected 1
+UVM_ERROR mmu_tb.sv(150) @ 273820000: uvm_test_top.env.chk [CHK] fault recorded va 00817f00 w=1, expected 00403d80 w=1
+UVM_ERROR mmu_tb.sv(150) @ 274640000: uvm_test_top.env.chk [CHK] unexpected memory request 00202fe0 we=1
+UVM_ERROR mmu_tb.sv(150) @ 274670000: uvm_test_top.env.chk [CHK] va 00403fe0: err=0, expected 1
+UVM_ERROR mmu_tb.sv(150) @ 275030000: uvm_test_top.env.chk [CHK] unexpected memory request 00208ca0 we=1
+UVM_ERROR mmu_tb.sv(150) @ 275090000: uvm_test_top.env.chk [CHK] va 0040fca0: err=0, expected 1
+UVM_ERROR mmu_tb.sv(150) @ 275340000: uvm_test_top.env.chk [CHK] fault recorded va 00c04e00 w=0, expected 00403fe0 w=1
+UVM_ERROR mmu_tb.sv(150) @ 277240000: uvm_test_top.env.chk [CHK] unexpected memory request 00204180 we=1
+UVM_ERROR mmu_tb.sv(150) @ 277310000: uvm_test_top.env.chk [CHK] va 00c07180: err=0, expected 1
+UVM_ERROR mmu_tb.sv(150) @ 277450000: uvm_test_top.env.chk [CHK] fault recorded va 00c13900 w=0, expected 00c07180 w=1
+UVM_ERROR mmu_tb.sv(150) @ 278580000: uvm_test_top.env.chk [CHK] unexpected memory request 002087e0 we=1
+UVM_ERROR mmu_tb.sv(150) @ 278660000: uvm_test_top.env.chk [CHK] va 0040f7e0: err=0, expected 1
+UVM_ERROR mmu_tb.sv(150) @ 278860000: uvm_test_top.env.chk [CHK] unexpected memory request 00202ac0 we=1
+UVM_ERROR mmu_tb.sv(150) @ 278940000: uvm_test_top.env.chk [CHK] va 00403ac0: err=0, expected 1
+UVM_ERROR mmu_tb.sv(150) @ 278970000: uvm_test_top.env.chk [CHK] unexpected memory request 00208700 we=1
+UVM_ERROR mmu_tb.sv(150) @ 279000000: uvm_test_top.env.chk [CHK] va 0040f700: err=0, expected 1
+UVM_ERROR mmu_tb.sv(150) @ 279300000: uvm_test_top.env.chk [CHK] fault recorded va 00802a20 w=0, expected 00403ac0 w=1
+UVM_ERROR mmu_tb.sv(150) @ 279480000: uvm_test_top.env.chk [CHK] unexpected memory request 00202f20 we=1
+UVM_ERROR mmu_tb.sv(150) @ 279510000: uvm_test_top.env.chk [CHK] va 00403f20: err=0, expected 1
+UVM_ERROR mmu_tb.sv(150) @ 281420000: uvm_test_top.env.chk [CHK] unexpected memory request 00208400 we=1
+UVM_ERROR mmu_tb.sv(150) @ 281500000: uvm_test_top.env.chk [CHK] va 0040f400: err=0, expected 1
+UVM_ERROR mmu_tb.sv(150) @ 284530000: uvm_test_top.env.chk [CHK] fault recorded va 00c13d80 w=1, expected 00403f20 w=1
+UVM_ERROR mmu_tb.sv(150) @ 288010000: uvm_test_top.env.chk [CHK] unexpected memory request 00202900 we=1
+UVM_ERROR mmu_tb.sv(150) @ 288070000: uvm_test_top.env.chk [CHK] va 00403900: err=0, expected 1
+UVM_ERROR mmu_tb.sv(150) @ 288110000: uvm_test_top.env.chk [CHK] unexpected memory request 002083c0 we=1
+UVM_ERROR mmu_tb.sv(150) @ 288180000: uvm_test_top.env.chk [CHK] va 0040f3c0: err=0, expected 1
+UVM_ERROR mmu_tb.sv(150) @ 288500000: uvm_test_top.env.chk [CHK] fault recorded va 00c048e0 w=0, expected 00403900 w=1
+UVM_ERROR mmu_tb.sv(150) @ 288530000: uvm_test_top.env.chk [CHK] unexpected memory request 002086a0 we=1
+UVM_ERROR mmu_tb.sv(150) @ 288580000: uvm_test_top.env.chk [CHK] va 0040f6a0: err=0, expected 1
+UVM_ERROR mmu_tb.sv(150) @ 291510000: uvm_test_top.env.chk [CHK] unexpected memory request 00202f60 we=1
+UVM_ERROR mmu_tb.sv(150) @ 291550000: uvm_test_top.env.chk [CHK] va 00403f60: err=0, expected 1
+UVM_ERROR mmu_tb.sv(150) @ 291810000: uvm_test_top.env.chk [CHK] unexpected memory request 00208580 we=1
+UVM_ERROR mmu_tb.sv(150) @ 291840000: uvm_test_top.env.chk [CHK] va 0040f580: err=0, expected 1
+UVM_ERROR mmu_tb.sv(150) @ 292060000: uvm_test_top.env.chk [CHK] unexpected memory request 00208dc0 we=1
+UVM_ERROR mmu_tb.sv(150) @ 292080000: uvm_test_top.env.chk [CHK] va 0040fdc0: err=0, expected 1
+UVM_ERROR mmu_tb.sv(150) @ 292410000: uvm_test_top.env.chk [CHK] fault recorded va 00c04d60 w=0, expected 0040f580 w=1
+UVM_ERROR mmu_tb.sv(150) @ 298570000: uvm_test_top.env.chk [CHK] unexpected memory request 00202420 we=1
+UVM_ERROR mmu_tb.sv(150) @ 298590000: uvm_test_top.env.chk [CHK] va 00403420: err=0, expected 1
+UVM_ERROR mmu_tb.sv(150) @ 299670000: uvm_test_top.env.chk [CHK] unexpected memory request 00202160 we=1
+UVM_ERROR mmu_tb.sv(150) @ 299690000: uvm_test_top.env.chk [CHK] va 00403160: err=0, expected 1
+UVM_ERROR mmu_tb.sv(150) @ 299840000: uvm_test_top.env.chk [CHK] unexpected memory request 002028a0 we=1
+UVM_ERROR mmu_tb.sv(150) @ 299880000: uvm_test_top.env.chk [CHK] va 004038a0: err=0, expected 1
+UVM_ERROR mmu_tb.sv(150) @ 303000000: uvm_test_top.env.chk [CHK] unexpected memory request 002087a0 we=1
+UVM_ERROR mmu_tb.sv(150) @ 303030000: uvm_test_top.env.chk [CHK] va 0040f7a0: err=0, expected 1
+UVM_ERROR mmu_tb.sv(150) @ 304550000: uvm_test_top.env.chk [CHK] unexpected memory request 00208760 we=1
+UVM_ERROR mmu_tb.sv(150) @ 304580000: uvm_test_top.env.chk [CHK] va 0040f760: err=0, expected 1
+UVM_ERROR mmu_tb.sv(150) @ 304760000: uvm_test_top.env.chk [CHK] fault recorded va 00811da0 w=0, expected 0040f760 w=1
+UVM_ERROR mmu_tb.sv(150) @ 311250000: uvm_test_top.env.chk [CHK] unexpected memory request 00204820 we=1
+UVM_ERROR mmu_tb.sv(150) @ 311320000: uvm_test_top.env.chk [CHK] va 00c07820: err=0, expected 1
+UVM_ERROR mmu_tb.sv(150) @ 311760000: uvm_test_top.env.chk [CHK] unexpected memory request 00202e00 we=1
+UVM_ERROR mmu_tb.sv(150) @ 311840000: uvm_test_top.env.chk [CHK] va 00403e00: err=0, expected 1
+UVM_ERROR mmu_tb.sv(150) @ 312380000: uvm_test_top.env.chk [CHK] unexpected memory request 002043c0 we=1
+UVM_ERROR mmu_tb.sv(150) @ 312420000: uvm_test_top.env.chk [CHK] va 00c073c0: err=0, expected 1
+UVM_ERROR mmu_tb.sv(150) @ 317720000: uvm_test_top.env.chk [CHK] unexpected memory request 002048a0 we=1
+UVM_ERROR mmu_tb.sv(150) @ 317790000: uvm_test_top.env.chk [CHK] va 00c078a0: err=0, expected 1
+UVM_ERROR mmu_tb.sv(150) @ 317960000: uvm_test_top.env.chk [CHK] fault recorded va 00409c20 w=0, expected 00c078a0 w=1
+UVM_ERROR mmu_tb.sv(150) @ 321210000: uvm_test_top.env.chk [CHK] unexpected memory request 00202620 we=1
+UVM_ERROR mmu_tb.sv(150) @ 321260000: uvm_test_top.env.chk [CHK] va 00403620: err=0, expected 1
+UVM_ERROR mmu_tb.sv(150) @ 322840000: uvm_test_top.env.chk [CHK] unexpected memory request 00208ec0 we=1
+UVM_ERROR mmu_tb.sv(150) @ 322860000: uvm_test_top.env.chk [CHK] va 0040fec0: err=0, expected 1
+UVM_ERROR mmu_tb.sv(150) @ 323950000: uvm_test_top.env.chk [CHK] fault recorded va 00409b20 w=1, expected 00403620 w=1
+UVM_ERROR mmu_tb.sv(150) @ 327130000: uvm_test_top.env.chk [CHK] unexpected memory request 00202aa0 we=1
+UVM_ERROR mmu_tb.sv(150) @ 327170000: uvm_test_top.env.chk [CHK] va 00403aa0: err=0, expected 1
+UVM_ERROR mmu_tb.sv(150) @ 328490000: uvm_test_top.env.chk [CHK] unexpected memory request 00204ca0 we=1
+UVM_ERROR mmu_tb.sv(150) @ 328530000: uvm_test_top.env.chk [CHK] va 00c07ca0: err=0, expected 1
+UVM_ERROR mmu_tb.sv(150) @ 328760000: uvm_test_top.env.chk [CHK] fault recorded va 00409d40 w=0, expected 00c07ca0 w=1
+UVM_ERROR mmu_tb.sv(150) @ 329060000: uvm_test_top.env.chk [CHK] unexpected memory request 00202a00 we=1
+UVM_ERROR mmu_tb.sv(150) @ 329090000: uvm_test_top.env.chk [CHK] va 00403a00: err=0, expected 1
+UVM_ERROR mmu_tb.sv(150) @ 329960000: uvm_test_top.env.chk [CHK] fault recorded va 00c04180 w=1, expected 00403a00 w=1
+UVM_ERROR mmu_tb.sv(150) @ 330980000: uvm_test_top.env.chk [CHK] unexpected memory request 002022c0 we=1
+UVM_ERROR mmu_tb.sv(150) @ 331010000: uvm_test_top.env.chk [CHK] va 004032c0: err=0, expected 1
+UVM_ERROR mmu_tb.sv(150) @ 331110000: uvm_test_top.env.chk [CHK] fault recorded va 00805e80 w=0, expected 004032c0 w=1
+UVM_ERROR mmu_tb.sv(150) @ 332060000: uvm_test_top.env.chk [CHK] unexpected memory request 00202ac0 we=1
+UVM_ERROR mmu_tb.sv(150) @ 332120000: uvm_test_top.env.chk [CHK] va 00403ac0: err=0, expected 1
+UVM_ERROR mmu_tb.sv(150) @ 332320000: uvm_test_top.env.chk [CHK] unexpected memory request 00202440 we=1
+UVM_ERROR mmu_tb.sv(150) @ 332340000: uvm_test_top.env.chk [CHK] va 00403440: err=0, expected 1
+UVM_ERROR mmu_tb.sv(150) @ 332540000: uvm_test_top.env.chk [CHK] unexpected memory request 00208040 we=1
+UVM_ERROR mmu_tb.sv(150) @ 332610000: uvm_test_top.env.chk [CHK] va 0040f040: err=0, expected 1
+UVM_ERROR mmu_tb.sv(150) @ 334240000: uvm_test_top.env.chk [CHK] unexpected memory request 00202d40 we=1
+UVM_ERROR mmu_tb.sv(150) @ 334300000: uvm_test_top.env.chk [CHK] va 00403d40: err=0, expected 1
+UVM_ERROR mmu_tb.sv(150) @ 334870000: uvm_test_top.env.chk [CHK] fault recorded va 00c04880 w=0, expected 00403d40 w=1
+UVM_ERROR mmu_tb.sv(150) @ 338810000: uvm_test_top.env.chk [CHK] unexpected memory request 00208640 we=1
+UVM_ERROR mmu_tb.sv(150) @ 338890000: uvm_test_top.env.chk [CHK] va 0040f640: err=0, expected 1
+UVM_ERROR mmu_tb.sv(150) @ 338920000: uvm_test_top.env.chk [CHK] unexpected memory request 002080a0 we=1
+UVM_ERROR mmu_tb.sv(150) @ 338940000: uvm_test_top.env.chk [CHK] va 0040f0a0: err=0, expected 1
+UVM_ERROR mmu_tb.sv(150) @ 340370000: uvm_test_top.env.chk [CHK] unexpected memory request 00208b20 we=1
+UVM_ERROR mmu_tb.sv(150) @ 340390000: uvm_test_top.env.chk [CHK] va 0040fb20: err=0, expected 1
+UVM_ERROR mmu_tb.sv(150) @ 340830000: uvm_test_top.env.chk [CHK] fault recorded va 008022c0 w=0, expected 0040fb20 w=1
+UVM_ERROR mmu_tb.sv(150) @ 341910000: uvm_test_top.env.chk [CHK] unexpected memory request 00208f40 we=1
+UVM_ERROR mmu_tb.sv(150) @ 341950000: uvm_test_top.env.chk [CHK] va 0040ff40: err=0, expected 1
+UVM_ERROR mmu_tb.sv(150) @ 341980000: uvm_test_top.env.chk [CHK] unexpected memory request 00204be0 we=1
+UVM_ERROR mmu_tb.sv(150) @ 342060000: uvm_test_top.env.chk [CHK] va 00c07be0: err=0, expected 1
+UVM_ERROR mmu_tb.sv(150) @ 343220000: uvm_test_top.env.chk [CHK] unexpected memory request 00208000 we=1
+UVM_ERROR mmu_tb.sv(150) @ 343240000: uvm_test_top.env.chk [CHK] va 0040f000: err=0, expected 1
+UVM_ERROR mmu_tb.sv(150) @ 343300000: uvm_test_top.env.chk [CHK] unexpected memory request 00202b40 we=1
+UVM_ERROR mmu_tb.sv(150) @ 343350000: uvm_test_top.env.chk [CHK] va 00403b40: err=0, expected 1
+UVM_ERROR mmu_tb.sv(150) @ 343500000: uvm_test_top.env.chk [CHK] fault recorded va 00409180 w=0, expected 0040f000 w=1
+UVM_ERROR mmu_tb.sv(150) @ 344540000: uvm_test_top.env.chk [CHK] unexpected memory request 00208e20 we=1
+UVM_ERROR mmu_tb.sv(150) @ 344570000: uvm_test_top.env.chk [CHK] va 0040fe20: err=0, expected 1
+UVM_ERROR mmu_tb.sv(150) @ 346760000: uvm_test_top.env.chk [CHK] unexpected memory request 00202a40 we=1
+UVM_ERROR mmu_tb.sv(150) @ 346840000: uvm_test_top.env.chk [CHK] va 00403a40: err=0, expected 1
+UVM_ERROR mmu_tb.sv(150) @ 346980000: uvm_test_top.env.chk [CHK] fault recorded va 00409e80 w=1, expected 00403a40 w=1
+UVM_ERROR mmu_tb.sv(150) @ 349540000: uvm_test_top.env.chk [CHK] unexpected memory request 00202120 we=1
+UVM_ERROR mmu_tb.sv(150) @ 349610000: uvm_test_top.env.chk [CHK] va 00403120: err=0, expected 1
+UVM_ERROR mmu_tb.sv(150) @ 350220000: uvm_test_top.env.chk [CHK] fault recorded va 00c13fe0 w=0, expected 00403120 w=1
+UVM_ERROR mmu_tb.sv(150) @ 352160000: uvm_test_top.env.chk [CHK] unexpected memory request 00202660 we=1
+UVM_ERROR mmu_tb.sv(150) @ 352190000: uvm_test_top.env.chk [CHK] va 00403660: err=0, expected 1
+UVM_ERROR mmu_tb.sv(150) @ 352340000: uvm_test_top.env.chk [CHK] fault recorded va 004098e0 w=0, expected 00403660 w=1
+UVM_ERROR mmu_tb.sv(150) @ 354350000: uvm_test_top.env.chk [CHK] unexpected memory request 00202e00 we=1
+UVM_ERROR mmu_tb.sv(150) @ 354410000: uvm_test_top.env.chk [CHK] va 00403e00: err=0, expected 1
+UVM_ERROR mmu_tb.sv(150) @ 354900000: uvm_test_top.env.chk [CHK] unexpected memory request 00204680 we=1
+UVM_ERROR mmu_tb.sv(150) @ 354940000: uvm_test_top.env.chk [CHK] va 00c07680: err=0, expected 1
+UVM_ERROR mmu_tb.sv(150) @ 355230000: uvm_test_top.env.chk [CHK] fault recorded va 004094e0 w=1, expected 00403e00 w=1
+UVM_ERROR mmu_tb.sv(150) @ 359360000: uvm_test_top.env.chk [CHK] unexpected memory request 00208c60 we=1
+UVM_ERROR mmu_tb.sv(150) @ 359380000: uvm_test_top.env.chk [CHK] va 0040fc60: err=0, expected 1
+UVM_ERROR mmu_tb.sv(150) @ 359530000: uvm_test_top.env.chk [CHK] fault recorded va 008119a0 w=0, expected 0040fc60 w=1
+UVM_ERROR mmu_tb.sv(150) @ 361750000: uvm_test_top.env.chk [CHK] unexpected memory request 00204b00 we=1
+UVM_ERROR mmu_tb.sv(150) @ 361770000: uvm_test_top.env.chk [CHK] va 00c07b00: err=0, expected 1
+UVM_ERROR mmu_tb.sv(150) @ 365150000: uvm_test_top.env.chk [CHK] unexpected memory request 00208100 we=1
+UVM_ERROR mmu_tb.sv(150) @ 365190000: uvm_test_top.env.chk [CHK] va 0040f100: err=0, expected 1
+UVM_ERROR mmu_tb.sv(150) @ 365230000: uvm_test_top.env.chk [CHK] unexpected memory request 00208fe0 we=1
+UVM_ERROR mmu_tb.sv(150) @ 365250000: uvm_test_top.env.chk [CHK] va 0040ffe0: err=0, expected 1
+UVM_ERROR mmu_tb.sv(150) @ 365450000: uvm_test_top.env.chk [CHK] fault recorded va 00c13540 w=1, expected 0040f100 w=1
+UVM_ERROR mmu_tb.sv(150) @ 367040000: uvm_test_top.env.chk [CHK] unexpected memory request 00202c80 we=1
+UVM_ERROR mmu_tb.sv(150) @ 367090000: uvm_test_top.env.chk [CHK] va 00403c80: err=0, expected 1
+UVM_ERROR mmu_tb.sv(150) @ 368090000: uvm_test_top.env.chk [CHK] fault recorded va 00814100 w=1, expected 00403c80 w=1
+UVM_ERROR mmu_tb.sv(150) @ 368270000: uvm_test_top.env.chk [CHK] unexpected memory request 002023e0 we=1
+UVM_ERROR mmu_tb.sv(150) @ 368350000: uvm_test_top.env.chk [CHK] va 004033e0: err=0, expected 1
+UVM_ERROR mmu_tb.sv(150) @ 368720000: uvm_test_top.env.chk [CHK] unexpected memory request 00208ec0 we=1
+UVM_ERROR mmu_tb.sv(150) @ 368750000: uvm_test_top.env.chk [CHK] va 0040fec0: err=0, expected 1
+UVM_ERROR mmu_tb.sv(150) @ 370380000: uvm_test_top.env.chk [CHK] unexpected memory request 00204b20 we=1
+UVM_ERROR mmu_tb.sv(150) @ 370410000: uvm_test_top.env.chk [CHK] va 00c07b20: err=0, expected 1
+UVM_ERROR mmu_tb.sv(150) @ 370750000: uvm_test_top.env.chk [CHK] unexpected memory request 00208ea0 we=1
+UVM_ERROR mmu_tb.sv(150) @ 370800000: uvm_test_top.env.chk [CHK] va 0040fea0: err=0, expected 1
+UVM_ERROR mmu_tb.sv(150) @ 370840000: uvm_test_top.env.chk [CHK] unexpected memory request 00208460 we=1
+UVM_ERROR mmu_tb.sv(150) @ 370910000: uvm_test_top.env.chk [CHK] va 0040f460: err=0, expected 1
+UVM_ERROR mmu_tb.sv(150) @ 370950000: uvm_test_top.env.chk [CHK] unexpected memory request 00208780 we=1
+UVM_ERROR mmu_tb.sv(150) @ 371000000: uvm_test_top.env.chk [CHK] va 0040f780: err=0, expected 1
+UVM_ERROR mmu_tb.sv(150) @ 371470000: uvm_test_top.env.chk [CHK] unexpected memory request 00202a60 we=1
+UVM_ERROR mmu_tb.sv(150) @ 371490000: uvm_test_top.env.chk [CHK] va 00403a60: err=0, expected 1
+UVM_ERROR mmu_tb.sv(150) @ 371640000: uvm_test_top.env.chk [CHK] fault recorded va 00c130c0 w=0, expected 0040fea0 w=1
+UVM_ERROR mmu_tb.sv(150) @ 373760000: uvm_test_top.env.chk [CHK] unexpected memory request 00208120 we=1
+UVM_ERROR mmu_tb.sv(150) @ 373790000: uvm_test_top.env.chk [CHK] va 0040f120: err=0, expected 1
+UVM_ERROR mmu_tb.sv(150) @ 374040000: uvm_test_top.env.chk [CHK] fault recorded va 00c13d20 w=1, expected 0040f120 w=1
+UVM_ERROR mmu_tb.sv(150) @ 376060000: uvm_test_top.env.chk [CHK] unexpected memory request 00208140 we=1
+UVM_ERROR mmu_tb.sv(150) @ 376140000: uvm_test_top.env.chk [CHK] va 0040f140: err=0, expected 1
+UVM_ERROR mmu_tb.sv(150) @ 377280000: uvm_test_top.env.chk [CHK] unexpected memory request 00208a60 we=1
+UVM_ERROR mmu_tb.sv(150) @ 377320000: uvm_test_top.env.chk [CHK] va 0040fa60: err=0, expected 1
+UVM_ERROR mmu_tb.sv(150) @ 377840000: uvm_test_top.env.chk [CHK] unexpected memory request 00202240 we=1
+UVM_ERROR mmu_tb.sv(150) @ 377870000: uvm_test_top.env.chk [CHK] va 00403240: err=0, expected 1
+UVM_ERROR mmu_tb.sv(150) @ 378130000: uvm_test_top.env.chk [CHK] fault recorded va 00409e80 w=0, expected 00403240 w=1
+UVM_ERROR mmu_tb.sv(150) @ 378460000: uvm_test_top.env.chk [CHK] unexpected memory request 00202540 we=1
+UVM_ERROR mmu_tb.sv(150) @ 378520000: uvm_test_top.env.chk [CHK] va 00403540: err=0, expected 1
+UVM_ERROR mmu_tb.sv(150) @ 378580000: uvm_test_top.env.chk [CHK] fault recorded va 00802860 w=1, expected 00403540 w=1
+UVM_ERROR mmu_tb.sv(150) @ 378640000: uvm_test_top.env.chk [CHK] unexpected memory request 002028a0 we=1
+UVM_ERROR mmu_tb.sv(150) @ 378700000: uvm_test_top.env.chk [CHK] va 004038a0: err=0, expected 1
+UVM_ERROR mmu_tb.sv(150) @ 378970000: uvm_test_top.env.chk [CHK] unexpected memory request 00204a80 we=1
+UVM_ERROR mmu_tb.sv(150) @ 379050000: uvm_test_top.env.chk [CHK] va 00c07a80: err=0, expected 1
+UVM_ERROR mmu_tb.sv(150) @ 379240000: uvm_test_top.env.chk [CHK] fault recorded va 00409400 w=1, expected 004038a0 w=1
+UVM_ERROR mmu_tb.sv(150) @ 381490000: uvm_test_top.env.chk [CHK] unexpected memory request 002046a0 we=1
+UVM_ERROR mmu_tb.sv(150) @ 381510000: uvm_test_top.env.chk [CHK] va 00c076a0: err=0, expected 1
+UVM_ERROR mmu_tb.sv(150) @ 381650000: uvm_test_top.env.chk [CHK] fault recorded va 00811fe0 w=1, expected 00c076a0 w=1
+UVM_ERROR mmu_tb.sv(150) @ 383410000: uvm_test_top.env.chk [CHK] unexpected memory request 00208a60 we=1
+UVM_ERROR mmu_tb.sv(150) @ 383460000: uvm_test_top.env.chk [CHK] va 0040fa60: err=0, expected 1
+UVM_ERROR mmu_tb.sv(150) @ 383560000: uvm_test_top.env.chk [CHK] fault recorded va 00808240 w=0, expected 0040fa60 w=1
+UVM_ERROR mmu_tb.sv(150) @ 384290000: uvm_test_top.env.chk [CHK] unexpected memory request 00202360 we=1
+UVM_ERROR mmu_tb.sv(150) @ 384330000: uvm_test_top.env.chk [CHK] va 00403360: err=0, expected 1
+UVM_ERROR mmu_tb.sv(150) @ 384400000: uvm_test_top.env.chk [CHK] fault recorded va 0080ef80 w=1, expected 00403360 w=1
+UVM_ERROR mmu_tb.sv(150) @ 384630000: uvm_test_top.env.chk [CHK] unexpected memory request 002024e0 we=1
+UVM_ERROR mmu_tb.sv(150) @ 384650000: uvm_test_top.env.chk [CHK] va 004034e0: err=0, expected 1
+UVM_ERROR mmu_tb.sv(150) @ 385640000: uvm_test_top.env.chk [CHK] unexpected memory request 00202080 we=1
+UVM_ERROR mmu_tb.sv(150) @ 385690000: uvm_test_top.env.chk [CHK] va 00403080: err=0, expected 1
+UVM_ERROR mmu_tb.sv(150) @ 386030000: uvm_test_top.env.chk [CHK] fault recorded va 00814ca0 w=0, expected 00403080 w=1
+UVM_ERROR mmu_tb.sv(150) @ 388860000: uvm_test_top.env.chk [CHK] unexpected memory request 002042a0 we=1
+UVM_ERROR mmu_tb.sv(150) @ 388900000: uvm_test_top.env.chk [CHK] va 00c072a0: err=0, expected 1
+UVM_ERROR mmu_tb.sv(150) @ 389360000: uvm_test_top.env.chk [CHK] fault recorded va 0080ec00 w=0, expected 00c072a0 w=1
+UVM_ERROR mmu_tb.sv(150) @ 390150000: uvm_test_top.env.chk [CHK] unexpected memory request 00208ce0 we=1
+UVM_ERROR mmu_tb.sv(150) @ 390180000: uvm_test_top.env.chk [CHK] va 0040fce0: err=0, expected 1
+UVM_ERROR mmu_tb.sv(150) @ 390680000: uvm_test_top.env.chk [CHK] fault recorded va 00409400 w=0, expected 0040fce0 w=1
+UVM_ERROR mmu_tb.sv(150) @ 393010000: uvm_test_top.env.chk [CHK] unexpected memory request 00208c80 we=1
+UVM_ERROR mmu_tb.sv(150) @ 393080000: uvm_test_top.env.chk [CHK] va 0040fc80: err=0, expected 1
+UVM_ERROR mmu_tb.sv(150) @ 393350000: uvm_test_top.env.chk [CHK] unexpected memory request 00208480 we=1
+UVM_ERROR mmu_tb.sv(150) @ 393380000: uvm_test_top.env.chk [CHK] va 0040f480: err=0, expected 1
+UVM_ERROR mmu_tb.sv(150) @ 393540000: uvm_test_top.env.chk [CHK] fault recorded va 00409400 w=0, expected 0040fc80 w=1
+UVM_ERROR mmu_tb.sv(150) @ 394150000: uvm_test_top.env.chk [CHK] unexpected memory request 00208b80 we=1
+UVM_ERROR mmu_tb.sv(150) @ 394180000: uvm_test_top.env.chk [CHK] va 0040fb80: err=0, expected 1
+UVM_ERROR mmu_tb.sv(150) @ 395120000: uvm_test_top.env.chk [CHK] unexpected memory request 00208b60 we=1
+UVM_ERROR mmu_tb.sv(150) @ 395190000: uvm_test_top.env.chk [CHK] va 0040fb60: err=0, expected 1
+UVM_ERROR mmu_tb.sv(150) @ 395290000: uvm_test_top.env.chk [CHK] fault recorded va 0080eca0 w=0, expected 0040fb60 w=1
+UVM_ERROR mmu_tb.sv(150) @ 396040000: uvm_test_top.env.chk [CHK] unexpected memory request 00208b40 we=1
+UVM_ERROR mmu_tb.sv(150) @ 396110000: uvm_test_top.env.chk [CHK] va 0040fb40: err=0, expected 1
+UVM_INFO mmu_tb.sv(230) @ 398515000: uvm_test_top.env.chk [CHK] translations=3000 errors=556
+UVM_INFO mmu_tb.sv(231) @ 398515000: uvm_test_top.env.chk [COV] functional coverage = 78.6%
+    tlb_hit                      1523
+    walk                         1477
+    fault_level1                 152
+    fault_level2                 501
+    fault_write_readonly_walk    66
+    fault_write_readonly_tlb_hit 157
+    read_readonly_ok             322
+    tlb_replacement              816
+    invalidate_then_walk         0
+    remapped_page_used           0
+    bypass                       0
+    fault_reported               392
+    fault_cleared                391
+    memory_backpressure          4332
+UVM_INFO /Users/sankalpahota/Documents/GIT/mGPU/uvm/base/uvm_report_server.svh(1009) @ 398515000: reporter [UVM/REPORT/SERVER] 
+--- UVM Report Summary ---
+
+** Report counts by severity
+UVM_INFO :    6
+UVM_WARNING :    2
+UVM_ERROR :  556
+UVM_FATAL :    0
+** Report counts by id
+[CHK]   557
+[COV]     1
+[NO_DPI_TSTNAME]     1
+[NO_DPI_USED]     1
+[NO_VISIT_CHECK]     1
+[RNTST]     1
+[UVM/COMP/NAMECHECK]     1
+[UVM/RELNOTES]     1
+
+- /Users/sankalpahota/Documents/GIT/mGPU/uvm/base/uvm_test_runner.svh:297: Verilog $finish
+- S i m u l a t i o n   R e p o r t: Verilator 5.052 2026-09-05
+- Verilator: $finish at 399us; walltime 0.156 s; speed 2.549 ms/s
+- Verilator: cpu 0.156 s on 1 threads; allocated 13 MB

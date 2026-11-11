@@ -1,0 +1,472 @@
+%Warning: System has stack size 65520 kb which may be too small; failed to request more using 'ulimit -s 172720396'
+UVM_INFO /Users/sankalpahota/Documents/GIT/mGPU/uvm/base/uvm_root.svh(457) @ 0: reporter [UVM/RELNOTES] 
+  ***********       IMPORTANT RELEASE NOTES         ************
+
+  This implementation of the UVM Library deviates from the 1800.2-2020
+  standard.  See the DEVIATIONS.md file contained in the release
+  for more details.
+
+----------------------------------------------------------------
+Accellera:1800.2:UVM:2020.3.2
+
+All copyright owners for this kit are listed in NOTICE.txt
+All Rights Reserved Worldwide
+----------------------------------------------------------------
+
+      (Specify +UVM_NO_RELNOTES to turn off this notice)
+
+UVM_WARNING /Users/sankalpahota/Documents/GIT/mGPU/uvm/base/uvm_test_runner.svh(207) @ 0: reporter [NO_DPI_USED] We are thinking of removing support for UVM_NO_DPI.  Please try this test without it and evaluate the impact
+UVM_INFO /Users/sankalpahota/Documents/GIT/mGPU/uvm/base/uvm_test_runner.svh(210) @ 0: reporter [NO_DPI_TSTNAME] UVM_NO_DPI defined--getting UVM_TESTNAME directly, without DPI
+UVM_INFO @ 0: reporter [RNTST] Running test l1_rand_test...
+UVM_INFO /Users/sankalpahota/Documents/GIT/mGPU/uvm/base/uvm_traversal.svh(345) @ 0: reporter [UVM/COMP/NAMECHECK] This implementation of the component name checks requires DPI to be enabled
+UVM_WARNING /Users/sankalpahota/Documents/GIT/mGPU/uvm/base/uvm_traversal.svh(314) @ 0: reporter [NO_VISIT_CHECK] Because UVM_REGEX_NO_DPI is defined, no uvm component name constraints will be checked
+UVM_ERROR l1_tb.sv(142) @ 3970000: uvm_test_top.env.chk [CHK] read 0001006c returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 5360000: uvm_test_top.env.chk [CHK] read 00010038 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 10630000: uvm_test_top.env.chk [CHK] read 00010228 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 11340000: uvm_test_top.env.chk [CHK] read 00010238 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 12400000: uvm_test_top.env.chk [CHK] read 0001046c returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 13620000: uvm_test_top.env.chk [CHK] read 00010020 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 13770000: uvm_test_top.env.chk [CHK] read 00010064 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 14550000: uvm_test_top.env.chk [CHK] read 00010258 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 14570000: uvm_test_top.env.chk [CHK] read 00010470 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 14590000: uvm_test_top.env.chk [CHK] read 00010468 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 14880000: uvm_test_top.env.chk [CHK] read 00010074 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 15750000: uvm_test_top.env.chk [CHK] read 00010038 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 16170000: uvm_test_top.env.chk [CHK] read 00010064 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 16820000: uvm_test_top.env.chk [CHK] read 0001006c returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 16840000: uvm_test_top.env.chk [CHK] read 00010074 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 19190000: uvm_test_top.env.chk [CHK] read 00010208 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 19960000: uvm_test_top.env.chk [CHK] read 00010048 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 20550000: uvm_test_top.env.chk [CHK] read 00010044 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 22070000: uvm_test_top.env.chk [CHK] read 00010214 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 22930000: uvm_test_top.env.chk [CHK] read 00010248 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 23420000: uvm_test_top.env.chk [CHK] read 0001001c returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 23780000: uvm_test_top.env.chk [CHK] read 00010030 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 24770000: uvm_test_top.env.chk [CHK] read 0001023c returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 25150000: uvm_test_top.env.chk [CHK] read 00010030 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 26300000: uvm_test_top.env.chk [CHK] read 00010014 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 28430000: uvm_test_top.env.chk [CHK] read 00010414 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 28870000: uvm_test_top.env.chk [CHK] read 00010678 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 30030000: uvm_test_top.env.chk [CHK] read 00010634 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 30940000: uvm_test_top.env.chk [CHK] read 00010214 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 31250000: uvm_test_top.env.chk [CHK] read 00010648 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 31580000: uvm_test_top.env.chk [CHK] read 00010458 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 31970000: uvm_test_top.env.chk [CHK] read 00010410 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 32230000: uvm_test_top.env.chk [CHK] read 00010418 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 32770000: uvm_test_top.env.chk [CHK] read 0001064c returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 33060000: uvm_test_top.env.chk [CHK] read 00010450 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 33270000: uvm_test_top.env.chk [CHK] read 00010644 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 33960000: uvm_test_top.env.chk [CHK] read 00010444 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 34490000: uvm_test_top.env.chk [CHK] read 0001045c returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 35400000: uvm_test_top.env.chk [CHK] read 00010444 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 36610000: uvm_test_top.env.chk [CHK] read 00010418 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 37730000: uvm_test_top.env.chk [CHK] read 0001025c returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 39610000: uvm_test_top.env.chk [CHK] read 00010608 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 41630000: uvm_test_top.env.chk [CHK] read 0001042c returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 42300000: uvm_test_top.env.chk [CHK] read 0001042c returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 44820000: uvm_test_top.env.chk [CHK] read 00010244 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 45390000: uvm_test_top.env.chk [CHK] read 00010218 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 46820000: uvm_test_top.env.chk [CHK] read 00010048 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 47290000: uvm_test_top.env.chk [CHK] read 0001003c returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 47380000: uvm_test_top.env.chk [CHK] read 0001005c returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 47400000: uvm_test_top.env.chk [CHK] read 0001004c returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 47800000: uvm_test_top.env.chk [CHK] read 00010020 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 48230000: uvm_test_top.env.chk [CHK] read 00010070 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 49260000: uvm_test_top.env.chk [CHK] read 0001001c returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 50060000: uvm_test_top.env.chk [CHK] read 00010458 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 52330000: uvm_test_top.env.chk [CHK] read 00010404 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 53130000: uvm_test_top.env.chk [CHK] read 00010410 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 53150000: uvm_test_top.env.chk [CHK] read 00010474 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 53260000: uvm_test_top.env.chk [CHK] read 00010478 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 53370000: uvm_test_top.env.chk [CHK] read 00010454 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 54060000: uvm_test_top.env.chk [CHK] read 0001061c returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 55610000: uvm_test_top.env.chk [CHK] read 00010610 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 56760000: uvm_test_top.env.chk [CHK] read 0001001c returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 57330000: uvm_test_top.env.chk [CHK] read 00010018 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 57540000: uvm_test_top.env.chk [CHK] read 00010014 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 58160000: uvm_test_top.env.chk [CHK] read 00010018 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 58320000: uvm_test_top.env.chk [CHK] read 0001000c returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 58740000: uvm_test_top.env.chk [CHK] read 00010074 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 59460000: uvm_test_top.env.chk [CHK] read 0001007c returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 59990000: uvm_test_top.env.chk [CHK] read 00010050 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 60870000: uvm_test_top.env.chk [CHK] read 00010208 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 61020000: uvm_test_top.env.chk [CHK] read 0001021c returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 61040000: uvm_test_top.env.chk [CHK] read 00010620 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 61800000: uvm_test_top.env.chk [CHK] read 00010634 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 61910000: uvm_test_top.env.chk [CHK] read 0001040c returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 62280000: uvm_test_top.env.chk [CHK] read 00010630 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 62900000: uvm_test_top.env.chk [CHK] read 0001041c returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 62940000: uvm_test_top.env.chk [CHK] read 0001063c returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 63270000: uvm_test_top.env.chk [CHK] read 00010234 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 63310000: uvm_test_top.env.chk [CHK] read 00010224 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 64330000: uvm_test_top.env.chk [CHK] read 00010238 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 64480000: uvm_test_top.env.chk [CHK] read 0001022c returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 64580000: uvm_test_top.env.chk [CHK] read 00010220 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 64790000: uvm_test_top.env.chk [CHK] read 0001062c returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 64850000: uvm_test_top.env.chk [CHK] read 00010054 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 65340000: uvm_test_top.env.chk [CHK] read 00010620 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 65450000: uvm_test_top.env.chk [CHK] read 00010040 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 67520000: uvm_test_top.env.chk [CHK] read 00010078 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 67540000: uvm_test_top.env.chk [CHK] read 00010074 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 73780000: uvm_test_top.env.chk [CHK] read 00010404 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 74000000: uvm_test_top.env.chk [CHK] read 0001041c returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 74440000: uvm_test_top.env.chk [CHK] read 0001041c returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 74960000: uvm_test_top.env.chk [CHK] read 00010408 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 75140000: uvm_test_top.env.chk [CHK] read 0001041c returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 75770000: uvm_test_top.env.chk [CHK] read 00010210 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 76570000: uvm_test_top.env.chk [CHK] read 00010214 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 82060000: uvm_test_top.env.chk [CHK] read 0001045c returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 85740000: uvm_test_top.env.chk [CHK] read 00010000 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 86690000: uvm_test_top.env.chk [CHK] read 00010458 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 87870000: uvm_test_top.env.chk [CHK] read 00010438 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 90430000: uvm_test_top.env.chk [CHK] read 0001026c returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 90590000: uvm_test_top.env.chk [CHK] read 0001022c returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 92960000: uvm_test_top.env.chk [CHK] read 00010248 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 93700000: uvm_test_top.env.chk [CHK] read 0001064c returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 94010000: uvm_test_top.env.chk [CHK] read 00010228 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 94190000: uvm_test_top.env.chk [CHK] read 00010224 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 95040000: uvm_test_top.env.chk [CHK] read 00010644 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 95070000: uvm_test_top.env.chk [CHK] read 00010644 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 95170000: uvm_test_top.env.chk [CHK] read 00010650 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 95700000: uvm_test_top.env.chk [CHK] read 00010070 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 95840000: uvm_test_top.env.chk [CHK] read 00010074 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 98520000: uvm_test_top.env.chk [CHK] read 00010408 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 99290000: uvm_test_top.env.chk [CHK] read 00010620 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 99540000: uvm_test_top.env.chk [CHK] read 00010074 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 99630000: uvm_test_top.env.chk [CHK] read 00010628 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 99650000: uvm_test_top.env.chk [CHK] read 0001062c returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 99750000: uvm_test_top.env.chk [CHK] read 0001041c returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 100160000: uvm_test_top.env.chk [CHK] read 00010634 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 100390000: uvm_test_top.env.chk [CHK] read 00010060 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 101540000: uvm_test_top.env.chk [CHK] read 00010068 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 103630000: uvm_test_top.env.chk [CHK] read 00010648 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 106020000: uvm_test_top.env.chk [CHK] read 00010654 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 108790000: uvm_test_top.env.chk [CHK] read 00010628 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 109290000: uvm_test_top.env.chk [CHK] read 00010030 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 109380000: uvm_test_top.env.chk [CHK] read 00010024 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 110580000: uvm_test_top.env.chk [CHK] read 00010230 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 114200000: uvm_test_top.env.chk [CHK] read 00010670 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 116890000: uvm_test_top.env.chk [CHK] read 00010624 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 117560000: uvm_test_top.env.chk [CHK] read 00010630 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 119390000: uvm_test_top.env.chk [CHK] read 00010050 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 119430000: uvm_test_top.env.chk [CHK] read 00010460 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 120280000: uvm_test_top.env.chk [CHK] read 0001022c returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 120310000: uvm_test_top.env.chk [CHK] read 00010620 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 120670000: uvm_test_top.env.chk [CHK] read 0001026c returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 124840000: uvm_test_top.env.chk [CHK] read 0001007c returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 125380000: uvm_test_top.env.chk [CHK] read 00010048 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 126210000: uvm_test_top.env.chk [CHK] read 00010050 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 127310000: uvm_test_top.env.chk [CHK] read 0001060c returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 127870000: uvm_test_top.env.chk [CHK] read 0001046c returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 129320000: uvm_test_top.env.chk [CHK] read 00010668 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 130530000: uvm_test_top.env.chk [CHK] read 00010670 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 130760000: uvm_test_top.env.chk [CHK] read 00010250 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 132290000: uvm_test_top.env.chk [CHK] read 00010620 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 132320000: uvm_test_top.env.chk [CHK] read 00010660 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 133140000: uvm_test_top.env.chk [CHK] read 00010054 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 133960000: uvm_test_top.env.chk [CHK] read 0001063c returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 134140000: uvm_test_top.env.chk [CHK] read 00010624 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 136910000: uvm_test_top.env.chk [CHK] read 00010434 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 136930000: uvm_test_top.env.chk [CHK] read 00010434 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 144950000: uvm_test_top.env.chk [CHK] read 00010238 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 145400000: uvm_test_top.env.chk [CHK] read 00010220 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 146010000: uvm_test_top.env.chk [CHK] read 00010654 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 147130000: uvm_test_top.env.chk [CHK] read 00010650 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 147570000: uvm_test_top.env.chk [CHK] read 00010250 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 147960000: uvm_test_top.env.chk [CHK] read 0001022c returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 148070000: uvm_test_top.env.chk [CHK] read 00010248 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 148890000: uvm_test_top.env.chk [CHK] read 00010248 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 149090000: uvm_test_top.env.chk [CHK] read 0001024c returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 149420000: uvm_test_top.env.chk [CHK] read 00010210 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 151370000: uvm_test_top.env.chk [CHK] read 00010414 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 151410000: uvm_test_top.env.chk [CHK] read 00010044 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 151840000: uvm_test_top.env.chk [CHK] read 00010050 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 153040000: uvm_test_top.env.chk [CHK] read 00010278 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 153080000: uvm_test_top.env.chk [CHK] read 00010264 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 162450000: uvm_test_top.env.chk [CHK] read 0001045c returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 162830000: uvm_test_top.env.chk [CHK] read 00010640 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 163130000: uvm_test_top.env.chk [CHK] read 00010030 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 164220000: uvm_test_top.env.chk [CHK] read 00010650 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 165040000: uvm_test_top.env.chk [CHK] read 00010078 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 166680000: uvm_test_top.env.chk [CHK] read 00010430 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 167140000: uvm_test_top.env.chk [CHK] read 00010424 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 167830000: uvm_test_top.env.chk [CHK] read 0001063c returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 170290000: uvm_test_top.env.chk [CHK] read 00010664 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 170330000: uvm_test_top.env.chk [CHK] read 00010458 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 170520000: uvm_test_top.env.chk [CHK] read 00010424 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 170600000: uvm_test_top.env.chk [CHK] read 0001043c returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 171730000: uvm_test_top.env.chk [CHK] read 00010440 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 172860000: uvm_test_top.env.chk [CHK] read 00010660 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 173420000: uvm_test_top.env.chk [CHK] read 00010654 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 174160000: uvm_test_top.env.chk [CHK] read 0001064c returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 175120000: uvm_test_top.env.chk [CHK] read 00010648 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 175320000: uvm_test_top.env.chk [CHK] read 00010664 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 175490000: uvm_test_top.env.chk [CHK] read 00010664 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 176540000: uvm_test_top.env.chk [CHK] read 00010670 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 178410000: uvm_test_top.env.chk [CHK] read 00010478 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 179360000: uvm_test_top.env.chk [CHK] read 00010464 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 179870000: uvm_test_top.env.chk [CHK] read 00010428 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 180720000: uvm_test_top.env.chk [CHK] read 00010420 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 180750000: uvm_test_top.env.chk [CHK] read 0001047c returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 180770000: uvm_test_top.env.chk [CHK] read 00010428 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 180810000: uvm_test_top.env.chk [CHK] read 0001047c returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 181140000: uvm_test_top.env.chk [CHK] read 0001047c returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 181890000: uvm_test_top.env.chk [CHK] read 0001063c returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 182690000: uvm_test_top.env.chk [CHK] read 00010200 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 183250000: uvm_test_top.env.chk [CHK] read 00010444 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 183830000: uvm_test_top.env.chk [CHK] read 00010244 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 183870000: uvm_test_top.env.chk [CHK] read 00010600 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 184190000: uvm_test_top.env.chk [CHK] read 00010444 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 184540000: uvm_test_top.env.chk [CHK] read 00010610 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 185040000: uvm_test_top.env.chk [CHK] read 00010450 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 186150000: uvm_test_top.env.chk [CHK] read 00010608 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 186650000: uvm_test_top.env.chk [CHK] read 00010450 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 187040000: uvm_test_top.env.chk [CHK] read 0001040c returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 187190000: uvm_test_top.env.chk [CHK] read 00010430 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 189400000: uvm_test_top.env.chk [CHK] read 0001047c returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 191800000: uvm_test_top.env.chk [CHK] read 00010420 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 192390000: uvm_test_top.env.chk [CHK] read 00010424 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 193390000: uvm_test_top.env.chk [CHK] read 0001023c returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 193570000: uvm_test_top.env.chk [CHK] read 00010058 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 193710000: uvm_test_top.env.chk [CHK] read 00010234 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 193850000: uvm_test_top.env.chk [CHK] read 00010238 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 196510000: uvm_test_top.env.chk [CHK] read 00010044 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 196640000: uvm_test_top.env.chk [CHK] read 00010044 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 196670000: uvm_test_top.env.chk [CHK] read 00010670 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 196950000: uvm_test_top.env.chk [CHK] read 00010040 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 197870000: uvm_test_top.env.chk [CHK] read 00010674 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 197900000: uvm_test_top.env.chk [CHK] read 00010060 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 198140000: uvm_test_top.env.chk [CHK] read 00010670 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 198870000: uvm_test_top.env.chk [CHK] read 00010234 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 198900000: uvm_test_top.env.chk [CHK] read 00010214 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 198940000: uvm_test_top.env.chk [CHK] read 0001020c returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 198970000: uvm_test_top.env.chk [CHK] read 0001020c returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 201000000: uvm_test_top.env.chk [CHK] read 00010664 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 202760000: uvm_test_top.env.chk [CHK] read 00010604 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 203090000: uvm_test_top.env.chk [CHK] read 00010678 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 203300000: uvm_test_top.env.chk [CHK] read 00010660 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 203460000: uvm_test_top.env.chk [CHK] read 00010674 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 204960000: uvm_test_top.env.chk [CHK] read 0001066c returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 208560000: uvm_test_top.env.chk [CHK] read 00010064 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 208770000: uvm_test_top.env.chk [CHK] read 00010068 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 209160000: uvm_test_top.env.chk [CHK] read 00010228 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 209680000: uvm_test_top.env.chk [CHK] read 00010224 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 209850000: uvm_test_top.env.chk [CHK] read 00010470 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 210100000: uvm_test_top.env.chk [CHK] read 00010634 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 210120000: uvm_test_top.env.chk [CHK] read 00010228 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 210140000: uvm_test_top.env.chk [CHK] read 0001021c returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 210170000: uvm_test_top.env.chk [CHK] read 00010224 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 210200000: uvm_test_top.env.chk [CHK] read 00010238 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 211170000: uvm_test_top.env.chk [CHK] read 00010220 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 211710000: uvm_test_top.env.chk [CHK] read 00010228 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 211740000: uvm_test_top.env.chk [CHK] read 00010208 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 211840000: uvm_test_top.env.chk [CHK] read 00010228 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 212010000: uvm_test_top.env.chk [CHK] read 00010220 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 214310000: uvm_test_top.env.chk [CHK] read 00010040 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 215750000: uvm_test_top.env.chk [CHK] read 00010438 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 216230000: uvm_test_top.env.chk [CHK] read 0001067c returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 217040000: uvm_test_top.env.chk [CHK] read 00010660 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 217490000: uvm_test_top.env.chk [CHK] read 00010664 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 217810000: uvm_test_top.env.chk [CHK] read 00010618 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 217850000: uvm_test_top.env.chk [CHK] read 00010678 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 218290000: uvm_test_top.env.chk [CHK] read 00010608 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 218490000: uvm_test_top.env.chk [CHK] read 00010668 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 219280000: uvm_test_top.env.chk [CHK] read 00010618 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 219370000: uvm_test_top.env.chk [CHK] read 00010460 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 219960000: uvm_test_top.env.chk [CHK] read 00010470 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 220030000: uvm_test_top.env.chk [CHK] read 00010608 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 220560000: uvm_test_top.env.chk [CHK] read 0001060c returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 220590000: uvm_test_top.env.chk [CHK] read 00010674 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 221300000: uvm_test_top.env.chk [CHK] read 0001041c returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 221410000: uvm_test_top.env.chk [CHK] read 00010670 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 221430000: uvm_test_top.env.chk [CHK] read 00010400 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 221680000: uvm_test_top.env.chk [CHK] read 00010668 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 222550000: uvm_test_top.env.chk [CHK] read 00010678 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 224430000: uvm_test_top.env.chk [CHK] read 00010660 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 224860000: uvm_test_top.env.chk [CHK] read 0001066c returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 225730000: uvm_test_top.env.chk [CHK] read 00010070 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 225950000: uvm_test_top.env.chk [CHK] read 0001007c returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 227590000: uvm_test_top.env.chk [CHK] read 0001045c returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 227860000: uvm_test_top.env.chk [CHK] read 00010230 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 228660000: uvm_test_top.env.chk [CHK] read 0001045c returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 232110000: uvm_test_top.env.chk [CHK] read 00010240 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 234160000: uvm_test_top.env.chk [CHK] read 00010254 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 236350000: uvm_test_top.env.chk [CHK] read 00010454 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 236820000: uvm_test_top.env.chk [CHK] read 00010454 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 237260000: uvm_test_top.env.chk [CHK] read 00010454 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 238260000: uvm_test_top.env.chk [CHK] read 00010600 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 239160000: uvm_test_top.env.chk [CHK] read 00010448 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 239200000: uvm_test_top.env.chk [CHK] read 00010670 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 241730000: uvm_test_top.env.chk [CHK] read 0001020c returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 241810000: uvm_test_top.env.chk [CHK] read 0001041c returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 241830000: uvm_test_top.env.chk [CHK] read 0001021c returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 243680000: uvm_test_top.env.chk [CHK] read 00010600 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 244140000: uvm_test_top.env.chk [CHK] read 00010478 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 245270000: uvm_test_top.env.chk [CHK] read 00010200 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 247480000: uvm_test_top.env.chk [CHK] read 00010068 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 247510000: uvm_test_top.env.chk [CHK] read 00010074 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 247530000: uvm_test_top.env.chk [CHK] read 00010074 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 247660000: uvm_test_top.env.chk [CHK] read 00010068 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 248320000: uvm_test_top.env.chk [CHK] read 0001027c returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 249500000: uvm_test_top.env.chk [CHK] read 00010254 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 249880000: uvm_test_top.env.chk [CHK] read 00010214 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 254150000: uvm_test_top.env.chk [CHK] read 00010068 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 255060000: uvm_test_top.env.chk [CHK] read 00010050 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 258240000: uvm_test_top.env.chk [CHK] read 00010260 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 259920000: uvm_test_top.env.chk [CHK] read 00010654 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 260090000: uvm_test_top.env.chk [CHK] read 00010654 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 263110000: uvm_test_top.env.chk [CHK] read 00010040 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 264750000: uvm_test_top.env.chk [CHK] read 00010224 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 264870000: uvm_test_top.env.chk [CHK] read 0001047c returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 264910000: uvm_test_top.env.chk [CHK] read 00010654 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 265080000: uvm_test_top.env.chk [CHK] read 00010470 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 265100000: uvm_test_top.env.chk [CHK] read 0001001c returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 265510000: uvm_test_top.env.chk [CHK] read 0001023c returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 265770000: uvm_test_top.env.chk [CHK] read 00010234 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 266570000: uvm_test_top.env.chk [CHK] read 00010248 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 266610000: uvm_test_top.env.chk [CHK] read 00010254 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 269460000: uvm_test_top.env.chk [CHK] read 00010000 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 269810000: uvm_test_top.env.chk [CHK] read 00010008 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 271470000: uvm_test_top.env.chk [CHK] read 00010204 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 272720000: uvm_test_top.env.chk [CHK] read 00010044 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 272870000: uvm_test_top.env.chk [CHK] read 0001060c returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 275150000: uvm_test_top.env.chk [CHK] read 0001065c returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 275430000: uvm_test_top.env.chk [CHK] read 00010474 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 276450000: uvm_test_top.env.chk [CHK] read 00010074 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 277140000: uvm_test_top.env.chk [CHK] read 00010468 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 277450000: uvm_test_top.env.chk [CHK] read 00010460 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 277700000: uvm_test_top.env.chk [CHK] read 00010444 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 279360000: uvm_test_top.env.chk [CHK] read 0001046c returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 285100000: uvm_test_top.env.chk [CHK] read 00010448 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 285270000: uvm_test_top.env.chk [CHK] read 0001045c returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 285370000: uvm_test_top.env.chk [CHK] read 0001003c returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 287050000: uvm_test_top.env.chk [CHK] read 00010260 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 288640000: uvm_test_top.env.chk [CHK] read 00010628 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 289010000: uvm_test_top.env.chk [CHK] read 00010630 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 289390000: uvm_test_top.env.chk [CHK] read 0001063c returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 289680000: uvm_test_top.env.chk [CHK] read 00010200 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 289700000: uvm_test_top.env.chk [CHK] read 0001043c returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 291520000: uvm_test_top.env.chk [CHK] read 0001003c returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 291560000: uvm_test_top.env.chk [CHK] read 00010238 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 291720000: uvm_test_top.env.chk [CHK] read 00010068 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 291880000: uvm_test_top.env.chk [CHK] read 00010438 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 293960000: uvm_test_top.env.chk [CHK] read 00010060 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 295200000: uvm_test_top.env.chk [CHK] read 0001067c returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 295330000: uvm_test_top.env.chk [CHK] read 00010060 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 295510000: uvm_test_top.env.chk [CHK] read 00010670 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 296660000: uvm_test_top.env.chk [CHK] read 00010410 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 296680000: uvm_test_top.env.chk [CHK] read 00010414 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 296700000: uvm_test_top.env.chk [CHK] read 0001040c returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 296720000: uvm_test_top.env.chk [CHK] read 00010664 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 297890000: uvm_test_top.env.chk [CHK] read 00010404 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 298330000: uvm_test_top.env.chk [CHK] read 00010258 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 298670000: uvm_test_top.env.chk [CHK] read 00010258 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 299100000: uvm_test_top.env.chk [CHK] read 00010240 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 301030000: uvm_test_top.env.chk [CHK] read 00010620 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 301500000: uvm_test_top.env.chk [CHK] read 0001064c returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 301620000: uvm_test_top.env.chk [CHK] read 00010624 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 306350000: uvm_test_top.env.chk [CHK] read 00010644 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 307040000: uvm_test_top.env.chk [CHK] read 00010030 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 312100000: uvm_test_top.env.chk [CHK] read 00010628 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 312130000: uvm_test_top.env.chk [CHK] read 00010660 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 312640000: uvm_test_top.env.chk [CHK] read 00010628 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 312980000: uvm_test_top.env.chk [CHK] read 00010614 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 315190000: uvm_test_top.env.chk [CHK] read 00010050 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 315310000: uvm_test_top.env.chk [CHK] read 0001005c returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 316590000: uvm_test_top.env.chk [CHK] read 00010224 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 317230000: uvm_test_top.env.chk [CHK] read 0001044c returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 318140000: uvm_test_top.env.chk [CHK] read 0001023c returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 318520000: uvm_test_top.env.chk [CHK] read 00010410 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 318600000: uvm_test_top.env.chk [CHK] read 00010400 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 319260000: uvm_test_top.env.chk [CHK] read 0001022c returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 319930000: uvm_test_top.env.chk [CHK] read 00010404 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 320300000: uvm_test_top.env.chk [CHK] read 00010044 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 320370000: uvm_test_top.env.chk [CHK] read 0001066c returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 321580000: uvm_test_top.env.chk [CHK] read 00010008 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 322520000: uvm_test_top.env.chk [CHK] read 00010018 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 323050000: uvm_test_top.env.chk [CHK] read 00010214 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 323250000: uvm_test_top.env.chk [CHK] read 00010660 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 323560000: uvm_test_top.env.chk [CHK] read 00010674 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 324180000: uvm_test_top.env.chk [CHK] read 00010674 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 329950000: uvm_test_top.env.chk [CHK] read 0001065c returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 330490000: uvm_test_top.env.chk [CHK] read 00010070 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 330870000: uvm_test_top.env.chk [CHK] read 00010474 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 331360000: uvm_test_top.env.chk [CHK] read 00010478 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 331470000: uvm_test_top.env.chk [CHK] read 00010468 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 333300000: uvm_test_top.env.chk [CHK] read 0001042c returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 336550000: uvm_test_top.env.chk [CHK] read 00010240 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 339580000: uvm_test_top.env.chk [CHK] read 00010234 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 341770000: uvm_test_top.env.chk [CHK] read 0001062c returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 342120000: uvm_test_top.env.chk [CHK] read 00010634 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 345910000: uvm_test_top.env.chk [CHK] read 00010220 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 347410000: uvm_test_top.env.chk [CHK] read 00010458 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 348460000: uvm_test_top.env.chk [CHK] read 00010448 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 349290000: uvm_test_top.env.chk [CHK] read 00010608 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 349640000: uvm_test_top.env.chk [CHK] read 00010614 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 350330000: uvm_test_top.env.chk [CHK] read 00010028 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 350590000: uvm_test_top.env.chk [CHK] read 0001002c returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 352550000: uvm_test_top.env.chk [CHK] read 00010428 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 353100000: uvm_test_top.env.chk [CHK] read 00010078 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 353420000: uvm_test_top.env.chk [CHK] read 00010064 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 353450000: uvm_test_top.env.chk [CHK] read 00010218 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 354090000: uvm_test_top.env.chk [CHK] read 00010638 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 354210000: uvm_test_top.env.chk [CHK] read 00010630 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 354950000: uvm_test_top.env.chk [CHK] read 00010638 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 355290000: uvm_test_top.env.chk [CHK] read 00010248 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 356030000: uvm_test_top.env.chk [CHK] read 00010268 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 356180000: uvm_test_top.env.chk [CHK] read 00010260 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 357060000: uvm_test_top.env.chk [CHK] read 00010264 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 359700000: uvm_test_top.env.chk [CHK] read 00010450 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 360660000: uvm_test_top.env.chk [CHK] read 00010430 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 361040000: uvm_test_top.env.chk [CHK] read 00010434 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 362590000: uvm_test_top.env.chk [CHK] read 00010648 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 362630000: uvm_test_top.env.chk [CHK] read 00010650 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 365800000: uvm_test_top.env.chk [CHK] read 0001064c returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 365920000: uvm_test_top.env.chk [CHK] read 00010264 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 366270000: uvm_test_top.env.chk [CHK] read 0001065c returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 366800000: uvm_test_top.env.chk [CHK] read 00010078 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 367190000: uvm_test_top.env.chk [CHK] read 00010078 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 367860000: uvm_test_top.env.chk [CHK] read 00010064 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 368310000: uvm_test_top.env.chk [CHK] read 00010074 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 368490000: uvm_test_top.env.chk [CHK] read 00010414 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 368860000: uvm_test_top.env.chk [CHK] read 00010418 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 369200000: uvm_test_top.env.chk [CHK] read 0001041c returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 370070000: uvm_test_top.env.chk [CHK] read 00010050 returned stale or wrong data
+UVM_ERROR l1_tb.sv(142) @ 370430000: uvm_test_top.env.chk [CHK] read 00010400 returned stale or wrong data
+UVM_INFO l1_tb.sv(220) @ 371875000: uvm_test_top.env.chk [CHK] accesses=5000 read hits=1571 errors=413
+UVM_INFO l1_tb.sv(221) @ 371875000: uvm_test_top.env.chk [COV] functional coverage = 84.6%
+    read_hit_way0                769
+    read_hit_way1                802
+    read_miss_fill_way0          861
+    read_miss_fill_way1          778
+    evict_valid_line             1631
+    write_hit                    885
+    write_miss_no_allocate       905
+    partial_strobe               1372
+    lru_flip_on_hit              1218
+    invalidate_idle              0
+    invalidate_during_fill       0
+    read_after_write_hit         102
+    memory_backpressure          1538
+UVM_INFO /Users/sankalpahota/Documents/GIT/mGPU/uvm/base/uvm_report_server.svh(1009) @ 371875000: reporter [UVM/REPORT/SERVER] 
+--- UVM Report Summary ---
+
+** Report counts by severity
+UVM_INFO :    6
+UVM_WARNING :    2
+UVM_ERROR :  413
+UVM_FATAL :    0
+** Report counts by id
+[CHK]   414
+[COV]     1
+[NO_DPI_TSTNAME]     1
+[NO_DPI_USED]     1
+[NO_VISIT_CHECK]     1
+[RNTST]     1
+[UVM/COMP/NAMECHECK]     1
+[UVM/RELNOTES]     1
+
+- /Users/sankalpahota/Documents/GIT/mGPU/uvm/base/uvm_test_runner.svh:297: Verilog $finish
+- S i m u l a t i o n   R e p o r t: Verilator 5.052 2026-09-05
+- Verilator: $finish at 372us; walltime 0.676 s; speed 550.056 us/s
+- Verilator: cpu 0.497 s on 1 threads; allocated 15 MB

@@ -1,0 +1,12 @@
+merged functional coverage = 100.0% (11/11 bins)
+  read                           7602
+  write                          9198
+  read_error                     471
+  write_error                    437
+  aw_before_w                    2022
+  w_before_aw                    2824
+  aw_and_w_same_cycle            5036
+  slave_stalls_ar                3162
+  slave_stalls_w                 31390
+  partial_strobe_beat            42433
+  empty_strobe_beat              2949

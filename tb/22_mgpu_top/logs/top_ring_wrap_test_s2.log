@@ -1,0 +1,135 @@
+%Warning: System has stack size 65520 kb which may be too small; failed to request more using 'ulimit -s 132227104'
+UVM_INFO /Users/sankalpahota/Documents/GIT/mGPU/uvm/base/uvm_root.svh(457) @ 0: reporter [UVM/RELNOTES] 
+  ***********       IMPORTANT RELEASE NOTES         ************
+
+  This implementation of the UVM Library deviates from the 1800.2-2020
+  standard.  See the DEVIATIONS.md file contained in the release
+  for more details.
+
+----------------------------------------------------------------
+Accellera:1800.2:UVM:2020.3.2
+
+All copyright owners for this kit are listed in NOTICE.txt
+All Rights Reserved Worldwide
+----------------------------------------------------------------
+
+      (Specify +UVM_NO_RELNOTES to turn off this notice)
+
+UVM_WARNING /Users/sankalpahota/Documents/GIT/mGPU/uvm/base/uvm_test_runner.svh(207) @ 0: reporter [NO_DPI_USED] We are thinking of removing support for UVM_NO_DPI.  Please try this test without it and evaluate the impact
+UVM_INFO /Users/sankalpahota/Documents/GIT/mGPU/uvm/base/uvm_test_runner.svh(210) @ 0: reporter [NO_DPI_TSTNAME] UVM_NO_DPI defined--getting UVM_TESTNAME directly, without DPI
+UVM_INFO @ 0: reporter [RNTST] Running test top_ring_wrap_test...
+UVM_INFO /Users/sankalpahota/Documents/GIT/mGPU/uvm/base/uvm_traversal.svh(345) @ 0: reporter [UVM/COMP/NAMECHECK] This implementation of the component name checks requires DPI to be enabled
+UVM_WARNING /Users/sankalpahota/Documents/GIT/mGPU/uvm/base/uvm_traversal.svh(314) @ 0: reporter [NO_VISIT_CHECK] Because UVM_REGEX_NO_DPI is defined, no uvm component name constraints will be checked
+UVM_INFO top_tb.sv(160) @ 8196000: uvm_test_top.env.cpu [KERNEL] vector_add    wg=1 warps/wg=1 threads=8  cycles=788  mismatches=0
+UVM_INFO top_tb.sv(160) @ 13066000: uvm_test_top.env.cpu [KERNEL] vector_add    wg=1 warps/wg=1 threads=8  cycles=487  mismatches=0
+UVM_INFO top_tb.sv(160) @ 17936000: uvm_test_top.env.cpu [KERNEL] vector_add    wg=1 warps/wg=1 threads=8  cycles=487  mismatches=0
+UVM_INFO top_tb.sv(160) @ 22806000: uvm_test_top.env.cpu [KERNEL] vector_add    wg=1 warps/wg=1 threads=8  cycles=487  mismatches=0
+UVM_INFO top_tb.sv(160) @ 27676000: uvm_test_top.env.cpu [KERNEL] vector_add    wg=1 warps/wg=1 threads=8  cycles=487  mismatches=0
+UVM_INFO top_tb.sv(160) @ 32406000: uvm_test_top.env.cpu [KERNEL] vector_add    wg=1 warps/wg=1 threads=8  cycles=473  mismatches=0
+UVM_INFO top_tb.sv(160) @ 37096000: uvm_test_top.env.cpu [KERNEL] vector_add    wg=1 warps/wg=1 threads=8  cycles=469  mismatches=0
+UVM_INFO top_tb.sv(160) @ 41786000: uvm_test_top.env.cpu [KERNEL] vector_add    wg=1 warps/wg=1 threads=8  cycles=469  mismatches=0
+UVM_INFO top_tb.sv(160) @ 46656000: uvm_test_top.env.cpu [KERNEL] vector_add    wg=1 warps/wg=1 threads=8  cycles=487  mismatches=0
+UVM_INFO top_tb.sv(160) @ 51526000: uvm_test_top.env.cpu [KERNEL] vector_add    wg=1 warps/wg=1 threads=8  cycles=487  mismatches=0
+UVM_INFO top_tb.sv(160) @ 56396000: uvm_test_top.env.cpu [KERNEL] vector_add    wg=1 warps/wg=1 threads=8  cycles=487  mismatches=0
+UVM_INFO top_tb.sv(160) @ 61266000: uvm_test_top.env.cpu [KERNEL] vector_add    wg=1 warps/wg=1 threads=8  cycles=487  mismatches=0
+UVM_INFO top_tb.sv(160) @ 66136000: uvm_test_top.env.cpu [KERNEL] vector_add    wg=1 warps/wg=1 threads=8  cycles=487  mismatches=0
+UVM_INFO top_tb.sv(160) @ 70866000: uvm_test_top.env.cpu [KERNEL] vector_add    wg=1 warps/wg=1 threads=8  cycles=473  mismatches=0
+UVM_INFO top_tb.sv(160) @ 75556000: uvm_test_top.env.cpu [KERNEL] vector_add    wg=1 warps/wg=1 threads=8  cycles=469  mismatches=0
+UVM_INFO top_tb.sv(160) @ 80246000: uvm_test_top.env.cpu [KERNEL] vector_add    wg=1 warps/wg=1 threads=8  cycles=469  mismatches=0
+UVM_INFO top_tb.sv(160) @ 85176000: uvm_test_top.env.cpu [KERNEL] vector_add    wg=1 warps/wg=1 threads=8  cycles=493  mismatches=0
+UVM_INFO top_tb.sv(160) @ 89986000: uvm_test_top.env.cpu [KERNEL] vector_add    wg=1 warps/wg=1 threads=8  cycles=481  mismatches=0
+UVM_INFO top_tb.sv(160) @ 94796000: uvm_test_top.env.cpu [KERNEL] vector_add    wg=1 warps/wg=1 threads=8  cycles=481  mismatches=0
+UVM_INFO top_tb.sv(160) @ 99606000: uvm_test_top.env.cpu [KERNEL] vector_add    wg=1 warps/wg=1 threads=8  cycles=481  mismatches=0
+UVM_INFO top_tb.sv(160) @ 104416000: uvm_test_top.env.cpu [KERNEL] vector_add    wg=1 warps/wg=1 threads=8  cycles=481  mismatches=0
+UVM_INFO top_tb.sv(160) @ 109046000: uvm_test_top.env.cpu [KERNEL] vector_add    wg=1 warps/wg=1 threads=8  cycles=463  mismatches=0
+UVM_INFO top_tb.sv(160) @ 113676000: uvm_test_top.env.cpu [KERNEL] vector_add    wg=1 warps/wg=1 threads=8  cycles=463  mismatches=0
+UVM_INFO top_tb.sv(160) @ 118306000: uvm_test_top.env.cpu [KERNEL] vector_add    wg=1 warps/wg=1 threads=8  cycles=463  mismatches=0
+UVM_INFO top_tb.sv(160) @ 123116000: uvm_test_top.env.cpu [KERNEL] vector_add    wg=1 warps/wg=1 threads=8  cycles=481  mismatches=0
+UVM_INFO top_tb.sv(160) @ 127926000: uvm_test_top.env.cpu [KERNEL] vector_add    wg=1 warps/wg=1 threads=8  cycles=481  mismatches=0
+UVM_INFO top_tb.sv(160) @ 132736000: uvm_test_top.env.cpu [KERNEL] vector_add    wg=1 warps/wg=1 threads=8  cycles=481  mismatches=0
+UVM_INFO top_tb.sv(160) @ 137546000: uvm_test_top.env.cpu [KERNEL] vector_add    wg=1 warps/wg=1 threads=8  cycles=481  mismatches=0
+UVM_INFO top_tb.sv(160) @ 142356000: uvm_test_top.env.cpu [KERNEL] vector_add    wg=1 warps/wg=1 threads=8  cycles=481  mismatches=0
+UVM_INFO top_tb.sv(160) @ 146986000: uvm_test_top.env.cpu [KERNEL] vector_add    wg=1 warps/wg=1 threads=8  cycles=463  mismatches=0
+UVM_INFO top_tb.sv(160) @ 151616000: uvm_test_top.env.cpu [KERNEL] vector_add    wg=1 warps/wg=1 threads=8  cycles=463  mismatches=0
+UVM_INFO top_tb.sv(160) @ 156246000: uvm_test_top.env.cpu [KERNEL] vector_add    wg=1 warps/wg=1 threads=8  cycles=463  mismatches=0
+UVM_INFO top_tb.sv(160) @ 161056000: uvm_test_top.env.cpu [KERNEL] vector_add    wg=1 warps/wg=1 threads=8  cycles=481  mismatches=0
+UVM_INFO top_tb.sv(160) @ 165926000: uvm_test_top.env.cpu [KERNEL] vector_add    wg=1 warps/wg=1 threads=8  cycles=487  mismatches=0
+UVM_INFO top_tb.sv(160) @ 170736000: uvm_test_top.env.cpu [KERNEL] vector_add    wg=1 warps/wg=1 threads=8  cycles=481  mismatches=0
+UVM_INFO top_tb.sv(160) @ 175546000: uvm_test_top.env.cpu [KERNEL] vector_add    wg=1 warps/wg=1 threads=8  cycles=481  mismatches=0
+UVM_INFO top_tb.sv(160) @ 180356000: uvm_test_top.env.cpu [KERNEL] vector_add    wg=1 warps/wg=1 threads=8  cycles=481  mismatches=0
+UVM_INFO top_tb.sv(160) @ 184986000: uvm_test_top.env.cpu [KERNEL] vector_add    wg=1 warps/wg=1 threads=8  cycles=463  mismatches=0
+UVM_INFO top_tb.sv(160) @ 189616000: uvm_test_top.env.cpu [KERNEL] vector_add    wg=1 warps/wg=1 threads=8  cycles=463  mismatches=0
+UVM_INFO top_tb.sv(160) @ 194246000: uvm_test_top.env.cpu [KERNEL] vector_add    wg=1 warps/wg=1 threads=8  cycles=463  mismatches=0
+UVM_INFO top_tb.sv(160) @ 199056000: uvm_test_top.env.cpu [KERNEL] vector_add    wg=1 warps/wg=1 threads=8  cycles=481  mismatches=0
+UVM_INFO top_tb.sv(160) @ 203866000: uvm_test_top.env.cpu [KERNEL] vector_add    wg=1 warps/wg=1 threads=8  cycles=481  mismatches=0
+UVM_INFO top_tb.sv(160) @ 208676000: uvm_test_top.env.cpu [KERNEL] vector_add    wg=1 warps/wg=1 threads=8  cycles=481  mismatches=0
+UVM_INFO top_tb.sv(160) @ 213486000: uvm_test_top.env.cpu [KERNEL] vector_add    wg=1 warps/wg=1 threads=8  cycles=481  mismatches=0
+UVM_INFO top_tb.sv(160) @ 218296000: uvm_test_top.env.cpu [KERNEL] vector_add    wg=1 warps/wg=1 threads=8  cycles=481  mismatches=0
+UVM_INFO top_tb.sv(160) @ 222926000: uvm_test_top.env.cpu [KERNEL] vector_add    wg=1 warps/wg=1 threads=8  cycles=463  mismatches=0
+UVM_INFO top_tb.sv(160) @ 227556000: uvm_test_top.env.cpu [KERNEL] vector_add    wg=1 warps/wg=1 threads=8  cycles=463  mismatches=0
+UVM_INFO top_tb.sv(160) @ 232186000: uvm_test_top.env.cpu [KERNEL] vector_add    wg=1 warps/wg=1 threads=8  cycles=463  mismatches=0
+UVM_INFO top_tb.sv(160) @ 236996000: uvm_test_top.env.cpu [KERNEL] vector_add    wg=1 warps/wg=1 threads=8  cycles=481  mismatches=0
+UVM_INFO top_tb.sv(160) @ 241806000: uvm_test_top.env.cpu [KERNEL] vector_add    wg=1 warps/wg=1 threads=8  cycles=481  mismatches=0
+UVM_INFO top_tb.sv(160) @ 246676000: uvm_test_top.env.cpu [KERNEL] vector_add    wg=1 warps/wg=1 threads=8  cycles=487  mismatches=0
+UVM_INFO top_tb.sv(160) @ 251486000: uvm_test_top.env.cpu [KERNEL] vector_add    wg=1 warps/wg=1 threads=8  cycles=481  mismatches=0
+UVM_INFO top_tb.sv(160) @ 256296000: uvm_test_top.env.cpu [KERNEL] vector_add    wg=1 warps/wg=1 threads=8  cycles=481  mismatches=0
+UVM_INFO top_tb.sv(160) @ 260926000: uvm_test_top.env.cpu [KERNEL] vector_add    wg=1 warps/wg=1 threads=8  cycles=463  mismatches=0
+UVM_INFO top_tb.sv(160) @ 265556000: uvm_test_top.env.cpu [KERNEL] vector_add    wg=1 warps/wg=1 threads=8  cycles=463  mismatches=0
+UVM_INFO top_tb.sv(160) @ 270186000: uvm_test_top.env.cpu [KERNEL] vector_add    wg=1 warps/wg=1 threads=8  cycles=463  mismatches=0
+UVM_INFO top_tb.sv(160) @ 274996000: uvm_test_top.env.cpu [KERNEL] vector_add    wg=1 warps/wg=1 threads=8  cycles=481  mismatches=0
+UVM_INFO top_tb.sv(160) @ 279806000: uvm_test_top.env.cpu [KERNEL] vector_add    wg=1 warps/wg=1 threads=8  cycles=481  mismatches=0
+UVM_INFO top_tb.sv(160) @ 284616000: uvm_test_top.env.cpu [KERNEL] vector_add    wg=1 warps/wg=1 threads=8  cycles=481  mismatches=0
+UVM_INFO top_tb.sv(160) @ 289426000: uvm_test_top.env.cpu [KERNEL] vector_add    wg=1 warps/wg=1 threads=8  cycles=481  mismatches=0
+UVM_INFO top_tb.sv(160) @ 294236000: uvm_test_top.env.cpu [KERNEL] vector_add    wg=1 warps/wg=1 threads=8  cycles=481  mismatches=0
+UVM_INFO top_tb.sv(160) @ 298866000: uvm_test_top.env.cpu [KERNEL] vector_add    wg=1 warps/wg=1 threads=8  cycles=463  mismatches=0
+UVM_INFO top_tb.sv(160) @ 303496000: uvm_test_top.env.cpu [KERNEL] vector_add    wg=1 warps/wg=1 threads=8  cycles=463  mismatches=0
+UVM_INFO top_tb.sv(160) @ 308126000: uvm_test_top.env.cpu [KERNEL] vector_add    wg=1 warps/wg=1 threads=8  cycles=463  mismatches=0
+UVM_INFO top_tb.sv(160) @ 312936000: uvm_test_top.env.cpu [KERNEL] vector_add    wg=1 warps/wg=1 threads=8  cycles=481  mismatches=0
+UVM_INFO top_tb.sv(160) @ 317746000: uvm_test_top.env.cpu [KERNEL] vector_add    wg=1 warps/wg=1 threads=8  cycles=481  mismatches=0
+UVM_INFO top_tb.sv(160) @ 322556000: uvm_test_top.env.cpu [KERNEL] vector_add    wg=1 warps/wg=1 threads=8  cycles=481  mismatches=0
+UVM_INFO top_tb.sv(160) @ 327426000: uvm_test_top.env.cpu [KERNEL] vector_add    wg=1 warps/wg=1 threads=8  cycles=487  mismatches=0
+UVM_INFO top_tb.sv(160) @ 332296000: uvm_test_top.env.cpu [KERNEL] vector_add    wg=1 warps/wg=1 threads=8  cycles=487  mismatches=0
+UVM_INFO top_tb.sv(160) @ 337026000: uvm_test_top.env.cpu [KERNEL] vector_add    wg=1 warps/wg=1 threads=8  cycles=473  mismatches=0
+UVM_INFO top_tb.sv(168) @ 337146000: uvm_test_top.env.cpu [PERF] SM0 issue cycles=595  TLB hits=746  DRAM row hits=168  SM power-offs=0
+UVM_INFO top_tb.sv(171) @ 337345000: uvm_test_top.env.cpu [CPU] kernels=70 total GPU cycles=33671 errors=0
+UVM_INFO top_tb.sv(172) @ 337345000: uvm_test_top.env.cpu [COV] functional coverage = 37.5%
+    kernel_vector_add            70
+    kernel_saxpy                 0
+    kernel_reduction             0
+    kernel_divergence            0
+    kernel_sfu                   0
+    kernel_exit_barrier          0
+    kernel_smem_conflict         0
+    kernel_random                0
+    mmu_identity                 1
+    mmu_scrambled                0
+    mmu_fault_reported           0
+    gmu_power_cycles             0
+    irq_per_kernel               70
+    perf_counters_read           1
+    back_to_back_kernels         69
+    ring_wraps                   1
+UVM_INFO /Users/sankalpahota/Documents/GIT/mGPU/uvm/base/uvm_report_server.svh(1009) @ 337345000: reporter [UVM/REPORT/SERVER] 
+--- UVM Report Summary ---
+
+** Report counts by severity
+UVM_INFO :   77
+UVM_WARNING :    2
+UVM_ERROR :    0
+UVM_FATAL :    0
+** Report counts by id
+[COV]     1
+[CPU]     1
+[KERNEL]    70
+[NO_DPI_TSTNAME]     1
+[NO_DPI_USED]     1
+[NO_VISIT_CHECK]     1
+[PERF]     1
+[RNTST]     1
+[UVM/COMP/NAMECHECK]     1
+[UVM/RELNOTES]     1
+
+- /Users/sankalpahota/Documents/GIT/mGPU/uvm/base/uvm_test_runner.svh:297: Verilog $finish
+- S i m u l a t i o n   R e p o r t: Verilator 5.052 2026-09-05
+- Verilator: $finish at 337us; walltime 0.086 s; speed 3.910 ms/s
+- Verilator: cpu 0.086 s on 1 threads; allocated 14 MB

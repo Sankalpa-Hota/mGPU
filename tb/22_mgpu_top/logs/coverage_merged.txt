@@ -1,0 +1,17 @@
+merged functional coverage = 100.0% (16/16 bins)
+  kernel_vector_add              150
+  kernel_saxpy                   6
+  kernel_reduction               6
+  kernel_divergence              6
+  kernel_sfu                     6
+  kernel_exit_barrier            6
+  kernel_smem_conflict           6
+  kernel_random                  12
+  mmu_identity                   12
+  mmu_scrambled                  2
+  mmu_fault_reported             2
+  gmu_power_cycles               2
+  irq_per_kernel                 198
+  perf_counters_read             14
+  back_to_back_kernels           184
+  ring_wraps                     2

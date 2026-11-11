@@ -1,0 +1,18 @@
+merged functional coverage = 100.0% (17/17 bins)
+  batch_1                        13933
+  batch_2_7                      2807
+  batch_8                        46
+  batch_9_31                     124
+  batch_near_full                3
+  wptr_wrap                      356
+  wptr_moved_during_request      6633
+  lat_short                      983
+  lat_mid                        1096
+  lat_long                       877
+  req_first_line                 392
+  req_last_line                  361
+  out_stall                      40440
+  fifo_full                      3117
+  fetch_blocked_by_room          45963
+  ring_full_one_slot_free        37088
+  idle_empty                     393

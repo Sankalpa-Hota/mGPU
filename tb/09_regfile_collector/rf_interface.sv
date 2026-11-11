@@ -1,0 +1,20 @@
+interface rf_interface (input logic clk, input logic rst_n);
+  logic [3:0]  wl_mask;
+  logic        is_valid, is_ready;
+  logic [1:0]  is_warp;
+  logic [31:0] is_instr, is_pc;
+  logic [7:0]  is_mask;
+  logic        ex_valid;
+  logic [1:0]  ex_unit;
+  logic [3:0]  ex_ready;
+  logic [1:0]  ex_warp;
+  logic [31:0] ex_instr, ex_pc;
+  logic [7:0]  ex_mask;
+  logic [31:0] ex_a [8];
+  logic [31:0] ex_b [8];
+  logic [2:0]  wb_valid, wb_ready;
+  logic [1:0]  wb_warp [3];
+  logic [3:0]  wb_rd [3];
+  logic [7:0]  wb_mask [3];
+  logic [31:0] wb_data [3][8];
+endinterface

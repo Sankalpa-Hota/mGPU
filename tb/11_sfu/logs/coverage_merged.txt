@@ -1,0 +1,15 @@
+merged functional coverage = 100.0% (14/14 bins)
+  op_DIV                         3178
+  op_REM                         2976
+  op_ISQRT                       2396
+  div_by_zero                    1479
+  rem_by_zero                    1594
+  a_less_than_b                  19952
+  a_max                          2574
+  isqrt_perfect_square           2213
+  isqrt_square_minus_1           3775
+  isqrt_zero                     773
+  isqrt_max                      702
+  partial_mask                   8530
+  wb_backpressure                23425
+  back_to_back                   5449

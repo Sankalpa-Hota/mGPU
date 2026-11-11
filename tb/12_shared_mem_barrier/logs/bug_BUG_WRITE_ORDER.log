@@ -1,0 +1,566 @@
+%Warning: System has stack size 65520 kb which may be too small; failed to request more using 'ulimit -s 172416643'
+UVM_INFO /Users/sankalpahota/Documents/GIT/mGPU/uvm/base/uvm_root.svh(457) @ 0: reporter [UVM/RELNOTES] 
+  ***********       IMPORTANT RELEASE NOTES         ************
+
+  This implementation of the UVM Library deviates from the 1800.2-2020
+  standard.  See the DEVIATIONS.md file contained in the release
+  for more details.
+
+----------------------------------------------------------------
+Accellera:1800.2:UVM:2020.3.2
+
+All copyright owners for this kit are listed in NOTICE.txt
+All Rights Reserved Worldwide
+----------------------------------------------------------------
+
+      (Specify +UVM_NO_RELNOTES to turn off this notice)
+
+UVM_WARNING /Users/sankalpahota/Documents/GIT/mGPU/uvm/base/uvm_test_runner.svh(207) @ 0: reporter [NO_DPI_USED] We are thinking of removing support for UVM_NO_DPI.  Please try this test without it and evaluate the impact
+UVM_INFO /Users/sankalpahota/Documents/GIT/mGPU/uvm/base/uvm_test_runner.svh(210) @ 0: reporter [NO_DPI_TSTNAME] UVM_NO_DPI defined--getting UVM_TESTNAME directly, without DPI
+UVM_INFO @ 0: reporter [RNTST] Running test smb_rand_test...
+UVM_INFO /Users/sankalpahota/Documents/GIT/mGPU/uvm/base/uvm_traversal.svh(345) @ 0: reporter [UVM/COMP/NAMECHECK] This implementation of the component name checks requires DPI to be enabled
+UVM_WARNING /Users/sankalpahota/Documents/GIT/mGPU/uvm/base/uvm_traversal.svh(314) @ 0: reporter [NO_VISIT_CHECK] Because UVM_REGEX_NO_DPI is defined, no uvm component name constraints will be checked
+UVM_ERROR smb_tb.sv(95) @ 1440000: uvm_test_top.env.schk [SMEM] lane 3 read 915cde51, expected 79b57a96
+UVM_ERROR smb_tb.sv(95) @ 2040000: uvm_test_top.env.schk [SMEM] lane 3 read 95fc5053, expected 6df0caf3
+UVM_ERROR smb_tb.sv(95) @ 2080000: uvm_test_top.env.schk [SMEM] lane 5 read 2454a5b5, expected 801d9003
+UVM_ERROR smb_tb.sv(95) @ 2180000: uvm_test_top.env.schk [SMEM] lane 4 read c005d58d, expected 6783654e
+UVM_ERROR smb_tb.sv(95) @ 2250000: uvm_test_top.env.schk [SMEM] lane 5 read e26f621f, expected 21467f44
+UVM_ERROR smb_tb.sv(95) @ 2360000: uvm_test_top.env.schk [SMEM] lane 7 read e744642b, expected de5f9421
+UVM_ERROR smb_tb.sv(95) @ 3260000: uvm_test_top.env.schk [SMEM] lane 5 read 81bf718f, expected 5c771bd0
+UVM_ERROR smb_tb.sv(95) @ 3450000: uvm_test_top.env.schk [SMEM] lane 3 read 2454a5b5, expected 801d9003
+UVM_ERROR smb_tb.sv(95) @ 3450000: uvm_test_top.env.schk [SMEM] lane 5 read 2454a5b5, expected 801d9003
+UVM_ERROR smb_tb.sv(95) @ 3720000: uvm_test_top.env.schk [SMEM] lane 0 read 43d40881, expected d0558122
+UVM_ERROR smb_tb.sv(95) @ 3720000: uvm_test_top.env.schk [SMEM] lane 2 read 9b1d9858, expected bf9cc670
+UVM_ERROR smb_tb.sv(95) @ 4750000: uvm_test_top.env.schk [SMEM] lane 1 read 9a9fa85d, expected 5abc9ebc
+UVM_ERROR smb_tb.sv(95) @ 4810000: uvm_test_top.env.schk [SMEM] lane 3 read 9a9fa85d, expected 5abc9ebc
+UVM_ERROR smb_tb.sv(95) @ 5560000: uvm_test_top.env.schk [SMEM] lane 2 read b6f7c6b2, expected 1f1daf2e
+UVM_ERROR smb_tb.sv(95) @ 5630000: uvm_test_top.env.schk [SMEM] lane 0 read ba17db1c, expected e728bfc6
+UVM_ERROR smb_tb.sv(95) @ 5860000: uvm_test_top.env.schk [SMEM] lane 0 read 11751b24, expected ed241618
+UVM_ERROR smb_tb.sv(95) @ 5860000: uvm_test_top.env.schk [SMEM] lane 1 read 11751b24, expected ed241618
+UVM_ERROR smb_tb.sv(95) @ 5860000: uvm_test_top.env.schk [SMEM] lane 2 read 11751b24, expected ed241618
+UVM_ERROR smb_tb.sv(95) @ 5860000: uvm_test_top.env.schk [SMEM] lane 3 read 11751b24, expected ed241618
+UVM_ERROR smb_tb.sv(95) @ 5860000: uvm_test_top.env.schk [SMEM] lane 4 read 11751b24, expected ed241618
+UVM_ERROR smb_tb.sv(95) @ 5860000: uvm_test_top.env.schk [SMEM] lane 5 read 11751b24, expected ed241618
+UVM_ERROR smb_tb.sv(95) @ 5860000: uvm_test_top.env.schk [SMEM] lane 6 read 11751b24, expected ed241618
+UVM_ERROR smb_tb.sv(95) @ 5860000: uvm_test_top.env.schk [SMEM] lane 7 read 11751b24, expected ed241618
+UVM_ERROR smb_tb.sv(95) @ 6140000: uvm_test_top.env.schk [SMEM] lane 4 read 43d40881, expected d0558122
+UVM_ERROR smb_tb.sv(95) @ 6580000: uvm_test_top.env.schk [SMEM] lane 4 read f3b069f8, expected f6dd18c0
+UVM_ERROR smb_tb.sv(95) @ 6760000: uvm_test_top.env.schk [SMEM] lane 5 read b6f7c6b2, expected 1f1daf2e
+UVM_ERROR smb_tb.sv(95) @ 7360000: uvm_test_top.env.schk [SMEM] lane 3 read a2663a5d, expected 42616e32
+UVM_ERROR smb_tb.sv(95) @ 7500000: uvm_test_top.env.schk [SMEM] lane 3 read a2663a5d, expected 42616e32
+UVM_ERROR smb_tb.sv(95) @ 7500000: uvm_test_top.env.schk [SMEM] lane 6 read 11751b24, expected ed241618
+UVM_ERROR smb_tb.sv(95) @ 7620000: uvm_test_top.env.schk [SMEM] lane 7 read 11751b24, expected ed241618
+UVM_ERROR smb_tb.sv(95) @ 8130000: uvm_test_top.env.schk [SMEM] lane 6 read b8534589, expected 6583b200
+UVM_ERROR smb_tb.sv(95) @ 9150000: uvm_test_top.env.schk [SMEM] lane 6 read 0692f6ee, expected c2692417
+UVM_ERROR smb_tb.sv(95) @ 9280000: uvm_test_top.env.schk [SMEM] lane 6 read b8534589, expected 6583b200
+UVM_ERROR smb_tb.sv(95) @ 9500000: uvm_test_top.env.schk [SMEM] lane 4 read 0692f6ee, expected c2692417
+UVM_ERROR smb_tb.sv(95) @ 9670000: uvm_test_top.env.schk [SMEM] lane 5 read b8534589, expected 6583b200
+UVM_ERROR smb_tb.sv(95) @ 10110000: uvm_test_top.env.schk [SMEM] lane 3 read cc0c62ae, expected 54319b69
+UVM_ERROR smb_tb.sv(95) @ 10110000: uvm_test_top.env.schk [SMEM] lane 7 read 393ddd0a, expected 36ab5246
+UVM_ERROR smb_tb.sv(95) @ 10200000: uvm_test_top.env.schk [SMEM] lane 4 read b8534589, expected 6583b200
+UVM_ERROR smb_tb.sv(95) @ 10270000: uvm_test_top.env.schk [SMEM] lane 1 read c2a62944, expected d0e70c94
+UVM_ERROR smb_tb.sv(95) @ 11120000: uvm_test_top.env.schk [SMEM] lane 1 read 6fe370f4, expected 0197c89d
+UVM_ERROR smb_tb.sv(95) @ 11120000: uvm_test_top.env.schk [SMEM] lane 2 read 6fe370f4, expected 0197c89d
+UVM_ERROR smb_tb.sv(95) @ 11120000: uvm_test_top.env.schk [SMEM] lane 5 read 6fe370f4, expected 0197c89d
+UVM_ERROR smb_tb.sv(95) @ 11120000: uvm_test_top.env.schk [SMEM] lane 6 read 6fe370f4, expected 0197c89d
+UVM_ERROR smb_tb.sv(95) @ 11120000: uvm_test_top.env.schk [SMEM] lane 7 read 6fe370f4, expected 0197c89d
+UVM_ERROR smb_tb.sv(95) @ 11350000: uvm_test_top.env.schk [SMEM] lane 3 read a1bfc930, expected 7378ea3d
+UVM_ERROR smb_tb.sv(95) @ 11350000: uvm_test_top.env.schk [SMEM] lane 4 read 6a2bee61, expected daf469f9
+UVM_ERROR smb_tb.sv(95) @ 11350000: uvm_test_top.env.schk [SMEM] lane 7 read a1bfc930, expected 7378ea3d
+UVM_ERROR smb_tb.sv(95) @ 12050000: uvm_test_top.env.schk [SMEM] lane 7 read e106de3e, expected 4ec06f88
+UVM_ERROR smb_tb.sv(95) @ 12440000: uvm_test_top.env.schk [SMEM] lane 2 read 2f3bec6d, expected 0e09f12d
+UVM_ERROR smb_tb.sv(95) @ 12440000: uvm_test_top.env.schk [SMEM] lane 5 read 2355df55, expected cd2d2d97
+UVM_ERROR smb_tb.sv(95) @ 12440000: uvm_test_top.env.schk [SMEM] lane 6 read 38fff1fc, expected bdab69f7
+UVM_ERROR smb_tb.sv(95) @ 12470000: uvm_test_top.env.schk [SMEM] lane 3 read 0692f6ee, expected c2692417
+UVM_ERROR smb_tb.sv(95) @ 12850000: uvm_test_top.env.schk [SMEM] lane 6 read 2f3bec6d, expected 0e09f12d
+UVM_ERROR smb_tb.sv(95) @ 12880000: uvm_test_top.env.schk [SMEM] lane 0 read 38fff1fc, expected bdab69f7
+UVM_ERROR smb_tb.sv(95) @ 12880000: uvm_test_top.env.schk [SMEM] lane 6 read 3883d2ed, expected 1063bc52
+UVM_ERROR smb_tb.sv(95) @ 13070000: uvm_test_top.env.schk [SMEM] lane 4 read 2f3bec6d, expected 0e09f12d
+UVM_ERROR smb_tb.sv(95) @ 14270000: uvm_test_top.env.schk [SMEM] lane 4 read 09e34a1f, expected 7f175b2a
+UVM_ERROR smb_tb.sv(95) @ 15260000: uvm_test_top.env.schk [SMEM] lane 1 read 005fa1dd, expected a8eba81c
+UVM_ERROR smb_tb.sv(95) @ 16080000: uvm_test_top.env.schk [SMEM] lane 6 read 09e34a1f, expected 7f175b2a
+UVM_ERROR smb_tb.sv(95) @ 16270000: uvm_test_top.env.schk [SMEM] lane 4 read d5097b51, expected fec2722b
+UVM_ERROR smb_tb.sv(95) @ 16300000: uvm_test_top.env.schk [SMEM] lane 5 read 1963332e, expected 3c4577f1
+UVM_ERROR smb_tb.sv(95) @ 16330000: uvm_test_top.env.schk [SMEM] lane 5 read 09e34a1f, expected 7f175b2a
+UVM_ERROR smb_tb.sv(95) @ 16400000: uvm_test_top.env.schk [SMEM] lane 4 read f8ca3b81, expected 0eeb9c36
+UVM_ERROR smb_tb.sv(95) @ 16440000: uvm_test_top.env.schk [SMEM] lane 5 read 1963332e, expected 3c4577f1
+UVM_ERROR smb_tb.sv(95) @ 16470000: uvm_test_top.env.schk [SMEM] lane 7 read 0692f6ee, expected c2692417
+UVM_ERROR smb_tb.sv(95) @ 16640000: uvm_test_top.env.schk [SMEM] lane 4 read 005fa1dd, expected a8eba81c
+UVM_ERROR smb_tb.sv(95) @ 16920000: uvm_test_top.env.schk [SMEM] lane 0 read 005fa1dd, expected a8eba81c
+UVM_ERROR smb_tb.sv(95) @ 17220000: uvm_test_top.env.schk [SMEM] lane 1 read b6310026, expected fa3fe06c
+UVM_ERROR smb_tb.sv(95) @ 17220000: uvm_test_top.env.schk [SMEM] lane 4 read 09e34a1f, expected 7f175b2a
+UVM_ERROR smb_tb.sv(95) @ 18480000: uvm_test_top.env.schk [SMEM] lane 3 read 2b68e876, expected 95023cda
+UVM_ERROR smb_tb.sv(95) @ 18760000: uvm_test_top.env.schk [SMEM] lane 1 read 57007695, expected d987cc5e
+UVM_ERROR smb_tb.sv(95) @ 18870000: uvm_test_top.env.schk [SMEM] lane 5 read 57007695, expected d987cc5e
+UVM_ERROR smb_tb.sv(95) @ 19350000: uvm_test_top.env.schk [SMEM] lane 1 read 455ee363, expected d8dc3a94
+UVM_ERROR smb_tb.sv(95) @ 19430000: uvm_test_top.env.schk [SMEM] lane 7 read 42400da5, expected bea15931
+UVM_ERROR smb_tb.sv(95) @ 19510000: uvm_test_top.env.schk [SMEM] lane 4 read 1bfa630e, expected 867366cf
+UVM_ERROR smb_tb.sv(95) @ 19990000: uvm_test_top.env.schk [SMEM] lane 1 read 455ee363, expected d8dc3a94
+UVM_ERROR smb_tb.sv(95) @ 20520000: uvm_test_top.env.schk [SMEM] lane 3 read 2b68e876, expected 95023cda
+UVM_ERROR smb_tb.sv(95) @ 21540000: uvm_test_top.env.schk [SMEM] lane 3 read b6310026, expected fa3fe06c
+UVM_ERROR smb_tb.sv(95) @ 21770000: uvm_test_top.env.schk [SMEM] lane 0 read 1bfa630e, expected 867366cf
+UVM_ERROR smb_tb.sv(95) @ 22000000: uvm_test_top.env.schk [SMEM] lane 5 read e1b39f10, expected 350df31e
+UVM_ERROR smb_tb.sv(95) @ 22080000: uvm_test_top.env.schk [SMEM] lane 2 read e1b39f10, expected 350df31e
+UVM_ERROR smb_tb.sv(95) @ 22510000: uvm_test_top.env.schk [SMEM] lane 2 read e1b39f10, expected 350df31e
+UVM_ERROR smb_tb.sv(95) @ 22510000: uvm_test_top.env.schk [SMEM] lane 4 read e1b39f10, expected 350df31e
+UVM_ERROR smb_tb.sv(95) @ 22650000: uvm_test_top.env.schk [SMEM] lane 5 read 455ee363, expected d8dc3a94
+UVM_ERROR smb_tb.sv(95) @ 22970000: uvm_test_top.env.schk [SMEM] lane 2 read 5a440089, expected 99b4c3c8
+UVM_ERROR smb_tb.sv(95) @ 23020000: uvm_test_top.env.schk [SMEM] lane 1 read 6500c5a7, expected 94943038
+UVM_ERROR smb_tb.sv(95) @ 23020000: uvm_test_top.env.schk [SMEM] lane 5 read 6500c5a7, expected 94943038
+UVM_ERROR smb_tb.sv(95) @ 23560000: uvm_test_top.env.schk [SMEM] lane 5 read e1b39f10, expected 350df31e
+UVM_ERROR smb_tb.sv(95) @ 23620000: uvm_test_top.env.schk [SMEM] lane 7 read 336ccc59, expected 0c77127e
+UVM_ERROR smb_tb.sv(95) @ 23680000: uvm_test_top.env.schk [SMEM] lane 7 read e24eeac2, expected b1653ca7
+UVM_ERROR smb_tb.sv(95) @ 24500000: uvm_test_top.env.schk [SMEM] lane 0 read 93004ff4, expected 820632f1
+UVM_ERROR smb_tb.sv(95) @ 24500000: uvm_test_top.env.schk [SMEM] lane 6 read 93004ff4, expected 820632f1
+UVM_ERROR smb_tb.sv(95) @ 24800000: uvm_test_top.env.schk [SMEM] lane 2 read e1b39f10, expected 350df31e
+UVM_ERROR smb_tb.sv(95) @ 24880000: uvm_test_top.env.schk [SMEM] lane 1 read b6310026, expected fa3fe06c
+UVM_ERROR smb_tb.sv(95) @ 24880000: uvm_test_top.env.schk [SMEM] lane 5 read 78eefece, expected 6122c1a6
+UVM_ERROR smb_tb.sv(95) @ 25130000: uvm_test_top.env.schk [SMEM] lane 0 read b6310026, expected fa3fe06c
+UVM_ERROR smb_tb.sv(95) @ 25800000: uvm_test_top.env.schk [SMEM] lane 5 read b6310026, expected fa3fe06c
+UVM_ERROR smb_tb.sv(95) @ 25890000: uvm_test_top.env.schk [SMEM] lane 6 read 78eefece, expected 6122c1a6
+UVM_ERROR smb_tb.sv(95) @ 26150000: uvm_test_top.env.schk [SMEM] lane 6 read 0f44f91f, expected 9e7fcc80
+UVM_ERROR smb_tb.sv(95) @ 26190000: uvm_test_top.env.schk [SMEM] lane 1 read 93004ff4, expected 820632f1
+UVM_ERROR smb_tb.sv(95) @ 26470000: uvm_test_top.env.schk [SMEM] lane 7 read dc45180a, expected 95f714a2
+UVM_ERROR smb_tb.sv(95) @ 27030000: uvm_test_top.env.schk [SMEM] lane 0 read f7a64338, expected 0f1da663
+UVM_ERROR smb_tb.sv(95) @ 27030000: uvm_test_top.env.schk [SMEM] lane 4 read f7a64338, expected 0f1da663
+UVM_ERROR smb_tb.sv(95) @ 27030000: uvm_test_top.env.schk [SMEM] lane 5 read f7a64338, expected 0f1da663
+UVM_ERROR smb_tb.sv(95) @ 27060000: uvm_test_top.env.schk [SMEM] lane 3 read 2d64cdff, expected a59a2215
+UVM_ERROR smb_tb.sv(95) @ 27610000: uvm_test_top.env.schk [SMEM] lane 1 read 0f44f91f, expected 9e7fcc80
+UVM_ERROR smb_tb.sv(95) @ 27610000: uvm_test_top.env.schk [SMEM] lane 2 read 97eaaa10, expected b2723a6e
+UVM_ERROR smb_tb.sv(95) @ 27610000: uvm_test_top.env.schk [SMEM] lane 7 read 97eaaa10, expected b2723a6e
+UVM_ERROR smb_tb.sv(95) @ 28000000: uvm_test_top.env.schk [SMEM] lane 7 read 0ea23139, expected 7e53dbd9
+UVM_ERROR smb_tb.sv(95) @ 28150000: uvm_test_top.env.schk [SMEM] lane 4 read b6310026, expected fa3fe06c
+UVM_ERROR smb_tb.sv(95) @ 29410000: uvm_test_top.env.schk [SMEM] lane 0 read 40618e48, expected 588f52d9
+UVM_ERROR smb_tb.sv(95) @ 29530000: uvm_test_top.env.schk [SMEM] lane 4 read ee22c496, expected b4bf553a
+UVM_ERROR smb_tb.sv(95) @ 30080000: uvm_test_top.env.schk [SMEM] lane 4 read b6310026, expected fa3fe06c
+UVM_ERROR smb_tb.sv(95) @ 30580000: uvm_test_top.env.schk [SMEM] lane 4 read d301f006, expected 0d908e52
+UVM_ERROR smb_tb.sv(95) @ 30970000: uvm_test_top.env.schk [SMEM] lane 2 read c559090a, expected cbd0c02d
+UVM_ERROR smb_tb.sv(95) @ 31000000: uvm_test_top.env.schk [SMEM] lane 4 read d301f006, expected 0d908e52
+UVM_ERROR smb_tb.sv(95) @ 31150000: uvm_test_top.env.schk [SMEM] lane 2 read c5a07648, expected e9742885
+UVM_ERROR smb_tb.sv(95) @ 31310000: uvm_test_top.env.schk [SMEM] lane 3 read c559090a, expected cbd0c02d
+UVM_ERROR smb_tb.sv(95) @ 31310000: uvm_test_top.env.schk [SMEM] lane 6 read b6310026, expected fa3fe06c
+UVM_ERROR smb_tb.sv(95) @ 31570000: uvm_test_top.env.schk [SMEM] lane 2 read 1cb923a2, expected a00a03d5
+UVM_ERROR smb_tb.sv(95) @ 31570000: uvm_test_top.env.schk [SMEM] lane 4 read b6310026, expected fa3fe06c
+UVM_ERROR smb_tb.sv(95) @ 31980000: uvm_test_top.env.schk [SMEM] lane 5 read c1b197cb, expected b5fe09cc
+UVM_ERROR smb_tb.sv(95) @ 32270000: uvm_test_top.env.schk [SMEM] lane 0 read b6310026, expected fa3fe06c
+UVM_ERROR smb_tb.sv(95) @ 33140000: uvm_test_top.env.schk [SMEM] lane 1 read c1b197cb, expected b5fe09cc
+UVM_ERROR smb_tb.sv(95) @ 33750000: uvm_test_top.env.schk [SMEM] lane 5 read 03e16a7c, expected 47a714f9
+UVM_ERROR smb_tb.sv(95) @ 33810000: uvm_test_top.env.schk [SMEM] lane 2 read 272f527f, expected c7840492
+UVM_ERROR smb_tb.sv(95) @ 33810000: uvm_test_top.env.schk [SMEM] lane 7 read 272f527f, expected c7840492
+UVM_ERROR smb_tb.sv(95) @ 33910000: uvm_test_top.env.schk [SMEM] lane 1 read 272f527f, expected c7840492
+UVM_ERROR smb_tb.sv(95) @ 34040000: uvm_test_top.env.schk [SMEM] lane 4 read 8bceb996, expected e409e904
+UVM_ERROR smb_tb.sv(95) @ 34470000: uvm_test_top.env.schk [SMEM] lane 4 read 8bceb996, expected e409e904
+UVM_ERROR smb_tb.sv(95) @ 35690000: uvm_test_top.env.schk [SMEM] lane 0 read 5841dd95, expected d2daeb7f
+UVM_ERROR smb_tb.sv(95) @ 35690000: uvm_test_top.env.schk [SMEM] lane 4 read 5841dd95, expected d2daeb7f
+UVM_ERROR smb_tb.sv(95) @ 35690000: uvm_test_top.env.schk [SMEM] lane 6 read 5841dd95, expected d2daeb7f
+UVM_ERROR smb_tb.sv(95) @ 35720000: uvm_test_top.env.schk [SMEM] lane 4 read 5841dd95, expected d2daeb7f
+UVM_ERROR smb_tb.sv(95) @ 35980000: uvm_test_top.env.schk [SMEM] lane 6 read db841af7, expected 88f6d3d2
+UVM_ERROR smb_tb.sv(95) @ 36340000: uvm_test_top.env.schk [SMEM] lane 1 read 902f3683, expected b13ec968
+UVM_ERROR smb_tb.sv(95) @ 36340000: uvm_test_top.env.schk [SMEM] lane 2 read 8bceb996, expected e409e904
+UVM_ERROR smb_tb.sv(95) @ 36340000: uvm_test_top.env.schk [SMEM] lane 4 read 902f3683, expected b13ec968
+UVM_ERROR smb_tb.sv(95) @ 36770000: uvm_test_top.env.schk [SMEM] lane 4 read 3eee8449, expected f9c20dbc
+UVM_ERROR smb_tb.sv(95) @ 36880000: uvm_test_top.env.schk [SMEM] lane 3 read 97d6f60f, expected 3dd4753d
+UVM_ERROR smb_tb.sv(95) @ 37970000: uvm_test_top.env.schk [SMEM] lane 6 read c5b8446c, expected d984b07d
+UVM_ERROR smb_tb.sv(95) @ 38020000: uvm_test_top.env.schk [SMEM] lane 0 read c5b8446c, expected d984b07d
+UVM_ERROR smb_tb.sv(95) @ 38250000: uvm_test_top.env.schk [SMEM] lane 0 read 97d6f60f, expected 3dd4753d
+UVM_ERROR smb_tb.sv(95) @ 38250000: uvm_test_top.env.schk [SMEM] lane 4 read 3eee8449, expected f9c20dbc
+UVM_ERROR smb_tb.sv(95) @ 38290000: uvm_test_top.env.schk [SMEM] lane 2 read c5b8446c, expected d984b07d
+UVM_ERROR smb_tb.sv(95) @ 38290000: uvm_test_top.env.schk [SMEM] lane 4 read c5b8446c, expected d984b07d
+UVM_ERROR smb_tb.sv(95) @ 38990000: uvm_test_top.env.schk [SMEM] lane 0 read c5b8446c, expected d984b07d
+UVM_ERROR smb_tb.sv(95) @ 39090000: uvm_test_top.env.schk [SMEM] lane 2 read c5b8446c, expected d984b07d
+UVM_ERROR smb_tb.sv(95) @ 39290000: uvm_test_top.env.schk [SMEM] lane 6 read 97d6f60f, expected 3dd4753d
+UVM_ERROR smb_tb.sv(95) @ 39380000: uvm_test_top.env.schk [SMEM] lane 5 read c5b8446c, expected d984b07d
+UVM_ERROR smb_tb.sv(95) @ 39720000: uvm_test_top.env.schk [SMEM] lane 7 read c5b8446c, expected d984b07d
+UVM_ERROR smb_tb.sv(95) @ 39860000: uvm_test_top.env.schk [SMEM] lane 0 read 16dcdde4, expected b9f77dcd
+UVM_ERROR smb_tb.sv(95) @ 39860000: uvm_test_top.env.schk [SMEM] lane 2 read 97d6f60f, expected 3dd4753d
+UVM_ERROR smb_tb.sv(95) @ 39970000: uvm_test_top.env.schk [SMEM] lane 1 read e2f5250e, expected dd2361f0
+UVM_ERROR smb_tb.sv(95) @ 40180000: uvm_test_top.env.schk [SMEM] lane 3 read 63e5ac49, expected bd5c1328
+UVM_ERROR smb_tb.sv(95) @ 41410000: uvm_test_top.env.schk [SMEM] lane 2 read 4b111e49, expected 787585a4
+UVM_ERROR smb_tb.sv(95) @ 41810000: uvm_test_top.env.schk [SMEM] lane 4 read 60a10f00, expected a447f5e6
+UVM_ERROR smb_tb.sv(95) @ 42320000: uvm_test_top.env.schk [SMEM] lane 7 read 16dcdde4, expected b9f77dcd
+UVM_ERROR smb_tb.sv(95) @ 42540000: uvm_test_top.env.schk [SMEM] lane 1 read af30ddc2, expected da92ea11
+UVM_ERROR smb_tb.sv(95) @ 42840000: uvm_test_top.env.schk [SMEM] lane 7 read af30ddc2, expected da92ea11
+UVM_ERROR smb_tb.sv(95) @ 43020000: uvm_test_top.env.schk [SMEM] lane 0 read 41530c76, expected 4e610118
+UVM_ERROR smb_tb.sv(95) @ 43100000: uvm_test_top.env.schk [SMEM] lane 7 read 60a10f00, expected a447f5e6
+UVM_ERROR smb_tb.sv(95) @ 43600000: uvm_test_top.env.schk [SMEM] lane 5 read 9ec7febc, expected 158be52b
+UVM_ERROR smb_tb.sv(95) @ 43830000: uvm_test_top.env.schk [SMEM] lane 4 read 387c1562, expected 00486273
+UVM_ERROR smb_tb.sv(95) @ 44430000: uvm_test_top.env.schk [SMEM] lane 5 read af30ddc2, expected da92ea11
+UVM_ERROR smb_tb.sv(95) @ 44990000: uvm_test_top.env.schk [SMEM] lane 3 read 9ec7febc, expected 158be52b
+UVM_ERROR smb_tb.sv(95) @ 45190000: uvm_test_top.env.schk [SMEM] lane 2 read af30ddc2, expected da92ea11
+UVM_ERROR smb_tb.sv(95) @ 45850000: uvm_test_top.env.schk [SMEM] lane 5 read 02433399, expected 65bb16b5
+UVM_ERROR smb_tb.sv(95) @ 46000000: uvm_test_top.env.schk [SMEM] lane 6 read 387c1562, expected 00486273
+UVM_ERROR smb_tb.sv(95) @ 46150000: uvm_test_top.env.schk [SMEM] lane 1 read 38ad29ff, expected 568c9469
+UVM_ERROR smb_tb.sv(95) @ 46920000: uvm_test_top.env.schk [SMEM] lane 5 read a14db7d3, expected 3a14acad
+UVM_ERROR smb_tb.sv(95) @ 46920000: uvm_test_top.env.schk [SMEM] lane 6 read e3a01211, expected 2fd21440
+UVM_ERROR smb_tb.sv(95) @ 47090000: uvm_test_top.env.schk [SMEM] lane 0 read 444d2bf8, expected 672fabc1
+UVM_ERROR smb_tb.sv(95) @ 47420000: uvm_test_top.env.schk [SMEM] lane 3 read 444d2bf8, expected 672fabc1
+UVM_ERROR smb_tb.sv(95) @ 47420000: uvm_test_top.env.schk [SMEM] lane 7 read af30ddc2, expected da92ea11
+UVM_ERROR smb_tb.sv(95) @ 47500000: uvm_test_top.env.schk [SMEM] lane 0 read 49f88129, expected 1a1da0f0
+UVM_ERROR smb_tb.sv(95) @ 47760000: uvm_test_top.env.schk [SMEM] lane 0 read a14db7d3, expected 3a14acad
+UVM_ERROR smb_tb.sv(95) @ 47760000: uvm_test_top.env.schk [SMEM] lane 1 read a14db7d3, expected 3a14acad
+UVM_ERROR smb_tb.sv(95) @ 47760000: uvm_test_top.env.schk [SMEM] lane 2 read a14db7d3, expected 3a14acad
+UVM_ERROR smb_tb.sv(95) @ 47760000: uvm_test_top.env.schk [SMEM] lane 3 read a14db7d3, expected 3a14acad
+UVM_ERROR smb_tb.sv(95) @ 47760000: uvm_test_top.env.schk [SMEM] lane 4 read a14db7d3, expected 3a14acad
+UVM_ERROR smb_tb.sv(95) @ 47760000: uvm_test_top.env.schk [SMEM] lane 6 read a14db7d3, expected 3a14acad
+UVM_ERROR smb_tb.sv(95) @ 48030000: uvm_test_top.env.schk [SMEM] lane 1 read 38ad29ff, expected 568c9469
+UVM_ERROR smb_tb.sv(95) @ 48170000: uvm_test_top.env.schk [SMEM] lane 2 read af30ddc2, expected da92ea11
+UVM_ERROR smb_tb.sv(95) @ 48460000: uvm_test_top.env.schk [SMEM] lane 7 read e3a01211, expected 2fd21440
+UVM_ERROR smb_tb.sv(95) @ 48730000: uvm_test_top.env.schk [SMEM] lane 1 read db331781, expected 98f00662
+UVM_ERROR smb_tb.sv(95) @ 49050000: uvm_test_top.env.schk [SMEM] lane 0 read 1ff54b6e, expected 62dd3eeb
+UVM_ERROR smb_tb.sv(95) @ 49270000: uvm_test_top.env.schk [SMEM] lane 4 read 1ff54b6e, expected 62dd3eeb
+UVM_ERROR smb_tb.sv(95) @ 49650000: uvm_test_top.env.schk [SMEM] lane 2 read db331781, expected 98f00662
+UVM_ERROR smb_tb.sv(95) @ 49810000: uvm_test_top.env.schk [SMEM] lane 2 read 05a65986, expected f7c9128c
+UVM_ERROR smb_tb.sv(95) @ 50120000: uvm_test_top.env.schk [SMEM] lane 1 read 1ff54b6e, expected 62dd3eeb
+UVM_ERROR smb_tb.sv(95) @ 50510000: uvm_test_top.env.schk [SMEM] lane 6 read 867cdfc7, expected 97259fab
+UVM_ERROR smb_tb.sv(95) @ 50840000: uvm_test_top.env.schk [SMEM] lane 2 read 867cdfc7, expected 97259fab
+UVM_ERROR smb_tb.sv(95) @ 50840000: uvm_test_top.env.schk [SMEM] lane 5 read de5565c4, expected 209d1e0d
+UVM_ERROR smb_tb.sv(95) @ 51160000: uvm_test_top.env.schk [SMEM] lane 4 read db331781, expected 98f00662
+UVM_ERROR smb_tb.sv(95) @ 51230000: uvm_test_top.env.schk [SMEM] lane 0 read 1ff54b6e, expected 62dd3eeb
+UVM_ERROR smb_tb.sv(95) @ 51230000: uvm_test_top.env.schk [SMEM] lane 1 read 1ff54b6e, expected 62dd3eeb
+UVM_ERROR smb_tb.sv(95) @ 51230000: uvm_test_top.env.schk [SMEM] lane 2 read 1ff54b6e, expected 62dd3eeb
+UVM_ERROR smb_tb.sv(95) @ 51230000: uvm_test_top.env.schk [SMEM] lane 3 read 1ff54b6e, expected 62dd3eeb
+UVM_ERROR smb_tb.sv(95) @ 51230000: uvm_test_top.env.schk [SMEM] lane 4 read 1ff54b6e, expected 62dd3eeb
+UVM_ERROR smb_tb.sv(95) @ 51230000: uvm_test_top.env.schk [SMEM] lane 5 read 1ff54b6e, expected 62dd3eeb
+UVM_ERROR smb_tb.sv(95) @ 51230000: uvm_test_top.env.schk [SMEM] lane 6 read 1ff54b6e, expected 62dd3eeb
+UVM_ERROR smb_tb.sv(95) @ 51230000: uvm_test_top.env.schk [SMEM] lane 7 read 1ff54b6e, expected 62dd3eeb
+UVM_ERROR smb_tb.sv(95) @ 51790000: uvm_test_top.env.schk [SMEM] lane 1 read 642be7e7, expected 2b66b6f0
+UVM_ERROR smb_tb.sv(95) @ 52230000: uvm_test_top.env.schk [SMEM] lane 5 read 59e1f916, expected 9d5d2911
+UVM_ERROR smb_tb.sv(95) @ 52860000: uvm_test_top.env.schk [SMEM] lane 2 read 59e1f916, expected 9d5d2911
+UVM_ERROR smb_tb.sv(95) @ 52860000: uvm_test_top.env.schk [SMEM] lane 6 read db331781, expected 98f00662
+UVM_ERROR smb_tb.sv(95) @ 53000000: uvm_test_top.env.schk [SMEM] lane 0 read a14db7d3, expected 3a14acad
+UVM_ERROR smb_tb.sv(95) @ 53000000: uvm_test_top.env.schk [SMEM] lane 1 read a14db7d3, expected 3a14acad
+UVM_ERROR smb_tb.sv(95) @ 53000000: uvm_test_top.env.schk [SMEM] lane 2 read a14db7d3, expected 3a14acad
+UVM_ERROR smb_tb.sv(95) @ 53000000: uvm_test_top.env.schk [SMEM] lane 3 read a14db7d3, expected 3a14acad
+UVM_ERROR smb_tb.sv(95) @ 53000000: uvm_test_top.env.schk [SMEM] lane 4 read a14db7d3, expected 3a14acad
+UVM_ERROR smb_tb.sv(95) @ 53000000: uvm_test_top.env.schk [SMEM] lane 5 read a14db7d3, expected 3a14acad
+UVM_ERROR smb_tb.sv(95) @ 53000000: uvm_test_top.env.schk [SMEM] lane 6 read a14db7d3, expected 3a14acad
+UVM_ERROR smb_tb.sv(95) @ 53000000: uvm_test_top.env.schk [SMEM] lane 7 read a14db7d3, expected 3a14acad
+UVM_ERROR smb_tb.sv(95) @ 53260000: uvm_test_top.env.schk [SMEM] lane 1 read bc2ab013, expected 005f374e
+UVM_ERROR smb_tb.sv(95) @ 53260000: uvm_test_top.env.schk [SMEM] lane 3 read bc2ab013, expected 005f374e
+UVM_ERROR smb_tb.sv(95) @ 53260000: uvm_test_top.env.schk [SMEM] lane 5 read bc2ab013, expected 005f374e
+UVM_ERROR smb_tb.sv(95) @ 53260000: uvm_test_top.env.schk [SMEM] lane 6 read bc2ab013, expected 005f374e
+UVM_ERROR smb_tb.sv(95) @ 53260000: uvm_test_top.env.schk [SMEM] lane 7 read bc2ab013, expected 005f374e
+UVM_ERROR smb_tb.sv(95) @ 53360000: uvm_test_top.env.schk [SMEM] lane 4 read 67ba465b, expected f3f1c7e7
+UVM_ERROR smb_tb.sv(95) @ 53800000: uvm_test_top.env.schk [SMEM] lane 7 read d4276c00, expected 8bcd6e73
+UVM_ERROR smb_tb.sv(95) @ 54010000: uvm_test_top.env.schk [SMEM] lane 5 read db331781, expected 98f00662
+UVM_ERROR smb_tb.sv(95) @ 54050000: uvm_test_top.env.schk [SMEM] lane 4 read af752038, expected c031191c
+UVM_ERROR smb_tb.sv(95) @ 54100000: uvm_test_top.env.schk [SMEM] lane 3 read 67ba465b, expected f3f1c7e7
+UVM_ERROR smb_tb.sv(95) @ 54520000: uvm_test_top.env.schk [SMEM] lane 4 read 59e1f916, expected 9d5d2911
+UVM_ERROR smb_tb.sv(95) @ 54520000: uvm_test_top.env.schk [SMEM] lane 7 read 40d1af1b, expected bb585b01
+UVM_ERROR smb_tb.sv(95) @ 55470000: uvm_test_top.env.schk [SMEM] lane 5 read 40d1af1b, expected bb585b01
+UVM_ERROR smb_tb.sv(95) @ 55680000: uvm_test_top.env.schk [SMEM] lane 4 read 71e37262, expected 055182b3
+UVM_ERROR smb_tb.sv(95) @ 55680000: uvm_test_top.env.schk [SMEM] lane 6 read 71e37262, expected 055182b3
+UVM_ERROR smb_tb.sv(95) @ 56340000: uvm_test_top.env.schk [SMEM] lane 4 read 71e37262, expected 055182b3
+UVM_ERROR smb_tb.sv(95) @ 56920000: uvm_test_top.env.schk [SMEM] lane 7 read db331781, expected 98f00662
+UVM_ERROR smb_tb.sv(95) @ 58270000: uvm_test_top.env.schk [SMEM] lane 5 read db331781, expected 98f00662
+UVM_ERROR smb_tb.sv(95) @ 59330000: uvm_test_top.env.schk [SMEM] lane 6 read 0091cc5e, expected 8dc23535
+UVM_ERROR smb_tb.sv(95) @ 59360000: uvm_test_top.env.schk [SMEM] lane 0 read 9dee9ce5, expected d9e46486
+UVM_ERROR smb_tb.sv(95) @ 59360000: uvm_test_top.env.schk [SMEM] lane 6 read 9dee9ce5, expected d9e46486
+UVM_ERROR smb_tb.sv(95) @ 59830000: uvm_test_top.env.schk [SMEM] lane 7 read 9dee9ce5, expected d9e46486
+UVM_ERROR smb_tb.sv(95) @ 60160000: uvm_test_top.env.schk [SMEM] lane 5 read c71bde75, expected 7158e97b
+UVM_ERROR smb_tb.sv(95) @ 60370000: uvm_test_top.env.schk [SMEM] lane 6 read c0f79c16, expected ae9aaa55
+UVM_ERROR smb_tb.sv(95) @ 60370000: uvm_test_top.env.schk [SMEM] lane 7 read 37a553a7, expected 0e4a14c4
+UVM_ERROR smb_tb.sv(95) @ 60770000: uvm_test_top.env.schk [SMEM] lane 1 read a0ff367b, expected 4d338e34
+UVM_ERROR smb_tb.sv(95) @ 60810000: uvm_test_top.env.schk [SMEM] lane 4 read a0ff367b, expected 4d338e34
+UVM_ERROR smb_tb.sv(95) @ 61140000: uvm_test_top.env.schk [SMEM] lane 1 read 0091cc5e, expected 8dc23535
+UVM_ERROR smb_tb.sv(95) @ 61650000: uvm_test_top.env.schk [SMEM] lane 5 read b1110661, expected 51d6e9d3
+UVM_ERROR smb_tb.sv(95) @ 61720000: uvm_test_top.env.schk [SMEM] lane 2 read b1110661, expected 51d6e9d3
+UVM_ERROR smb_tb.sv(95) @ 61880000: uvm_test_top.env.schk [SMEM] lane 6 read 64e86d3d, expected 93a6351d
+UVM_ERROR smb_tb.sv(95) @ 62050000: uvm_test_top.env.schk [SMEM] lane 4 read 8f7a887c, expected 56be8a47
+UVM_ERROR smb_tb.sv(95) @ 62050000: uvm_test_top.env.schk [SMEM] lane 7 read 305d2f0e, expected 4c2cbf59
+UVM_ERROR smb_tb.sv(95) @ 62090000: uvm_test_top.env.schk [SMEM] lane 2 read 305d2f0e, expected 4c2cbf59
+UVM_ERROR smb_tb.sv(95) @ 62090000: uvm_test_top.env.schk [SMEM] lane 7 read 9dee9ce5, expected d9e46486
+UVM_ERROR smb_tb.sv(95) @ 62140000: uvm_test_top.env.schk [SMEM] lane 1 read 9dee9ce5, expected d9e46486
+UVM_ERROR smb_tb.sv(95) @ 62140000: uvm_test_top.env.schk [SMEM] lane 3 read aa92e942, expected a6869488
+UVM_ERROR smb_tb.sv(95) @ 62140000: uvm_test_top.env.schk [SMEM] lane 7 read c3ce7b9e, expected ea3b3759
+UVM_ERROR smb_tb.sv(95) @ 62240000: uvm_test_top.env.schk [SMEM] lane 5 read 64e86d3d, expected 93a6351d
+UVM_ERROR smb_tb.sv(95) @ 62470000: uvm_test_top.env.schk [SMEM] lane 7 read 11ae9cab, expected 08fac90f
+UVM_ERROR smb_tb.sv(95) @ 62750000: uvm_test_top.env.schk [SMEM] lane 1 read 64e86d3d, expected 93a6351d
+UVM_ERROR smb_tb.sv(95) @ 62990000: uvm_test_top.env.schk [SMEM] lane 3 read 64e86d3d, expected 93a6351d
+UVM_ERROR smb_tb.sv(95) @ 63120000: uvm_test_top.env.schk [SMEM] lane 1 read 282db613, expected f47ab3c3
+UVM_ERROR smb_tb.sv(95) @ 63430000: uvm_test_top.env.schk [SMEM] lane 4 read c3ce7b9e, expected ea3b3759
+UVM_ERROR smb_tb.sv(95) @ 64070000: uvm_test_top.env.schk [SMEM] lane 1 read fab00379, expected 0eac837e
+UVM_ERROR smb_tb.sv(95) @ 64150000: uvm_test_top.env.schk [SMEM] lane 7 read fab00379, expected 0eac837e
+UVM_ERROR smb_tb.sv(95) @ 65100000: uvm_test_top.env.schk [SMEM] lane 7 read b7d8eeb6, expected 4e137482
+UVM_ERROR smb_tb.sv(95) @ 65280000: uvm_test_top.env.schk [SMEM] lane 3 read fab00379, expected 0eac837e
+UVM_ERROR smb_tb.sv(95) @ 65630000: uvm_test_top.env.schk [SMEM] lane 5 read b7d8eeb6, expected 4e137482
+UVM_ERROR smb_tb.sv(95) @ 65910000: uvm_test_top.env.schk [SMEM] lane 2 read 0e0f404e, expected 26ad46ba
+UVM_ERROR smb_tb.sv(95) @ 66630000: uvm_test_top.env.schk [SMEM] lane 3 read b7d8eeb6, expected 4e137482
+UVM_ERROR smb_tb.sv(95) @ 67800000: uvm_test_top.env.schk [SMEM] lane 5 read b7d8eeb6, expected 4e137482
+UVM_ERROR smb_tb.sv(95) @ 68950000: uvm_test_top.env.schk [SMEM] lane 3 read 84435035, expected 3e066bf0
+UVM_ERROR smb_tb.sv(95) @ 69600000: uvm_test_top.env.schk [SMEM] lane 0 read 26302268, expected 41ce0ded
+UVM_ERROR smb_tb.sv(95) @ 69840000: uvm_test_top.env.schk [SMEM] lane 2 read c1df67cf, expected 65966c8b
+UVM_ERROR smb_tb.sv(95) @ 70420000: uvm_test_top.env.schk [SMEM] lane 1 read 29d1dcb9, expected 3f248d4e
+UVM_ERROR smb_tb.sv(95) @ 70640000: uvm_test_top.env.schk [SMEM] lane 6 read 6adf5119, expected 59e2e4a5
+UVM_ERROR smb_tb.sv(95) @ 71570000: uvm_test_top.env.schk [SMEM] lane 5 read 8e6cf5ae, expected f2460de7
+UVM_ERROR smb_tb.sv(95) @ 71750000: uvm_test_top.env.schk [SMEM] lane 2 read 26302268, expected 41ce0ded
+UVM_ERROR smb_tb.sv(95) @ 71790000: uvm_test_top.env.schk [SMEM] lane 1 read 8e6cf5ae, expected f2460de7
+UVM_ERROR smb_tb.sv(95) @ 72190000: uvm_test_top.env.schk [SMEM] lane 4 read 02696bec, expected f94e5b5d
+UVM_ERROR smb_tb.sv(95) @ 73160000: uvm_test_top.env.schk [SMEM] lane 4 read d2e4445e, expected 8ec61532
+UVM_ERROR smb_tb.sv(95) @ 73420000: uvm_test_top.env.schk [SMEM] lane 7 read 6c1de18b, expected c3a19215
+UVM_ERROR smb_tb.sv(95) @ 73900000: uvm_test_top.env.schk [SMEM] lane 2 read 02696bec, expected f94e5b5d
+UVM_ERROR smb_tb.sv(95) @ 73900000: uvm_test_top.env.schk [SMEM] lane 4 read 6c1de18b, expected c3a19215
+UVM_ERROR smb_tb.sv(95) @ 75160000: uvm_test_top.env.schk [SMEM] lane 1 read 02696bec, expected f94e5b5d
+UVM_ERROR smb_tb.sv(95) @ 75570000: uvm_test_top.env.schk [SMEM] lane 1 read 02696bec, expected f94e5b5d
+UVM_ERROR smb_tb.sv(95) @ 75570000: uvm_test_top.env.schk [SMEM] lane 7 read 7af07c7f, expected 9731d22c
+UVM_ERROR smb_tb.sv(95) @ 75660000: uvm_test_top.env.schk [SMEM] lane 3 read a6ef4b97, expected 2a4f6782
+UVM_ERROR smb_tb.sv(95) @ 75700000: uvm_test_top.env.schk [SMEM] lane 0 read b0d2f784, expected 3ab53296
+UVM_ERROR smb_tb.sv(95) @ 75700000: uvm_test_top.env.schk [SMEM] lane 2 read 81e29f40, expected 1383a783
+UVM_ERROR smb_tb.sv(95) @ 75750000: uvm_test_top.env.schk [SMEM] lane 4 read a6ef4b97, expected 2a4f6782
+UVM_ERROR smb_tb.sv(95) @ 76460000: uvm_test_top.env.schk [SMEM] lane 2 read 81e29f40, expected 1383a783
+UVM_ERROR smb_tb.sv(95) @ 76460000: uvm_test_top.env.schk [SMEM] lane 7 read 02696bec, expected f94e5b5d
+UVM_ERROR smb_tb.sv(95) @ 76720000: uvm_test_top.env.schk [SMEM] lane 3 read 02696bec, expected f94e5b5d
+UVM_ERROR smb_tb.sv(95) @ 76830000: uvm_test_top.env.schk [SMEM] lane 3 read 3990256d, expected 4a2fa96a
+UVM_ERROR smb_tb.sv(95) @ 76890000: uvm_test_top.env.schk [SMEM] lane 5 read 53aa895f, expected 21993731
+UVM_ERROR smb_tb.sv(95) @ 77010000: uvm_test_top.env.schk [SMEM] lane 0 read 81e29f40, expected 1383a783
+UVM_ERROR smb_tb.sv(95) @ 77010000: uvm_test_top.env.schk [SMEM] lane 1 read 81e29f40, expected 1383a783
+UVM_ERROR smb_tb.sv(95) @ 77010000: uvm_test_top.env.schk [SMEM] lane 2 read 81e29f40, expected 1383a783
+UVM_ERROR smb_tb.sv(95) @ 77010000: uvm_test_top.env.schk [SMEM] lane 3 read 81e29f40, expected 1383a783
+UVM_ERROR smb_tb.sv(95) @ 77010000: uvm_test_top.env.schk [SMEM] lane 4 read 81e29f40, expected 1383a783
+UVM_ERROR smb_tb.sv(95) @ 77010000: uvm_test_top.env.schk [SMEM] lane 5 read 81e29f40, expected 1383a783
+UVM_ERROR smb_tb.sv(95) @ 77010000: uvm_test_top.env.schk [SMEM] lane 6 read 81e29f40, expected 1383a783
+UVM_ERROR smb_tb.sv(95) @ 77010000: uvm_test_top.env.schk [SMEM] lane 7 read 81e29f40, expected 1383a783
+UVM_ERROR smb_tb.sv(95) @ 77600000: uvm_test_top.env.schk [SMEM] lane 7 read 2f9d72d1, expected bcfe53dd
+UVM_ERROR smb_tb.sv(95) @ 77770000: uvm_test_top.env.schk [SMEM] lane 0 read 81e29f40, expected 1383a783
+UVM_ERROR smb_tb.sv(95) @ 77770000: uvm_test_top.env.schk [SMEM] lane 3 read b0d2f784, expected 3ab53296
+UVM_ERROR smb_tb.sv(95) @ 77950000: uvm_test_top.env.schk [SMEM] lane 0 read 0400bda6, expected 71795f44
+UVM_ERROR smb_tb.sv(95) @ 78480000: uvm_test_top.env.schk [SMEM] lane 2 read 81e29f40, expected 1383a783
+UVM_ERROR smb_tb.sv(95) @ 79080000: uvm_test_top.env.schk [SMEM] lane 1 read 80faaa0d, expected 8598e49c
+UVM_ERROR smb_tb.sv(95) @ 79600000: uvm_test_top.env.schk [SMEM] lane 3 read 828c2b33, expected 22aa7a69
+UVM_ERROR smb_tb.sv(95) @ 79680000: uvm_test_top.env.schk [SMEM] lane 5 read 55ee0087, expected 4a9ab8a4
+UVM_ERROR smb_tb.sv(95) @ 79900000: uvm_test_top.env.schk [SMEM] lane 6 read c762714e, expected 708b7594
+UVM_ERROR smb_tb.sv(95) @ 80880000: uvm_test_top.env.schk [SMEM] lane 2 read 371944e8, expected cbbf46b1
+UVM_ERROR smb_tb.sv(95) @ 81090000: uvm_test_top.env.schk [SMEM] lane 1 read c762714e, expected 708b7594
+UVM_ERROR smb_tb.sv(95) @ 81090000: uvm_test_top.env.schk [SMEM] lane 2 read 02cc5f0b, expected 0057bdfa
+UVM_ERROR smb_tb.sv(95) @ 81350000: uvm_test_top.env.schk [SMEM] lane 0 read 55ee0087, expected 4a9ab8a4
+UVM_ERROR smb_tb.sv(95) @ 81920000: uvm_test_top.env.schk [SMEM] lane 4 read db992058, expected fcf0a48b
+UVM_ERROR smb_tb.sv(95) @ 82000000: uvm_test_top.env.schk [SMEM] lane 6 read 0624e1bc, expected b43414d1
+UVM_ERROR smb_tb.sv(95) @ 82510000: uvm_test_top.env.schk [SMEM] lane 6 read d8b625fd, expected fd1dd7c1
+UVM_ERROR smb_tb.sv(95) @ 82580000: uvm_test_top.env.schk [SMEM] lane 3 read db992058, expected fcf0a48b
+UVM_ERROR smb_tb.sv(95) @ 82890000: uvm_test_top.env.schk [SMEM] lane 6 read ab6fb6a9, expected f7e35628
+UVM_ERROR smb_tb.sv(95) @ 83390000: uvm_test_top.env.schk [SMEM] lane 0 read be250836, expected e757f0dd
+UVM_ERROR smb_tb.sv(95) @ 83390000: uvm_test_top.env.schk [SMEM] lane 1 read be250836, expected e757f0dd
+UVM_ERROR smb_tb.sv(95) @ 83390000: uvm_test_top.env.schk [SMEM] lane 2 read be250836, expected e757f0dd
+UVM_ERROR smb_tb.sv(95) @ 83390000: uvm_test_top.env.schk [SMEM] lane 3 read be250836, expected e757f0dd
+UVM_ERROR smb_tb.sv(95) @ 83390000: uvm_test_top.env.schk [SMEM] lane 4 read be250836, expected e757f0dd
+UVM_ERROR smb_tb.sv(95) @ 83390000: uvm_test_top.env.schk [SMEM] lane 5 read be250836, expected e757f0dd
+UVM_ERROR smb_tb.sv(95) @ 83390000: uvm_test_top.env.schk [SMEM] lane 6 read be250836, expected e757f0dd
+UVM_ERROR smb_tb.sv(95) @ 83390000: uvm_test_top.env.schk [SMEM] lane 7 read be250836, expected e757f0dd
+UVM_ERROR smb_tb.sv(95) @ 83680000: uvm_test_top.env.schk [SMEM] lane 4 read be250836, expected e757f0dd
+UVM_ERROR smb_tb.sv(95) @ 83680000: uvm_test_top.env.schk [SMEM] lane 6 read be250836, expected e757f0dd
+UVM_ERROR smb_tb.sv(95) @ 83870000: uvm_test_top.env.schk [SMEM] lane 3 read 008dc551, expected 2d61aac1
+UVM_ERROR smb_tb.sv(95) @ 83970000: uvm_test_top.env.schk [SMEM] lane 0 read d8b625fd, expected fd1dd7c1
+UVM_ERROR smb_tb.sv(95) @ 83970000: uvm_test_top.env.schk [SMEM] lane 7 read d8b625fd, expected fd1dd7c1
+UVM_ERROR smb_tb.sv(95) @ 85250000: uvm_test_top.env.schk [SMEM] lane 4 read 9bf6aed2, expected aeaf63ac
+UVM_ERROR smb_tb.sv(95) @ 85320000: uvm_test_top.env.schk [SMEM] lane 3 read f4c32f1e, expected 4667b89f
+UVM_ERROR smb_tb.sv(95) @ 85840000: uvm_test_top.env.schk [SMEM] lane 7 read f4c32f1e, expected 4667b89f
+UVM_ERROR smb_tb.sv(95) @ 85920000: uvm_test_top.env.schk [SMEM] lane 1 read 9062a4a8, expected 93251612
+UVM_ERROR smb_tb.sv(95) @ 85960000: uvm_test_top.env.schk [SMEM] lane 2 read 855081ec, expected 93a8aa11
+UVM_ERROR smb_tb.sv(95) @ 86150000: uvm_test_top.env.schk [SMEM] lane 5 read 855081ec, expected 93a8aa11
+UVM_ERROR smb_tb.sv(95) @ 86480000: uvm_test_top.env.schk [SMEM] lane 6 read b8e283b3, expected 2f51a08d
+UVM_ERROR smb_tb.sv(95) @ 86480000: uvm_test_top.env.schk [SMEM] lane 7 read a6fd3622, expected 7a730c17
+UVM_ERROR smb_tb.sv(95) @ 86630000: uvm_test_top.env.schk [SMEM] lane 2 read 9bf6aed2, expected aeaf63ac
+UVM_ERROR smb_tb.sv(95) @ 86860000: uvm_test_top.env.schk [SMEM] lane 2 read 855081ec, expected 93a8aa11
+UVM_ERROR smb_tb.sv(95) @ 87240000: uvm_test_top.env.schk [SMEM] lane 2 read b8e283b3, expected 2f51a08d
+UVM_ERROR smb_tb.sv(95) @ 87370000: uvm_test_top.env.schk [SMEM] lane 4 read f4c32f1e, expected 4667b89f
+UVM_ERROR smb_tb.sv(95) @ 87370000: uvm_test_top.env.schk [SMEM] lane 7 read 74d21bf4, expected f7becf21
+UVM_ERROR smb_tb.sv(95) @ 87550000: uvm_test_top.env.schk [SMEM] lane 0 read 74d21bf4, expected f7becf21
+UVM_ERROR smb_tb.sv(95) @ 87550000: uvm_test_top.env.schk [SMEM] lane 1 read b8e283b3, expected 2f51a08d
+UVM_ERROR smb_tb.sv(95) @ 87550000: uvm_test_top.env.schk [SMEM] lane 2 read b8e283b3, expected 2f51a08d
+UVM_ERROR smb_tb.sv(95) @ 87550000: uvm_test_top.env.schk [SMEM] lane 3 read b8e283b3, expected 2f51a08d
+UVM_ERROR smb_tb.sv(95) @ 88250000: uvm_test_top.env.schk [SMEM] lane 3 read a6fd3622, expected 7a730c17
+UVM_ERROR smb_tb.sv(95) @ 88780000: uvm_test_top.env.schk [SMEM] lane 3 read 04a8390c, expected bc499149
+UVM_ERROR smb_tb.sv(95) @ 88840000: uvm_test_top.env.schk [SMEM] lane 0 read ad2881cc, expected 952cb72b
+UVM_ERROR smb_tb.sv(95) @ 88840000: uvm_test_top.env.schk [SMEM] lane 1 read ad2881cc, expected 952cb72b
+UVM_ERROR smb_tb.sv(95) @ 88840000: uvm_test_top.env.schk [SMEM] lane 2 read ad2881cc, expected 952cb72b
+UVM_ERROR smb_tb.sv(95) @ 88840000: uvm_test_top.env.schk [SMEM] lane 4 read ad2881cc, expected 952cb72b
+UVM_ERROR smb_tb.sv(95) @ 88840000: uvm_test_top.env.schk [SMEM] lane 7 read ad2881cc, expected 952cb72b
+UVM_ERROR smb_tb.sv(95) @ 88940000: uvm_test_top.env.schk [SMEM] lane 0 read f4c32f1e, expected 4667b89f
+UVM_ERROR smb_tb.sv(95) @ 88940000: uvm_test_top.env.schk [SMEM] lane 1 read 9bf6aed2, expected aeaf63ac
+UVM_ERROR smb_tb.sv(95) @ 88940000: uvm_test_top.env.schk [SMEM] lane 6 read 04a8390c, expected bc499149
+UVM_ERROR smb_tb.sv(95) @ 89180000: uvm_test_top.env.schk [SMEM] lane 4 read a394ea24, expected 632a7797
+UVM_ERROR smb_tb.sv(95) @ 89380000: uvm_test_top.env.schk [SMEM] lane 3 read a394ea24, expected 632a7797
+UVM_ERROR smb_tb.sv(95) @ 89380000: uvm_test_top.env.schk [SMEM] lane 4 read 36750c6b, expected 809d143e
+UVM_ERROR smb_tb.sv(95) @ 89380000: uvm_test_top.env.schk [SMEM] lane 7 read 36750c6b, expected 809d143e
+UVM_ERROR smb_tb.sv(95) @ 89850000: uvm_test_top.env.schk [SMEM] lane 6 read a394ea24, expected 632a7797
+UVM_ERROR smb_tb.sv(95) @ 90290000: uvm_test_top.env.schk [SMEM] lane 1 read e7312e7f, expected 38fa758c
+UVM_ERROR smb_tb.sv(95) @ 90290000: uvm_test_top.env.schk [SMEM] lane 4 read e5ac91bc, expected 8a0dce2a
+UVM_ERROR smb_tb.sv(95) @ 90330000: uvm_test_top.env.schk [SMEM] lane 2 read a6fd3622, expected 7a730c17
+UVM_ERROR smb_tb.sv(95) @ 90680000: uvm_test_top.env.schk [SMEM] lane 0 read a6fd3622, expected 7a730c17
+UVM_ERROR smb_tb.sv(95) @ 90680000: uvm_test_top.env.schk [SMEM] lane 7 read 04a8390c, expected bc499149
+UVM_ERROR smb_tb.sv(95) @ 91080000: uvm_test_top.env.schk [SMEM] lane 2 read 0b7a5979, expected 95e45308
+UVM_ERROR smb_tb.sv(95) @ 91080000: uvm_test_top.env.schk [SMEM] lane 6 read ed96c330, expected 70dd76ef
+UVM_ERROR smb_tb.sv(95) @ 91640000: uvm_test_top.env.schk [SMEM] lane 0 read e5ac91bc, expected 8a0dce2a
+UVM_ERROR smb_tb.sv(95) @ 91980000: uvm_test_top.env.schk [SMEM] lane 5 read e5ac91bc, expected 8a0dce2a
+UVM_ERROR smb_tb.sv(95) @ 92530000: uvm_test_top.env.schk [SMEM] lane 2 read 5cd6f586, expected 066fb627
+UVM_ERROR smb_tb.sv(95) @ 94630000: uvm_test_top.env.schk [SMEM] lane 7 read d19804c5, expected 51b4e8b9
+UVM_ERROR smb_tb.sv(95) @ 95370000: uvm_test_top.env.schk [SMEM] lane 0 read 7bde9a4a, expected 4f23f2f1
+UVM_ERROR smb_tb.sv(95) @ 95700000: uvm_test_top.env.schk [SMEM] lane 2 read 1676103f, expected 06475ff6
+UVM_ERROR smb_tb.sv(95) @ 95910000: uvm_test_top.env.schk [SMEM] lane 6 read 1676103f, expected 06475ff6
+UVM_ERROR smb_tb.sv(95) @ 96040000: uvm_test_top.env.schk [SMEM] lane 6 read 1676103f, expected 06475ff6
+UVM_ERROR smb_tb.sv(95) @ 97120000: uvm_test_top.env.schk [SMEM] lane 7 read 7bde9a4a, expected 4f23f2f1
+UVM_ERROR smb_tb.sv(95) @ 97410000: uvm_test_top.env.schk [SMEM] lane 0 read 5cd6f586, expected 066fb627
+UVM_ERROR smb_tb.sv(95) @ 97410000: uvm_test_top.env.schk [SMEM] lane 1 read 5cd6f586, expected 066fb627
+UVM_ERROR smb_tb.sv(95) @ 97410000: uvm_test_top.env.schk [SMEM] lane 2 read 5cd6f586, expected 066fb627
+UVM_ERROR smb_tb.sv(95) @ 97410000: uvm_test_top.env.schk [SMEM] lane 3 read 5cd6f586, expected 066fb627
+UVM_ERROR smb_tb.sv(95) @ 97410000: uvm_test_top.env.schk [SMEM] lane 4 read 5cd6f586, expected 066fb627
+UVM_ERROR smb_tb.sv(95) @ 97410000: uvm_test_top.env.schk [SMEM] lane 5 read 5cd6f586, expected 066fb627
+UVM_ERROR smb_tb.sv(95) @ 97410000: uvm_test_top.env.schk [SMEM] lane 6 read 5cd6f586, expected 066fb627
+UVM_ERROR smb_tb.sv(95) @ 97410000: uvm_test_top.env.schk [SMEM] lane 7 read 5cd6f586, expected 066fb627
+UVM_ERROR smb_tb.sv(95) @ 97840000: uvm_test_top.env.schk [SMEM] lane 5 read b576a0f1, expected 7f70cfd9
+UVM_ERROR smb_tb.sv(95) @ 97970000: uvm_test_top.env.schk [SMEM] lane 2 read c22e62a7, expected 2eef7ad8
+UVM_ERROR smb_tb.sv(95) @ 98050000: uvm_test_top.env.schk [SMEM] lane 1 read ef3ddf94, expected 1743d0da
+UVM_ERROR smb_tb.sv(95) @ 98080000: uvm_test_top.env.schk [SMEM] lane 0 read ef3ddf94, expected 1743d0da
+UVM_ERROR smb_tb.sv(95) @ 98080000: uvm_test_top.env.schk [SMEM] lane 1 read ef3ddf94, expected 1743d0da
+UVM_ERROR smb_tb.sv(95) @ 98080000: uvm_test_top.env.schk [SMEM] lane 2 read ef3ddf94, expected 1743d0da
+UVM_ERROR smb_tb.sv(95) @ 98080000: uvm_test_top.env.schk [SMEM] lane 3 read ef3ddf94, expected 1743d0da
+UVM_ERROR smb_tb.sv(95) @ 98080000: uvm_test_top.env.schk [SMEM] lane 4 read ef3ddf94, expected 1743d0da
+UVM_ERROR smb_tb.sv(95) @ 98080000: uvm_test_top.env.schk [SMEM] lane 5 read ef3ddf94, expected 1743d0da
+UVM_ERROR smb_tb.sv(95) @ 98080000: uvm_test_top.env.schk [SMEM] lane 6 read ef3ddf94, expected 1743d0da
+UVM_ERROR smb_tb.sv(95) @ 98080000: uvm_test_top.env.schk [SMEM] lane 7 read ef3ddf94, expected 1743d0da
+UVM_ERROR smb_tb.sv(95) @ 98440000: uvm_test_top.env.schk [SMEM] lane 3 read ef3ddf94, expected 1743d0da
+UVM_ERROR smb_tb.sv(95) @ 98440000: uvm_test_top.env.schk [SMEM] lane 5 read ef3ddf94, expected 1743d0da
+UVM_ERROR smb_tb.sv(95) @ 98440000: uvm_test_top.env.schk [SMEM] lane 6 read ef3ddf94, expected 1743d0da
+UVM_ERROR smb_tb.sv(95) @ 98730000: uvm_test_top.env.schk [SMEM] lane 2 read ef3ddf94, expected 1743d0da
+UVM_ERROR smb_tb.sv(95) @ 98730000: uvm_test_top.env.schk [SMEM] lane 4 read ef3ddf94, expected 1743d0da
+UVM_ERROR smb_tb.sv(95) @ 99490000: uvm_test_top.env.schk [SMEM] lane 4 read 5ea3bd07, expected 0e971501
+UVM_ERROR smb_tb.sv(95) @ 100360000: uvm_test_top.env.schk [SMEM] lane 4 read ef3ddf94, expected 1743d0da
+UVM_ERROR smb_tb.sv(95) @ 101900000: uvm_test_top.env.schk [SMEM] lane 3 read 0d97d923, expected 12a56a84
+UVM_ERROR smb_tb.sv(95) @ 102000000: uvm_test_top.env.schk [SMEM] lane 2 read 6f7d48f7, expected e5c0d860
+UVM_ERROR smb_tb.sv(95) @ 102800000: uvm_test_top.env.schk [SMEM] lane 1 read 2afd4b82, expected 5d0d9cc4
+UVM_ERROR smb_tb.sv(95) @ 102800000: uvm_test_top.env.schk [SMEM] lane 2 read a0782233, expected d8a26b14
+UVM_ERROR smb_tb.sv(95) @ 102800000: uvm_test_top.env.schk [SMEM] lane 7 read 2afd4b82, expected 5d0d9cc4
+UVM_ERROR smb_tb.sv(95) @ 102870000: uvm_test_top.env.schk [SMEM] lane 0 read fadf5407, expected 89e42f9a
+UVM_ERROR smb_tb.sv(95) @ 102870000: uvm_test_top.env.schk [SMEM] lane 2 read fadf5407, expected 89e42f9a
+UVM_ERROR smb_tb.sv(95) @ 103240000: uvm_test_top.env.schk [SMEM] lane 1 read d7c27ade, expected c93da0ae
+UVM_ERROR smb_tb.sv(95) @ 103240000: uvm_test_top.env.schk [SMEM] lane 4 read 76c3b7c7, expected 447ba2e7
+UVM_ERROR smb_tb.sv(95) @ 103310000: uvm_test_top.env.schk [SMEM] lane 4 read 3d4365f4, expected 2c6072bf
+UVM_ERROR smb_tb.sv(95) @ 103340000: uvm_test_top.env.schk [SMEM] lane 6 read 2afd4b82, expected 5d0d9cc4
+UVM_ERROR smb_tb.sv(95) @ 103340000: uvm_test_top.env.schk [SMEM] lane 7 read 2afd4b82, expected 5d0d9cc4
+UVM_ERROR smb_tb.sv(95) @ 103670000: uvm_test_top.env.schk [SMEM] lane 7 read 76c3b7c7, expected 447ba2e7
+UVM_ERROR smb_tb.sv(95) @ 103730000: uvm_test_top.env.schk [SMEM] lane 1 read 76c3b7c7, expected 447ba2e7
+UVM_ERROR smb_tb.sv(95) @ 103730000: uvm_test_top.env.schk [SMEM] lane 3 read fb353d01, expected 578b4724
+UVM_ERROR smb_tb.sv(95) @ 103790000: uvm_test_top.env.schk [SMEM] lane 0 read fb353d01, expected 578b4724
+UVM_ERROR smb_tb.sv(95) @ 103790000: uvm_test_top.env.schk [SMEM] lane 6 read fb353d01, expected 578b4724
+UVM_ERROR smb_tb.sv(95) @ 104170000: uvm_test_top.env.schk [SMEM] lane 0 read 2afd4b82, expected 5d0d9cc4
+UVM_ERROR smb_tb.sv(95) @ 104720000: uvm_test_top.env.schk [SMEM] lane 7 read deb7ec84, expected 96fdc433
+UVM_ERROR smb_tb.sv(95) @ 104760000: uvm_test_top.env.schk [SMEM] lane 5 read deb7ec84, expected 96fdc433
+UVM_ERROR smb_tb.sv(95) @ 104760000: uvm_test_top.env.schk [SMEM] lane 6 read 2afd4b82, expected 5d0d9cc4
+UVM_ERROR smb_tb.sv(95) @ 105000000: uvm_test_top.env.schk [SMEM] lane 4 read 9ef99706, expected 68e99b75
+UVM_ERROR smb_tb.sv(95) @ 105170000: uvm_test_top.env.schk [SMEM] lane 6 read b307c1dc, expected 7225e91c
+UVM_ERROR smb_tb.sv(95) @ 105200000: uvm_test_top.env.schk [SMEM] lane 1 read c987746a, expected 5a0d3648
+UVM_ERROR smb_tb.sv(95) @ 105680000: uvm_test_top.env.schk [SMEM] lane 2 read 6ac792d7, expected 9d9a76af
+UVM_ERROR smb_tb.sv(95) @ 106360000: uvm_test_top.env.schk [SMEM] lane 1 read 279c7efd, expected 33e75f38
+UVM_ERROR smb_tb.sv(95) @ 106360000: uvm_test_top.env.schk [SMEM] lane 5 read deb7ec84, expected 96fdc433
+UVM_ERROR smb_tb.sv(95) @ 107050000: uvm_test_top.env.schk [SMEM] lane 2 read 5c0ed71c, expected 50b92c7a
+UVM_ERROR smb_tb.sv(95) @ 107390000: uvm_test_top.env.schk [SMEM] lane 0 read 9ef99706, expected 68e99b75
+UVM_ERROR smb_tb.sv(95) @ 107590000: uvm_test_top.env.schk [SMEM] lane 6 read deb7ec84, expected 96fdc433
+UVM_ERROR smb_tb.sv(95) @ 107750000: uvm_test_top.env.schk [SMEM] lane 1 read deb7ec84, expected 96fdc433
+UVM_ERROR smb_tb.sv(95) @ 108180000: uvm_test_top.env.schk [SMEM] lane 1 read 9e7786e5, expected c09f9855
+UVM_ERROR smb_tb.sv(95) @ 109550000: uvm_test_top.env.schk [SMEM] lane 3 read a804f14b, expected 2e2c90fe
+UVM_ERROR smb_tb.sv(95) @ 110630000: uvm_test_top.env.schk [SMEM] lane 3 read 062321aa, expected 4ccfc346
+UVM_ERROR smb_tb.sv(95) @ 110630000: uvm_test_top.env.schk [SMEM] lane 7 read a804f14b, expected 2e2c90fe
+UVM_ERROR smb_tb.sv(95) @ 111020000: uvm_test_top.env.schk [SMEM] lane 7 read 8905ca05, expected 0b77299d
+UVM_ERROR smb_tb.sv(95) @ 111140000: uvm_test_top.env.schk [SMEM] lane 6 read 2ce84b6e, expected d8c06914
+UVM_ERROR smb_tb.sv(95) @ 111240000: uvm_test_top.env.schk [SMEM] lane 5 read 062321aa, expected 4ccfc346
+UVM_ERROR smb_tb.sv(95) @ 111390000: uvm_test_top.env.schk [SMEM] lane 5 read e3c5f292, expected 4499e317
+UVM_ERROR smb_tb.sv(95) @ 111520000: uvm_test_top.env.schk [SMEM] lane 3 read 062321aa, expected 4ccfc346
+UVM_ERROR smb_tb.sv(95) @ 111620000: uvm_test_top.env.schk [SMEM] lane 0 read 0e98148a, expected 5e8112d7
+UVM_ERROR smb_tb.sv(95) @ 111620000: uvm_test_top.env.schk [SMEM] lane 1 read 0e98148a, expected 5e8112d7
+UVM_ERROR smb_tb.sv(95) @ 111620000: uvm_test_top.env.schk [SMEM] lane 2 read 0e98148a, expected 5e8112d7
+UVM_ERROR smb_tb.sv(95) @ 111620000: uvm_test_top.env.schk [SMEM] lane 3 read 0e98148a, expected 5e8112d7
+UVM_ERROR smb_tb.sv(95) @ 111620000: uvm_test_top.env.schk [SMEM] lane 4 read 0e98148a, expected 5e8112d7
+UVM_ERROR smb_tb.sv(95) @ 111620000: uvm_test_top.env.schk [SMEM] lane 5 read 0e98148a, expected 5e8112d7
+UVM_ERROR smb_tb.sv(95) @ 111620000: uvm_test_top.env.schk [SMEM] lane 6 read 0e98148a, expected 5e8112d7
+UVM_ERROR smb_tb.sv(95) @ 111620000: uvm_test_top.env.schk [SMEM] lane 7 read 0e98148a, expected 5e8112d7
+UVM_ERROR smb_tb.sv(95) @ 111790000: uvm_test_top.env.schk [SMEM] lane 6 read 2ce84b6e, expected d8c06914
+UVM_ERROR smb_tb.sv(95) @ 111970000: uvm_test_top.env.schk [SMEM] lane 4 read dc542c3e, expected a89bd17b
+UVM_ERROR smb_tb.sv(95) @ 111970000: uvm_test_top.env.schk [SMEM] lane 5 read d185f5ed, expected ed2c53b1
+UVM_ERROR smb_tb.sv(95) @ 111970000: uvm_test_top.env.schk [SMEM] lane 6 read ffd0c82b, expected 65eddd3b
+UVM_ERROR smb_tb.sv(95) @ 112350000: uvm_test_top.env.schk [SMEM] lane 5 read dc542c3e, expected a89bd17b
+UVM_ERROR smb_tb.sv(95) @ 112840000: uvm_test_top.env.schk [SMEM] lane 4 read 0e98148a, expected 5e8112d7
+UVM_ERROR smb_tb.sv(95) @ 113190000: uvm_test_top.env.schk [SMEM] lane 2 read ffd0c82b, expected 65eddd3b
+UVM_ERROR smb_tb.sv(95) @ 113470000: uvm_test_top.env.schk [SMEM] lane 1 read ffd0c82b, expected 65eddd3b
+UVM_ERROR smb_tb.sv(95) @ 114530000: uvm_test_top.env.schk [SMEM] lane 4 read 05550e75, expected 630effe5
+UVM_ERROR smb_tb.sv(95) @ 114960000: uvm_test_top.env.schk [SMEM] lane 7 read d4af5839, expected fd6f1963
+UVM_ERROR smb_tb.sv(95) @ 115720000: uvm_test_top.env.schk [SMEM] lane 2 read 8bc78c1b, expected 86733c22
+UVM_ERROR smb_tb.sv(95) @ 115720000: uvm_test_top.env.schk [SMEM] lane 3 read e59eadf4, expected 8bca9c33
+UVM_ERROR smb_tb.sv(95) @ 116430000: uvm_test_top.env.schk [SMEM] lane 0 read 8bc78c1b, expected 86733c22
+UVM_ERROR smb_tb.sv(95) @ 116430000: uvm_test_top.env.schk [SMEM] lane 6 read aac5c32c, expected 9556ec60
+UVM_ERROR smb_tb.sv(95) @ 116470000: uvm_test_top.env.schk [SMEM] lane 3 read 36988a51, expected 8a5638b4
+UVM_ERROR smb_tb.sv(95) @ 116470000: uvm_test_top.env.schk [SMEM] lane 4 read 36988a51, expected 8a5638b4
+UVM_ERROR smb_tb.sv(95) @ 116470000: uvm_test_top.env.schk [SMEM] lane 6 read e59eadf4, expected 8bca9c33
+UVM_ERROR smb_tb.sv(95) @ 116640000: uvm_test_top.env.schk [SMEM] lane 4 read 36988a51, expected 8a5638b4
+UVM_ERROR smb_tb.sv(95) @ 116790000: uvm_test_top.env.schk [SMEM] lane 5 read 8bc78c1b, expected 86733c22
+UVM_ERROR smb_tb.sv(95) @ 116990000: uvm_test_top.env.schk [SMEM] lane 2 read e59eadf4, expected 8bca9c33
+UVM_ERROR smb_tb.sv(95) @ 116990000: uvm_test_top.env.schk [SMEM] lane 6 read 8bc78c1b, expected 86733c22
+UVM_ERROR smb_tb.sv(95) @ 117740000: uvm_test_top.env.schk [SMEM] lane 0 read 8bc78c1b, expected 86733c22
+UVM_ERROR smb_tb.sv(95) @ 117740000: uvm_test_top.env.schk [SMEM] lane 1 read 174a6678, expected f0e3cebf
+UVM_ERROR smb_tb.sv(95) @ 117770000: uvm_test_top.env.schk [SMEM] lane 7 read b068c061, expected bd4af694
+UVM_ERROR smb_tb.sv(95) @ 117960000: uvm_test_top.env.schk [SMEM] lane 1 read aa379d11, expected ba4984e8
+UVM_ERROR smb_tb.sv(95) @ 118000000: uvm_test_top.env.schk [SMEM] lane 1 read d4af5839, expected fd6f1963
+UVM_ERROR smb_tb.sv(95) @ 118000000: uvm_test_top.env.schk [SMEM] lane 2 read 8bc78c1b, expected 86733c22
+UVM_ERROR smb_tb.sv(95) @ 118520000: uvm_test_top.env.schk [SMEM] lane 7 read d4af5839, expected fd6f1963
+UVM_ERROR smb_tb.sv(95) @ 119080000: uvm_test_top.env.schk [SMEM] lane 3 read 0c645d48, expected 4fee9cc2
+UVM_ERROR smb_tb.sv(95) @ 119080000: uvm_test_top.env.schk [SMEM] lane 4 read 0c645d48, expected 4fee9cc2
+UVM_ERROR smb_tb.sv(95) @ 119760000: uvm_test_top.env.schk [SMEM] lane 7 read ac6324cc, expected c0500708
+UVM_ERROR smb_tb.sv(95) @ 120010000: uvm_test_top.env.schk [SMEM] lane 6 read b068c061, expected bd4af694
+UVM_ERROR smb_tb.sv(95) @ 120170000: uvm_test_top.env.schk [SMEM] lane 3 read 21110db9, expected 054be533
+UVM_ERROR smb_tb.sv(95) @ 120780000: uvm_test_top.env.schk [SMEM] lane 1 read ac6324cc, expected c0500708
+UVM_ERROR smb_tb.sv(95) @ 120780000: uvm_test_top.env.schk [SMEM] lane 3 read 70244b68, expected 150d5a9e
+UVM_ERROR smb_tb.sv(95) @ 120850000: uvm_test_top.env.schk [SMEM] lane 4 read ac6324cc, expected c0500708
+UVM_ERROR smb_tb.sv(95) @ 121260000: uvm_test_top.env.schk [SMEM] lane 4 read 49b73205, expected c2fd2cac
+UVM_ERROR smb_tb.sv(95) @ 121320000: uvm_test_top.env.schk [SMEM] lane 3 read 70244b68, expected 150d5a9e
+UVM_ERROR smb_tb.sv(95) @ 121350000: uvm_test_top.env.schk [SMEM] lane 1 read 8445eb0d, expected cd25705c
+UVM_ERROR smb_tb.sv(95) @ 122030000: uvm_test_top.env.schk [SMEM] lane 5 read 49b73205, expected c2fd2cac
+UVM_ERROR smb_tb.sv(95) @ 122210000: uvm_test_top.env.schk [SMEM] lane 4 read 8445eb0d, expected cd25705c
+UVM_ERROR smb_tb.sv(95) @ 122510000: uvm_test_top.env.schk [SMEM] lane 1 read ac6324cc, expected c0500708
+UVM_ERROR smb_tb.sv(95) @ 122770000: uvm_test_top.env.schk [SMEM] lane 1 read ac6324cc, expected c0500708
+UVM_ERROR smb_tb.sv(95) @ 123130000: uvm_test_top.env.schk [SMEM] lane 0 read 5d8bd5f5, expected 1956ca03
+UVM_ERROR smb_tb.sv(95) @ 123130000: uvm_test_top.env.schk [SMEM] lane 3 read ac6324cc, expected c0500708
+UVM_INFO smb_tb.sv(258) @ 123795000: uvm_test_top.env.bchk [BAR] releases=921 errors=0
+UVM_INFO smb_tb.sv(259) @ 123795000: uvm_test_top.env.bchk [COV] functional coverage = 100.0%
+    wg_1_warp                    54
+    wg_4_warps                   42
+    release_by_last_arrival      866
+    release_by_exit              55
+    warps_exited_before_barrier  362
+    back_to_back_barriers        91
+    relaunch_while_idle          200
+UVM_INFO smb_tb.sv(153) @ 123795000: uvm_test_top.env.schk [SMEM] accesses=3000 errors=498
+UVM_INFO smb_tb.sv(154) @ 123795000: uvm_test_top.env.schk [COV] functional coverage = 100.0%
+    passes_1                     1293
+    passes_2_4                   1393
+    passes_5_7                   60
+    passes_8                     180
+    broadcast_read               4147
+    same_word_multi_write        3639
+    empty_mask                   74
+    partial_mask                 1422
+    address_wraps                9090
+    read_after_write             8860
+    write                        1491
+    read                         1509
+UVM_INFO /Users/sankalpahota/Documents/GIT/mGPU/uvm/base/uvm_report_server.svh(1009) @ 123795000: reporter [UVM/REPORT/SERVER] 
+--- UVM Report Summary ---
+
+** Report counts by severity
+UVM_INFO :    8
+UVM_WARNING :    2
+UVM_ERROR :  498
+UVM_FATAL :    0
+** Report counts by id
+[BAR]     1
+[COV]     2
+[NO_DPI_TSTNAME]     1
+[NO_DPI_USED]     1
+[NO_VISIT_CHECK]     1
+[RNTST]     1
+[SMEM]   499
+[UVM/COMP/NAMECHECK]     1
+[UVM/RELNOTES]     1
+
+- /Users/sankalpahota/Documents/GIT/mGPU/uvm/base/uvm_test_runner.svh:297: Verilog $finish
+- S i m u l a t i o n   R e p o r t: Verilator 5.052 2026-09-05
+- Verilator: $finish at 124us; walltime 60.794 s; speed 2.036 us/s
+- Verilator: cpu 1.986 s on 1 threads; allocated 14 MB

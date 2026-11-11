@@ -1,0 +1,72 @@
+%Warning: System has stack size 65520 kb which may be too small; failed to request more using 'ulimit -s 174124012'
+UVM_INFO /Users/sankalpahota/Documents/GIT/mGPU/uvm/base/uvm_root.svh(457) @ 0: reporter [UVM/RELNOTES] 
+  ***********       IMPORTANT RELEASE NOTES         ************
+
+  This implementation of the UVM Library deviates from the 1800.2-2020
+  standard.  See the DEVIATIONS.md file contained in the release
+  for more details.
+
+----------------------------------------------------------------
+Accellera:1800.2:UVM:2020.3.2
+
+All copyright owners for this kit are listed in NOTICE.txt
+All Rights Reserved Worldwide
+----------------------------------------------------------------
+
+      (Specify +UVM_NO_RELNOTES to turn off this notice)
+
+UVM_WARNING /Users/sankalpahota/Documents/GIT/mGPU/uvm/base/uvm_test_runner.svh(207) @ 0: reporter [NO_DPI_USED] We are thinking of removing support for UVM_NO_DPI.  Please try this test without it and evaluate the impact
+UVM_INFO /Users/sankalpahota/Documents/GIT/mGPU/uvm/base/uvm_test_runner.svh(210) @ 0: reporter [NO_DPI_TSTNAME] UVM_NO_DPI defined--getting UVM_TESTNAME directly, without DPI
+UVM_INFO @ 0: reporter [RNTST] Running test icache_invalidate_test...
+UVM_INFO /Users/sankalpahota/Documents/GIT/mGPU/uvm/base/uvm_traversal.svh(345) @ 0: reporter [UVM/COMP/NAMECHECK] This implementation of the component name checks requires DPI to be enabled
+UVM_WARNING /Users/sankalpahota/Documents/GIT/mGPU/uvm/base/uvm_traversal.svh(314) @ 0: reporter [NO_VISIT_CHECK] Because UVM_REGEX_NO_DPI is defined, no uvm component name constraints will be checked
+UVM_ERROR icache_checker.sv(36) @ 1440000: uvm_test_top.env.chk [CHK] request accepted while a miss is in progress (cache is blocking)
+UVM_ERROR icache_checker.sv(36) @ 1450000: uvm_test_top.env.chk [CHK] request accepted while a miss is in progress (cache is blocking)
+UVM_ERROR icache_checker.sv(36) @ 1460000: uvm_test_top.env.chk [CHK] request accepted while a miss is in progress (cache is blocking)
+UVM_ERROR icache_checker.sv(36) @ 1470000: uvm_test_top.env.chk [CHK] request accepted while a miss is in progress (cache is blocking)
+UVM_ERROR icache_checker.sv(36) @ 1480000: uvm_test_top.env.chk [CHK] request accepted while a miss is in progress (cache is blocking)
+UVM_ERROR icache_checker.sv(36) @ 1600000: uvm_test_top.env.chk [CHK] request accepted while a miss is in progress (cache is blocking)
+UVM_ERROR icache_checker.sv(36) @ 1610000: uvm_test_top.env.chk [CHK] request accepted while a miss is in progress (cache is blocking)
+UVM_ERROR icache_checker.sv(36) @ 1630000: uvm_test_top.env.chk [CHK] request accepted while a miss is in progress (cache is blocking)
+UVM_ERROR icache_checker.sv(36) @ 1640000: uvm_test_top.env.chk [CHK] request accepted while a miss is in progress (cache is blocking)
+UVM_ERROR icache_checker.sv(36) @ 1760000: uvm_test_top.env.chk [CHK] request accepted while a miss is in progress (cache is blocking)
+UVM_ERROR icache_checker.sv(36) @ 2030000: uvm_test_top.env.chk [CHK] port 1 pc 000002e4: instr 4a6f95dc, expected 3525e9c9
+UVM_ERROR icache_checker.sv(36) @ 2030000: uvm_test_top.env.chk [CHK] request accepted while a miss is in progress (cache is blocking)
+UVM_ERROR icache_checker.sv(36) @ 2100000: uvm_test_top.env.chk [CHK] port 1 pc 000002e8: instr c30dfc10, expected bc478005
+UVM_ERROR icache_checker.sv(36) @ 2100000: uvm_test_top.env.chk [CHK] request accepted while a miss is in progress (cache is blocking)
+UVM_ERROR icache_checker.sv(36) @ 2110000: uvm_test_top.env.chk [CHK] request accepted while a miss is in progress (cache is blocking)
+UVM_ERROR icache_checker.sv(36) @ 2120000: uvm_test_top.env.chk [CHK] port 1 pc 000002ec: instr 5823c754, expected 2769bb41
+UVM_ERROR icache_checker.sv(36) @ 2120000: uvm_test_top.env.chk [CHK] request accepted while a miss is in progress (cache is blocking)
+UVM_ERROR icache_checker.sv(36) @ 2210000: uvm_test_top.env.chk [CHK] port 1 pc 000002f0: instr d0c12188, expected af8b5d9d
+UVM_ERROR icache_checker.sv(36) @ 2210000: uvm_test_top.env.chk [CHK] request accepted while a miss is in progress (cache is blocking)
+UVM_ERROR icache_checker.sv(36) @ 2220000: uvm_test_top.env.chk [CHK] request accepted while a miss is in progress (cache is blocking)
+UVM_ERROR icache_checker.sv(36) @ 2230000: uvm_test_top.env.chk [CHK] port 1 pc 000002f4: instr 29e708cc, expected 56ad74d9
+UVM_ERROR icache_checker.sv(36) @ 2230000: uvm_test_top.env.chk [CHK] request accepted while a miss is in progress (cache is blocking)
+UVM_ERROR icache_checker.sv(36) @ 2240000: uvm_test_top.env.chk [CHK] request accepted while a miss is in progress (cache is blocking)
+UVM_ERROR icache_checker.sv(36) @ 2250000: uvm_test_top.env.chk [CHK] port 1 pc 000002f8: instr a6851300, expected d9cf6f15
+UVM_ERROR icache_checker.sv(36) @ 2250000: uvm_test_top.env.chk [CHK] request accepted while a miss is in progress (cache is blocking)
+UVM_ERROR icache_checker.sv(36) @ 2260000: uvm_test_top.env.chk [CHK] request accepted while a miss is in progress (cache is blocking)
+UVM_ERROR icache_checker.sv(36) @ 2270000: uvm_test_top.env.chk [CHK] port 1 pc 000002fc: instr 3fbb7a44, expected 40f10651
+UVM_ERROR icache_checker.sv(36) @ 2270000: uvm_test_top.env.chk [CHK] request accepted while a miss is in progress (cache is blocking)
+UVM_ERROR icache_checker.sv(36) @ 2280000: uvm_test_top.env.chk [CHK] request accepted while a miss is in progress (cache is blocking)
+UVM_ERROR icache_checker.sv(36) @ 2440000: uvm_test_top.env.chk [CHK] port 0 pc 00000378: instr c25a4b80, expected bd103795
+UVM_ERROR icache_checker.sv(36) @ 2440000: uvm_test_top.env.chk [CHK] request accepted while a miss is in progress (cache is blocking)
+UVM_ERROR icache_checker.sv(36) @ 2510000: uvm_test_top.env.chk [CHK] port 0 pc 00000024: instr 00000000, expected 52b33689
+UVM_ERROR icache_checker.sv(36) @ 2510000: uvm_test_top.env.chk [CHK] request accepted while a miss is in progress (cache is blocking)
+UVM_ERROR icache_checker.sv(36) @ 2520000: uvm_test_top.env.chk [CHK] request accepted while a miss is in progress (cache is blocking)
+UVM_ERROR icache_checker.sv(36) @ 2530000: uvm_test_top.env.chk [CHK] port 0 pc 00000028: instr 00000000, expected d5d529c5
+UVM_ERROR icache_checker.sv(36) @ 2530000: uvm_test_top.env.chk [CHK] request accepted while a miss is in progress (cache is blocking)
+UVM_ERROR icache_checker.sv(36) @ 2540000: uvm_test_top.env.chk [CHK] request accepted while a miss is in progress (cache is blocking)
+UVM_ERROR icache_checker.sv(36) @ 2550000: uvm_test_top.env.chk [CHK] port 0 pc 0000002c: instr 00000000, expected 5cf6c001
+UVM_ERROR icache_checker.sv(36) @ 2550000: uvm_test_top.env.chk [CHK] request accepted while a miss is in progress (cache is blocking)
+UVM_ERROR icache_checker.sv(36) @ 2560000: uvm_test_top.env.chk [CHK] request accepted while a miss is in progress (cache is blocking)
+UVM_ERROR icache_checker.sv(36) @ 2570000: uvm_test_top.env.chk [CHK] port 0 pc 00000030: instr 00000000, expected c718fb5d
+UVM_ERROR icache_checker.sv(36) @ 2570000: uvm_test_top.env.chk [CHK] request accepted while a miss is in progress (cache is blocking)
+UVM_ERROR icache_checker.sv(36) @ 2580000: uvm_test_top.env.chk [CHK] request accepted while a miss is in progress (cache is blocking)
+UVM_ERROR icache_checker.sv(36) @ 2590000: uvm_test_top.env.chk [CHK] port 0 pc 00000034: instr 00000000, expected 4e3a9d99
+UVM_ERROR icache_checker.sv(36) @ 2590000: uvm_test_top.env.chk [CHK] request accepted while a miss is in progress (cache is blocking)
+UVM_ERROR icache_checker.sv(36) @ 2600000: uvm_test_top.env.chk [CHK] request accepted while a miss is in progress (cache is blocking)
+UVM_ERROR icache_checker.sv(36) @ 2610000: uvm_test_top.env.chk [CHK] port 0 pc 00000038: instr 00000000, expected f15cb4d5
+UVM_ERROR icache_checker.sv(36) @ 2610000: uvm_test_top.env.chk [CHK] request accepted while a miss is in progress (cache is blocking)
+UVM_ERROR icache_checker.sv(36) @ 2740000: uvm_test_top.env.chk [CHK] port 0 pc 0000003c: instr 00000000, expected 787eaf11
+UVM_ERROR icache_checker.sv(36) @ 2750000: uvm_test_top.env.chk [CHK] request accepted while a miss is in progress (cache is bloc

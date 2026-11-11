@@ -1,0 +1,14 @@
+merged functional coverage = 100.0% (13/13 bins)
+  read_hit_way0                  6571
+  read_hit_way1                  6566
+  read_miss_fill_way0            6071
+  read_miss_fill_way1            5961
+  evict_valid_line               9272
+  write_hit                      5225
+  write_miss_no_allocate         5792
+  partial_strobe                 8280
+  lru_flip_on_hit                8860
+  invalidate_idle                461
+  invalidate_during_fill         114
+  read_after_write_hit           2735
+  memory_backpressure            10072

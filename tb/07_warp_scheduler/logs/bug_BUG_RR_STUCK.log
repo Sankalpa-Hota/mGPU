@@ -1,0 +1,155 @@
+%Warning: System has stack size 65520 kb which may be too small; failed to request more using 'ulimit -s 134272755'
+UVM_INFO /Users/sankalpahota/Documents/GIT/mGPU/uvm/base/uvm_root.svh(457) @ 0: reporter [UVM/RELNOTES] 
+  ***********       IMPORTANT RELEASE NOTES         ************
+
+  This implementation of the UVM Library deviates from the 1800.2-2020
+  standard.  See the DEVIATIONS.md file contained in the release
+  for more details.
+
+----------------------------------------------------------------
+Accellera:1800.2:UVM:2020.3.2
+
+All copyright owners for this kit are listed in NOTICE.txt
+All Rights Reserved Worldwide
+----------------------------------------------------------------
+
+      (Specify +UVM_NO_RELNOTES to turn off this notice)
+
+UVM_WARNING /Users/sankalpahota/Documents/GIT/mGPU/uvm/base/uvm_test_runner.svh(207) @ 0: reporter [NO_DPI_USED] We are thinking of removing support for UVM_NO_DPI.  Please try this test without it and evaluate the impact
+UVM_INFO /Users/sankalpahota/Documents/GIT/mGPU/uvm/base/uvm_test_runner.svh(210) @ 0: reporter [NO_DPI_TSTNAME] UVM_NO_DPI defined--getting UVM_TESTNAME directly, without DPI
+UVM_INFO @ 0: reporter [RNTST] Running test ws_backpressure_test...
+UVM_INFO /Users/sankalpahota/Documents/GIT/mGPU/uvm/base/uvm_traversal.svh(345) @ 0: reporter [UVM/COMP/NAMECHECK] This implementation of the component name checks requires DPI to be enabled
+UVM_WARNING /Users/sankalpahota/Documents/GIT/mGPU/uvm/base/uvm_traversal.svh(314) @ 0: reporter [NO_VISIT_CHECK] Because UVM_REGEX_NO_DPI is defined, no uvm component name constraints will be checked
+UVM_ERROR ws_checker.sv(32) @ 2360000: uvm_test_top.env.chk [CHK] warp 3 eligible but passed over 5 times (starvation)
+UVM_ERROR ws_checker.sv(32) @ 2380000: uvm_test_top.env.chk [CHK] warp 3 eligible but passed over 6 times (starvation)
+UVM_ERROR ws_checker.sv(32) @ 2400000: uvm_test_top.env.chk [CHK] warp 3 eligible but passed over 7 times (starvation)
+UVM_ERROR ws_checker.sv(32) @ 2480000: uvm_test_top.env.chk [CHK] warp 3 eligible but passed over 8 times (starvation)
+UVM_ERROR ws_checker.sv(32) @ 5880000: uvm_test_top.env.chk [CHK] warp 2 eligible but passed over 5 times (starvation)
+UVM_ERROR ws_checker.sv(32) @ 5880000: uvm_test_top.env.chk [CHK] warp 3 eligible but passed over 5 times (starvation)
+UVM_ERROR ws_checker.sv(32) @ 5900000: uvm_test_top.env.chk [CHK] warp 3 eligible but passed over 6 times (starvation)
+UVM_ERROR ws_checker.sv(32) @ 6780000: uvm_test_top.env.chk [CHK] warp 3 eligible but passed over 5 times (starvation)
+UVM_ERROR ws_checker.sv(32) @ 6830000: uvm_test_top.env.chk [CHK] warp 3 eligible but passed over 6 times (starvation)
+UVM_ERROR ws_checker.sv(32) @ 6850000: uvm_test_top.env.chk [CHK] warp 3 eligible but passed over 7 times (starvation)
+UVM_ERROR ws_checker.sv(32) @ 9850000: uvm_test_top.env.chk [CHK] warp 3 eligible but passed over 5 times (starvation)
+UVM_ERROR ws_checker.sv(32) @ 9890000: uvm_test_top.env.chk [CHK] warp 3 eligible but passed over 6 times (starvation)
+UVM_ERROR ws_checker.sv(32) @ 10000000: uvm_test_top.env.chk [CHK] warp 3 eligible but passed over 7 times (starvation)
+UVM_ERROR ws_checker.sv(32) @ 10100000: uvm_test_top.env.chk [CHK] warp 3 eligible but passed over 8 times (starvation)
+UVM_ERROR ws_checker.sv(32) @ 10140000: uvm_test_top.env.chk [CHK] warp 3 eligible but passed over 9 times (starvation)
+UVM_ERROR ws_checker.sv(32) @ 10160000: uvm_test_top.env.chk [CHK] warp 3 eligible but passed over 10 times (starvation)
+UVM_ERROR ws_checker.sv(32) @ 10230000: uvm_test_top.env.chk [CHK] warp 3 eligible but passed over 11 times (starvation)
+UVM_ERROR ws_checker.sv(32) @ 10260000: uvm_test_top.env.chk [CHK] warp 3 eligible but passed over 12 times (starvation)
+UVM_ERROR ws_checker.sv(32) @ 12230000: uvm_test_top.env.chk [CHK] warp 3 eligible but passed over 5 times (starvation)
+UVM_ERROR ws_checker.sv(32) @ 12290000: uvm_test_top.env.chk [CHK] warp 3 eligible but passed over 6 times (starvation)
+UVM_ERROR ws_checker.sv(32) @ 12310000: uvm_test_top.env.chk [CHK] warp 3 eligible but passed over 7 times (starvation)
+UVM_ERROR ws_checker.sv(32) @ 12330000: uvm_test_top.env.chk [CHK] warp 3 eligible but passed over 8 times (starvation)
+UVM_ERROR ws_checker.sv(32) @ 27620000: uvm_test_top.env.chk [CHK] warp 3 eligible but passed over 5 times (starvation)
+UVM_ERROR ws_checker.sv(32) @ 27980000: uvm_test_top.env.chk [CHK] warp 2 eligible but passed over 5 times (starvation)
+UVM_ERROR ws_checker.sv(32) @ 39850000: uvm_test_top.env.chk [CHK] warp 3 eligible but passed over 5 times (starvation)
+UVM_ERROR ws_checker.sv(32) @ 41060000: uvm_test_top.env.chk [CHK] warp 3 eligible but passed over 5 times (starvation)
+UVM_ERROR ws_checker.sv(32) @ 42110000: uvm_test_top.env.chk [CHK] warp 3 eligible but passed over 5 times (starvation)
+UVM_ERROR ws_checker.sv(32) @ 42120000: uvm_test_top.env.chk [CHK] warp 3 eligible but passed over 6 times (starvation)
+UVM_ERROR ws_checker.sv(32) @ 47670000: uvm_test_top.env.chk [CHK] warp 3 eligible but passed over 5 times (starvation)
+UVM_ERROR ws_checker.sv(32) @ 48130000: uvm_test_top.env.chk [CHK] warp 3 eligible but passed over 5 times (starvation)
+UVM_ERROR ws_checker.sv(32) @ 48200000: uvm_test_top.env.chk [CHK] warp 3 eligible but passed over 6 times (starvation)
+UVM_ERROR ws_checker.sv(32) @ 48220000: uvm_test_top.env.chk [CHK] warp 3 eligible but passed over 7 times (starvation)
+UVM_ERROR ws_checker.sv(32) @ 48440000: uvm_test_top.env.chk [CHK] warp 3 eligible but passed over 8 times (starvation)
+UVM_ERROR ws_checker.sv(32) @ 48510000: uvm_test_top.env.chk [CHK] warp 3 eligible but passed over 9 times (starvation)
+UVM_ERROR ws_checker.sv(32) @ 48560000: uvm_test_top.env.chk [CHK] warp 3 eligible but passed over 10 times (starvation)
+UVM_ERROR ws_checker.sv(32) @ 48610000: uvm_test_top.env.chk [CHK] warp 3 eligible but passed over 11 times (starvation)
+UVM_ERROR ws_checker.sv(32) @ 51780000: uvm_test_top.env.chk [CHK] warp 3 eligible but passed over 5 times (starvation)
+UVM_ERROR ws_checker.sv(32) @ 52450000: uvm_test_top.env.chk [CHK] warp 3 eligible but passed over 5 times (starvation)
+UVM_ERROR ws_checker.sv(32) @ 61120000: uvm_test_top.env.chk [CHK] warp 3 eligible but passed over 5 times (starvation)
+UVM_ERROR ws_checker.sv(32) @ 61200000: uvm_test_top.env.chk [CHK] warp 3 eligible but passed over 6 times (starvation)
+UVM_ERROR ws_checker.sv(32) @ 61230000: uvm_test_top.env.chk [CHK] warp 3 eligible but passed over 7 times (starvation)
+UVM_ERROR ws_checker.sv(32) @ 63500000: uvm_test_top.env.chk [CHK] warp 3 eligible but passed over 5 times (starvation)
+UVM_ERROR ws_checker.sv(32) @ 63540000: uvm_test_top.env.chk [CHK] warp 3 eligible but passed over 6 times (starvation)
+UVM_ERROR ws_checker.sv(32) @ 63560000: uvm_test_top.env.chk [CHK] warp 3 eligible but passed over 7 times (starvation)
+UVM_ERROR ws_checker.sv(32) @ 63580000: uvm_test_top.env.chk [CHK] warp 3 eligible but passed over 8 times (starvation)
+UVM_ERROR ws_checker.sv(32) @ 69850000: uvm_test_top.env.chk [CHK] warp 3 eligible but passed over 5 times (starvation)
+UVM_ERROR ws_checker.sv(32) @ 70000000: uvm_test_top.env.chk [CHK] warp 3 eligible but passed over 6 times (starvation)
+UVM_ERROR ws_checker.sv(32) @ 70020000: uvm_test_top.env.chk [CHK] warp 3 eligible but passed over 7 times (starvation)
+UVM_ERROR ws_checker.sv(32) @ 70030000: uvm_test_top.env.chk [CHK] warp 3 eligible but passed over 8 times (starvation)
+UVM_ERROR ws_checker.sv(32) @ 71640000: uvm_test_top.env.chk [CHK] warp 3 eligible but passed over 5 times (starvation)
+UVM_ERROR ws_checker.sv(32) @ 76730000: uvm_test_top.env.chk [CHK] warp 2 eligible but passed over 5 times (starvation)
+UVM_ERROR ws_checker.sv(32) @ 76730000: uvm_test_top.env.chk [CHK] warp 3 eligible but passed over 5 times (starvation)
+UVM_ERROR ws_checker.sv(32) @ 76740000: uvm_test_top.env.chk [CHK] warp 3 eligible but passed over 6 times (starvation)
+UVM_ERROR ws_checker.sv(32) @ 79070000: uvm_test_top.env.chk [CHK] warp 3 eligible but passed over 5 times (starvation)
+UVM_ERROR ws_checker.sv(32) @ 79080000: uvm_test_top.env.chk [CHK] warp 3 eligible but passed over 6 times (starvation)
+UVM_ERROR ws_checker.sv(32) @ 84140000: uvm_test_top.env.chk [CHK] warp 3 eligible but passed over 5 times (starvation)
+UVM_ERROR ws_checker.sv(32) @ 84170000: uvm_test_top.env.chk [CHK] warp 2 eligible but passed over 5 times (starvation)
+UVM_ERROR ws_checker.sv(32) @ 84170000: uvm_test_top.env.chk [CHK] warp 3 eligible but passed over 6 times (starvation)
+UVM_ERROR ws_checker.sv(32) @ 84180000: uvm_test_top.env.chk [CHK] warp 3 eligible but passed over 7 times (starvation)
+UVM_ERROR ws_checker.sv(32) @ 92090000: uvm_test_top.env.chk [CHK] warp 3 eligible but passed over 5 times (starvation)
+UVM_ERROR ws_checker.sv(32) @ 92370000: uvm_test_top.env.chk [CHK] warp 3 eligible but passed over 6 times (starvation)
+UVM_ERROR ws_checker.sv(32) @ 92490000: uvm_test_top.env.chk [CHK] warp 3 eligible but passed over 7 times (starvation)
+UVM_ERROR ws_checker.sv(32) @ 92500000: uvm_test_top.env.chk [CHK] warp 3 eligible but passed over 8 times (starvation)
+UVM_ERROR ws_checker.sv(32) @ 92530000: uvm_test_top.env.chk [CHK] warp 3 eligible but passed over 9 times (starvation)
+UVM_ERROR ws_checker.sv(32) @ 98700000: uvm_test_top.env.chk [CHK] warp 3 eligible but passed over 5 times (starvation)
+UVM_ERROR ws_checker.sv(32) @ 98780000: uvm_test_top.env.chk [CHK] warp 3 eligible but passed over 6 times (starvation)
+UVM_ERROR ws_checker.sv(32) @ 98790000: uvm_test_top.env.chk [CHK] warp 3 eligible but passed over 7 times (starvation)
+UVM_ERROR ws_checker.sv(32) @ 112460000: uvm_test_top.env.chk [CHK] warp 3 eligible but passed over 5 times (starvation)
+UVM_ERROR ws_checker.sv(32) @ 112490000: uvm_test_top.env.chk [CHK] warp 3 eligible but passed over 6 times (starvation)
+UVM_ERROR ws_checker.sv(32) @ 112500000: uvm_test_top.env.chk [CHK] warp 3 eligible but passed over 7 times (starvation)
+UVM_ERROR ws_checker.sv(32) @ 118790000: uvm_test_top.env.chk [CHK] warp 3 eligible but passed over 5 times (starvation)
+UVM_ERROR ws_checker.sv(32) @ 118850000: uvm_test_top.env.chk [CHK] warp 3 eligible but passed over 6 times (starvation)
+UVM_ERROR ws_checker.sv(32) @ 122520000: uvm_test_top.env.chk [CHK] warp 2 eligible but passed over 5 times (starvation)
+UVM_ERROR ws_checker.sv(32) @ 122970000: uvm_test_top.env.chk [CHK] warp 3 eligible but passed over 5 times (starvation)
+UVM_ERROR ws_checker.sv(32) @ 122990000: uvm_test_top.env.chk [CHK] warp 3 eligible but passed over 6 times (starvation)
+UVM_ERROR ws_checker.sv(32) @ 123900000: uvm_test_top.env.chk [CHK] warp 3 eligible but passed over 5 times (starvation)
+UVM_ERROR ws_checker.sv(32) @ 123930000: uvm_test_top.env.chk [CHK] warp 3 eligible but passed over 6 times (starvation)
+UVM_ERROR ws_checker.sv(32) @ 123940000: uvm_test_top.env.chk [CHK] warp 3 eligible but passed over 7 times (starvation)
+UVM_ERROR ws_checker.sv(32) @ 129370000: uvm_test_top.env.chk [CHK] warp 3 eligible but passed over 5 times (starvation)
+UVM_ERROR ws_checker.sv(32) @ 131880000: uvm_test_top.env.chk [CHK] warp 3 eligible but passed over 5 times (starvation)
+UVM_ERROR ws_checker.sv(32) @ 139290000: uvm_test_top.env.chk [CHK] warp 3 eligible but passed over 5 times (starvation)
+UVM_ERROR ws_checker.sv(32) @ 139310000: uvm_test_top.env.chk [CHK] warp 3 eligible but passed over 6 times (starvation)
+UVM_ERROR ws_checker.sv(32) @ 142250000: uvm_test_top.env.chk [CHK] warp 3 eligible but passed over 5 times (starvation)
+UVM_ERROR ws_checker.sv(32) @ 142290000: uvm_test_top.env.chk [CHK] warp 3 eligible but passed over 6 times (starvation)
+UVM_ERROR ws_checker.sv(32) @ 142310000: uvm_test_top.env.chk [CHK] warp 3 eligible but passed over 7 times (starvation)
+UVM_ERROR ws_checker.sv(32) @ 142810000: uvm_test_top.env.chk [CHK] warp 3 eligible but passed over 5 times (starvation)
+UVM_ERROR ws_checker.sv(32) @ 145270000: uvm_test_top.env.chk [CHK] warp 3 eligible but passed over 5 times (starvation)
+UVM_ERROR ws_checker.sv(32) @ 145420000: uvm_test_top.env.chk [CHK] warp 3 eligible but passed over 6 times (starvation)
+UVM_ERROR ws_checker.sv(32) @ 145490000: uvm_test_top.env.chk [CHK] warp 3 eligible but passed over 7 times (starvation)
+UVM_ERROR ws_checker.sv(32) @ 145520000: uvm_test_top.env.chk [CHK] warp 3 eligible but passed over 8 times (starvation)
+UVM_ERROR ws_checker.sv(32) @ 146210000: uvm_test_top.env.chk [CHK] warp 3 eligible but passed over 5 times (starvation)
+UVM_ERROR ws_checker.sv(32) @ 146220000: uvm_test_top.env.chk [CHK] warp 3 eligible but passed over 6 times (starvation)
+UVM_ERROR ws_checker.sv(32) @ 148980000: uvm_test_top.env.chk [CHK] warp 3 eligible but passed over 5 times (starvation)
+UVM_ERROR ws_checker.sv(32) @ 148990000: uvm_test_top.env.chk [CHK] warp 3 eligible but passed over 6 times (starvation)
+UVM_INFO ws_checker.sv(97) @ 153825000: uvm_test_top.env.chk [CHK] instructions issued=2269 errors=94
+UVM_INFO ws_checker.sv(98) @ 153825000: uvm_test_top.env.chk [COV] functional coverage = 86.7%
+    issue_warp0                  600
+    issue_warp1                  594
+    issue_warp2                  574
+    issue_warp3                  501
+    raw_stall                    126
+    waw_stall                    59
+    exit_waits_for_pending       0
+    ctrl_wait                    584
+    all_four_eligible            535
+    issue_backpressure           8697
+    fetch_backpressure           5623
+    two_writebacks_same_cycle    13
+    three_writebacks_same_cycle  0
+    same_warp_back_to_back       6
+    relaunch                     57
+UVM_INFO /Users/sankalpahota/Documents/GIT/mGPU/uvm/base/uvm_report_server.svh(1009) @ 153825000: reporter [UVM/REPORT/SERVER] 
+--- UVM Report Summary ---
+
+** Report counts by severity
+UVM_INFO :    6
+UVM_WARNING :    2
+UVM_ERROR :   94
+UVM_FATAL :    0
+** Report counts by id
+[CHK]    95
+[COV]     1
+[NO_DPI_TSTNAME]     1
+[NO_DPI_USED]     1
+[NO_VISIT_CHECK]     1
+[RNTST]     1
+[UVM/COMP/NAMECHECK]     1
+[UVM/RELNOTES]     1
+
+- /Users/sankalpahota/Documents/GIT/mGPU/uvm/base/uvm_test_runner.svh:297: Verilog $finish
+- S i m u l a t i o n   R e p o r t: Verilator 5.052 2026-09-05
+- Verilator: $finish at 154us; walltime 0.069 s; speed 2.216 ms/s
+- Verilator: cpu 0.069 s on 1 threads; allocated 13 MB

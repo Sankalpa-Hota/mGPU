@@ -1,0 +1,8 @@
+merged functional coverage = 100.0% (13/13 bins)
+12
+building 14_l1_dcache +define+BUG_WRITE_NO_UPDATE
+BUG CAUGHT  logs/bug_BUG_WRITE_NO_UPDATE.log (errors=536)
+building 14_l1_dcache +define+BUG_LRU
+BUG CAUGHT  logs/bug_BUG_LRU.log (errors=2182)
+building 14_l1_dcache +define+BUG_STRB_MERGE
+BUG CAUGHT  logs/bug_BUG_STRB_MERGE.log (errors=413)

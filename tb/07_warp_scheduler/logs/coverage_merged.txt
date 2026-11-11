@@ -1,0 +1,16 @@
+merged functional coverage = 100.0% (15/15 bins)
+  issue_warp0                    13080
+  issue_warp1                    12938
+  issue_warp2                    13164
+  issue_warp3                    13087
+  raw_stall                      1979
+  waw_stall                      1441
+  exit_waits_for_pending         17
+  ctrl_wait                      10477
+  all_four_eligible              1845
+  issue_backpressure             34436
+  fetch_backpressure             69179
+  two_writebacks_same_cycle      574
+  three_writebacks_same_cycle    1
+  same_warp_back_to_back         215
+  relaunch                       1313

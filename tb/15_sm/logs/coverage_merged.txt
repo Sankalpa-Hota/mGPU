@@ -1,0 +1,20 @@
+merged functional coverage = 100.0% (19/19 bins)
+  kernel_vector_add              21
+  kernel_saxpy                   18
+  kernel_reduction               18
+  kernel_divergence              18
+  kernel_sfu                     18
+  kernel_exit_barrier            18
+  kernel_smem_conflict           18
+  kernel_random                  36
+  simt_depth_3                   15802
+  simt_depth_5                   774
+  barrier_release                630
+  smem_bank_conflict             420
+  lsu_coalesced_1_line           7956
+  lsu_scattered_lines            4368
+  l1_hit                         7833
+  both_subcores_busy             329062
+  wg_1_warp                      50
+  wg_4_warps                     53
+  more_workgroups_than_subcores  149

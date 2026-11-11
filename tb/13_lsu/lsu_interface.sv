@@ -1,0 +1,21 @@
+interface lsu_interface (input logic clk, input logic rst_n);
+  logic         ex_valid, ex_ready;
+  logic [1:0]   ex_warp;
+  logic [31:0]  ex_instr;
+  logic [7:0]   ex_mask;
+  logic [31:0]  ex_a [8];
+  logic [31:0]  ex_b [8];
+  logic         sm_valid, sm_ready, sm_we, sm_rsp_valid;
+  logic [7:0]   sm_mask;
+  logic [31:0]  sm_addr [8];
+  logic [31:0]  sm_wdata [8];
+  logic [31:0]  sm_rsp_data [8];
+  logic         mreq_valid, mreq_ready, mreq_we, mrsp_valid;
+  logic [31:0]  mreq_addr, mreq_wstrb;
+  logic [255:0] mreq_wdata, mrsp_data;
+  logic         wb_valid, wb_ready, busy;
+  logic [1:0]   wb_warp;
+  logic [3:0]   wb_rd, last_lines;
+  logic [7:0]   wb_mask;
+  logic [31:0]  wb_data [8];
+endinterface
