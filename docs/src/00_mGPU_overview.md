@@ -257,7 +257,9 @@ The whole chip has only three kinds of outside connection: a **control port** (A
 ## Where everything sits: command to compute to memory
 
 ```hflow
-CPU | driver -APB-> RBBM | registers -wptr-> CP | fetch, decode, SQE -DISPATCH-> Dispatcher | workgroups -launch-> SM x2 | warps run | you -line req-> Crossbar and L2 | 2 banks -miss-> MMU | VA to PA -AXI4-> DRAM | storage
+CPU | driver -APB-> RBBM | registers -wptr-> CP | fetch, decode, SQE -DISPATCH-> Dispatcher | workgroups
+(cont.) Dispatcher | workgroups -launch-> SM x2 | warps run | you -line req-> Crossbar and L2 | 2 banks -miss-> MMU | VA to PA
+(cont.) MMU | VA to PA -AXI4-> DRAM | storage
 ```
 
 | Layer | Blocks | Job |

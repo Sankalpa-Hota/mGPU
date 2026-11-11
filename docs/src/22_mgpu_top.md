@@ -90,7 +90,9 @@ Read it like a chip pinout: inputs are on the left, outputs on the right. A vali
 ## Where it sits: the full chip
 
 ```hflow
-CPU | APB writes -APB-> RBBM | registers, irq -ring ptrs-> CP | fetch, decode, SQE -DISPATCH-> Dispatcher + GMU | launch, power -workgroups-> SMs x2 | execute -lines-> Crossbar + L2 x2 | cache -misses-> Arbiter + MMU | translate -lines-> GBIF | AXI4 master | you -AXI4-> DRAM | dram_ctrl
+CPU | APB writes -APB-> RBBM | registers, irq -ring ptrs-> CP | fetch, decode, SQE -DISPATCH-> Dispatcher + GMU | launch, power
+(cont.) Dispatcher + GMU | launch, power -workgroups-> SMs x2 | execute -lines-> Crossbar + L2 x2 | cache -misses-> Arbiter + MMU | translate
+(cont.) Arbiter + MMU | translate -lines-> GBIF | AXI4 master | you -AXI4-> DRAM | dram_ctrl
 ```
 
 The command ring and the fences take an **uncached path**: the CP ring fetch and the SQE fence writes enter the line arbiter directly, beside the two L2 banks, so they always see DRAM as the CPU wrote it. Four requesters share the single MMU: L2 bank 0, L2 bank 1, ring fetch, SQE.
