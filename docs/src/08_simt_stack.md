@@ -132,8 +132,8 @@ The SIMT stack sits at the **end** of the pipeline and feeds the **start**: it i
 
 ## Questions: what if we did it differently?
 
-**Q1. What if we used Volta-style convergence barriers instead of a stack?**
-Since Volta, NVIDIA GPUs give each thread its own PC and use explicit convergence barrier instructions (`BSSY`/`BSYNC`) placed by the compiler. Instead of a stack per warp you keep per-thread PCs plus a few barrier masks, and the scheduler picks which group of threads with equal PC to run. Good: diverged groups can interleave, so one group spinning on a lock cannot deadlock another (independent thread scheduling). Bad: more state (8 PCs per warp), a picker that groups threads by PC, and the compiler must place the barriers. The testbench golden model would become a per-thread interpreter with a group-selection rule rather than a golden stack.
+**Q1. What if we used NVIDIA-style convergence barriers instead of a stack?**
+Newer NVIDIA GPUs give each thread its own PC and use explicit convergence barrier instructions (`BSSY`/`BSYNC`) placed by the compiler. Instead of a stack per warp you keep per-thread PCs plus a few barrier masks, and the scheduler picks which group of threads with equal PC to run. Good: diverged groups can interleave, so one group spinning on a lock cannot deadlock another (independent thread scheduling). Bad: more state (8 PCs per warp), a picker that groups threads by PC, and the compiler must place the barriers. The testbench golden model would become a per-thread interpreter with a group-selection rule rather than a golden stack.
 
 **Q2. What about predication instead?**
 With predication, each instruction is guarded by a per-lane predicate and both sides of an if/else are simply executed, with lanes masked off. There is no stack and no split, and short branches cost nothing extra. But both paths always run, nested and data-dependent loops become hard, and the ISA needs predicate registers. Real GPUs use predication for short bodies and a stack or barriers for long ones.

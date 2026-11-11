@@ -244,7 +244,7 @@ The SQE is the **last stage of the command processor**: the part that actually *
 ## Questions: what if we did it differently?
 
 **Q1. What if the SQE were a small programmable micro-controller (microcode) instead of a fixed FSM?**
-Real CPs (the AMD "ME/PFP", the Adreno "SQE") run firmware. New packets can then be added with a firmware update, not a new chip. The cost is a CPU core, an instruction memory, and a firmware loading path. Every operation becomes slower (many instructions instead of one state). The testbench would load firmware first and would test the firmware as much as the hardware.
+Real CPs (the AMD "ME/PFP" and the SQE of mobile GPUs) run firmware. New packets can then be added with a firmware update, not a new chip. The cost is a CPU core, an instruction memory, and a firmware loading path. Every operation becomes slower (many instructions instead of one state). The testbench would load firmware first and would test the firmware as much as the hardware.
 
 **Q2. What if the CPU learned about completion by polling the fence instead of an interrupt?**
 Polling: the CPU keeps reading the fence address until the value appears. It needs no interrupt hardware and has the lowest latency if the CPU is spinning anyway, but it wastes CPU time. Interrupts let the CPU sleep, but each interrupt has a handling cost. Our design supports both: the fence value is in memory for polling, and `irq` can be masked off with IRQ_MASK. A polling testbench would simply read DRAM in a loop and ignore `irq`.
