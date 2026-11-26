@@ -1,7 +1,10 @@
-# mGPU
+# mGPU: a small open-source GPU in SystemVerilog, built to learn GPU architecture
 
-mGPU is a small GPU written in SystemVerilog to show how a GPU works on the inside. Each block is small enough
-to read in one sitting, and each one is tested on its own (UVM testbench) before it joins the full chip.
+mGPU is a small GPU written in SystemVerilog to show how a GPU works on the inside: warps, SIMT branching,
+warp scheduling, register files, caches, shared memory, an MMU, a command processor and a DRAM controller.
+Each block is small enough to read in one sitting, and each one is tested on its own (UVM testbench) before
+it joins the full chip. It is meant for students and engineers learning GPU hardware, computer architecture,
+RTL design or design verification.
 
 **Size:** 2 SMs (compute units). Each SM has 2 sub-cores. Each sub-core runs up to 4 warps, and a warp is
 8 threads that run the same instruction together.
