@@ -1,24 +1,51 @@
 # mGPU
 
-A small, basic GPU in SystemVerilog, written to show how a GPU works from the inside. Every block is small
-enough to read in one sitting, and each one is verified on its own with UVM (Verilator 5 + UVM) before it joins
-the full chip.
+mGPU is a small GPU written in SystemVerilog to show how a GPU works on the inside. Each block is small enough
+to read in one sitting, and each one is tested on its own (UVM testbench) before it joins the full chip.
 
-Size: 2 SMs, each with 2 sub-cores; each sub-core runs one workgroup of up to 4 warps of 8 threads.
-A full-chip testbench drives the GPU like a driver (page tables, command ring, doorbell, interrupt) and compares
-all of memory with an instruction-set simulator.
+**Size:** 2 SMs (compute units). Each SM has 2 sub-cores. Each sub-core runs up to 4 warps, and a warp is
+8 threads that run the same instruction together.
+
+## New to GPUs? Start with tiny-gpu
+
+Before reading mGPU, read [tiny-gpu](https://github.com/adam-maj/tiny-gpu) by Adam Majmudar. It is a tiny
+GPU (about 1,300 lines of Verilog) that shows the core idea of a GPU and nothing else: many threads running one
+instruction at the same time, each on its own data. mGPU starts where tiny-gpu stops.
+
+**Read first:** [docs/GPU_Basics_with_tiny-gpu.pdf](docs/GPU_Basics_with_tiny-gpu.pdf). It is our plain-English
+guide to tiny-gpu: what each part does, how one instruction runs, a kernel traced thread by thread, and a table
+that maps every tiny-gpu part to the mGPU block that replaces it.
+
+| | tiny-gpu | mGPU |
+|---|---|---|
+| Goal | the smallest design that shows the GPU idea | the same idea plus the parts real GPUs need to be fast |
+| Size | 2 cores x 4 threads, 8-bit data, 256-byte memory | 2 SMs x 2 sub-cores x 4 warps x 8 threads, 32-bit data |
+| Instructions | 11 (add, sub, mul, div, compare, branch, load, store, ...) | about 25, including logic, shifts, shared memory and barrier |
+| Running code | one instruction at a time, in 6 steps | a warp scheduler issues a ready warp every cycle |
+| Waiting for memory | the whole core waits | other warps keep running while one waits |
+| `if` / `else` where threads disagree | not supported (all threads must follow the same path) | supported: the warp splits and joins back (SIMT stack) |
+| Memory | one simple controller, no cache | I-cache, L1, shared memory, 2 L2 banks, virtual memory (MMU), AXI4 bus, DRAM model |
+| Starting a kernel | testbench sets a register and raises `start` | the CPU writes commands into a ring buffer; a command processor reads and runs them |
+| Testing | 2 kernel tests | a UVM testbench with coverage for each block, plus a full-chip test checked against a reference model |
 
 ## How it works
 
-1. The CPU (driver) writes commands into a ring buffer in memory and tells the GPU through RBBM registers (APB).
-2. The command processor (CP) fetches the ring, decodes the packets, and the SQE runs them: register writes,
-   kernel dispatches, fences and wait-for-idle.
-3. The dispatcher splits a kernel into workgroups and launches them on free sub-cores; the GMU powers idle SMs down
-   and wakes them when work arrives.
-4. Inside a sub-core, the warp scheduler fetches and issues instructions; the register file sends operands to the
-   ALU, SFU, LSU or barrier; the SIMT stack handles branches that split a warp.
-5. Loads and stores go L1 -> crossbar -> L2 banks -> MMU (virtual to physical) -> GBIF -> AXI4 -> DRAM.
-6. A fence write plus an interrupt tells the CPU the kernel is done.
+Follow one kernel from start to finish:
+
+1. **The CPU gives the order.** The CPU writes commands into a ring buffer in memory, then tells the GPU
+   "there is new work" by writing a register in the RBBM.
+2. **The command processor reads it.** The CP fetches the commands, decodes them, and runs them one by one:
+   set up registers, launch a kernel, write a fence, wait until the GPU is idle.
+3. **The work is split up.** The dispatcher cuts the kernel into workgroups and sends each one to a free
+   sub-core. The GMU wakes up any SM that was switched off to save power.
+4. **The threads run.** In each sub-core, the warp scheduler picks a warp that is ready, fetches its
+   instruction and sends it out. The register file supplies the operands, and the ALU (math), SFU (slow math),
+   LSU (memory) or barrier does the work. When threads of one warp take different sides of an `if`, the SIMT
+   stack runs one side, then the other.
+5. **Memory is reached step by step.** A load or store goes L1 cache -> crossbar -> L2 cache -> MMU (turns
+   virtual addresses into physical ones) -> GBIF -> AXI4 bus -> DRAM.
+6. **The CPU is told it is done.** The command processor writes a fence value to memory and raises an
+   interrupt.
 
 ## Block diagrams
 
@@ -73,10 +100,12 @@ Editable draw.io sources are in `docs/diagrams/` (open the `.drawio` files at ap
 | `tb/common/` | shared make rules, coverage bin counter, assembler, ISS, kernels |
 | `uvm/` | the UVM library (Verilator port, Apache 2.0) |
 | `scripts/` | log checker, coverage merge, `status.sh` (one line per block), `regress_all.sh` |
+| `docs/GPU_Basics_with_tiny-gpu.pdf` | start here: GPU basics explained with tiny-gpu, and how mGPU differs |
 | `docs/modules/` | one PDF per block; `docs/mGPU_Design_and_Verification_Guide.pdf` = all of them |
 | `docs/mGPU_RTL_Issue_Log.pdf` | every real RTL issue found during verification, why, fix, how it was caught, how to find such bugs |
 
-Start with `docs/modules/00_mGPU_overview.pdf` (chip map, ISA, command stream, who talks to whom).
+Reading order: `docs/GPU_Basics_with_tiny-gpu.pdf` (basics), then `docs/modules/00_mGPU_overview.pdf` (chip map, ISA,
+command stream, who talks to whom), then the block PDFs.
 
 ## Verification status
 

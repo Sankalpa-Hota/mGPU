@@ -86,6 +86,11 @@ def main():
            "A small but complete GPU: every block's architecture, RTL choices, testbench and the reason behind each verification decision",
            "mGPU · full guide", [(t, r) for _, t, r in secs], DOCS / "mGPU_Design_and_Verification_Guide.pdf")
     print("built mGPU_Design_and_Verification_Guide.pdf")
+    basics = DOCS / "basics" / "tiny_gpu_basics.md"
+    if basics.exists():
+        to_pdf("GPU Basics with tiny-gpu", "Read this before mGPU: how the smallest GPU works, and what mGPU adds to it",
+               "mGPU · start here", [("GPU basics with tiny-gpu", basics.read_text())], DOCS / "GPU_Basics_with_tiny-gpu.pdf")
+        print("built GPU_Basics_with_tiny-gpu.pdf")
     log = DOCS / "issue_log" / "mGPU_RTL_Issue_Log.md"
     if log.exists():
         raw = log.read_text().replace("%%MORE%%", "")
