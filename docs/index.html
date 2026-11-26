@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>mGPU: a small open-source GPU in SystemVerilog to learn how GPUs work</title>
+<meta name="description" content="mGPU is a small open-source GPU in SystemVerilog for learning GPU architecture: warps, SIMT branching, warp scheduler, caches, shared memory, MMU, command processor and DRAM, with a UVM testbench and a plain-English PDF for every block.">
+<meta name="keywords" content="GPU, GPU architecture, open source GPU, SystemVerilog GPU, Verilog GPU, SIMT, warp scheduler, UVM, RTL, learn GPU, tiny-gpu">
+<link rel="canonical" href="https://sankalpa-hota.github.io/mGPU/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="mGPU: a small open-source GPU in SystemVerilog">
+<meta property="og:description" content="Learn how a GPU works from the inside: 22 blocks, each with a UVM testbench and a plain-English PDF.">
+<meta property="og:url" content="https://sankalpa-hota.github.io/mGPU/">
+<meta property="og:image" content="https://sankalpa-hota.github.io/mGPU/social_preview.png">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"SoftwareSourceCode","name":"mGPU","description":"A small open-source GPU in SystemVerilog for learning GPU architecture, with a UVM testbench for every block.","codeRepository":"https://github.com/Sankalpa-Hota/mGPU","programmingLanguage":"SystemVerilog","author":{"@type":"Person","name":"Sankalpa Hota","url":"https://sankalpa-hota.github.io/"},"keywords":"GPU, GPU architecture, SystemVerilog, SIMT, UVM"}
+</script>
+<style>
+:root{--bg:#ffffff;--fg:#1b2330;--muted:#5a6678;--line:#dfe5ee;--soft:#f4f7fb;--accent:#1f4e8c}
+@media (prefers-color-scheme: dark){:root{--bg:#0f1b2d;--fg:#e8eef8;--muted:#9fb0c8;--line:#2a3a52;--soft:#16253b;--accent:#8cb6ff}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.6 -apple-system,Segoe UI,Helvetica,Arial,sans-serif}
+main{max-width:980px;margin:0 auto;padding:32px 16px 64px}
+h1{font-size:2.1rem;line-height:1.2;margin:0 0 12px} h2{margin-top:44px;border-bottom:1px solid var(--line);padding-bottom:6px}
+p.lead{font-size:1.12rem;color:var(--muted)}
+a{color:var(--accent)}
+.btns a{display:inline-block;margin:6px 8px 6px 0;padding:9px 16px;border:1px solid var(--accent);border-radius:8px;text-decoration:none;font-weight:600}
+.btns a.main{background:var(--accent);color:var(--bg)}
+.note{background:var(--soft);border-left:4px solid var(--accent);padding:12px 16px;border-radius:6px}
+.tbl{overflow-x:auto} table{border-collapse:collapse;width:100%;font-size:.93rem}
+th,td{border-bottom:1px solid var(--line);padding:8px 10px;text-align:left;vertical-align:top}
+thead th{background:var(--soft)} code{font-size:.88em}
+figure{margin:18px 0} figure img{width:100%;height:auto;background:#fff;border-radius:8px;border:1px solid var(--line)}
+figcaption{color:var(--muted);font-size:.9rem;margin-top:6px}
+ol li{margin:6px 0} footer{margin-top:48px;color:var(--muted);font-size:.9rem}
+</style>
+</head>
+<body><main>
+<h1>mGPU: a small open-source GPU in SystemVerilog</h1>
+<p class="lead">mGPU is a small GPU built to show how a GPU works on the inside: warps, SIMT branching, warp scheduling,
+register files, caches, shared memory, an MMU, a command processor and a DRAM controller. Every block is small enough to read
+in one sitting and has its own UVM testbench and plain-English PDF.</p>
+<div class="btns">
+<a class="main" href="https://github.com/Sankalpa-Hota/mGPU">View the code on GitHub</a>
+<a href="https://github.com/Sankalpa-Hota/mGPU/blob/main/docs/GPU_Basics_with_tiny-gpu.pdf">GPU basics (start here)</a>
+<a href="https://github.com/Sankalpa-Hota/mGPU/blob/main/docs/mGPU_Design_and_Verification_Guide.pdf">Full design guide (PDF)</a>
+</div>
+
+<h2>New to GPUs? Start with tiny-gpu</h2>
+<p class="note">Read <a href="https://github.com/adam-maj/tiny-gpu">tiny-gpu</a> by Adam Majmudar first. It is the smallest design that shows the core
+idea of a GPU: many threads running one instruction at the same time, each on its own data. Our guide
+<a href="https://github.com/Sankalpa-Hota/mGPU/blob/main/docs/GPU_Basics_with_tiny-gpu.pdf">GPU Basics with tiny-gpu</a> explains it in simple words, and shows which mGPU block replaces each tiny-gpu part.</p>
+<div class="tbl"><table><thead><tr><th></th><th>tiny-gpu</th><th>mGPU</th></tr></thead><tbody>
+<tr><th>Goal</th><td>the smallest design that shows the GPU idea</td><td>the same idea plus the parts real GPUs need to be fast</td></tr>
+<tr><th>Size</th><td>2 cores x 4 threads, 8-bit data, 256-byte memory</td><td>2 SMs x 2 sub-cores x 4 warps x 8 threads, 32-bit data</td></tr>
+<tr><th>Instructions</th><td>11 (add, sub, mul, div, compare, branch, load, store, ...)</td><td>about 25, including logic, shifts, shared memory and barrier</td></tr>
+<tr><th>Running code</th><td>one instruction at a time, in 6 steps</td><td>a warp scheduler issues a ready warp every cycle</td></tr>
+<tr><th>Waiting for memory</th><td>the whole core waits</td><td>other warps keep running while one waits</td></tr>
+<tr><th><code>if</code> / <code>else</code> where threads disagree</th><td>not supported (all threads must follow the same path)</td><td>supported: the warp splits and joins back (SIMT stack)</td></tr>
+<tr><th>Memory</th><td>one simple controller, no cache</td><td>I-cache, L1, shared memory, 2 L2 banks, virtual memory (MMU), AXI4 bus, DRAM model</td></tr>
+<tr><th>Starting a kernel</th><td>testbench sets a register and raises <code>start</code></td><td>the CPU writes commands into a ring buffer; a command processor reads and runs them</td></tr>
+<tr><th>Testing</th><td>2 kernel tests</td><td>a UVM testbench with coverage for each block, plus a full-chip test checked against a reference model</td></tr>
+</tbody></table></div>
+
+<h2>How a GPU runs a kernel in mGPU</h2>
+<ol>
+<li><b>The CPU gives the order.</b> It writes commands into a ring buffer in memory and rings a doorbell register.</li>
+<li><b>The command processor reads it.</b> It fetches and decodes the commands, then runs them: set up, launch a kernel, write a fence.</li>
+<li><b>The work is split up.</b> The dispatcher cuts the kernel into workgroups and sends each one to a free sub-core.</li>
+<li><b>The threads run.</b> The warp scheduler picks a ready warp each cycle; the ALU, SFU, LSU or barrier does the work; the SIMT stack handles <code>if</code>/<code>else</code> where threads disagree.</li>
+<li><b>Memory is reached step by step.</b> L1 cache, crossbar, L2 cache, MMU (virtual to physical), AXI4 bus, DRAM.</li>
+<li><b>The CPU is told it is done.</b> A fence write and an interrupt.</li>
+</ol>
+
+<h2>Block diagrams</h2>
+<figure><img src="diagrams/mgpu_chip.png" alt="mGPU whole-chip block diagram: command processor, dispatcher, 2 SMs, crossbar, L2 banks, MMU, GBIF and DRAM controller" loading="lazy"><figcaption>Whole chip</figcaption></figure>
+<figure><img src="diagrams/mgpu_sm.png" alt="Inside one mGPU streaming multiprocessor (SM): 2 sub-cores, instruction cache, L1 data cache and arbiters" loading="lazy"><figcaption>Inside one SM</figcaption></figure>
+<figure><img src="diagrams/mgpu_subcore.png" alt="Inside one mGPU sub-core: warp scheduler, SIMT stack, register file, ALU, SFU, LSU, shared memory and barrier" loading="lazy"><figcaption>Inside one sub-core</figcaption></figure>
+
+<h2>Every block, in one line</h2>
+<div class="tbl"><table><thead><tr><th>Block</th><th>Folder</th><th>What it does</th></tr></thead><tbody>
+<tr><td>CP packet decoder</td><td><code>rtl/01_cp_packet_decoder</code></td><td>Splits the PM4 command stream into register writes and operations for the SQE.</td></tr>
+<tr><td>CP ring fetch</td><td><code>rtl/02_cp_ring_fetch</code></td><td>Reads command dwords from the ring buffer in memory and streams them to the decoder.</td></tr>
+<tr><td>CP SQE</td><td><code>rtl/03_cp_sqe</code></td><td>Runs the operations: dispatch a kernel, write a fence (plus interrupt), wait for idle.</td></tr>
+<tr><td>RBBM</td><td><code>rtl/04_rbbm</code></td><td>The CPU&#x27;s register port (APB): ring pointers, interrupts, hang watchdog, perf counters, soft reset.</td></tr>
+<tr><td>Dispatcher</td><td><code>rtl/05_dispatcher</code></td><td>Turns one kernel dispatch into workgroup launches on free sub-cores.</td></tr>
+<tr><td>Instruction cache</td><td><code>rtl/06_icache</code></td><td>Direct-mapped cache of instructions, shared by the two sub-cores of an SM.</td></tr>
+<tr><td>Warp scheduler</td><td><code>rtl/07_warp_scheduler</code></td><td>Fetches instructions per warp, tracks register hazards (scoreboard), issues one ready warp per cycle.</td></tr>
+<tr><td>SIMT stack</td><td><code>rtl/08_simt_stack</code></td><td>Holds each warp&#x27;s pc and active-thread mask; splits and rejoins a warp at divergent branches.</td></tr>
+<tr><td>Register file + collector</td><td><code>rtl/09_regfile_collector</code></td><td>Banked registers for all warps; gathers operands and sends instructions to the right unit, takes write-backs.</td></tr>
+<tr><td>ALU</td><td><code>rtl/10_alu</code></td><td>8-lane integer math, logic, compares and branch decisions, one instruction per cycle.</td></tr>
+<tr><td>SFU</td><td><code>rtl/11_sfu</code></td><td>Slow multi-cycle functions (divide, remainder) on 8 lanes.</td></tr>
+<tr><td>Shared memory + barrier</td><td><code>rtl/12_shared_mem_barrier</code></td><td>Banked scratchpad shared by a workgroup&#x27;s warps; barrier makes warps wait for each other.</td></tr>
+<tr><td>LSU</td><td><code>rtl/13_lsu</code></td><td>Executes loads and stores; merges lanes that hit the same line into one memory request (coalescing).</td></tr>
+<tr><td>L1 data cache</td><td><code>rtl/14_l1_dcache</code></td><td>2-way data cache per SM, write-through; cleared at each new kernel.</td></tr>
+<tr><td>SM</td><td><code>rtl/15_sm</code></td><td>Wraps 2 sub-cores, the I-cache, the L1 and the arbiters into one streaming multiprocessor.</td></tr>
+<tr><td>Crossbar</td><td><code>rtl/16_crossbar</code></td><td>Routes each SM&#x27;s memory request to the L2 bank that owns the address.</td></tr>
+<tr><td>L2 cache</td><td><code>rtl/17_l2_cache</code></td><td>2 banks, write-back, shared by all SMs; can be flushed by command.</td></tr>
+<tr><td>MMU</td><td><code>rtl/18_mmu</code></td><td>Translates virtual to physical addresses with a TLB and 2-level page tables; reports faults.</td></tr>
+<tr><td>GBIF</td><td><code>rtl/19_gbif</code></td><td>The GPU&#x27;s bus interface: turns one 32-byte line request into one AXI4 burst.</td></tr>
+<tr><td>DRAM controller</td><td><code>rtl/20_dram_ctrl</code></td><td>AXI4 slave in front of the memory array, with row-buffer hit/miss timing.</td></tr>
+<tr><td>GMU</td><td><code>rtl/21_gmu</code></td><td>Powers idle SMs off after a timeout and wakes them when the dispatcher needs them.</td></tr>
+<tr><td>Top</td><td><code>rtl/22_mgpu_top</code></td><td>Connects every block into the full GPU (<code>mgpu_top</code>) and adds DRAM (<code>mgpu_system</code>).</td></tr>
+<tr><td>Shared definitions</td><td><code>rtl/common</code></td><td>ISA opcodes, sizes and helpers used by every block.</td></tr>
+</tbody></table></div>
+
+<footer>mGPU by <a href="https://sankalpa-hota.github.io/">Sankalpa Hota</a> · <a href="https://github.com/Sankalpa-Hota/mGPU">github.com/Sankalpa-Hota/mGPU</a></footer>
+</main></body></html>
